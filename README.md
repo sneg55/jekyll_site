@@ -1,1 +1,5 @@
-# jekyll_site
+# bzx jekyll_site
+
+build locally:
+
+jekyll serve
