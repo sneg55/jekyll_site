@@ -4,6 +4,7 @@ title:  "bZx + Bamboo: Step by Step Lending Guide"
 date:   2019-10-14 20:12:46 -0700
 cover: /images/blog/1_D_7UuJ1PWKYjzaNmNgEnUg.png
 canonical: https://medium.com/bzxnetwork/bzx-bamboo-step-by-step-lending-guide-aad9206512cd
+author: Kistner
 ---
 Bamboo Relay is the first 0x-standard relay, and in fact the first DEX, to ever offer non-custodial peer-to-peer margin lending on the Ethereum blockchain. The debut of their bZx protocol integration comes directly on the heels of their transition to 0x v2.0. Bamboo now offers shorting and leverage for ETH and 60+ additional ERC20 tokens.
 

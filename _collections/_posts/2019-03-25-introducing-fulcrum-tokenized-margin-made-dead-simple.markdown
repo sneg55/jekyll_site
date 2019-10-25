@@ -4,6 +4,7 @@ title:  "Introducing Fulcrum: Tokenized Margin Made Dead Simple"
 date:   2019-12-03 20:12:46 -0700
 cover: /images/blog/1_rt1z6eCouU5cWdPlJnSMSg.jpeg
 canonical: https://medium.com/bzxnetwork/introducing-fulcrum-tokenized-margin-made-dead-simple-e65ccc82393f
+author: Kistner
 ---
 bZx is excited to introduce [Fulcrum](https://fulcrum.trade/), the most simple and powerful way to lend and margin trade. It is the first and only completely trustless platform for margin; it does not use centralized price feeds or centrally administered margin calls. It is permissionless and rent free; there are no fees and no accounts. Fulcrum is built on the bZx base protocol and extends the protocol by allowing both loans and margin positions to be tokenized. The [bZx base protocol](https://bzx.network/) was [successfully audited](https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf) by ZK Labs. The audit of the margin loan tokens (iTokens) and margin position tokens (pTokens) will be released on launch.
 

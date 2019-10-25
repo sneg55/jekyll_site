@@ -4,6 +4,7 @@ title:  "BeToken + bZx: Margin Tokens For Asset Management"
 date:   2019-12-03 20:12:46 -0700
 cover: /images/blog/0_Y4fPaJfC5P4LZVcp.png
 canonical: https://medium.com/bzxnetwork/betoken-bzx-margin-tokens-for-asset-management-3d840a83f980
+author: Kistner
 ---
 BeToken, the open protocol for connecting capital and talent in crypto asset management, announces a collaboration with bZx. BeToken enables anyone to participate in a crypto hedge fund and control capital in proportion to their ability to extract alpha from the market. An important aspect of asset management is the ability to employ a variety of strategies in different market regimes. This includes the ability to short the market during bearish trends and to employ hedged smart beta strategies that produce profit in any market regime.
 

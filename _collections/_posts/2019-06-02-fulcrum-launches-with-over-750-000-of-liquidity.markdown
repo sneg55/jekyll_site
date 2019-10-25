@@ -4,6 +4,7 @@ title:  "Fulcrum Launches With Over $750,000 in Liquidity"
 date:   2019-12-03 20:12:46 -0700
 cover: /images/blog/1_SQvBnGWYlM-wwJsZPEz2-w.png
 canonical: https://medium.com/bzxnetwork/fulcrum-launches-with-over-750-000-of-liquidity-aa1d28a66510
+author: Kistner
 ---
 _A special thanks to Matthew Di Ferrante and Harry Roberts of ZK Labs for auditing the Fulcrum smart contracts._
 

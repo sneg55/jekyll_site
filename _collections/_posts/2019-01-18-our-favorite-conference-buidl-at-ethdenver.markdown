@@ -4,6 +4,7 @@ title:  "Our Favorite Conference: #BUIDL at ETHDenver"
 date:   2019-12-03 20:12:46 -0700
 cover: /images/blog/0_grlEMJnQiaUfZDsd.png
 canonical: https://medium.com/bzxnetwork/our-favorite-conference-buidl-at-ethdenver-8d9694089742
+author: Kistner
 ---
 Last year we debuted to the public at ETHDenver. It was our first BUIDLATHON and first official event. Since then we have attended others, but none has so special a place in our heart as ETHDenver. There is something truly special about the conference that you need to see to believe. The organizers work tirelessly to make every aspect of the conference perfect, and it really shows. ETHDenver is free for everyone wanting to participate, so make sure to [apply](https://www.ethdenver.com/) as their last round of applications closes January 31, 2019.
 

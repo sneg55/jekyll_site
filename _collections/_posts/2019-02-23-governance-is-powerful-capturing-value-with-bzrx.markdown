@@ -4,6 +4,7 @@ title:  "Governance is Powerful: Capturing Value with BZRX"
 date:   2019-12-03 20:12:46 -0700
 cover: /images/blog/1_EgMr_tHvlI5911nWyBKGCQ.png
 canonical: https://medium.com/bzxnetwork/governance-is-powerful-capturing-value-with-bzrx-adb35341975c
+author: Kistner
 ---
 The BZRX token has been used until now as a medium of exchange, with users paying relay fees denominated in BZRX. Much like the ZRX token, the governance aspect of BZRX has been left vague. The value of governance can appear nebulous when it is unclear what governance might entail. We hope that this first governance proposal for the bZx protocol drives excitement on the power of governance and how it can be used to capture value without extracting rent.
 

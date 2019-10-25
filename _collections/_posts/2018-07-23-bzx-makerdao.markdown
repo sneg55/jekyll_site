@@ -4,6 +4,7 @@ title:  "bZx + MakerDAO"
 date:   2019-07-23 20:12:46 -0700
 cover: /images/blog/1_eTHQVq5sjalYVLy3TeKA7A.png
 canonical: https://medium.com/bzxnetwork/bzx-makerdao-9db74678e16e
+author: Kistner
 ---
 [bZx](https://bzx.network/) and [MakerDAO](https://makerdao.com/) are excited to announce a strategic partnership between their protocols. bZx is a margin lending protocol designed to bring 0x-standard DEXs to full feature parity with current centralized exchanges.
 

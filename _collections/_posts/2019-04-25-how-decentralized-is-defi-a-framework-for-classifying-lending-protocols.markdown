@@ -4,6 +4,7 @@ title:  "How Decentralized is DeFi? A Framework for Classifying Lending Protocol
 date:   2019-12-03 20:12:46 -0700
 cover: /images/blog/1_vli9y75nD1bRN3f2DOzZNA.png
 canonical: https://medium.com/bzxnetwork/how-decentralized-is-defi-a-framework-for-classifying-lending-protocols-a34f02c14f5c
+author: Kistner
 ---
 _Thanks to Brendan Forster of Dharma, Robert Leshner of Compound, Nik Kunkel of MakerDAO, Antonio Juliano of dYdX, Varun Deshpande of Nuo, and Emilio Frangella of AAVE for input on their respective sections._
 
