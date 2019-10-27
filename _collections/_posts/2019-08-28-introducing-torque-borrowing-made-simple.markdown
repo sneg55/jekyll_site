@@ -2,7 +2,7 @@
 layout: post
 title:  "Introducing Torque: Borrowing Made Simple"
 date:   2019-12-03 20:12:46 -0700
-cover: /images/blog/1_UguWYWdhCwNKweN_QPRJjw.gif
+cover: /images/blog/1_3htpTXj0AQRipFXyk6vCsA.png
 canonical: https://medium.com/bzxnetwork/introducing-torque-borrowing-made-simple-8eb494925d16
 author: Kistner
 ---
