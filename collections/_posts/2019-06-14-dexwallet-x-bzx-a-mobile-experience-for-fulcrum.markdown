@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dexwallet x bZx: A Mobile Experience For Fulcrum"
-date:   2019-12-03 20:12:46 -0700
+date:   2019-06-14 20:12:46 -0700
 cover: /images/blog/0_qj_eYVNRYlhC_W0V.png
 canonical: https://medium.com/bzxnetwork/dexwallet-x-bzx-a-mobile-experience-for-fulcrum-82af86953b99
 author: Kistner

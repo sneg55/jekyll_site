@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "bZx announces Mainnet Launch, releases ZK Labs Security Audit, and unveils upcoming Relay Integrations"
-date:   2019-09-07 20:12:46 -0700
+date:   2018-09-07 20:12:46 -0700
 cover: /images/blog/1_LNcoYRFe5QfMcWd9II1l0w.png
 canonical: https://medium.com/bzxnetwork/bzx-announces-mainnet-launch-releases-zk-labs-security-audit-and-unveils-upcoming-relay-a690cc6c7bf1
 author: Kistner

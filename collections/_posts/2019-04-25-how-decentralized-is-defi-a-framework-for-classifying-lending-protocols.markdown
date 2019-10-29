@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How Decentralized is DeFi? A Framework for Classifying Lending Protocols"
-date:   2019-12-03 20:12:46 -0700
+date:   2019-04-25 20:12:46 -0700
 cover: /images/blog/1_vli9y75nD1bRN3f2DOzZNA.png
 canonical: https://medium.com/bzxnetwork/how-decentralized-is-defi-a-framework-for-classifying-lending-protocols-a34f02c14f5c
 author: Kistner

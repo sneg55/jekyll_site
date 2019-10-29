@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Our Favorite Conference: #BUIDL at ETHDenver"
-date:   2019-12-03 20:12:46 -0700
+date:   2019-01-18 20:12:46 -0700
 cover: /images/blog/0_grlEMJnQiaUfZDsd.png
 canonical: https://medium.com/bzxnetwork/our-favorite-conference-buidl-at-ethdenver-8d9694089742
 author: Kistner

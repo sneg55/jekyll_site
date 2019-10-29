@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "4 Powerful Financial Products Possible with Set and bZx"
-date:   2019-12-03 20:12:46 -0700
+date:   2019-06-27 20:12:46 -0700
 cover: /images/blog/0_hlr9NXtk-Wvb9jnA.png
 canonical: https://medium.com/bzxnetwork/4-powerful-financial-products-possible-with-set-and-bzx-824bc74d5b70
 author: Kistner

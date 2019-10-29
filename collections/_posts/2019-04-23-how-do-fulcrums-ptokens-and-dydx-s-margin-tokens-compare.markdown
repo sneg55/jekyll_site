@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How do bZx’s Fulcrum pTokens and dYdX’s Expo Margin Tokens Compare?"
-date:   2019-12-03 20:12:46 -0700
+date:   2019-04-23 20:12:46 -0700
 cover: /images/blog/1_kqlKFbx4QzQJdxXDRKJxuA.png
 canonical: https://medium.com/bzxnetwork/how-do-fulcrums-ptokens-and-dydx-s-margin-tokens-compare-a3badae4b004
 author: Kistner

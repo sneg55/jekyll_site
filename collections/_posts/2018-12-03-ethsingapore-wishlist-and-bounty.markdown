@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ETHSingapore Wishlist and Bounty"
-date:   2019-12-03 20:12:46 -0700
+date:   2018-12-03 20:12:46 -0700
 cover: /images/blog/1_4Mec30Uzx-pk72s9YnFisg.png
 canonical: https://medium.com/bzxnetwork/ethsingapore-wishlist-and-bounty-6d0b1b1d3ad2
 author: Kistner

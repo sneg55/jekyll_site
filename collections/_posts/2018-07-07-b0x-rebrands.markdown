@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "b0x Rebrands to bZx and Announces Mainnet Launch Date"
-date:   2019-07-07 20:12:46 -0700
+date:   2018-07-07 20:12:46 -0700
 cover: /images/blog/1__ql2WneSsoA8Ber1SLeTPg.png
 canonical: https://medium.com/bzxnetwork/b0x-rebrands-to-bzx-and-announces-mainnet-launch-date-ed4e0c4dd2df
 author: Kistner

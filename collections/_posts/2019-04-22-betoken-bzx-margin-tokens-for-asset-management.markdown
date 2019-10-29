@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "BeToken + bZx: Margin Tokens For Asset Management"
-date:   2019-12-03 20:12:46 -0700
+date:   2019-04-22 20:12:46 -0700
 cover: /images/blog/0_Y4fPaJfC5P4LZVcp.png
 canonical: https://medium.com/bzxnetwork/betoken-bzx-margin-tokens-for-asset-management-3d840a83f980
 author: Kistner
