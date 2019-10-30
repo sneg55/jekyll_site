@@ -7,18 +7,29 @@
     font-size: 12px;    
     line-height: 1.25;
     text-transform: uppercase;
-    padding: 10px 0;
-    margin-bottom: 9px;
+    padding: 9px 0;
     letter-spacing: 0.05;
     transform-style: preserve-3d;
     transition: all .3s ease;
     &.button-primary{
-        background-color: #DCEBFF;
+        background-color: $light-primary-color;
         color: $secondary-color;
+    }
+    &.button-xl{
+        max-width: 220px;
+        min-width: 220px;
     }
     &.button-lg{
         max-width: 190px;
         min-width: 190px;
+    }
+    &.button-md{
+        max-width: 160px;
+        min-width: 160px;
+    }
+    &.button-sm{
+        max-width: 138px;
+        min-width: 138px;
     }
     &:hover{
         background-color: $secondary-color;
@@ -40,5 +51,6 @@
         border-radius: 4px;
         transform: translateZ(-1px);
         bottom: -4.5px;
+        left: -1px;
     }
 }
