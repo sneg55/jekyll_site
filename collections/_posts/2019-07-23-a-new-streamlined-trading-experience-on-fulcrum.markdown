@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A New, Streamlined Trading Experience on Fulcrum"
-date:   2019-12-03 20:12:46 -0700
+date:   2019-07-23 20:12:46 -0700
 cover: /images/blog/1_qOacYDyqR4cSxl24qnDc-g.gif
 canonical: https://medium.com/bzxnetwork/a-new-streamlined-trading-experience-on-fulcrum-5b8a728d6306
 author: Kistner

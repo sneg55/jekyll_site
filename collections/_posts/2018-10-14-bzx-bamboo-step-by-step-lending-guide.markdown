@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "bZx + Bamboo: Step by Step Lending Guide"
-date:   2019-10-14 20:12:46 -0700
+date:   2018-10-14 20:12:46 -0700
 cover: /images/blog/1_D_7UuJ1PWKYjzaNmNgEnUg.png
 canonical: https://medium.com/bzxnetwork/bzx-bamboo-step-by-step-lending-guide-aad9206512cd
 author: Kistner

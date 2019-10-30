@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Is The New Governance Proposal Pre-Programmed to Fail? A Reply to Tech Nomad Notes"
-date:   2019-12-03 20:12:46 -0700
+date:   2019-03-10 20:12:46 -0700
 cover: /images/blog/1_LzCwZzlEK0VBbhaswG2VXw (1).png
 canonical: https://medium.com/bzxnetwork/is-the-new-governance-proposal-pre-programmed-to-fail-a-reply-to-tech-nomad-notes-48608cbfc734
 author: Kistner

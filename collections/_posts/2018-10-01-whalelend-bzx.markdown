@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "WhaleLend + bZx"
-date:   2019-10-01 20:12:46 -0700
+date:   2018-10-01 20:12:46 -0700
 cover: /images/blog/1_5HB2C4VD2Y17jxVh33qO3A.png
 canonical: https://medium.com/bzxnetwork/whalelend-bzx-fe6a172c6613
 author: Kistner

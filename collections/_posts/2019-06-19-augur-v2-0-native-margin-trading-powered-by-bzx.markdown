@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Augur v2.0: Native Margin Trading Powered by bZx"
-date:   2019-12-03 20:12:46 -0700
+date:   2019-06-19 20:12:46 -0700
 cover: /images/blog/1_Ihukc5zEV_A-E_VIw2xtDA.png
 canonical: https://medium.com/bzxnetwork/augur-v2-0-native-margin-trading-powered-by-bzx-67718b38af0d
 author: Kistner

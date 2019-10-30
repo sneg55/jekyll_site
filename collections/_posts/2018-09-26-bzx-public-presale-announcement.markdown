@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "bZx Public Presale Announcement"
-date:   2019-09-26 20:12:46 -0700
+date:   2018-09-26 20:12:46 -0700
 cover: /images/blog/1_VWhP_cpbofC-HanRh398PQ.png
 canonical: https://medium.com/bzxnetwork/bzx-public-presale-announcement-ae13aa95ee7a
 author: Kistner

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Opening the Margins: Oracles of the bZx Protocol"
-date:   2019-11-18 20:12:46 -0700
+date:   2018-11-18 20:12:46 -0700
 cover: /images/blog/0_TJ3TOYhPJsxMQnNZ.jpeg
 canonical: https://medium.com/bzxnetwork/opening-the-margins-oracles-of-the-bzx-platform-6110202d4b1
 author: Kistner

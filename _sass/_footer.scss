@@ -1,0 +1,42 @@
+footer {
+    padding-top: 130px;
+    padding-bottom: 40px;
+    background: #00c0ab;
+
+    font-family: $primary-font;
+    color: $secondary-color;
+    font-style: normal;
+
+    .navigation {
+        width: 60%;
+
+        ul {
+            li {
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 15px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+
+                margin-bottom: 10px;
+                &:first-child {
+                    color: white;
+                    margin-bottom: 25px;
+                }
+
+                a{
+                    
+                }
+            }
+        }
+    }
+    .social-wrapper {
+        width: 40%;
+
+        .disclaimer {
+            color: #fff;
+            font-size: 12px;
+            line-height: 150%;
+        }
+    }
+}

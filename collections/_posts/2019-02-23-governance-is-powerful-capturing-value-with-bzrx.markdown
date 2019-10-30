@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Governance is Powerful: Capturing Value with BZRX"
-date:   2019-12-03 20:12:46 -0700
+date:   2019-02-23 20:12:46 -0700
 cover: /images/blog/1_EgMr_tHvlI5911nWyBKGCQ.png
 canonical: https://medium.com/bzxnetwork/governance-is-powerful-capturing-value-with-bzrx-adb35341975c
 author: Kistner

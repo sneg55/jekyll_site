@@ -1,0 +1,172 @@
+header.blog-index {
+    margin-top: 70px;
+    h1 {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 46px;
+        line-height: 120%;
+        color: $primary-color;
+        text-align: center;
+    }
+}
+
+.first-post article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "cover cover content";
+    grid-column-gap: 30px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+
+    transition: 0.3s ease-in-out all;
+
+    &:hover {
+        box-shadow: 0px 8px 16px rgba(13, 76, 211, 0.16);
+        cursor: pointer;
+    }
+    .first-post-image {
+        grid-area: cover;
+        > a {
+            img {
+                width: 100%;
+                max-height: 375px;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .article-content {
+        grid-area: content;
+        font-family: $primary-font;
+        font-style: normal;
+        color: $primary-color;
+        padding: 20px;
+        h2 {
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 140%;
+        }
+        .description {
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 160%;
+        }
+        .date {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 180%;
+            color: #8080c2;
+        }
+    }
+}
+
+.posts {
+    > div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 50px;
+
+        article {
+            transition: 0.3s ease-in-out all;
+
+            &:hover {
+                box-shadow: 0px 8px 16px rgba(13, 76, 211, 0.16);
+                cursor: pointer;
+            }
+
+            .post-image {
+                width: 100%;
+
+                a {
+                    max-height: 180px;
+                    img {
+                        width: 100%;
+                        max-height: 180px;
+                        object-fit: cover;
+                    }
+                }
+            }
+            .article-content {
+                font-family: $primary-font;
+                font-style: normal;
+                color: $primary-color;
+                padding: 20px;
+                h4 {
+                    font-weight: bold;
+                    font-size: 22px;
+                    line-height: 150%;
+                    margin-bottom: 10px;
+                }
+                .description {
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 160%;
+                    margin-bottom: 15px;
+                }
+                .date {
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 180%;
+                    color: #8080c2;
+                }
+            }
+        }
+    }
+}
+
+.pagination {
+    margin: 90px auto;
+
+    ul {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+}
+
+.subscription {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: -77px;
+
+    &:before {
+        content: "";
+        position: absolute;
+        width: 50%;
+        background: url(/images/tunnel-right.svg);
+        height: 47px;
+        left: -20%;
+        z-index: -10;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        width: 50%;
+        background: url(/images/tunnel-left.svg);
+        height: 47px;
+        right: -20%;
+        z-index: -10;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+    .subscription-wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 75px 95px;
+        background: #dcebff;
+        border: 2px solid #000085;
+        box-sizing: border-box;
+
+        h2 {
+            font-family: $primary-font;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 140%;
+            color: $primary-color;
+        }
+    }
+}

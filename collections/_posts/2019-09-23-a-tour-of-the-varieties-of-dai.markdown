@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Tour Of the Varieties of DAI"
-date:   2019-12-03 20:12:46 -0700
+date:   2019-09-23 20:12:46 -0700
 cover: /images/blog/1_u_fPkE2LdoXJ8R2aXzDjCA.png
 canonical: https://medium.com/bzxnetwork/a-tour-of-the-varieties-of-dai-9ff155f7666c
 author: Kistner

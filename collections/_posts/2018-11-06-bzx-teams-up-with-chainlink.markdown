@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "bZx Teams up with Chainlink"
-date:   2019-11-06 20:12:46 -0700
+date:   2018-11-06 20:12:46 -0700
 cover: /images/blog/0_euIHvtPzgZUNpI2v.png
 canonical: https://medium.com/bzxnetwork/bzx-teams-up-with-chainlink-5b9649e8c241
 author: Kistner
