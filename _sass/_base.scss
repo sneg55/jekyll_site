@@ -1,6 +1,6 @@
-@import '_variables';
+@import "_variables";
 
-body{
+body {
     font-family: $primary-font;
 }
 
@@ -9,7 +9,7 @@ body{
 }
 .bg-secondary{
     background-color: $secondary-bg;
-}
+    }
 .bg-tertiary{
     background-color: $tertiary-bg;
 }
@@ -23,7 +23,9 @@ body{
 .z-index-2{
     z-index: 2;
 }
-
+a {
+    text-decoration: none;
+}
 .mw-280{
     max-width: 280px;
 }
@@ -37,7 +39,7 @@ body{
     max-width: 100%;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
@@ -60,3 +62,48 @@ body{
         overflow-x: hidden;
     }
 }
+h1{
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 120%;
+    color: $primary-color;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+h2 {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 140%;
+    color: $primary-color;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+h3 {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 160%;
+    color: $primary-color;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h4 {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 150%;
+    color: $primary-color;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+

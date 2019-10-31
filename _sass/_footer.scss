@@ -25,7 +25,9 @@ footer {
                 }
 
                 a{
-                    
+                    &:hover{
+                        color: #000085
+                    }
                 }
             }
         }
@@ -37,6 +39,16 @@ footer {
             color: #fff;
             font-size: 12px;
             line-height: 150%;
+        }
+
+        .social-icons{
+            a{
+                &:hover{
+                    > svg circle{
+                        fill: #5B88FF;
+                    }
+                }
+            }
         }
     }
 }
