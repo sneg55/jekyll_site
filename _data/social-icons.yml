@@ -1,0 +1,17 @@
+social-icons:
+ - title: GitHub
+   url: https://github.com/
+   class: github
+   path: "social-icons/github"
+#  - title: Medium
+#    url: https://medium.com/
+#    class: medium
+#  - title: Twitter
+#    url: https://twitter.com/
+#    class: twitter
+#  - title: Discord
+#    url: https://discordapp.com/
+#    class: discord
+#  - title: Telegram
+#    url: https://telegram.org/
+#    class: telegram

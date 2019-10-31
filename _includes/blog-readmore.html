@@ -1,0 +1,29 @@
+<section class="read-more posts">
+    <div class="container container-xl">
+        <h2>Read more</h2>
+        <div class="posts-container">
+            {% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:3 %}
+
+            {% for post in posts %}
+            <article class="d-flex flex-d-c">
+                <div class="post-image">
+                    <a href="{{ post.url }}">
+                        <img src="{{ post.cover }}" alt="{{ post.title }}" />
+                    </a>
+                </div>
+                <div class="article-content">
+                    <h4>{{ post.title }}</h4>
+                    <p class="description">
+                        We are thankful for the support of our backers during the private presale. It is through your
+                        support that we were able to develop, audit…
+                    </p>
+                    <p class="date">{{ post.date }}</p>
+                </div>
+            </article>
+
+            {% endfor %}
+        </div>
+    </div>
+
+
+</section>
