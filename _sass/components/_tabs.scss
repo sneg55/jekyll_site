@@ -1,0 +1,115 @@
+.tab{
+    background-color: #CBE2FF;
+    border-top: 2px solid $primary-color;
+    padding: 27px 0 39px 0;
+    .buttons-tabs{
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        max-width: 304px;
+        margin: auto;
+        button{
+            border: none;
+            background: transparent;
+            font-size: 16px;
+            line-height: 1.25;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #003CDA;
+            padding: 7px 29px;
+            cursor: pointer;
+            outline: none;
+            transform-style: preserve-3d;
+            position: relative;
+            &.active{
+                background: #276BFB;
+                border: 1px solid $primary-color;
+                border-radius: 4px;
+                color: #FFFFFF;
+                transform: translateY(-4px);
+                &:after{
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 20px;
+                    background-color: #5B88FF;
+                    border: 1px solid $primary-color;
+                    border-radius: 4px;
+                    transform: translateZ(-1px);
+                    bottom: -4px;
+                    left: -1px;
+                }
+                
+            }
+    
+        }
+    }
+}
+
+.tabcontent{
+    display: none;
+    &.active{
+        display: block;
+    }
+    .container-tabs{
+        .item-tabs{
+            position: relative;
+            max-width: 350px;
+            &:before{
+                content: '';
+                position: absolute;
+                width: 2px;
+                height: 218px;
+                background-color: #276BFB;
+                left: 0;
+                right: 0;
+                margin: auto;
+                bottom: -218px;    
+            }
+            &:after{        
+                position: absolute;
+                background-color: transparent;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+            &:not(:last-child){
+                margin-right: 30px;
+            }
+        }
+        &:first-child{
+            .item-tabs{
+                &:before{
+                    height: 218px;
+                    bottom: -218px;
+                }
+                &:after{
+                    content: url(/images/icons/coin-long.svg);
+                    bottom: -289px;
+                }
+            }
+        }
+        &:last-child{           
+            .item-tabs{
+                padding-left: 25px;
+                padding-right: 25px;
+                &:before{
+                    height: 32px;
+                    bottom: -74px;
+                }
+                &:nth-child(2n){
+                    &:after{
+                        content: url(/images/icons/coin-short-even.svg);
+                        bottom: -143px;
+                    }
+                }
+                &:nth-child(2n+1){
+                    &:after{
+                        content: url(/images/icons/coin-short-odd.svg);
+                        bottom: -143px;
+                    }
+                }
+            }
+        }
+    }
+}

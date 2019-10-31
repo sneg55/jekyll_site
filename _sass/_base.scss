@@ -1,0 +1,112 @@
+@import "_variables";
+
+body {
+    font-family: $primary-font;
+
+    //TODO: remove this (fix for index page horizaontal scroll caused by .svg)
+    overflow-x: hidden;
+}
+
+.bg-primary{
+    background-color: $primary-color;
+}
+.bg-secondary{
+    background-color: $secondary-bg;
+    }
+.bg-tertiary{
+    background-color: $tertiary-bg;
+}
+.bg-wave{
+    background-image: url(/images/icons/background.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: contain;
+}
+
+.z-index-2{
+    z-index: 2;
+}
+a {
+    text-decoration: none;
+}
+.mw-280{
+    max-width: 280px;
+}
+.mw-400{
+    max-width: 400px;
+}
+.w-33{
+    width: 33%;
+}
+.mw-100{
+    max-width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.p-relative{
+    position: relative;
+}
+
+
+.overflow-xl{
+    @media(min-width: 1440px){
+        overflow: hidden;
+    }
+}
+.overflow-x-xl{
+    @media(min-width: 1440px){
+        overflow-x: hidden;
+    }
+}
+h1{
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 120%;
+    color: $primary-color;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+h2 {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 140%;
+    color: $primary-color;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+h3 {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 160%;
+    color: $primary-color;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h4 {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 150%;
+    color: $primary-color;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+

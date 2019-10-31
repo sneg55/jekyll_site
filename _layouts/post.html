@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{{ page.metadescription | strip_html | strip_newlines | truncate: 160 }}">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css " | prepend: site.baseurl }}">
+
+    <link rel="canonical" href="https://bzx.network/blog/">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    {% include header.html %}
+    <main class="blog-post">
+        <div class="container container-xl">
+            <h1>{{page.title}}</h1>
+            <div class="author-block d-flex j-content-center">
+                {% assign author = site.data.authors[page.author] %}
+                <div class="author-image">
+                    <img src="{{author.image}}" alt="{{ author.name }}">
+                </div>
+                <span class="name">{{ author.name }}</span>
+                &nbsp;
+                <span class="date">on {{ page.date | date_to_string }}</span>
+            </div>
+            <div class="cover-image">
+                <img src="{{page.cover}}" alt="">
+            </div>
+        </div>
+
+
+
+        <div class="container  container-md post-content">
+
+            {{ content }}
+
+            {% include author_bio.html %}
+        </div>
+        {% include blog-readmore.html %}
+
+        <section class="subscription">
+            <div class="container  container-xl">
+
+                <div class="subscription-wrapper">
+                    <h2>Subscribe to our newsletter</h2>
+                        <button class="button button-secondary button-md d-flex j-content-center">Submit</button>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    {% include footer.html %}
+
+</body>
+
+</html>
