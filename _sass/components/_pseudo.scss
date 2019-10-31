@@ -1,0 +1,156 @@
+.before-smoke{
+    &:before{
+        content: url(/images/icons/smoke.svg);
+        position: absolute;
+        left: 0;
+        top: 120px;
+    }
+}
+.after-wheel{
+    &:after{
+        content: url(/images/icons/wheel.svg);
+        position: absolute;
+        right: 0;
+        top: 240px;
+    }
+}
+.before-integraion{
+    position: relative;
+    transform-style: preserve-3d;
+    &:before{
+        content: '';
+        position: absolute;
+        width: 213px;
+        height: 507px;
+        background-image: url(/images/icons/integration-before.svg);
+        top: 537px;
+        left: -90px;
+        transform: translateZ(-1px);
+    }
+}
+
+.after-integraion{
+    position: relative;
+    &:after{
+        content: '';
+        position: absolute;
+        width: 168px;
+        height: 476px;
+        background-image: url(/images/icons/integration-after.svg);
+        top: 26px;
+        right: -90px;
+        transform: translateZ(-1px);
+    }
+}
+.svg-absolute{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    &.bottom-0{
+        bottom: 0;
+    }
+    &.bottom-25{
+        bottom: 25px;
+    }
+    &.bottom-40{
+        bottom: 40px;
+    }
+}
+@media(min-width: 1441px){
+    .svg-insured{
+        &:before{
+            content: url(/images/icons/before-insured.svg);
+            position: absolute;
+            left: calc((100% - 1440px) / 2 - 560px);
+            top: 0;
+        }
+        &:after{
+            content: url(/images/icons/before-insured.svg);
+            position: absolute;
+            right: calc((100% - 1440px) / 2 - 560px);
+            top: 0;    
+            transform: rotateY(180deg);
+        }
+    }
+    .svg-position{
+        &:before{
+            content: url(/images/icons/before-long-positions.svg);
+            position: absolute;
+            left: calc((100% - 1440px) / 2 - 560px);
+            top: 339px;
+        }
+        &:after{
+            content: url(/images/icons/before-long-positions.svg);
+            position: absolute;
+            right: calc((100% - 1440px) / 2 - 560px);
+            top: 339px;    
+            transform: rotateY(180deg);
+        }
+    }
+    .svg-integration{
+        &:before{
+            content: url(/images/icons/before-svg-integrations.svg);
+            position: absolute;
+            left: calc((100% - 1440px) / 2 - 560px);
+            bottom: -2px;
+        }
+        &:after{
+            content: url(/images/icons/before-svg-integrations.svg);
+            position: absolute;
+            right: calc((100% - 1440px) / 2 - 560px);
+            bottom: -2px;   
+            transform: rotateY(180deg);
+        }
+    }
+    .opacity-trumpet{
+        &:before{
+            content: url(/images/icons/before-opacity-trumpet.svg);
+            position: absolute;
+            left: calc((100% - 1440px) / 2 - 560px);
+            bottom: -143px;
+        }
+    }
+    .rotate-line{
+        &:before{
+            content: url(/images/icons/before-rotate-line.svg);
+            position: absolute;
+            left: calc((100% - 1440px) / 2 - 560px);
+            top: -47px;
+        }
+        &:after{
+            content: url(/images/icons/before-rotate-line.svg);
+            position: absolute;
+            right: calc((100% - 1440px) / 2 - 560px);
+            top: 126px;
+        }
+    }
+    .rotate-line-2{
+        &:before{
+            content: url(/images/icons/before-rotate-line-2.svg);
+            position: absolute;
+            left: calc((100% - 1440px) / 2 - 560px);
+            bottom: 42px;
+        }
+        &:after{
+            content: url(/images/icons/before-rotate-line-2.svg);
+            position: absolute;
+            right: calc((100% - 1440px) / 2 - 560px);
+            top: 210px;
+        }
+    }
+    .before-line{
+        &:before{
+            content: url(/images/icons/before-line.svg);
+            position: absolute;
+            left: calc((100% - 1440px) / 2 - 560px);
+            top: 0;
+        }
+        &:after{
+            content: url(/images/icons/before-line.svg);
+            position: absolute;
+            right: calc((100% - 1440px) / 2 - 560px);
+            top: 0;
+        }
+    }
+}

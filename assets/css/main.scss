@@ -11,5 +11,19 @@
 @import "_footer";
 
 @import "base/_flex";
+@import "base/_container";
 @import "base/_spacing";
-@import "base/_button";
+@import "base/_typography";
+
+
+@import "components/_borders";
+@import "components/_buttons";
+@import "components/_carousel";
+@import "components/_pseudo";
+@import "components/_sections";
+@import "components/_tabs";
+@import "components/_circle";
+
+
+@import "layout/_navigation";
+

@@ -1,0 +1,21 @@
+.menu-list-item{
+    &:not(:last-child){
+        padding-right: 67px;
+    }
+    .link{
+        font-family: $primary-font;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1.25;
+        text-transform: uppercase;
+        letter-spacing: 0.05;
+        text-decoration: none;  
+        color: $secondary-color;   
+        position: relative; 
+        img{
+            position: absolute;
+            bottom: 5px;
+            left: -16px;
+        } 
+    }
+}
