@@ -1,0 +1,47 @@
+.circle{
+    width: 8px;
+    height: 8px;
+    background-color: #FFFFFF;
+    border: 1px solid $primary-color;
+    border-radius: 50%;
+    position: absolute;
+    .container-coin &{
+        background-color: $light-primary-color;
+    }
+    &.top{
+        top: 14px;
+        .container-coin &{
+            top: 31px;
+        }
+        .after-team &{
+            top: 6px;
+        }
+    }
+    &.bottom{
+        bottom: 14px;
+        .container-coin &{
+            bottom: 8px;
+        }
+        .after-team &{
+            bottom: 6px;
+        }
+    }
+    &.left{
+        left: 14px;
+        .container-coin &{
+            left: 8px;
+        }
+        .after-team &{
+            left: 6px;
+        }
+    }
+    &.right{
+        right: 14px;
+        .container-coin &{
+            right: 8px;
+        }
+        .after-team &{
+            right: 6px;
+        }
+    }
+}

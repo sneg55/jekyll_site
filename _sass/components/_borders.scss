@@ -1,0 +1,31 @@
+.bt-2{
+    border-top: 2px solid;
+}
+.bt-3{
+    border-top: 3px solid;
+}
+.bt-7{
+    border-top: 7px solid;
+}
+.bt-20{
+    border-top: 20px solid;
+}
+.bt-primary{
+    border-color: $primary-border;
+}
+.bt-secondary{
+    border-color: $secondary-border;
+}
+.bt-tertiary{
+    border-color: $tertiary-border;
+}
+.bt-white{
+    border-color: $white-border;
+}
+
+.primary-2{
+    border-top: 2px solid $primary-color;
+}
+.light-primary-3{
+    border-top: 3px solid $light-primary-color;
+}

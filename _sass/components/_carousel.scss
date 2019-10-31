@@ -1,0 +1,48 @@
+.owl-carousel{
+    position: relative;
+    width: 50%;
+    .item{
+        color: #FFFFFF;
+        hr{
+            max-width: 255px;
+            border: 1px solid #33DFCC;
+            margin: 15px auto 18px auto;
+        }
+        .item-img{
+            max-width: 445px;
+        }
+        
+    }
+    .owl-dots{
+        position: absolute;
+        top: -18px;
+        left: 0;
+        button{
+            width: 10px;
+            height: 10px;
+            background-color: $tertiary-color !important;
+            border-radius: 50%;
+            border: 1px solid $primary-color !important;
+            margin-right: 6px;
+            outline: none;
+            &.active{
+                background-color: $secondary-color !important;
+            }
+        }
+    }
+}
+.before-carousel{
+    &:before{
+        content: url(/images/icons/before-carousel.svg);
+        position: absolute;
+        left: -130px;
+        top: 45px;
+    }
+    &:after{
+        content: url(/images/icons/after-carousel.svg);
+        position: absolute;
+        right: -120px;
+        bottom: -105px;
+        z-index: 2;
+    }
+}

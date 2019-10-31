@@ -1,0 +1,56 @@
+@import '_variables';
+/* font-size */
+.fs-14{
+    font-size: 14px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-22{
+    font-size: 22px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-32{
+    font-size: 32px;
+}
+.fs-46{
+    font-size: 46px;
+}
+
+/* line-height */
+.lh-120{
+    line-height: 1.2;
+}
+.lh-140{
+    line-height: 1.4;
+}
+.lh-150{
+    line-height: 1.5;
+}
+.lh-160{
+    line-height: 1.6;
+}
+
+/* font-weight */
+.fw-700{
+    font-weight: 700;
+}
+.fw-800{
+    font-weight: 800;
+}
+
+/* color */
+.color-primary{
+    color: $primary-color;
+}
+.color-secondary{
+    color: $secondary-color;
+}
+.color-tertiary{
+    color: $tertiary-color;
+}
+.color-white{
+    color: #FFFFFF;
+}
