@@ -1,21 +1,10 @@
-header.blog-index {
-    margin-top: 70px;
-    h1 {
-        font-family: $primary-font;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 46px;
-        line-height: 120%;
-        color: $primary-color;
-        text-align: center;
-    }
-}
-
 .first-post article {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "cover cover content";
-    grid-column-gap: 30px;
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "cover cover content";
+        grid-column-gap: 30px;
+    }
     margin-bottom: 70px;
     margin-top: 50px;
 
@@ -27,12 +16,11 @@ header.blog-index {
     }
     .first-post-image {
         grid-area: cover;
-        > a {
-            img {
-                width: 100%;
-                max-height: 375px;
-                object-fit: cover;
-            }
+        overflow: hidden;
+        img {
+            // width: 100%;
+            max-height: 100%;
+            object-fit: cover;
         }
     }
 
@@ -62,7 +50,7 @@ header.blog-index {
 }
 
 .posts {
-    > div {
+    &-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 30px;
@@ -79,13 +67,12 @@ header.blog-index {
             .post-image {
                 width: 100%;
 
-                a {
+                img {
+                    width: 100%;
+
                     max-height: 180px;
-                    img {
-                        width: 100%;
-                        max-height: 180px;
-                        object-fit: cover;
-                    }
+                    min-height: 180px;
+                    object-fit: cover;
                 }
             }
             .article-content {
@@ -93,12 +80,7 @@ header.blog-index {
                 font-style: normal;
                 color: $primary-color;
                 padding: 20px;
-                h4 {
-                    font-weight: bold;
-                    font-size: 22px;
-                    line-height: 150%;
-                    margin-bottom: 10px;
-                }
+
                 .description {
                     font-weight: normal;
                     font-size: 16px;
@@ -161,12 +143,7 @@ header.blog-index {
         box-sizing: border-box;
 
         h2 {
-            font-family: $primary-font;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 32px;
-            line-height: 140%;
-            color: $primary-color;
+            margin: inherit;
         }
     }
 }

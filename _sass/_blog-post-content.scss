@@ -1,0 +1,158 @@
+.post-content {
+    max-width: 730px;
+    a {
+        text-decoration: none;
+        padding: 0 3px;
+        color: #fff;
+        background-color: #003cda;
+        &:hover {
+            background-color: #5b88ff;
+        }
+    }
+
+    h1 {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 46px;
+        line-height: 120%;
+        color: $primary-color;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 70px;
+    }
+
+    h2 {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 140%;
+        color: $primary-color;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    h3 {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 160%;
+        color: $primary-color;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    h4 {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 150%;
+        color: $primary-color;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    p {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 180%;
+        color: $primary-color;
+        margin-bottom: 20px;
+    }
+
+    em {
+        font-style: italic;
+    }
+
+    b,
+    strong {
+        font-weight: bold;
+    }
+
+    blockquote {
+        font-family: $primary-font;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 180%;
+
+        position: relative;
+        padding-top: 20px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+
+        &:before {
+            content: "";
+            border-top: 3px solid #33dfcc;
+            width: 65px;
+            position: absolute;
+            top: 0;
+        }
+
+        color: #5b88ff;
+        p {
+            font-family: $primary-font;
+            font-style: italic;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 180%;
+            color: #5b88ff;
+        }
+    }
+    ul,
+    ol {
+        margin-bottom: 20px;
+    }
+    ul > li {
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 180%;
+        color: #000085;
+        &:before {
+            content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+            color: #33dfcc; /* Change the color */
+            font-weight: bold; /* If you want it to be bold */
+            display: inline-block; /* Needed to add space between the bullet and the text */
+            width: 1em; /* Also needed for space (tweak if needed) */
+            margin-right: 10px;
+        }
+    }
+
+    ol > li {
+        counter-increment: li;
+        font-family: $primary-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 180%;
+        color: #000085;
+        &:before {
+            content: counter(li) "."; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+            color: #33dfcc; /* Change the color */
+            font-weight: bold; /* If you want it to be bold */
+            display: inline-block; /* Needed to add space between the bullet and the text */
+            width: 1em; /* Also needed for space (tweak if needed) */
+            margin-right: 10px;
+        }
+    }
+
+    hr {
+        height: 3px;
+        background: #33dfcc;
+        border: none;
+    }
+
+    img {
+        max-height: 100%;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+}

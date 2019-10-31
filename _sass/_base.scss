@@ -1,78 +1,124 @@
-@import '_variables';
+@import "_variables";
 
-body{
+body {
     font-family: $primary-font;
 }
-.container{
+.container {
     width: 1110px;
     margin: auto;
 }
-.small-container{
+.small-container {
     width: 600px;
 }
 
-
-
-header{
+header {
     padding: 16px 0;
 }
 
-.menu-list-item{
-    &:not(:last-child){
+.menu-list-item {
+    &:not(:last-child) {
         padding-right: 67px;
     }
-    .link{
+    .link {
         font-family: $primary-font;
         font-size: 12px;
         font-weight: 700;
         line-height: 1.25;
         text-transform: uppercase;
         letter-spacing: 0.05;
-        text-decoration: none;  
-        color: $secondary-color;   
-        position: relative; 
-        img{
+        text-decoration: none;
+        color: $secondary-color;
+        position: relative;
+        img {
             position: absolute;
             bottom: 5px;
             left: -16px;
-        } 
+        }
     }
 }
 
-h1{
+h1 {
     font-size: 46px;
     font-weight: 800;
     line-height: 1.2;
 }
-p{
+p {
     font-size: 20px;
     line-height: 1.6;
 }
-
-.title{
+a {
+    text-decoration: none;
+}
+.title {
     max-width: 730px;
     margin: 37px auto 0;
 }
-.subtitle{
+.subtitle {
     max-width: 920px;
     margin: 27px auto 0;
 }
-.color-primary{
+.color-primary {
     color: $primary-color;
 }
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.item-integrations{
+.item-integrations {
     border: 2px solid #000085;
-    background-color: #DCEBFF;
+    background-color: #dcebff;
     position: relative;
 }
-.circle{
+.circle {
     width: 8px;
     height: 8px;
-    background: #FFFFFF;
+    background: #ffffff;
     border: 1px solid #000085;
     border-radius: 50%;
 }
+
+h1 {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 120%;
+    color: $primary-color;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+h2 {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 140%;
+    color: $primary-color;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+h3 {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 160%;
+    color: $primary-color;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h4 {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 150%;
+    color: $primary-color;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
