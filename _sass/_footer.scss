@@ -24,9 +24,9 @@ footer {
                     margin-bottom: 25px;
                 }
 
-                a{
-                    &:hover{
-                        color: #000085
+                a {
+                    &:hover {
+                        color: #000085;
                     }
                 }
             }
@@ -41,12 +41,31 @@ footer {
             line-height: 150%;
         }
 
-        .social-icons{
-            a{
-                &:hover{
-                    > svg circle{
-                        fill: #5B88FF;
+        .social-icons {
+            a {
+                &:hover {
+                    > svg circle {
+                        fill: #5b88ff;
                     }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 580px) {
+        padding-top: 90px;
+
+        > .container {
+            flex-direction: column;
+            .navigation {
+                width: 100%;
+            }
+            .social-wrapper {
+                width: 100%;
+                align-items: center;
+                padding-top: 20px;
+                .social-icons{
+                    margin-bottom: 20px;
                 }
             }
         }
