@@ -1,0 +1,96 @@
+-   name: Tom Bean
+    bio: Founder and CEO
+    image: /images/team/tom-bean.jpg
+    info: info
+    github: github
+    linkedin: linkedin
+    mail: mail
+
+-   name: Kyle Kistner
+    bio: CVO and Operations Lead
+    image: /images/team/kyle-kistner.jpg
+    info: info
+    github: github
+    linkedin: linkedin
+    mail: mail
+
+-   name: Alex Shafranovich
+    bio: DApp Full-Stack Engineer
+    image: /images/team/alex-shafranovich.jpg
+    info: info
+    github: github
+    linkedin: linkedin
+    mail: mail
+
+-   name: Aliaksei Hiatsevich 
+    bio: Senior Blockchain Engineer
+    image: /images/team/aliaksei-hiatsevich.jpg
+    info: info
+    github: github
+    linkedin: linkedin
+    mail: mail
+
+-   name: Pavel Kosobutskiy
+    bio: Senior UI/UX Engineer
+    image: /images/team/pavel-kosobutskiy.jpg
+    info: info
+    github: github
+    linkedin: linkedin
+    mail: mail
+
+-   name: Adrian Li
+    bio: Senior Developer
+    image: /images/team/adrian-li.jpg
+    info: info
+    github: github
+    linkedin: linkedin
+    mail: mail
+-   name: Alexander Khoriaty
+    bio: CVO and Operations Lead
+    image: /images/team/alexander-khoriaty.jpg
+    info: info
+    github: github
+    linkedin: linkedin
+    mail: mail
+
+-   name: Casey Fallon 
+    bio: Senior Designer
+    image: /images/team/casey-fallon.jpg
+    info: info
+    github: github
+    linkedin: linkedin
+    mail: mail
+
+-   name: Manish Singh
+    bio: Senior UI/UX Engineer
+    image: /images/team/manish-singh.jpg
+    info: info
+    github: github
+    linkedin: linkedin
+    
+    mail: mail
+-   name: Manuel GarcÌa
+    bio: Project Manager
+    image: /images/team/manuel-garcia.jpg
+    info: info
+    github: github
+    linkedin: linkedin
+    mail: mail
+
+-   name: Stani Kulechov
+    bio: Senior Developer
+    image: /images/team/stani-kulechov.jpg
+    info: info
+    github: github
+    linkedin: linkedin
+    mail: mail
+
+
+
+-   name: Nikita Sawinyh
+    bio: Senior Designer
+    image: /images/team/nikita-sawinyh.jpg
+    info: info
+    github: github
+    linkedin: linkedin
+    mail: mail

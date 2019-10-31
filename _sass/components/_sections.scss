@@ -105,3 +105,100 @@
         border-radius: 50%;  
     }
 }
+
+.wrapper-team{
+    background-color: #5B88FF;
+    border-top: 20px solid #4978F3;
+    .container-team{
+        background-color: #DCEBFF;
+        width: 1170px;
+        border: 2px solid #000085;
+        padding: 0 30px;
+        flex-wrap: wrap;
+        .item-team{
+            color: #8080C2;
+            margin-bottom: 40px;
+            margin-top: 30px;
+            position: relative;
+            &:nth-child(4n+1){
+                &::before{
+                    content: '';
+                    position: absolute;
+                    top: 99px;
+                    left: -592px;
+                    width: 560px;
+                    background-image: url(/images/icons/tunnel-team.svg);
+                    height: 47px;
+                    z-index: 2;
+                }
+            }
+            .wrapper-img-team{
+                padding-left: 10px;
+                background:#FFFFFF;
+                border-left: 2px solid $primary-color;
+                position: relative;
+                margin-bottom: 22px;
+                .img-team{
+                    max-width: 245px;
+                }
+                &::before, &::after{
+                    content: '';
+                    position: absolute;
+                    width: 10px;
+                    height: 2px;
+                    left: 0px;
+                    background-color: $primary-color;
+                }
+                &::before{
+                    top: 0;
+                }
+                &::after{
+                    bottom: 0;
+                }
+            }
+            .icon-media{
+                a{
+                    text-decoration: none;
+                    margin-right: 10px;
+                }
+                img{
+                    max-width: 24px;
+                }
+            }
+        }
+        .after-team{
+            border: 2px solid $primary-color;
+            background-color: $light-primary-color;
+            width: 120px;
+            position: absolute;
+            top: -2px;
+            right: -120px;
+            height: calc(100% + 4px);
+            &::before{
+                content:'';
+                position: absolute;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                background-image:  url(/images/icons/test-line.svg);
+                background-repeat-x: no-repeat;
+                background-color: $light-primary-color;
+                background-position: 50% 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+        }
+    }
+}
+
+
+.item-partners{
+    text-align: center;
+    width: 265px;
+    margin: 20px auto;
+    &:nth-child(3n+2){
+        margin-left: 95px;
+        margin-right: 95px;
+    }
+}

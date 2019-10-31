@@ -19,7 +19,7 @@ layout: homepage
         <a href="#" class="button button-primary button-lg d-flex j-content-center mb-10">Github</a>
         <a href="#" class="button button-primary button-lg d-flex j-content-center mb-10">Technical community</a>
     </div>
-    {% include svg/system.html %}
+    {% include svg/system.svg %}
 </section>
 
 <section class="text-center pt-55 pb-80 bg-tertiary">
@@ -166,7 +166,7 @@ layout: homepage
             </div>
         </div>
     </div>
-    {% include svg/integrations.html %}
+    {% include svg/integrations.svg %}
 </section>
 
 <section class="text-center bg-primary color-white pt-55 pb-40 p-relative">
@@ -195,17 +195,17 @@ layout: homepage
 </section>
 
 <section class="text-center bg-primary color-white p-relative overflow-xl">    
-    <div class="container container-md pt-55">
+    <div class="container container-md pt-55 p-relative z-index-2">
         <h3 class="fs-24 fw-800 lh-160 mb-12 color-tertiary">Insured with the bZx guarantee fund</h3>
         <p class="lh-160 mb-33">bZx pools loans together in a decentralized clearinghouse. Lenders can lend to a whole pool of people, averaging risk across many borrowers, allowing for a more predictable income stream. All bZx loans are insured with the bZx guarantee fund.</p>
         <a href="#" class="button button-primary button-sm d-flex j-content-center m-auto">Read more</a>
     </div>
     <div class="p-relative svg-insured mt-r-90 mb-38">
-        {% include svg/insured.html %}
+        {% include svg/insured.svg %}
     </div>
     <div class="p-relative before-smoke after-wheel">
         <div class="p-relative rotate-line">
-            {% include svg/rotate-line.html %}
+            {% include svg/rotate-line.svg %}
         </div> 
         <div class="container container-sm mb-60 mt-115 p-relative opacity-trumpet">
             <h3 class="fs-24 fw-800 lh-160 mb-32 color-tertiary">BZRX Governance Token </h3>
@@ -214,14 +214,14 @@ layout: homepage
         </div>
     </div>
     <div class="p-relative rotate-line-2 mb-20">
-        {% include svg/token.html %}
+        {% include svg/token.svg %}
     </div> 
 </section>
 
 {% include dots.html %}
 
 <section class="text-center color-white p-relative bg-secondary bt-20 bt-secondary svg-position pt-40 overflow-x-xl">
-    {% include svg/long-positions.html %}
+    {% include svg/long-positions.svg %}
     <div class="container container-sm pb-420">
         <h2 class="fs-32 lh-140 fw-800 text-center mb-26">How bZx Margin Trading Works</h2>
         <h3 class="fs-24 fw-800 lh-160 mb-12 color-tertiary">Long Positions</h3>
@@ -233,7 +233,7 @@ layout: homepage
 {% include dots.html %}
 
 <section class="text-center bg-primary color-white pb-80 p-relative overflow-x-xl">
-    {% include svg/short-positions.html %}
+    {% include svg/short-positions.svg %}
     <div class="container container-sm pt-140 pb-485">
         <h3 class="fs-24 fw-800 lh-160 mb-12 color-tertiary">Short Positions</h3>
         <p class="lh-160 mb-26">Taking a short position is more complicated. A short position is betting that something will go down over time. Short positions require escrow, leverage, and margin calls.</p>
@@ -248,12 +248,12 @@ layout: homepage
     </div>
     <div>
         <div class="p-relative before-line">
-            {% include svg/line.html %}
+            {% include svg/line.svg %}
         </div>
         <div class="d-flex j-content-sb m-auto mw-400">
-            {% include svg/before-coin.html %}
-            {% include svg/before-coin.html %}
-            {% include svg/before-coin.html %}
+            {% include svg/before-coin.svg %}
+            {% include svg/before-coin.svg %}
+            {% include svg/before-coin.svg %}
         </div>
         <div class="d-flex j-content-center">
             <div class="container-coin">
@@ -263,7 +263,7 @@ layout: homepage
                 <div class="circle bottom right"></div>
                 <div class="item-coin">
                     <div class="coin">
-                        {% include svg/dai.html %}
+                        {% include svg/dai.svg %}
                     </div>
                 </div>
             </div>
@@ -274,7 +274,7 @@ layout: homepage
                 <div class="circle bottom right"></div>
                 <div class="item-coin">
                     <div class="coin">
-                        {% include svg/wbtc.html %}
+                        {% include svg/wbtc.svg %}
                     </div>
                 </div>
             </div>
@@ -285,7 +285,7 @@ layout: homepage
                 <div class="circle bottom right"></div>
                 <div class="item-coin">
                     <div class="coin">
-                        {% include svg/link.html %}
+                        {% include svg/link.svg %}
                     </div>
                 </div>
             </div>
@@ -296,7 +296,7 @@ layout: homepage
                 <div class="circle bottom right"></div>
                 <div class="item-coin">
                     <div class="coin">
-                        {% include svg/zrx.html %}
+                        {% include svg/zrx.svg %}
                     </div>
                 </div>
             </div>
@@ -307,7 +307,7 @@ layout: homepage
                 <div class="circle bottom right"></div>
                 <div class="item-coin">
                     <div class="coin">
-                        {% include svg/rep.html %}
+                        {% include svg/rep.svg %}
                     </div>
                 </div>
             </div>
@@ -318,7 +318,7 @@ layout: homepage
                 <div class="circle bottom right"></div>
                 <div class="item-coin">
                     <div class="coin">
-                        {% include svg/knc.html %}
+                        {% include svg/knc.svg %}
                     </div>
                 </div>
             </div>
@@ -427,3 +427,77 @@ layout: homepage
     </div>
 </section>
 
+{% include dots.html %}
+
+<section class="bg-primary wrapper-team pt-40 pb-80">
+    <h2 class="fs-32 lh-140 fw-800 mb-35 color-white text-center">Team & Advisors</h2>
+    <div class="container d-flex j-content-sb container-team p-relative">
+        {% for item in site.data.team %}
+            <div class="item-team">
+                <div class="wrapper-img-team">
+                    <img src="{{ item.image }}" class="img-team">
+                </div>
+                <h4 class="fs-22 lh-150 color-primary mb-5">{{ item.name }}</h4>
+                <p class="fs-14 lh-180 mb-15">{{ item.bio }}</p>
+                <div class="icon-media">
+                    <a href="{{ item.info }}">
+                        <img src="/images/icons/info.svg" alt="info">
+                    </a>
+                    <a href="{{ item.github }}">
+                        <img src="/images/icons/github.svg" alt="github">
+                    </a>
+                    <a href="{{ item.linkedin }}">
+                        <img src="/images/icons/linkedin.svg" alt="linkedin">
+                    </a>
+                    <a href="{{ item.mail }}">
+                        <img src="/images/icons/mail.svg" alt="mail">
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+        <div class="after-team">
+            <div class="circle top left"></div>
+            <div class="circle bottom left"></div>
+            <div class="circle top right"></div>
+            <div class="circle bottom right"></div>
+        </div>
+    </div>
+    <h2 class="fs-32 lh-140 fw-800 mb-35 color-white text-center mt-70 mb-40">Partners & Collaborators</h2>
+    <div class="container container-xl d-flex f-wrap j-content-sb a-items-center pb-60 px-50 ">        
+        <div class="item-partners">
+            {% include svg/kyber-network.svg %}
+        </div>
+        <div class="item-partners">
+            {% include svg/chainlink.svg %}
+        </div>
+        <div class="item-partners">
+            {% include svg/augur.svg %}
+        </div>
+        <div class="item-partners">
+            {% include svg/maker.svg %}
+        </div>
+        <div class="item-partners">
+            {% include svg/rigoblock.svg %}
+        </div>
+        <div class="item-partners">
+            {% include svg/ethlend.svg %}
+        </div>
+        <div class="item-partners">
+            {% include svg/signal-ventures.svg %}
+        </div>
+        <div class="item-partners">
+            {% include svg/wyre.svg %}
+        </div>
+        <div class="item-partners">
+            {% include svg/etherisc.svg %}
+        </div>
+    </div>
+</section>
+<section class="subscription mt-r-75 bg-before-team">
+    <div class="container container-xl">
+        <div class="subscription-wrapper">
+            <h2>Subscribe to our newsletter</h2>
+            <button class="button button-secondary button-md d-flex j-content-center">Submit</button>
+        </div>
+    </div>
+</section>

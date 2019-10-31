@@ -78,13 +78,13 @@
             content: url(/images/icons/before-long-positions.svg);
             position: absolute;
             left: calc((100% - 1440px) / 2 - 560px);
-            top: 339px;
+            top: 348px;
         }
         &:after{
             content: url(/images/icons/before-long-positions.svg);
             position: absolute;
             right: calc((100% - 1440px) / 2 - 560px);
-            top: 339px;    
+            top: 348px;    
             transform: rotateY(180deg);
         }
     }

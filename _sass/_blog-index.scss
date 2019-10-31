@@ -129,7 +129,11 @@ header.blog-index {
     position: relative;
     overflow: hidden;
     margin-bottom: -77px;
-
+    &.bg-before-team{
+        &:before, &:after {
+            background-color: #5B88FF;
+        }
+    }
     &:before {
         content: "";
         position: absolute;
