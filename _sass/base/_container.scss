@@ -1,15 +1,25 @@
-.container{
+.container {
     margin: auto;
 }
-.container-xl{
-    width: 1110px;
+.container-xl {
+    max-width: 1110px;
 }
-.container-lg{
-    width: 920px;
+.container-lg {
+    max-width: 920px;
 }
-.container-md{
-    width: 730px;
+.container-md {
+    max-width: 730px;
 }
-.container-sm{
-    width: 540px;
+.container-sm {
+    max-width: 540px;
+}
+
+@media (max-width: 580px) {
+    .container-xl, 
+    .container-lg, 
+    .container-md,
+    .container-sm {
+        max-width: 100%;
+        padding: 0 15px;
+    }
 }

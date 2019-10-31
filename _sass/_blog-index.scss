@@ -53,6 +53,9 @@
     &-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        @media screen and (max-width: 580px) {
+            grid-template-columns: 1fr;
+        }
         grid-column-gap: 30px;
         grid-row-gap: 50px;
 
