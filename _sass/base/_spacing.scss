@@ -14,17 +14,29 @@
 .mt-39{
     margin-top: 39px;
 }
+.mt-70{
+    margin-top: 70px;
+}
 .mt-115{
     margin-top: 115px;
 }
+.mt-r-75{
+    margin-top: -75px;
+}
 .mt-r-90{
     margin-top: -90px;
+}
+.mb-5{
+    margin-bottom: 5px;
 }
 .mb-10{
     margin-bottom: 10px;
 }
 .mb-12{
     margin-bottom: 12px;
+}
+.mb-15{
+    margin-bottom: 15px;
 }
 .mb-20{
     margin-bottom: 20px;
@@ -35,7 +47,13 @@
 .mb-33{
     margin-bottom: 33px;
 }
+.mb-35{
+    margin-bottom: 35px;
+}
 .mb-38{
+    margin-bottom: 38px;
+}
+.mb-40{
     margin-bottom: 38px;
 }
 .mb-46{
@@ -72,6 +90,9 @@
 .pt-60{
     padding-top: 60px;
 }
+.pt-70{
+    padding-top: 70px;
+}
 .pt-140{
     padding-top: 140px;
 }
@@ -80,6 +101,12 @@
 }
 .pb-40{
     padding-bottom: 40px;
+}
+.pb-60{
+    padding-bottom: 60px;
+}
+.pb-70{
+    padding-bottom: 70px;
 }
 .pb-80{
     padding-bottom: 80px;
@@ -94,10 +121,12 @@
     padding-bottom: 485px;
 }
 .px-25{
-    padding: 0 25px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .px-50{
-    padding: 0 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .px-65{
     padding-left: 65px;
@@ -105,5 +134,10 @@
 }
 
 .py-16{
-    padding: 16px 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.py-70{
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
