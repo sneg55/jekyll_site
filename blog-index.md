@@ -11,13 +11,13 @@ pagination:
 ---
 <div class="container container-xl">
     <header class="blog-index">
-        <h1>bZx Blog</h1>
+        <h1 class="mb-50 mt-70 fs-46 lh-120 fw-800 color-primary text-center">bZx Blog</h1>
     </header>
 </div>
 <section class="first-post">
     <div class="container container-xl">
 
-        <article>
+        <article class="color-primary">
             {% assign newest_post = paginator.posts.first %}
             <a href="{{ newest_post.url }}">
                 <div class="grid">
@@ -27,8 +27,8 @@ pagination:
 
                     </div>
                     <div class="article-content">
-                        <h2>{{ newest_post.title }}</h2>
-                        <p class="description">
+                        <h2 class="fs-32 lh-140 fw-700 mb-20 mt-20">{{ newest_post.title }}</h2>
+                        <p class="description  mb-20">
                     Bamboo Relay is the first 0x-standard relay, and in fact the first DEX, to ever offer non-custodial
                     peer-to-peer margin lending. The debut…
                         </p>
@@ -44,7 +44,7 @@ pagination:
     <div class="container container-xl posts-container">
         
         {% assign newest_post = paginator.posts.first %}
-         <article class="first-post">
+         <article class="first-post color-primary">
             <a href="{{ newest_post.url }}">
                 <div class="grid">
    
@@ -53,8 +53,8 @@ pagination:
 
                     </div>
                     <div class="article-content">
-                        <h4>{{ newest_post.title }}</h4>
-                        <p class="description">
+                        <h4 class="fs-22 lh-150 fw-700 mb-15">{{ newest_post.title }}</h4>
+                        <p class="description  mb-20">
                     Bamboo Relay is the first 0x-standard relay, and in fact the first DEX, to ever offer non-custodial
                     peer-to-peer margin lending. The debut…
                         </p>
@@ -67,7 +67,7 @@ pagination:
 
         {% assign shifted_posts = paginator.posts | shift %}
         {% for post in shifted_posts %}
-            <article class="d-flex flex-d-c">
+            <article class="d-flex flex-d-c color-primary">
 
                 <a href="{{ post.url }}">
                     <div class="grid">
@@ -76,8 +76,8 @@ pagination:
                             <img src="{{ post.cover }}" alt="{{ post.title }}" />
                         </div>
                         <div class="article-content">
-                            <h4>{{ post.title }}</h4>
-                            <p class="description">
+                            <h4  class="fs-22 lh-150 fw-700 mb-15">{{ post.title }}</h4>
+                            <p class="description  mb-20">
                     We are thankful for the support of our backers during the private presale. It is through your
                     support that we were able to develop, audit…
                             </p>

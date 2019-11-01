@@ -22,8 +22,9 @@ section.first-post article {
         overflow: hidden;
         max-height: 375px;
         img {
-            // width: 100%;
-            max-height: 100%;
+            max-width: 100%;
+
+            min-height: 100%;
             object-fit: cover;
         }
     }
@@ -81,6 +82,7 @@ section.first-post article {
 
             .post-image {
                 width: 100%;
+                max-height: 180px;
 
                 img {
                     width: 100%;
@@ -189,49 +191,49 @@ section.first-post article {
         }
     }
 }
-.blog-index-page{
-    h1{
-        font-family: $primary-font;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 46px;
-        line-height: 120%;
-        color: $primary-color;
-        text-align: center;
-        margin-bottom: 50px;
-        margin-top: 70px;
-    }
-    
-    h2 {
-        font-family: $primary-font;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 32px;
-        line-height: 140%;
-        color: $primary-color;
-        margin-bottom: 30px;
-        margin-top: 30px;
-    }
-    
-    h3 {
-        font-family: $primary-font;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 160%;
-        color: $primary-color;
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
-    
-    h4 {
-        font-family: $primary-font;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 22px;
-        line-height: 150%;
-        color: $primary-color;
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
+.blog-index-page {
+    // h1{
+    //     font-family: $primary-font;
+    //     font-style: normal;
+    //     font-weight: 800;
+    //     font-size: 46px;
+    //     line-height: 120%;
+    //     color: $primary-color;
+    //     text-align: center;
+    //     margin-bottom: 50px;
+    //     margin-top: 70px;
+    // }
+
+    // h2 {
+    //     font-family: $primary-font;
+    //     font-style: normal;
+    //     font-weight: bold;
+    //     font-size: 32px;
+    //     line-height: 140%;
+    //     color: $primary-color;
+    //     margin-bottom: 20px;
+    //     margin-top: 20px;
+    // }
+
+    // h3 {
+    //     font-family: $primary-font;
+    //     font-style: normal;
+    //     font-weight: bold;
+    //     font-size: 24px;
+    //     line-height: 160%;
+    //     color: $primary-color;
+    //     margin-bottom: 20px;
+    //     margin-top: 20px;
+    // }
+
+    // h4 {
+    //     font-family: $primary-font;
+    //     font-style: normal;
+    //     font-weight: bold;
+    //     font-size: 22px;
+    //     line-height: 150%;
+    //     color: $primary-color;
+    //     margin-bottom: 20px;
+    //     margin-top: 20px;
+    // }
 }
