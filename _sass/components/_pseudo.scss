@@ -16,52 +16,7 @@
         bottom: 40px;
     }
 }
-@media(min-width: 580px){
-    .before-smoke{
-        &:before{
-            content: url(/images/icons/smoke.svg);
-            position: absolute;
-            left: 0;
-            top: 120px;
-        }
-    }
-    .after-wheel{
-        &:after{
-            content: url(/images/icons/wheel.svg);
-            position: absolute;
-            right: 0;
-            top: 240px;
-        }
-    }
-    .before-integraion{
-        position: relative;
-        transform-style: preserve-3d;
-        &:before{
-            content: '';
-            position: absolute;
-            width: 213px;
-            height: 507px;
-            background-image: url(/images/icons/integration-before.svg);
-            top: 537px;
-            left: -90px;
-            transform: translateZ(-1px);
-        }
-    }
-    
-    .after-integraion{
-        position: relative;
-        &:after{
-            content: '';
-            position: absolute;
-            width: 168px;
-            height: 476px;
-            background-image: url(/images/icons/integration-after.svg);
-            top: 26px;
-            right: -90px;
-            transform: translateZ(-1px);
-        }
-    }
-}
+
 @media(min-width: 1441px){
     .svg-insured{
         &:before{
@@ -156,6 +111,52 @@
             position: absolute;
             right: calc((100% - 1440px) / 2 - 560px);
             top: 0;
+        }
+    }
+}
+@media(min-width: 1200px){
+    .before-smoke{
+        &:before{
+            content: url(/images/icons/smoke.svg);
+            position: absolute;
+            left: 0;
+            top: 120px;
+        }
+    }
+    .after-wheel{
+        &:after{
+            content: url(/images/icons/wheel.svg);
+            position: absolute;
+            right: 0;
+            top: 240px;
+        }
+    }
+    .before-integraion{
+        position: relative;
+        transform-style: preserve-3d;
+        &:before{
+            content: '';
+            position: absolute;
+            width: 213px;
+            height: 507px;
+            background-image: url(/images/icons/integration-before.svg);
+            top: 537px;
+            left: -90px;
+            transform: translateZ(-1px);
+        }
+    }
+    
+    .after-integraion{
+        position: relative;
+        &:after{
+            content: '';
+            position: absolute;
+            width: 168px;
+            height: 476px;
+            background-image: url(/images/icons/integration-after.svg);
+            top: 26px;
+            right: -90px;
+            transform: translateZ(-1px);
         }
     }
 }

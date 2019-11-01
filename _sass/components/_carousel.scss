@@ -34,7 +34,7 @@
     }
 }
 .before-carousel{
-    @media(min-width: 580px){
+    @media(min-width: 1200px){
         &:before{
             content: url(/images/icons/before-carousel.svg);
             position: absolute;
