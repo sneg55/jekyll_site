@@ -19,17 +19,17 @@
     {% include header.html %}
     <main class="blog-post">
         <div class="container container-xl">
-            <h1>{{page.title}}</h1>
-            <div class="author-block d-flex j-content-center">
+            <h1 class="fw-800 fs-46 lh-120 color-primary text-center mb-20 mt-70">{{page.title}}</h1>
+            <div class="author-block d-flex j-content-center mb-30">
                 {% assign author = site.data.authors[page.author] %}
-                <div class="author-image">
+                <div class="author-image mr-20">
                     <img src="{{author.image}}" alt="{{ author.name }}">
                 </div>
-                <span class="name">{{ author.name }}</span>
+                <span class="name fw-700 fs-16 lh-150 color-secondary">{{ author.name }}</span>
                 &nbsp;
-                <span class="date">on {{ page.date | date_to_string }}</span>
+                <span class="date fs-16 lh-180">on {{ page.date | date_to_string }}</span>
             </div>
-            <div class="cover-image">
+            <div class="cover-image mb-60">
                 <img src="{{page.cover}}" alt="">
             </div>
         </div>
