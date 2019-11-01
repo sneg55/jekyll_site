@@ -144,9 +144,9 @@ section.first-post article {
         content: "";
         position: absolute;
         width: 50%;
-        background: url(/images/tunnel-right.svg);
+        background: url(/images/tunnel-left.svg);
         height: 47px;
-        left: -20%;
+        left: -4px;
         z-index: -10;
         top: 50%;
         transform: translate(0, -50%);
@@ -155,9 +155,9 @@ section.first-post article {
         content: "";
         position: absolute;
         width: 50%;
-        background: url(/images/tunnel-left.svg);
+        background: url(/images/tunnel-right.svg);
         height: 47px;
-        right: -20%;
+        right: -4px;
         z-index: -10;
         top: 50%;
         transform: translate(0, -50%);
@@ -169,9 +169,6 @@ section.first-post article {
         background: #dcebff;
         border: 2px solid #000085;
         box-sizing: border-box;
-        h2 {
-            margin: inherit;
-        }
     }
 
     @media screen and (max-width: 580px) {
@@ -196,50 +193,4 @@ section.first-post article {
             margin-top: 30px;
         }
     }
-}
-.blog-index-page {
-    // h1{
-    //     font-family: $primary-font;
-    //     font-style: normal;
-    //     font-weight: 800;
-    //     font-size: 46px;
-    //     line-height: 120%;
-    //     color: $primary-color;
-    //     text-align: center;
-    //     margin-bottom: 50px;
-    //     margin-top: 70px;
-    // }
-
-    // h2 {
-    //     font-family: $primary-font;
-    //     font-style: normal;
-    //     font-weight: bold;
-    //     font-size: 32px;
-    //     line-height: 140%;
-    //     color: $primary-color;
-    //     margin-bottom: 20px;
-    //     margin-top: 20px;
-    // }
-
-    // h3 {
-    //     font-family: $primary-font;
-    //     font-style: normal;
-    //     font-weight: bold;
-    //     font-size: 24px;
-    //     line-height: 160%;
-    //     color: $primary-color;
-    //     margin-bottom: 20px;
-    //     margin-top: 20px;
-    // }
-
-    // h4 {
-    //     font-family: $primary-font;
-    //     font-style: normal;
-    //     font-weight: bold;
-    //     font-size: 22px;
-    //     line-height: 150%;
-    //     color: $primary-color;
-    //     margin-bottom: 20px;
-    //     margin-top: 20px;
-    // }
 }
