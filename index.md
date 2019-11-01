@@ -497,7 +497,7 @@ layout: homepage
     <div class="container container-xl">
         <div class="subscription-wrapper">
             <h2>Subscribe to our newsletter</h2>
-            <button class="button button-secondary button-md d-flex j-content-center">Submit</button>
+            <button class="button button-secondary button-md d-flex j-content-center a-items-center">Submit</button>
         </div>
     </div>
 </section>

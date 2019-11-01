@@ -20,6 +20,7 @@ section.first-post article {
     .post-image {
         grid-area: cover;
         overflow: hidden;
+        max-height: 375px;
         img {
             // width: 100%;
             max-height: 100%;
@@ -124,7 +125,7 @@ section.first-post article {
 .subscription {
     position: relative;
     overflow: hidden;
-    margin-bottom: -77px;
+    margin-bottom: -75px;
     &.bg-before-team {
         &:before,
         &:after {
@@ -166,7 +167,7 @@ section.first-post article {
     }
 
     @media screen and (max-width: 580px) {
-        margin-bottom: -53px;
+        margin-bottom: -54px;
         .subscription-wrapper {
             padding: 20px 25px;
             flex-direction: column;
