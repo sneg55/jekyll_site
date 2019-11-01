@@ -1,5 +1,8 @@
 .nav-header {
     box-shadow: 0px 2px 10px rgba(13, 76, 211, 0.1);
+    .social-wrapper {
+        display: none;
+    }
 }
 
 .menu-list-item {
@@ -16,6 +19,9 @@
         text-decoration: none;
         color: $secondary-color;
         position: relative;
+        &:hover {
+            color: #000085;
+        }
         img {
             position: absolute;
             bottom: 5px;
@@ -28,7 +34,7 @@
     display: none;
 }
 
-.header-content-logo aside {
+.header-content-logo .burger-buttons {
     display: none;
 }
 
@@ -40,19 +46,31 @@
             justify-content: space-between;
             width: 100%;
 
-            aside {
-                display: block;
+            .burger-buttons {
+                display: flex;
             }
         }
         .header-content-menu {
             display: none;
             padding-top: 60px;
             height: calc(100vh - 60px);
+            flex-direction: column;
+            justify-content: space-between;
+            padding-bottom: 30px;
+            width: 100%;
+            align-items: center;
             .menu-list {
                 flex-direction: column;
-                li{
+
+                li {
                     margin-bottom: 10px;
                 }
+            }
+        }
+        .social-wrapper {
+            display: block;
+            .social-icons {
+                margin-bottom: 25px;
             }
         }
     }

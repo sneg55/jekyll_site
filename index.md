@@ -515,8 +515,8 @@ layout: homepage
 <section class="subscription mt-r-75 bg-before-team">
     <div class="container container-xl">
         <div class="subscription-wrapper">
-            <h2 class="fs-32 fw-700 lh-140 color-primary">Subscribe to our newsletter</h2>
-            <button class="button button-secondary button-md d-flex j-content-center">Submit</button>
+            <h2 class="fs-32 fw-700 lh-140 color-primary">Need help with building on bZx protocol?</h2>
+            <button class="button button-secondary button-md d-flex j-content-center a-items-center">Submit</button>
         </div>
     </div>
 </section>

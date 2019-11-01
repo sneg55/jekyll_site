@@ -2,6 +2,9 @@
 
 body {
     font-family: $primary-font;
+
+    //TODO: remove this (fix for index page horizaontal scroll caused by .svg)
+    overflow-x: hidden;
 }
 
 .bg-primary{
