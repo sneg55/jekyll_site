@@ -4,7 +4,7 @@ layout: homepage
 
 <section class="text-center color-primary">
     <div class="container container-md">
-        <h1 class="fs-46 fs-sm-32 fw-800 lh-120 mt-40 mb-30">A protocol for next generation (b)0x-standard relays</h1>
+        <h1 class="fs-46 fs-sm-32 fw-800 lh-120 mt-40 mb-30 fs-sm-32">A protocol for next generation (b)0x-standard relays</h1>
     </div>
     <div class="container container-lg">
         <p class="fs-20 fs-sm-13 lh-160 ">bZx is a financial primitive for shorting, leverage, borrowing, and lending that empowers decentralized, efficient, and rent-free blockchain applications.</p>
@@ -517,7 +517,7 @@ layout: homepage
 <section class="subscription mt-r-75 bg-before-team">
     <div class="container container-xl">
         <div class="subscription-wrapper">
-            <h2 class="fs-32 fw-700 lh-140 color-primary">Need help with building on bZx protocol?</h2>
+            <h2 class="fs-32 fs-sm-24 fw-700 lh-140 color-primary">Need help with building on bZx protocol?</h2>
             <button class="button button-secondary button-md d-flex j-content-center a-items-center">Submit</button>
         </div>
     </div>

@@ -38,20 +38,7 @@ section.first-post article {
         font-style: normal;
         color: $primary-color;
         padding: 20px;
-        h2 {
-            font-weight: bold;
-            font-size: 32px;
-            line-height: 140%;
-        }
-        .description {
-            font-weight: normal;
-            font-size: 20px;
-            line-height: 160%;
-        }
         .date {
-            font-weight: normal;
-            font-size: 14px;
-            line-height: 180%;
             color: #8080c2;
         }
     }
@@ -104,16 +91,7 @@ section.first-post article {
                 color: $primary-color;
                 padding: 20px;
 
-                .description {
-                    font-weight: normal;
-                    font-size: 16px;
-                    line-height: 160%;
-                    margin-bottom: 15px;
-                }
                 .date {
-                    font-weight: normal;
-                    font-size: 14px;
-                    line-height: 180%;
                     color: #8080c2;
                 }
             }
@@ -176,10 +154,6 @@ section.first-post article {
             flex-direction: column;
             align-items: center;
             text-align: center;
-            h2 {
-                font-size: 24px;
-                margin-bottom: 10px;
-            }
         }
     }
 }

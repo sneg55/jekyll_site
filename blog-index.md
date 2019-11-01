@@ -11,7 +11,7 @@ pagination:
 ---
 <div class="container container-xl">
     <header class="blog-index">
-        <h1 class="mb-50 mt-70 fs-46 lh-120 fw-800 color-primary text-center">bZx Blog</h1>
+        <h1 class="mb-50 mt-70 fs-46 lh-120 fw-800 color-primary text-center fs-sm-32">bZx Blog</h1>
     </header>
 </div>
 <section class="first-post">
@@ -27,12 +27,12 @@ pagination:
 
                     </div>
                     <div class="article-content">
-                        <h2 class="fs-32 lh-140 fw-700 mb-20 mt-20">{{ newest_post.title }}</h2>
-                        <p class="description  mb-20">
+                        <h2 class="fs-32 lh-140 fw-700 mb-20 mt- fs-sm-24">{{ newest_post.title }}</h2>
+                        <p class="description fs-16 fs-sm-12 lh-160 mb-20">
                     Bamboo Relay is the first 0x-standard relay, and in fact the first DEX, to ever offer non-custodial
                     peer-to-peer margin lending. The debut…
                         </p>
-                        <p class="date">{{ newest_post.date }}</p>
+                        <p class="date fs-14 fs-sm-11 lh-180">{{ newest_post.date }}</p>
                     </div>
                 </div>
             </a>
@@ -44,50 +44,14 @@ pagination:
     <div class="container container-xl posts-container">
         
         {% assign newest_post = paginator.posts.first %}
-         <article class="first-post color-primary">
-            <a href="{{ newest_post.url }}">
-                <div class="grid">
-   
-                    <div class="post-image">
-                            <img src="{{ newest_post.cover }}" alt="{{ newest_post.title }}" />
 
-                    </div>
-                    <div class="article-content">
-                        <h4 class="fs-22 lh-150 fw-700 mb-15">{{ newest_post.title }}</h4>
-                        <p class="description  mb-20">
-                    Bamboo Relay is the first 0x-standard relay, and in fact the first DEX, to ever offer non-custodial
-                    peer-to-peer margin lending. The debut…
-                        </p>
-                        <p class="date">{{ newest_post.date }}</p>
-                    </div>
-                </div>
-            </a>
-
-        </article>
+        {% include article-tile.html class="first-post" post=newest_post %}
 
         {% assign shifted_posts = paginator.posts | shift %}
         {% for post in shifted_posts %}
-            <article class="d-flex flex-d-c color-primary">
 
-                <a href="{{ post.url }}">
-                    <div class="grid">
+            {% include article-tile.html post=post %}
 
-                        <div class="post-image">
-                            <img src="{{ post.cover }}" alt="{{ post.title }}" />
-                        </div>
-                        <div class="article-content">
-                            <h4  class="fs-22 lh-150 fw-700 mb-15">{{ post.title }}</h4>
-                            <p class="description  mb-20">
-                    We are thankful for the support of our backers during the private presale. It is through your
-                    support that we were able to develop, audit…
-                            </p>
-                            <p class="date">{{ post.date }}</p>
-                        </div>
-                    </div>
-
-                </a>
-
-            </article>
         {% endfor %}
     </div>
 </section>
