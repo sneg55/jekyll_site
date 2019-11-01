@@ -24,7 +24,7 @@ layout: homepage
     {% include svg/system-mobile.svg %}
 </section>
 
-<section class="text-center pt-55 pb-80 bg-tertiary">
+<section class="text-center pt-55 pt-sm-45 pb-80 pb-sm-30 bg-tertiary">
     <div class="container container-lg p-relative before-carousel">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 color-white mb-45">Products built on bZx protocol</h2>
         <div class="d-flex j-content-sb f-wrap">
@@ -32,40 +32,40 @@ layout: homepage
                 <div class="item">
                     <img src="/images/carousel/item1.jpg" class="item-img">
                     <hr />
-                    <h3 class="fs-24 fw-700 mb-15">Fulcrum</h3>
-                    <p>DeFi margin trading and lending platform</p>
+                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Fulcrum</h3>
+                    <p class="lh-160">DeFi margin trading and lending platform</p>
                 </div>
                 <div class="item">
                     <img src="/images/carousel/item1.jpg" class="item-img">
                     <hr />
-                    <h3 class="fs-24 fw-700 mb-15>Fulcrum 2</h3>
-                    <p>DeFi margin trading and lending platform</p>
+                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Fulcrum 2</h3>
+                    <p class="lh-160">DeFi margin trading and lending platform</p>
                 </div>
                 <div class="item">
                     <img src="/images/carousel/item1.jpg" class="item-img">
                     <hr />
-                    <h3 class="fs-24 fw-700 mb-15">Fulcrum 3</h3>
-                    <p>DeFi margin trading and lending platform</p>
+                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Fulcrum 3</h3>
+                    <p class="lh-160">DeFi margin trading and lending platform</p>
                 </div>
             </div>
             <div class="owl-carousel owl-carousel-2">
                 <div class="item">
                     <img src="/images/carousel/item2.jpg" class="item-img">
                     <hr />
-                    <h3 class="fs-24 fw-700 mb-15">Torque</h3>
-                    <p>DeFi margin trading and lending platform</p>
+                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Torque</h3>
+                    <p class="lh-160">DeFi margin trading and lending platform</p>
                 </div>
                 <div class="item">
                     <img src="/images/carousel/item2.jpg" class="item-img">
                     <hr />
-                    <h3 class="fs-24 fw-700 mb-15">Torque 2</h3>
-                    <p>DeFi margin trading and lending platform</p>
+                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Torque 2</h3>
+                    <p class="lh-160">DeFi margin trading and lending platform</p>
                 </div>
                 <div class="item">
                     <img src="/images/carousel/item2.jpg" class="item-img">
                     <hr />
-                    <h3 class="fs-24 fw-700 mb-15">Torque 3</h3>
-                    <p>DeFi margin trading and lending platform</p>
+                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Torque 3</h3>
+                    <p class="lh-160">DeFi margin trading and lending platform</p>
                 </div>
             </div>
         </div>
@@ -342,7 +342,7 @@ layout: homepage
     <div class="container container-xl pb-40 pb-sm-55">
     <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-50 mb-sm-40 color-primary">History</h2>
         <div id="2019" class="tabcontent active">
-            <div class="container-tabs d-flex d-row d-sm-c">            
+            <div class="container-tabs d-flex d-row flex-sm-d-c">            
                 <div class="item-tabs mb-60 mb-sm-50">
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">Late jan-early feb, 2019</h4>
                     <p class="fs-14 lh-160 color-primary mb-sm-15">bZx sponsors ETHDenver, attracting initial attention.</p>
@@ -359,7 +359,7 @@ layout: homepage
                     <p class="fs-14 lh-160 color-primary">bZx officially announces. “Welcome to bZx” published on Medium.</p>
                 </div>            
             </div>
-            <div class="container-tabs d-flex j-content-center d-row d-sm-c">            
+            <div class="container-tabs d-flex j-content-center d-row flex-sm-d-c">            
                 <div class="item-tabs mb-90 mb-sm-50 px-25">
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">May 11, 2019</h4>
                     <p class="fs-14 lh-160 color-primary">Security audits begin on the bZx protocol contracts.</p>
@@ -371,7 +371,7 @@ layout: homepage
             </div>           
         </div>
         <div id="2018" class="tabcontent">
-            <div class="container-tabs d-flex d-row d-sm-c">            
+            <div class="container-tabs d-flex d-row flex-sm-d-c">            
                 <div class="item-tabs mb-60 mb-sm-50">
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">Late jan-early feb, 2018</h4>
                     <p class="fs-14 lh-160 color-primary mb-sm-15">bZx sponsors ETHDenver, attracting initial attention.</p>
@@ -388,7 +388,7 @@ layout: homepage
                     <p class="fs-14 lh-160 color-primary">bZx officially announces. “Welcome to bZx” published on Medium.</p>
                 </div>            
             </div>
-            <div class="container-tabs d-flex j-content-center d-row d-sm-c">            
+            <div class="container-tabs d-flex j-content-center d-row flex-sm-d-c">            
                 <div class="item-tabs mb-90 mb-sm-50 px-25">
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">May 11, 2018</h4>
                     <p class="fs-14 lh-160 color-primary">Security audits begin on the bZx protocol contracts.</p>
@@ -400,7 +400,7 @@ layout: homepage
             </div> 
         </div>
         <div id="2017" class="tabcontent">
-            <div class="container-tabs d-flex d-row d-sm-c">            
+            <div class="container-tabs d-flex d-row flex-sm-d-c">            
                 <div class="item-tabs mb-60 mb-sm-50">
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">Late jan-early feb, 2017</h4>
                     <p class="fs-14 lh-160 color-primary mb-sm-15">bZx sponsors ETHDenver, attracting initial attention.</p>
@@ -417,7 +417,7 @@ layout: homepage
                     <p class="fs-14 lh-160 color-primary">bZx officially announces. “Welcome to bZx” published on Medium.</p>
                 </div>            
             </div>
-            <div class="container-tabs d-flex j-content-center d-row d-sm-c">            
+            <div class="container-tabs d-flex j-content-center d-row flex-sm-d-c">            
                 <div class="item-tabs mb-90 mb-sm-50 px-25">
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">May 11, 2017</h4>
                     <p class="fs-14 lh-160 color-primary">Security audits begin on the bZx protocol contracts.</p>
@@ -448,29 +448,31 @@ layout: homepage
 
 {% include dots.html %}
 
-<section class="bg-primary wrapper-team pt-40 pb-80 overflow">
-    <h2 class="fs-32 fs-sm-24 lh-140 fw-700 mb-35 color-white text-center">Team & Advisors</h2>
+<section class="bg-primary wrapper-team pt-35 pb-80 overflow">
+    <h2 class="fs-32 fs-sm-24 lh-140 fw-700 mb-35 mb-sm-20 color-white text-center">Team & Advisors</h2>
     <div class="container d-flex j-content-sb container-team p-relative">
         {% for item in site.data.team %}
-            <div class="item-team">
+            <div class="item-team d-flex flex-d-c flex-sm-d-r">
                 <div class="wrapper-img-team">
                     <img src="{{ item.image }}" class="img-team">
                 </div>
-                <h4 class="fs-22 lh-150 color-primary mb-5">{{ item.name }}</h4>
-                <p class="fs-14 lh-180 mb-15">{{ item.bio }}</p>
-                <div class="icon-media">
-                    <a href="{{ item.info }}">
-                        <img src="/images/icons/info.svg" alt="info">
-                    </a>
-                    <a href="{{ item.github }}">
-                        <img src="/images/icons/github.svg" alt="github">
-                    </a>
-                    <a href="{{ item.linkedin }}">
-                        <img src="/images/icons/linkedin.svg" alt="linkedin">
-                    </a>
-                    <a href="{{ item.mail }}">
-                        <img src="/images/icons/mail.svg" alt="mail">
-                    </a>
+                <div>
+                    <h4 class="fs-22 fs-sm-18 lh-150 color-primary mb-5">{{ item.name }}</h4>
+                    <p class="fs-14 fs-sm-12 lh-180 mb-15">{{ item.bio }}</p>
+                    <div class="icon-media">
+                        <a href="{{ item.info }}">
+                            <img src="/images/icons/info.svg" alt="info">
+                        </a>
+                        <a href="{{ item.github }}">
+                            <img src="/images/icons/github.svg" alt="github">
+                        </a>
+                        <a href="{{ item.linkedin }}">
+                            <img src="/images/icons/linkedin.svg" alt="linkedin">
+                        </a>
+                        <a href="{{ item.mail }}">
+                            <img src="/images/icons/mail.svg" alt="mail">
+                        </a>
+                    </div>
                 </div>
             </div>
         {% endfor %}

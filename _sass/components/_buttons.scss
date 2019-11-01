@@ -76,8 +76,13 @@
         max-width: 190px;
         min-width: 190px;
         @media(max-width: 579px){
+            font-size: 10px;
             max-width: 166px;
             min-width: 166px;
+        }
+        @media(max-width: 374px){
+            max-width: 140px;
+            min-width: 140px;
         }
     }
     &.button-md{
