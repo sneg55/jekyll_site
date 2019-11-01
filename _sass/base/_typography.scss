@@ -1,5 +1,8 @@
 @import '_variables';
 /* font-size */
+.fs-12{
+    font-size: 12px;
+}
 .fs-14{
     font-size: 14px;
 }
@@ -72,6 +75,12 @@
     }
     .fs-sm-32{
         font-size: 32px;
+    }
+    .lh-sm-120{
+        line-height: 1.2;
+    }
+    .lh-sm-130{
+        line-height: 1.3;
     }
     .lh-sm-150{
         line-height: 1.5;
