@@ -91,7 +91,7 @@ pagination:
         {% endfor %}
     </div>
 </section>
-<section class="pagination">
+<section class="pagination mt-50 mb-90">
     <div class="container container-xl">
 
         {% if paginator.total_pages > 1 %}
