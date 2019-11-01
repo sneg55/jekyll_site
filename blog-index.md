@@ -11,7 +11,7 @@ pagination:
 ---
 <div class="container container-xl">
     <header class="blog-index">
-        <h1 class="mb-50 mt-70 fs-46 lh-120 fw-800 color-primary text-center fs-sm-32">bZx Blog</h1>
+        <h1 class="mb-50 mt-70 mt-sm-30 mb-sm-30 fs-46 lh-120 fw-800 color-primary text-center fs-sm-32">bZx Blog</h1>
     </header>
 </div>
 <section class="first-post">
