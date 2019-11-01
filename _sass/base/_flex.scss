@@ -29,3 +29,8 @@
 .flex-d-r{
     flex-direction: row;
 }
+@media(max-width: 579px){
+    .d-sm-c{
+        flex-direction: column;
+    }
+}

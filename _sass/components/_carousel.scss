@@ -1,6 +1,8 @@
 .owl-carousel{
     position: relative;
-    width: 50%;
+    @media(min-width: 580px){
+        width: 50%;
+    }    
     .item{
         color: #FFFFFF;
         hr{
@@ -32,17 +34,19 @@
     }
 }
 .before-carousel{
-    &:before{
-        content: url(/images/icons/before-carousel.svg);
-        position: absolute;
-        left: -130px;
-        top: 45px;
-    }
-    &:after{
-        content: url(/images/icons/after-carousel.svg);
-        position: absolute;
-        right: -120px;
-        bottom: -105px;
-        z-index: 2;
+    @media(min-width: 580px){
+        &:before{
+            content: url(/images/icons/before-carousel.svg);
+            position: absolute;
+            left: -130px;
+            top: 45px;
+        }
+        &:after{
+            content: url(/images/icons/after-carousel.svg);
+            position: absolute;
+            right: -120px;
+            bottom: -105px;
+            z-index: 2;
+        }
     }
 }

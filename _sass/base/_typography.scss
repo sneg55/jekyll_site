@@ -54,3 +54,26 @@
 .color-white{
     color: #FFFFFF;
 }
+@media(max-width: 579px){
+    .fs-sm-10{
+        font-size: 10px;
+    }
+    .fs-sm-13{
+        font-size: 13px;
+    }
+    .fs-sm-18{
+        font-size: 18px;
+    }
+    .fs-sm-20{
+        font-size: 20px;
+    }
+    .fs-sm-24{
+        font-size: 24px;
+    }
+    .fs-sm-32{
+        font-size: 32px;
+    }
+    .lh-sm-150{
+        line-height: 1.5;
+    }
+}

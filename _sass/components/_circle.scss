@@ -12,6 +12,16 @@
         top: 14px;
         .container-coin &{
             top: 31px;
+            @media(max-width: 579px){
+                .container-coin-dark &{  
+                    top: 28px;
+                }
+            }
+        }
+        @media(max-width: 579px){
+            .container-coin-dark &{  
+                top: 17px;
+            }
         }
         .after-team &{
             top: 6px;
