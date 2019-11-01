@@ -29,3 +29,11 @@
 .flex-d-r{
     flex-direction: row;
 }
+@media(max-width: 579px){
+    .flex-sm-d-r{
+        flex-direction: row;
+    }
+    .flex-sm-d-c{
+        flex-direction: column;
+    }
+}

@@ -1,9 +1,26 @@
 .nav-header {
-    box-shadow: 0px 2px 10px rgba(13, 76, 211, 0.1);
     .social-wrapper {
         display: none;
     }
 }
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    opacity: 1;
+    background: #fff;
+    box-shadow: 0px 2px 10px rgba(13, 76, 211, 0.1);
+
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + section,  
+.sticky + div  {
+    padding-top: 70px;
+  }
 
 .menu-list-item {
     &:not(:last-child) {
@@ -34,8 +51,11 @@
     display: none;
 }
 
-.header-content-logo aside {
+.header-content-logo .burger-buttons {
     display: none;
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 @media screen and (max-width: 580px) {
@@ -46,8 +66,8 @@
             justify-content: space-between;
             width: 100%;
 
-            aside {
-                display: block;
+            .burger-buttons {
+                display: flex;
             }
         }
         .header-content-menu {
