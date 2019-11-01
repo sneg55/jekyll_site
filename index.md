@@ -24,7 +24,7 @@ layout: homepage
     {% include svg/system-mobile.svg %}
 </section>
 
-<section class="text-center pt-55 pb-80 bg-tertiary">
+<section class="text-center pt-55 pt-sm-45 pb-80 pb-sm-30 bg-tertiary">
     <div class="container container-lg p-relative before-carousel">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 color-white mb-45">Products built on bZx protocol</h2>
         <div class="d-flex j-content-sb f-wrap">
@@ -32,40 +32,40 @@ layout: homepage
                 <div class="item">
                     <img src="/images/carousel/item1.jpg" class="item-img">
                     <hr />
-                    <h3 class="fs-24 fw-700 mb-15">Fulcrum</h3>
-                    <p>DeFi margin trading and lending platform</p>
+                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Fulcrum</h3>
+                    <p class="lh-160">DeFi margin trading and lending platform</p>
                 </div>
                 <div class="item">
                     <img src="/images/carousel/item1.jpg" class="item-img">
                     <hr />
-                    <h3 class="fs-24 fw-700 mb-15>Fulcrum 2</h3>
-                    <p>DeFi margin trading and lending platform</p>
+                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Fulcrum 2</h3>
+                    <p class="lh-160">DeFi margin trading and lending platform</p>
                 </div>
                 <div class="item">
                     <img src="/images/carousel/item1.jpg" class="item-img">
                     <hr />
-                    <h3 class="fs-24 fw-700 mb-15">Fulcrum 3</h3>
-                    <p>DeFi margin trading and lending platform</p>
+                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Fulcrum 3</h3>
+                    <p class="lh-160">DeFi margin trading and lending platform</p>
                 </div>
             </div>
             <div class="owl-carousel owl-carousel-2">
                 <div class="item">
                     <img src="/images/carousel/item2.jpg" class="item-img">
                     <hr />
-                    <h3 class="fs-24 fw-700 mb-15">Torque</h3>
-                    <p>DeFi margin trading and lending platform</p>
+                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Torque</h3>
+                    <p class="lh-160">DeFi margin trading and lending platform</p>
                 </div>
                 <div class="item">
                     <img src="/images/carousel/item2.jpg" class="item-img">
                     <hr />
-                    <h3 class="fs-24 fw-700 mb-15">Torque 2</h3>
-                    <p>DeFi margin trading and lending platform</p>
+                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Torque 2</h3>
+                    <p class="lh-160">DeFi margin trading and lending platform</p>
                 </div>
                 <div class="item">
                     <img src="/images/carousel/item2.jpg" class="item-img">
                     <hr />
-                    <h3 class="fs-24 fw-700 mb-15">Torque 3</h3>
-                    <p>DeFi margin trading and lending platform</p>
+                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Torque 3</h3>
+                    <p class="lh-160">DeFi margin trading and lending platform</p>
                 </div>
             </div>
         </div>
