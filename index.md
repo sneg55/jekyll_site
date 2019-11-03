@@ -454,7 +454,7 @@ layout: homepage
                         <a href="{{ item.linkedin }}">
                             <img src="/images/icons/linkedin.svg" alt="linkedin">
                         </a>
-                        <a href="{{ item.mail }}">
+                        <a href="mailto:{{ item.mail }}">
                             <img src="/images/icons/mail.svg" alt="mail">
                         </a>
                     </div>
