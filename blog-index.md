@@ -7,11 +7,11 @@ pagination:
   enabled: true
   per_page: 10
   collection: posts
-  permalink: /:num/ 
+  permalink: /:num/
 ---
 <div class="container container-xl">
     <header class="blog-index">
-        <h1 class="mb-50 mt-70 mt-sm-30 mb-sm-30 fs-46 lh-120 fw-800 color-primary text-center fs-sm-32">bZx Blog</h1>
+        <h1 class="mb-50 mt-70 mt-sm-30 mb-sm-30 fs-46 lh-120 fw-800 color-primary text-center fs-sm-32">bZx Protocol Blog</h1>
     </header>
 </div>
 <section class="first-post">
@@ -21,7 +21,7 @@ pagination:
             {% assign newest_post = paginator.posts.first %}
             <a href="{{ newest_post.url }}">
                 <div class="grid">
-   
+
                     <div class="post-image">
                             <img src="{{ newest_post.cover }}" alt="{{ newest_post.title }}" />
 
@@ -32,7 +32,7 @@ pagination:
                     Bamboo Relay is the first 0x-standard relay, and in fact the first DEX, to ever offer non-custodial
                     peer-to-peer margin lending. The debut…
                         </p>
-                        <p class="date fs-14 fs-sm-11 lh-180">{{ newest_post.date }}</p>
+                        <p class="date fs-14 fs-sm-11 lh-180">{{ newest_post.date | date_to_string }}</p>
                     </div>
                 </div>
             </a>
@@ -42,7 +42,7 @@ pagination:
 </section>
 <section class="posts">
     <div class="container container-xl posts-container">
-        
+
         {% assign newest_post = paginator.posts.first %}
 
         {% include article-tile.html class="first-post" post=newest_post %}
@@ -78,4 +78,3 @@ pagination:
 </section>
 
 {% include subscription.html content="Subscribe to our newsletter" %}
-
