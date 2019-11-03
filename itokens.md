@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: press
-metadescription: Press about bZx
+permalink: itokens
+metadescription: about iTokens
 featured-image: /images/ogp.png
-title: Press about bZx
-h1title: Press about bZx
+title: iTokens
+h1title: What is iTokens?
 ---
 
 iTokens

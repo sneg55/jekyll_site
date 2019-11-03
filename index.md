@@ -1,22 +1,25 @@
 ---
 layout: homepage
+featured-image: /images/ogp.png
+metadescription: "bZx is a financial primitive for shorting, leverage, borrowing, and lending that empowers decentralized, efficient, and rent-free blockchain applications."
+title: bZx - Protocol for tokenized margin trading and lending
 ---
 
 <section class="text-center color-primary">
     <div class="container container-md">
-        <h1 class="fs-46 fs-sm-32 fw-800 lh-120 mt-40 mb-30 fs-sm-32">A protocol for next generation (b)0x-standard relays</h1>
+        <h1 class="fs-46 fs-sm-32 fw-800 lh-120 mt-40 mb-30 fs-sm-32">bZx Protocol</h1>
     </div>
     <div class="container container-lg">
-        <p class="fs-20 fs-sm-13 lh-160 ">bZx is a financial primitive for shorting, leverage, borrowing, and lending that empowers decentralized, efficient, and rent-free blockchain applications.</p>
+        <p class="fs-20 fs-sm-13 lh-160 ">bZx Protocol is a financial primitive for shorting, leverage, borrowing, and lending that empowers decentralized, efficient, and rent-free blockchain applications.</p>
     </div>
 </section>
 
 <section class="mt-40 bg-wave text-center">
     <div class="container container-md d-flex f-wrap j-content-sb px-65 px-sm-15">
-        <a href="https://medium.com/bzxnetwork" class="button button-primary button-lg d-flex j-content-center mb-10">Medium</a>
+        <a href="https://twitter.com/b0xNet" class="button button-primary button-lg d-flex j-content-center mb-10">Twitter</a>
         <a href="#" class="button button-primary button-lg d-flex j-content-center mb-10">Join mailing list</a>
-        <a href="https://docs.bzx.network/" class="button button-primary button-lg d-flex j-content-center mb-10">Read the docs</a>
         <a href="https://t.me/b0xNet" class="button button-primary button-lg d-flex j-content-center mb-10">Telegram</a>
+        <a href="https://docs.bzx.network/" class="button button-primary button-lg d-flex j-content-center mb-10">Read the docs</a>
         <a href="https://github.com/bZxNetwork" class="button button-primary button-lg d-flex j-content-center mb-10">Github</a>
         <a href="https://bzx.network/discord" class="button button-primary button-lg d-flex j-content-center mb-10">Technical community</a>
     </div>
@@ -30,7 +33,7 @@ layout: homepage
         <div class="d-flex j-content-sb f-wrap">
             <div class="owl-carousel owl-carousel-1">
                 <div class="item">
-                    <img src="/images/carousel/item1.jpg" class="item-img">
+                  <a href="https://fulcrum.trade">  <img src="/images/carousel/item1.jpg" class="item-img"></a>
                     <hr />
                     <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Fulcrum</h3>
                     <p class="lh-160">DeFi margin trading and lending platform</p>
@@ -50,10 +53,10 @@ layout: homepage
             </div>
             <div class="owl-carousel owl-carousel-2">
                 <div class="item">
-                    <img src="/images/carousel/item2.jpg" class="item-img">
+                    <a href="https://torque.loans"><img src="/images/carousel/item2.jpg" class="item-img"></a>
                     <hr />
                     <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Torque</h3>
-                    <p class="lh-160">DeFi margin trading and lending platform</p>
+                    <p class="lh-160">Indefinite-term loans and fixed interest rates</p>
                 </div>
                 <div class="item">
                     <img src="/images/carousel/item2.jpg" class="item-img">
@@ -74,7 +77,7 @@ layout: homepage
 
 <section class="bg-tertiary color-white p-relative svg-integration overflow">
     <div class="container container-xl before-integraion after-integraion pb-445 pb-sm-0 z-index-2">
-        <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-45">Integrations</h2>
+        <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-45">Community built integrations</h2>
         <div class="d-flex f-wrap j-content-sb">
             <div class="wrap-integrations after">
                 <div class="item-integrations">
@@ -180,7 +183,7 @@ layout: homepage
             <div class="mw-px-280 mb-sm-40">
                 {% include svg/minimal-risk.svg %}
                 <h3 class="fs-24 fs-sm-20 lh-160 mb-15">Minimal Risk</h3>
-                <p class="fs-14 fs-sm-10 lh-160">Whether you’re a lender or borrower, you stay in control of your keys. Never worry about exchanges getting hacked or stealing your funds. bZx smart contracts  passed a successful audit by ZK Labs.</p>
+                <p class="fs-14 fs-sm-10 lh-160">Whether you’re a lender or borrower, you stay in control of your keys. Never worry about exchanges getting hacked or stealing your funds. bZx smart contracts  passed a <a href="https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf">successful audit</a> by ZK Labs.</p>
             </div>
             <div class="mw-px-280 mb-sm-40">
                 {% include svg/passive-income.svg %}
@@ -445,17 +448,17 @@ layout: homepage
                     <h4 class="fs-22 fs-sm-18 lh-150 color-primary mb-5">{{ item.name }}</h4>
                     <p class="fs-14 fs-sm-12 lh-180 mb-15">{{ item.bio }}</p>
                     <div class="icon-media">
-                        <a href="{{ item.info }}">
+                        <a href="{{ item.info }}" >
                             <img src="/images/icons/info.svg" alt="info">
                         </a>
-                        <a href="{{ item.github }}">
-                            <img src="/images/icons/github.svg" alt="github">
+                        <a href="{{ item.github }}" target="_blank">
+                            <img src="/images/icons/github.svg" alt="github" target="_blank">
                         </a>
                         <a href="{{ item.linkedin }}">
-                            <img src="/images/icons/linkedin.svg" alt="linkedin">
+                            <img src="/images/icons/linkedin.svg" alt="linkedin" target="_blank">
                         </a>
                         <a href="mailto:{{ item.mail }}">
-                            <img src="/images/icons/mail.svg" alt="mail">
+                            <img src="/images/icons/mail.svg" alt="mail" target="_blank" >
                         </a>
                     </div>
                 </div>
