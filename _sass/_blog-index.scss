@@ -16,13 +16,18 @@ section.first-post article {
     &:hover {
         box-shadow: 0px 8px 16px rgba(13, 76, 211, 0.16);
         cursor: pointer;
+        h2 {
+            color: #003cda;
+        }
     }
     .post-image {
         grid-area: cover;
         overflow: hidden;
+        max-height: 375px;
         img {
-            // width: 100%;
-            max-height: 100%;
+            max-width: 100%;
+
+            min-height: 100%;
             object-fit: cover;
         }
     }
@@ -33,20 +38,7 @@ section.first-post article {
         font-style: normal;
         color: $primary-color;
         padding: 20px;
-        h2 {
-            font-weight: bold;
-            font-size: 32px;
-            line-height: 140%;
-        }
-        .description {
-            font-weight: normal;
-            font-size: 20px;
-            line-height: 160%;
-        }
         .date {
-            font-weight: normal;
-            font-size: 14px;
-            line-height: 180%;
             color: #8080c2;
         }
     }
@@ -76,10 +68,14 @@ section.first-post article {
             &:hover {
                 box-shadow: 0px 8px 16px rgba(13, 76, 211, 0.16);
                 cursor: pointer;
+                h4 {
+                    color: #003cda;
+                }
             }
 
             .post-image {
                 width: 100%;
+                max-height: 180px;
 
                 img {
                     width: 100%;
@@ -95,16 +91,7 @@ section.first-post article {
                 color: $primary-color;
                 padding: 20px;
 
-                .description {
-                    font-weight: normal;
-                    font-size: 16px;
-                    line-height: 160%;
-                    margin-bottom: 15px;
-                }
                 .date {
-                    font-weight: normal;
-                    font-size: 14px;
-                    line-height: 180%;
                     color: #8080c2;
                 }
             }
@@ -113,8 +100,6 @@ section.first-post article {
 }
 
 .pagination {
-    margin: 90px auto;
-
     ul {
         max-width: 450px;
         margin: 0 auto;
@@ -124,7 +109,7 @@ section.first-post article {
 .subscription {
     position: relative;
     overflow: hidden;
-    margin-bottom: -77px;
+    margin-bottom: -75px;
     &.bg-before-team {
         &:before,
         &:after {
@@ -135,9 +120,9 @@ section.first-post article {
         content: "";
         position: absolute;
         width: 50%;
-        background: url(/images/tunnel-right.svg);
+        background: url(/images/tunnel-left.svg);
         height: 47px;
-        left: -20%;
+        left: -4px;
         z-index: -10;
         top: 50%;
         transform: translate(0, -50%);
@@ -146,9 +131,9 @@ section.first-post article {
         content: "";
         position: absolute;
         width: 50%;
-        background: url(/images/tunnel-left.svg);
+        background: url(/images/tunnel-right.svg);
         height: 47px;
-        right: -20%;
+        right: -4px;
         z-index: -10;
         top: 50%;
         transform: translate(0, -50%);
@@ -160,31 +145,16 @@ section.first-post article {
         background: #dcebff;
         border: 2px solid #000085;
         box-sizing: border-box;
-        h2 {
-            margin: inherit;
-        }
     }
 
     @media screen and (max-width: 580px) {
-        margin-bottom: -53px;
+        margin-bottom: -54px;
         .subscription-wrapper {
             padding: 20px 25px;
             flex-direction: column;
             align-items: center;
             text-align: center;
-            h2 {
-                font-size: 24px;
-                margin-bottom: 10px;
-            }
         }
     }
 }
 
-.blog-index-page {
-    h1 {
-        @media screen and (max-width: 580px) {
-            margin-bottom: 30px;
-            margin-top: 30px;
-        }
-    }
-}

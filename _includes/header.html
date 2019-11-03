@@ -5,10 +5,10 @@
                 <a href="{{ site.baseurl }}/" class="logo">
                     <img src="/images/logo.svg" alt="" />
                 </a>
-                <aside>
+                <div class="burger-buttons">
                     <img id="hamburger_menu_open" src="/images/icons/hamburger-closed.svg" />
                     <img id="hamburger_menu_close" src="/images/icons/hamburger-opened.svg" />
-                </aside>
+                </div>
             </div>
             <div class="header-content-menu ">
                 <ul class="menu-list d-flex">
@@ -76,25 +76,40 @@
             </div>
         </div>
     </div>
+    <script>
+        //Add event handler with addEventListener (not window.onload)
+        window.addEventListener('load', () => {
+            $("#hamburger_menu_open").on('click', (e) => {
+                $("#hamburger_menu_close").show();
+                $(e.currentTarget).hide();
+                $(document.body).css('overflow', 'hidden');
+                $(".header-content-menu").css('display', 'flex');
+            })
+            $("#hamburger_menu_close").on('click', (e) => {
+                $(e.currentTarget).hide();
+                $("#hamburger_menu_open").show();
+                $(document.body).css('overflow', 'visible');
+                $(".header-content-menu").css('display', 'none');
+
+            })
+        });
+
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function () { myFunction() };
+
+        // Get the header
+        var header = document.querySelector(".nav-header");
+
+        // Get the offset position of the navbar
+        var sticky = header.offsetTop;
+
+        // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
 </header>
-<script>
-    //Add event handler with addEventListener (not window.onload)
-    window.addEventListener('load', () => {
-        $("#hamburger_menu_open").on('click', () => {
-            $("#hamburger_menu_close").css('display', 'block')
-            $("#hamburger_menu_open").css('display', 'none');;
-            $(document.body).css('overflow', 'hidden');
-            $(".header-content-menu").slideToggle("slow", function () {
-                if ($(this).is(':visible'))
-                    $(this).css('display', 'flex');
-            });
-        })
-        $("#hamburger_menu_close").on('click', () => {
-            $("#hamburger_menu_close").css('display', 'none');
-            $("#hamburger_menu_open").css('display', 'block');
-            $(document.body).css('overflow', 'visible');
-            $(".header-content-menu").slideToggle("slow");
-            
-        })
-    });
-</script>

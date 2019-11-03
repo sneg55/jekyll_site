@@ -9,18 +9,6 @@
         }
     }
 
-    h1 {
-        font-family: $primary-font;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 46px;
-        line-height: 120%;
-        color: $primary-color;
-        text-align: center;
-        margin-bottom: 50px;
-        margin-top: 70px;
-    }
-
     h2 {
         font-family: $primary-font;
         font-style: normal;
@@ -28,8 +16,11 @@
         font-size: 32px;
         line-height: 140%;
         color: $primary-color;
-        margin-bottom: 30px;
-        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+        @media screen and (max-width: 580px) {
+            font-size: 24px;
+        }
     }
 
     h3 {
@@ -39,8 +30,12 @@
         font-size: 24px;
         line-height: 160%;
         color: $primary-color;
-        margin-bottom: 20px;
-        margin-top: 20px;
+        margin-bottom: 15px;
+        margin-top: 35px;
+
+        @media screen and (max-width: 580px) {
+            font-size: 20px;
+        }
     }
 
     h4 {
@@ -50,8 +45,11 @@
         font-size: 22px;
         line-height: 150%;
         color: $primary-color;
-        margin-bottom: 20px;
-        margin-top: 20px;
+        margin-bottom: 1;
+        margin-top: 30px;
+        @media screen and (max-width: 580px) {
+            font-size: 18px;
+        }
     }
 
     p {
@@ -62,6 +60,10 @@
         line-height: 180%;
         color: $primary-color;
         margin-bottom: 20px;
+
+        @media screen and (max-width: 580px) {
+            font-size: 13px;
+        }
     }
 
     em {
@@ -84,6 +86,9 @@
         padding-top: 20px;
         margin-top: 40px;
         margin-bottom: 20px;
+        @media screen and (max-width: 580px) {
+            font-size: 18px;
+        }
 
         &:before {
             content: "";
@@ -101,6 +106,9 @@
             font-size: 22px;
             line-height: 180%;
             color: #5b88ff;
+            @media screen and (max-width: 580px) {
+                font-size: 18px;
+            }
         }
     }
     ul,
@@ -114,6 +122,9 @@
         font-size: 18px;
         line-height: 180%;
         color: #000085;
+        @media screen and (max-width: 580px) {
+            font-size: 13px;
+        }
         &:before {
             content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
             color: #33dfcc; /* Change the color */
@@ -132,6 +143,9 @@
         font-size: 18px;
         line-height: 180%;
         color: #000085;
+        @media screen and (max-width: 580px) {
+            font-size: 13px;
+        }
         &:before {
             content: counter(li) "."; /* Add content: \2022 is the CSS Code/unicode for a bullet */
             color: #33dfcc; /* Change the color */
@@ -152,14 +166,16 @@
         max-height: 100%;
         max-width: 100%;
         display: block;
-        margin: 0 auto;
-        margin-bottom: 10px;
+        margin: 30px auto;
         & + em {
             font-style: normal;
             font-weight: normal;
             font-size: 14px;
             line-height: 180%;
             color: #828282;
+            @media screen and (max-width: 580px) {
+                font-size: 10px;
+            }
         }
     }
 }

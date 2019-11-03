@@ -1,9 +1,7 @@
 .blog-post {
     .author-block {
         align-items: center;
-        margin-bottom: 20px;
         .author-image {
-            margin-right: 20px;
             height: 50px;
             > img {
                 border-radius: 50%;
@@ -13,21 +11,13 @@
                 margin: 0 auto;
             }
         }
-        .name {
-            color: #003cda;
-            font-weight: bold;
-            font-size: 16px;
-            line-height: 150%;
-        }
+
         .date {
             color: #828282;
-            font-size: 16px;
-            line-height: 180%;
         }
     }
     .cover-image {
         max-width: 100%;
-        margin-bottom: 40px;
         img {
             width: 100%;
             display: block;
@@ -84,13 +74,5 @@
         color: #828282;
         font-size: 14px;
         line-height: 180%;
-    }
-}
-
-.read-more {
-    padding-top: 30px;
-    padding-bottom: 50px;
-    h2 {
-        margin-bottom: 45px;
     }
 }
