@@ -13,12 +13,12 @@ layout: homepage
 
 <section class="mt-40 bg-wave text-center">
     <div class="container container-md d-flex f-wrap j-content-sb px-65 px-sm-15">
-        <a href="#" class="button button-primary button-lg d-flex j-content-center mb-10">Medium</a>
+        <a href="https://medium.com/bzxnetwork" class="button button-primary button-lg d-flex j-content-center mb-10">Medium</a>
         <a href="#" class="button button-primary button-lg d-flex j-content-center mb-10">Join mailing list</a>
-        <a href="#" class="button button-primary button-lg d-flex j-content-center mb-10">Read the docs</a>
-        <a href="#" class="button button-primary button-lg d-flex j-content-center mb-10">Telegram</a>
-        <a href="#" class="button button-primary button-lg d-flex j-content-center mb-10">Github</a>
-        <a href="#" class="button button-primary button-lg d-flex j-content-center mb-10">Technical community</a>
+        <a href="https://docs.bzx.network/" class="button button-primary button-lg d-flex j-content-center mb-10">Read the docs</a>
+        <a href="https://t.me/b0xNet" class="button button-primary button-lg d-flex j-content-center mb-10">Telegram</a>
+        <a href="https://github.com/bZxNetwork" class="button button-primary button-lg d-flex j-content-center mb-10">Github</a>
+        <a href="https://bzx.network/discord" class="button button-primary button-lg d-flex j-content-center mb-10">Technical community</a>
     </div>
     {% include svg/system.svg %}
     {% include svg/system-mobile.svg %}
@@ -69,7 +69,7 @@ layout: homepage
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 </section>
 
 <section class="bg-tertiary color-white p-relative svg-integration overflow">
@@ -175,7 +175,7 @@ layout: homepage
     <div class="container container-sm">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-45">Why Is Decentralized Margin Trading Better?</h2>
     </div>
-    <div class="container container-xl">        
+    <div class="container container-xl">
         <div class="d-flex j-content-sb f-wrap px-50 px-sm-40">
             <div class="mw-px-280 mb-sm-40">
                 {% include svg/minimal-risk.svg %}
@@ -196,7 +196,7 @@ layout: homepage
     </div>
 </section>
 
-<section class="text-center bg-primary color-white p-relative overflow-xl">    
+<section class="text-center bg-primary color-white p-relative overflow-xl">
     <div class="container container-md pt-55 pt-sm-0 p-relative z-index-2">
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-15 color-tertiary">Insured with the bZx guarantee fund</h3>
         <p class="lh-160 mb-30">bZx pools loans together in a decentralized clearinghouse. Lenders can lend to a whole pool of people, averaging risk across many borrowers, allowing for a more predictable income stream. All bZx loans are insured with the bZx guarantee fund.</p>
@@ -209,7 +209,7 @@ layout: homepage
     <div class="p-relative before-smoke after-wheel">
         <div class="p-relative rotate-line">
             {% include svg/rotate-line.svg %}
-        </div> 
+        </div>
         <div class="container container-sm mb-60 mb-sm-10 mt-115 mt-sm-20 p-relative opacity-trumpet">
             <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-30 color-tertiary">BZRX Governance Token </h3>
             <p class="lh-160 mb-25">The BZRX token is used by relays to collect trading fees. Token holders decide how to upgrade the bZx protocol.</p>
@@ -219,7 +219,7 @@ layout: homepage
     <div class="p-relative rotate-line-2 mb-20 mb-sm-0">
         {% include svg/token.svg %}
         {% include svg/token-mobile.svg %}
-    </div> 
+    </div>
 </section>
 
 {% include dots.html %}
@@ -249,8 +249,8 @@ layout: homepage
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-15 color-tertiary">Leveraged Positions</h3>
         <p class="lh-160 mb-15">Leveraged positions use the same mechanics as short positions, but with leveraged positions you’re able to borrow more than you have. For example, you could go 100x long on Ethereum. </p>
         <p class="lh-160 mb-20">You can easily integrate bZx protocol into your exchange, wallet or web3 app. </p>
-        <a href="#" class="button button-primary button-sm mx-15 d-inline-block">Github</a>
-        <a href="#" class="button button-primary button-sm mx-15 d-inline-block">Developers docs</a>
+        <a href="https://github.com/bZxNetwork" class="button button-primary button-sm mx-15 d-inline-block">Github</a>
+        <a href="https://docs.bzx.network/" class="button button-primary button-sm mx-15 d-inline-block">Developers docs</a>
     </div>
     <div>
         <div class="p-relative before-line">
@@ -342,91 +342,76 @@ layout: homepage
     <div class="container container-xl pb-40 pb-sm-55">
     <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-50 mb-sm-40 color-primary">History</h2>
         <div id="2019" class="tabcontent active">
-            <div class="container-tabs d-flex d-row flex-sm-d-c">            
-                <div class="item-tabs mb-60 mb-sm-50">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">Late jan-early feb, 2019</h4>
-                    <p class="fs-14 lh-160 color-primary mb-sm-15">bZx sponsors ETHDenver, attracting initial attention.</p>
-                    <p class="fs-14 lh-160 color-primary">bZx officially announces. “Welcome to bZx” published on Medium.</p>
-                </div>
-                <div class="item-tabs mb-60 mb-sm-50">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">Late jan-early feb, 2019</h4>
-                    <p class="fs-14 lh-160 color-primary mb-sm-15">bZx sponsors ETHDenver, attracting initial attention.</p>
-                    <p class="fs-14 lh-160 color-primary">bZx officially announces. “Welcome to bZx” published on Medium.</p>
-                </div>
-                <div class="item-tabs mb-60 mb-sm-50">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">Late jan-early feb, 2019</h4>
-                    <p class="fs-14 lh-160 color-primary mb-sm-15">bZx sponsors ETHDenver, attracting initial attention.</p>
-                    <p class="fs-14 lh-160 color-primary">bZx officially announces. “Welcome to bZx” published on Medium.</p>
-                </div>            
-            </div>
-            <div class="container-tabs d-flex j-content-center d-row flex-sm-d-c">            
-                <div class="item-tabs mb-90 mb-sm-50 px-25">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">May 11, 2019</h4>
-                    <p class="fs-14 lh-160 color-primary">Security audits begin on the bZx protocol contracts.</p>
-                </div>
-                <div class="item-tabs mb-90 mb-sm-50 px-25">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">June–July, 2019</h4>
-                    <p class="fs-14 lh-160 color-primary">bZx launches full website. Mainnet beta release of the bZx protocol.</p>
-                </div> 
-            </div>           
+          <div class="container-tabs d-flex d-row flex-sm-d-c">
+              <div class="item-tabs mb-60 mb-sm-50">
+                  <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">June, 2019</h4>
+                  <p class="fs-14 lh-160 color-primary mb-sm-15">Fulcrum Launches With Over $750,000 in Liquidity</p>
+              </div>
+              <div class="item-tabs mb-60 mb-sm-50">
+                  <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">August, 2019</h4>
+                  <p class="fs-14 lh-160 color-primary mb-sm-15">Fulcrum jumps up to the #3 biggest dApp on Kyber</p>
+
+              </div>
+              <div class="item-tabs mb-60 mb-sm-50">
+                  <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">September, 2019</h4>
+                  <p class="fs-14 lh-160 color-primary mb-sm-15">Over 8000 ETH locked in bZx protocol</p>
+              </div>
+          </div>
+          <div class="container-tabs d-flex j-content-center d-row flex-sm-d-c">
+              <div class="item-tabs mb-90 mb-sm-50 px-25">
+                  <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">October, 2019</h4>
+                  <p class="fs-14 lh-160 color-primary">bZx Team hosted DeFi Drinks event during Devcon 5 at Osaka, JP</p>
+              </div>
+              <div class="item-tabs mb-90 mb-sm-50 px-25">
+                  <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">October, 2019</h4>
+                  <p class="fs-14 lh-160 color-primary">Torque Is Live: The Most Powerful Decentralized Borrowing Platform on Ethereum</p>
+              </div>
+
+          </div>
+
+
         </div>
         <div id="2018" class="tabcontent">
-            <div class="container-tabs d-flex d-row flex-sm-d-c">            
+            <div class="container-tabs d-flex d-row flex-sm-d-c">
                 <div class="item-tabs mb-60 mb-sm-50">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">Late jan-early feb, 2018</h4>
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">LATE JAN-EARLY FEB, 2018</h4>
                     <p class="fs-14 lh-160 color-primary mb-sm-15">bZx sponsors ETHDenver, attracting initial attention.</p>
-                    <p class="fs-14 lh-160 color-primary">bZx officially announces. “Welcome to bZx” published on Medium.</p>
                 </div>
                 <div class="item-tabs mb-60 mb-sm-50">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">Late jan-early feb, 2018</h4>
-                    <p class="fs-14 lh-160 color-primary mb-sm-15">bZx sponsors ETHDenver, attracting initial attention.</p>
-                    <p class="fs-14 lh-160 color-primary">bZx officially announces. “Welcome to bZx” published on Medium.</p>
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">FEB 11, 2018</h4>
+                    <p class="fs-14 lh-160 color-primary mb-sm-15">bZx officially releases the whitepaper after five months of concurrent coding development. bZx officially announces. “Welcome to bZx” published on Medium.</p>
+
                 </div>
                 <div class="item-tabs mb-60 mb-sm-50">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">Late jan-early feb, 2018</h4>
-                    <p class="fs-14 lh-160 color-primary mb-sm-15">bZx sponsors ETHDenver, attracting initial attention.</p>
-                    <p class="fs-14 lh-160 color-primary">bZx officially announces. “Welcome to bZx” published on Medium.</p>
-                </div>            
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">APRIL 20, 2018</h4>
+                    <p class="fs-14 lh-160 color-primary mb-sm-15">bZx protocol debuts its fully functional smart contracts onto the Ropsten Testnet.</p>
+                </div>
             </div>
-            <div class="container-tabs d-flex j-content-center d-row flex-sm-d-c">            
+            <div class="container-tabs d-flex j-content-center d-row flex-sm-d-c">
                 <div class="item-tabs mb-90 mb-sm-50 px-25">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">May 11, 2018</h4>
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">APRIL 24, 2018</h4>
+                    <p class="fs-14 lh-160 color-primary">bZx portal and bZx.js library initial release.</p>
+                </div>
+                <div class="item-tabs mb-90 mb-sm-50 px-25">
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">MAY 11, 2018</h4>
                     <p class="fs-14 lh-160 color-primary">Security audits begin on the bZx protocol contracts.</p>
                 </div>
-                <div class="item-tabs mb-90 mb-sm-50 px-25">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">June–July, 2018</h4>
-                    <p class="fs-14 lh-160 color-primary">bZx launches full website. Mainnet beta release of the bZx protocol.</p>
-                </div> 
-            </div> 
+
+            </div>
+
         </div>
         <div id="2017" class="tabcontent">
-            <div class="container-tabs d-flex d-row flex-sm-d-c">            
+            <div class="container-tabs d-flex d-row flex-sm-d-c">
                 <div class="item-tabs mb-60 mb-sm-50">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">Late jan-early feb, 2017</h4>
-                    <p class="fs-14 lh-160 color-primary mb-sm-15">bZx sponsors ETHDenver, attracting initial attention.</p>
-                    <p class="fs-14 lh-160 color-primary">bZx officially announces. “Welcome to bZx” published on Medium.</p>
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">AUGUST 5, 2017</h4>
+                    <p class="fs-14 lh-160 color-primary mb-sm-15">Tom Bean and Kyle J Kistner conceive bZx after several months of brainstorming and exploratory efforts.</p>
                 </div>
                 <div class="item-tabs mb-60 mb-sm-50">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">Late jan-early feb, 2017</h4>
-                    <p class="fs-14 lh-160 color-primary mb-sm-15">bZx sponsors ETHDenver, attracting initial attention.</p>
-                    <p class="fs-14 lh-160 color-primary">bZx officially announces. “Welcome to bZx” published on Medium.</p>
+                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">SEPTEMBER 29, 2017</h4>
+                    <p class="fs-14 lh-160 color-primary mb-sm-15">First Github commit in the protocol contracts code repository.</p>
                 </div>
-                <div class="item-tabs mb-60 mb-sm-50">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">Late jan-early feb, 2017</h4>
-                    <p class="fs-14 lh-160 color-primary mb-sm-15">bZx sponsors ETHDenver, attracting initial attention.</p>
-                    <p class="fs-14 lh-160 color-primary">bZx officially announces. “Welcome to bZx” published on Medium.</p>
-                </div>            
+
             </div>
-            <div class="container-tabs d-flex j-content-center d-row flex-sm-d-c">            
-                <div class="item-tabs mb-90 mb-sm-50 px-25">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">May 11, 2017</h4>
-                    <p class="fs-14 lh-160 color-primary">Security audits begin on the bZx protocol contracts.</p>
-                </div>
-                <div class="item-tabs mb-90 mb-sm-50 px-25">
-                    <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">June–July, 2017</h4>
-                    <p class="fs-14 lh-160 color-primary">bZx launches full website. Mainnet beta release of the bZx protocol.</p>
-                </div> 
-            </div> 
         </div>
     </div>
     <div>
@@ -438,7 +423,7 @@ layout: homepage
         <hr class="bt-7 bt-white m-0" />
     </div>
     <div class="tab">
-        <div class="buttons-tabs">        
+        <div class="buttons-tabs">
             <button class="tablinks active" onclick="openTab(event, '2019')" id="defaultOpen">2019</button>
             <button class="tablinks" onclick="openTab(event, '2018')">2018</button>
             <button class="tablinks" onclick="openTab(event, '2017')">2017</button>
@@ -484,7 +469,7 @@ layout: homepage
         </div>
     </div>
     <h2 class="fs-32 fs-sm-24 lh-140 fw-700 color-white text-center mt-70 mt-sm-40 mb-40">Partners & Collaborators</h2>
-    <div class="container container-xl d-flex f-wrap j-content-sb a-items-center pb-60 px-50 px-sm-15">        
+    <div class="container container-xl d-flex f-wrap j-content-sb a-items-center pb-60 px-50 px-sm-15">
         <div class="item-partners">
             {% include svg/kyber-network.svg %}
         </div>
