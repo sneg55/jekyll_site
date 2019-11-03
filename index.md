@@ -229,7 +229,7 @@ layout: homepage
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-25">How bZx Margin Trading Works</h2>
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-15 color-tertiary">Long Positions</h3>
         <p class="lh-160 mb-25">Taking a long position involves a simple swapping of one asset for another. For example, you could swap DAI for ETH because you think ETH will go up in value faster than DAI.</p>
-        <a href="#" class="button button-primary button-xl d-flex j-content-center m-auto">Try 4x long on fulcrum</a>
+        <a href="https://fulcrum.trade" class="button button-primary button-xl d-flex j-content-center m-auto">Try 4x long on fulcrum</a>
     </div>
     {% include svg/long-positions.svg %}
     {% include svg/long-positions-mobile.svg %}
@@ -241,7 +241,7 @@ layout: homepage
     <div class="container container-sm pt-140 pt-sm-90 pb-485 pb-sm-30 p-relative">
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-15 color-tertiary">Short Positions</h3>
         <p class="lh-160 mb-25">Taking a short position is more complicated. A short position is betting that something will go down over time. Short positions require escrow, leverage, and margin calls.</p>
-        <a href="#" class="button button-primary button-xl d-flex j-content-center m-auto">Try 4x short on fulcrum</a>
+        <a href="https://fulcrum.trade" class="button button-primary button-xl d-flex j-content-center m-auto">Try 4x short on fulcrum</a>
     </div>
     {% include svg/short-positions.svg %}
     {% include svg/short-positions-mobile.svg %}
