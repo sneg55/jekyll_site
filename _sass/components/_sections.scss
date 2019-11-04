@@ -1,19 +1,31 @@
 .wrap-integrations {
     border: 2px solid $primary-color;
     padding-top: 10px;
-    max-width: 350px;
     background-color: #ffffff;
     cursor: pointer;
     margin-bottom: 20px;
     position: relative;
+    @media (min-width: 768px) {
+        width: calc(100% / 2 - 40px);
+    } 
+    @media (min-width: 992px) {
+        width: calc(100% / 3 - 40px);
+    } 
+    @media (max-width: 767px) {
+        width: 100%;
+    }       
     .item-integrations {
         background-color: $light-primary-color;
-        padding: 49px 20px 37px 20px;
         text-align: center;
         position: relative;
         border-top: 2px solid $primary-color;
         overflow: hidden;
-
+        @media (min-width: 580px) {
+            padding: 50px 20px 37px 20px;
+        }  
+        @media (max-width: 579px) {
+            padding: 30px 30px 20px 30px;
+        } 
         &:after {
             content: "";
             position: absolute;
@@ -24,15 +36,34 @@
             opacity: 0.5;
         }
     }
-    img {
-        margin-bottom: 26px;
+    svg{
+        @media (min-width: 580px) {
+            margin-bottom: 25px;
+    }
+        @media (max-width: 579px) {
+            margin-bottom: 20px;
+        }
     }
     p {
-        font-size: 16px;
         line-height: 1.6;
         color: $primary-color;
+        @media(min-width: 580px){
+            font-size: 16px;
     }
-    &.after {
+        @media(max-width: 579px){
+            font-size: 11px;
+        }  
+    }
+    @mixin counter() {
+        @media (min-width: 992px) {
+            $counter-integration: 6;
+        }
+        @media (max-width: 991px) {
+            $counter-integration: 8;
+        }
+    }
+    @for $i from 1 through 6 {
+        &:nth-child(#{$i}){
         &:after {
             content: url(/images/icons/item-integration.svg);
             position: absolute;
@@ -43,8 +74,23 @@
             text-align: center;
         }
     }
-
-    &:hover {
+    }
+    @media (max-width: 767px){
+        @for $i from 7 through 8 {
+            &:nth-child(#{$i}){
+                &:after{
+                    content: url(/images/icons/item-integration.svg);
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    bottom: -26px;
+                    margin: auto;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    &:hover{
         background-color: $light-primary-color;
         .item-integrations {
             background-color: #ffffff;
@@ -99,7 +145,12 @@
             }
         }
     }
-
+    @media(max-width: 374px){
+        padding: 26px 4px 4px;
+        &.container-coin-dark{
+            padding: 15px 4px 4px;
+        }
+    }
     &:before {
         content: "";
         width: 100%;
@@ -135,7 +186,11 @@
             width: 90px;
             height: 90px;
         }
+        @media(max-width: 374px){
+            width: 80px;
+            height: 80px;
     }
+}
 }
 
 .wrapper-team {
@@ -340,7 +395,7 @@
 
 .item-partners {
     text-align: center;
-    margin: 20px auto;
+    margin: 25px auto;
     @media (min-width: 580px) {
         width: 265px;
         &:nth-child(3n + 2) {
@@ -349,7 +404,7 @@
         }
     }
     @media (max-width: 579px) {
-        width: 50%;
+        width: calc(50% - 20px);
         svg {
             max-width: 100%;
         }
