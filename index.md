@@ -233,7 +233,7 @@ title: bZx - Protocol for tokenized margin trading and lending
 {% include dots.html %}
 
 <section class="text-center color-white p-relative bg-secondary bt-20 bt-sm-14 bt-secondary svg-position pt-40 overflow-x-xl">
-    <div class="container container-sm pb-445 pb-sm-35">
+    <div class="container container-sm pb-445 pb-sm-35 p-relative z-index-2">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-25">How bZx Margin Trading Works</h2>
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-15 color-tertiary">Long Positions</h3>
         <p class="lh-160 mb-25">Taking a long position involves a simple swapping of one asset for another. For example, you could swap DAI for ETH because you think ETH will go up in value faster than DAI.</p>
@@ -246,7 +246,7 @@ title: bZx - Protocol for tokenized margin trading and lending
 {% include dots.html %}
 
 <section class="text-center bg-primary color-white pb-80 pb-sm-20 p-relative overflow-x-xl">
-    <div class="container container-sm pt-140 pt-sm-90 pb-500 pb-sm-30 p-relative">
+    <div class="container container-sm pt-140 pt-sm-90 pb-500 pb-sm-30 p-relative z-index-2">
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-15 color-tertiary">Short Positions</h3>
         <p class="lh-160 mb-25">Taking a short position is more complicated. A short position is betting that something will go down over time. Short positions require escrow, leverage, and margin calls.</p>
         <a href="https://fulcrum.trade" class="button button-primary button-xl d-flex j-content-center m-auto">Try 4x short on fulcrum</a>
