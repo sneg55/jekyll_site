@@ -47,7 +47,46 @@
 </script>
 
 <script>(function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', w.intercomSettings); } else { var d = document; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/dfk4n5ut'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();</script>
+<script>
+    window.onload = function () {
+        $('.tooltip').tooltipster({
+            theme: ['tooltipster-customized'],
+            functionPosition: function (instance, helper, data) {
+                var parent = $(helper.origin).closest(".item-team ");
 
+                //if content wider than container - put in inside
+                if (data.size.width > parent.width()) {
+                    data.coord.left = parent.offset().left - 13
+                    $(helper.tooltipClone).width(parent.width())
+                    var diffTop = $(helper.tooltipClone).height() - data.size.height;
+                    data.size.height = $(helper.tooltipClone).height();
+                    data.size.width = parent.width()
+                    data.coord.top -= diffTop;
+
+                    return data;
+                }
+
+                //if content go out of the left boundary - shift it inside
+                if (data.coord.left < parent.offset().left) {
+                    data.coord.left = parent.offset().left - 13;
+
+                    return data;
+                }
+
+                //if content go out of the right boundary - shift it inside
+                if (data.coord.left + $(helper.tooltipClone).width() - (parent.offset().left + parent.width()) > 0) {
+                    data.coord.left -= data.coord.left + $(helper.tooltipClone).width() - (parent.offset().left + parent.width()) - 13;
+
+                    return data;
+                }
+
+                return data;
+            }
+
+        });
+    };
+</script>
 <script type="text/javascript" src="/assets/js/jquery.js "></script>
+<script type="text/javascript" src="/assets/js/tooltipster.bundle.min.js "></script>
 <script type="text/javascript" src="/assets/js/owl/owl.carousel.min.js "></script>
 <script type="text/javascript" src="/assets/js/main.js "></script>

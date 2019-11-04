@@ -1,0 +1,24 @@
+.tooltipster-sidetip.tooltipster-customized {
+    .tooltipster-box {
+        background: #292984;
+        border: 1px solid #292984;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .tooltipster-content {
+        font-size: 12px;
+        line-height: 160%;
+        color: white;
+        padding: 7px 10px;
+    }
+
+    .tooltipster-arrow {
+        &-border {
+            border-top-color: #292984;
+        }
+
+        &-background {
+            border-top-color: #292984;
+        }
+    }
+}
