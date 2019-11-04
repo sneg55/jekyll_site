@@ -5,6 +5,9 @@ date:   2019-04-23 20:12:46 -0700
 cover: /images/blog/1_kqlKFbx4QzQJdxXDRKJxuA.png
 canonical: https://medium.com/bzxnetwork/how-do-fulcrums-ptokens-and-dydx-s-margin-tokens-compare-a3badae4b004
 author: Kistner
+metadescription: "Fulcrum pTokens are static leverage tokens while dYdX margin tokens are variable leverage tokens. In this article we explore the consequences for margin traders and financial protocols."
+intro: "Fulcrum pTokens are static leverage tokens while dYdX margin tokens are variable leverage tokens. In this article we explore the consequences for margin traders and financial protocols."
+
 ---
 A special thanks to Antonio Juliano of dYdX for his input on this article.
 

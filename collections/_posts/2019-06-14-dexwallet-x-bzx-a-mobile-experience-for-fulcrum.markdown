@@ -5,6 +5,8 @@ date:   2019-06-14 20:12:46 -0700
 cover: /images/blog/0_qj_eYVNRYlhC_W0V.png
 canonical: https://medium.com/bzxnetwork/dexwallet-x-bzx-a-mobile-experience-for-fulcrum-82af86953b99
 author: Kistner
+metadescription: "Dexwallet is the ultimate one-stop hub for Fintech products, allowing users to access a wide array of the leading DeFi products. "
+intro: "Dexwallet is the ultimate one-stop hub for Fintech products, allowing users to access a wide array of the leading DeFi products." 
 ---
 Dexwallet is the ultimate one-stop hub for Fintech products, allowing users to access a wide array of the leading DeFi products. Dexwallet is integrating native mobile decentralized applications to facilitate asset exchange and passive income directly from the wallet.
 

@@ -5,6 +5,8 @@ date:   2019-08-28 20:12:46 -0700
 cover: /images/blog/1_3htpTXj0AQRipFXyk6vCsA.png
 canonical: https://medium.com/bzxnetwork/introducing-torque-borrowing-made-simple-8eb494925d16
 author: Kistner
+metadescription: "We are excited to introduce Torque, the first borrowing platform with indefinite-term loans and fixed interest rates. "
+intro: "We are excited to introduce Torque, the first borrowing platform with indefinite-term loans and fixed interest rates. "
 ---
 We are excited to introduce [Torque](http://torque.loans/), the first borrowing platform with indefinite-term loans and fixed interest rates. Torque is uniquely both an App and a dApp. Torque works with any web3 wallet like Metamask, Dapper, Nifty, & co., but it also works with every other type of wallet. This is enabled by Torque’s first-of-its-kind ENS loan system which allows users to borrow assets by simply sending collateral to a human-readable ENS domain from any wallet. Best of all, it does this without requiring any accounts or charging any fees.
 

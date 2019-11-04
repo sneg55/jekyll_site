@@ -5,6 +5,8 @@ date:   2018-10-01 20:12:46 -0700
 cover: /images/blog/1_5HB2C4VD2Y17jxVh33qO3A.png
 canonical: https://medium.com/bzxnetwork/whalelend-bzx-fe6a172c6613
 author: Kistner
+metadescription: "Partnering with WhaleLend is a major step forward for the bZx protocol as it solves the chicken-and-egg problem of bootstrapping initial liquidity. "
+intro: "Partnering with WhaleLend is a major step forward for the bZx protocol as it solves the chicken-and-egg problem of bootstrapping initial liquidity. "
 ---
 bZx is a protocol on the Ethereum blockchain for 0x-standard relays and on-chain DEXs. The bZx protocol allows DEXs powered by both 0x and Kyber Network to offer shorting and leverage. bZx currently offers the most variety of tokens for lending, shorting, and margin including ETH, ZRX, EOS, BAT, REP, DAI, OMG, REQ, ZIL, LINK, DGX, PAY, and dozens of others. The protocol consists of an open base layer that performs the essential functions of escrow and interest disbursement and a second layer that can be freely built upon to create advanced functionality for the base layer, including ultra-fast margin settlement and pooled lending. Unlike other solutions, the bZx protocol has a functioning high-speed margin settlement system on the second layer, allowing leverage and shorting of even the most volatile ERC20 tokens.
 

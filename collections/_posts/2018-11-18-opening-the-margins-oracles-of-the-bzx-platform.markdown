@@ -5,6 +5,8 @@ date:   2018-11-18 20:12:46 -0700
 cover: /images/blog/0_TJ3TOYhPJsxMQnNZ.jpeg
 canonical: https://medium.com/bzxnetwork/opening-the-margins-oracles-of-the-bzx-platform-6110202d4b1
 author: Kistner
+metadescription: "Blockchain oracles see what the native blockchain cannot. Ethereum smart contracts are not natively aware of asset prices on and off the blockchain. "
+intro: "Blockchain oracles see what the native blockchain cannot. Ethereum smart contracts are not natively aware of asset prices on and off the blockchain. "
 ---
 Do you feel lucky? Picture this, it’s Saturday night and you decide to go to the casino with your friends. On your way over, you begin to think about the money you have at your disposal and how much you’re willing to gamble. You know it’s a risky proposition to play in the first place but you’re committed to the evening nonetheless. You arrive at your destination and begin experimenting with different games. You try Blackjack, Poker, Slots, and Craps… all while trying to figure out your risk/reward for each hand that you play. By the end of the night, you’re losing and getting ready to call it. Then, an idea hits you. What if you try the roulette table but instead of betting on one number (odds in winning: 1/36), you decide to bet on every number except one. You know you stand to win a smaller amount with each spin but you also understand that your odds in winning is drastically improved.
 

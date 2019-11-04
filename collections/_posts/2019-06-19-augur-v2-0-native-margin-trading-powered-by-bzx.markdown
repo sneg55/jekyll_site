@@ -5,6 +5,8 @@ date:   2019-06-19 20:12:46 -0700
 cover: /images/blog/1_Ihukc5zEV_A-E_VIw2xtDA.png
 canonical: https://medium.com/bzxnetwork/augur-v2-0-native-margin-trading-powered-by-bzx-67718b38af0d
 author: Kistner
+metadescription: "The bZx smart contracts hook directly into Augur, allowing Augur to act as a price feed and source of both trading and margin call liquidity."
+intro: "The bZx smart contracts hook directly into Augur, allowing Augur to act as a price feed and source of both trading and margin call liquidity."
 ---
 Read the official announcement from Augur [here](https://www.augur.net/blog/margin-lending/).
 

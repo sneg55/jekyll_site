@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{ "/assets/css/main.css " | prepend: site.baseurl }}">
+
+    <meta name="description" content="{{ page.metadescription | strip_html | strip_newlines | truncate: 160 }}">
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
+    <meta property="og:description" content="{{ page.metadescription | strip_html | strip_newlines | truncate: 300 }}" />
+    <meta property="og:image" content="{{ page.featured-image | prepend: site.url }}" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@b0xNet">
+    <meta name="twitter:creator" content="@b0xNet">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.metadescription | strip_html | strip_newlines | truncate: 300 }}">
+    <meta name="twitter:image" content="{{ page.featured-image | prepend: site.url }}">
+
+    <link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% else %}{{ page.url | prepend: site.url }}{% endif %}" />
+
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    {% include header.html %}
+    <main class="blog-post">
+        <div class="container container-xl">
+            <h1 class="fw-800 fs-46 lh-120 color-primary text-center mb-20 mt-70 mt-sm-30 fs-sm-32">{{page.h1title}}</h1>
+            <div class="author-block d-flex j-content-center mb-30">
+
+
+
+            </div>
+            <div class="cover-image mb-60">
+                <img src="{{page.cover}}" alt="">
+            </div>
+        </div>
+
+
+
+        <div class="container  container-md post-content">
+
+            {{ content }}
+
+        </div>
+
+        {% include subscription.html content="Subscribe to our newsletter" %}
+
+    </main>
+    {% include footer.html %}
+
+</body>
+
+</html>

@@ -5,6 +5,9 @@ date:   2019-03-10 20:12:46 -0700
 cover: /images/blog/1_LzCwZzlEK0VBbhaswG2VXw (1).png
 canonical: https://medium.com/bzxnetwork/is-the-new-governance-proposal-pre-programmed-to-fail-a-reply-to-tech-nomad-notes-48608cbfc734
 author: Kistner
+metadescription: "We will list a series of core criticisms and answer them in turn. Afterwards we will explain the reformulation of the redemption mechanic."
+intro: "We will list a series of core criticisms and answer them in turn. Afterwards we will explain the reformulation of the redemption mechanic."
+
 ---
 In reply to the article [Governance Is Powerful: Capturing Value With BZRX](https://medium.com/bzxnetwork/governance-is-powerful-capturing-value-with-bzrx-adb35341975c), Tech Nomad Notes published an [investigation](https://www.technomads.wtf/blog/token-underground-0x1-the-bzrx-token-model-a-smart-move-or-a-pre-programmed-fail) and critique of the proposed extension to the BZRX token model. We would like to start by thanking the authors, Vasily Sumanov and Olya Green, for taking the time to engage with our work. In doing so, they uncovered an important weakness in the proposed token redemption mechanic. In this article we aim to address the core arguments made against the proposed model and also present our reformulation of the token redemption mechanic in light of the valid criticisms brought forth.
 
