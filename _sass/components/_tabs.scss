@@ -5,8 +5,11 @@
     .buttons-tabs{
         background-color: #FFFFFF;
         border-radius: 5px;
-        max-width: 304px;
+        max-width: 322px;
         margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 3px 0 2px;
         button{
             border: none;
             background: transparent;
@@ -21,6 +24,9 @@
             outline: none;
             transform-style: preserve-3d;
             position: relative;
+            &:hover{
+                color: #5B88FF;
+            }
             &.active{
                 background: #276BFB;
                 border: 1px solid $primary-color;
@@ -54,7 +60,9 @@
     .container-tabs{
         .item-tabs{
             position: relative;
-            max-width: 350px;
+            @media(min-width: 580px){
+                width: calc(100% / 3 - 20px);
+            }
             @media(max-width: 579px){
                 margin-left: auto;
                 margin-right: auto;
@@ -76,11 +84,6 @@
                 right: 0;
                 margin: auto;
             }
-            &:not(:last-child){
-                @media(min-width: 580px){
-                    margin-right: 30px;
-                }
-            }
         }
         &:first-child{
             .item-tabs{
@@ -88,43 +91,53 @@
                     height: 32px;
                     bottom: -41px;
                     @media(min-width: 580px){
-                        height: 218px;
-                        bottom: -218px;
+                        height: 225px;
+                        bottom: -240px;
                     }
                 }
                 @media(min-width: 580px){
+                    p{
+                        min-height: 90px;
+                        display: flex;
+                        align-items: center;                    
+                    }
                     &:after{
                         content: url(/images/icons/coin-long.svg);
-                        bottom: -289px;
+                        bottom: -315px;
                     }
                 }
             }
         }
         &:last-child{           
             .item-tabs{
-                padding-left: 25px;
-                padding-right: 25px;
+                padding-left: 20px;
+                padding-right: 20px;
+
                 &:before{
-                    height: 32px;
-                    
+                    height: 32px;                    
                     @media(min-width: 580px){
-                        bottom: -74px;
+                        bottom: -69px;
                     }
                     @media(max-width: 579px){
                         bottom: -41px;
                     }
                 }
                 @media(min-width: 580px){
+                    p{
+                        min-height: 68px;
+                        display: flex;
+                        align-items: center;                    
+                    }
                     &:nth-child(2n){
                         &:after{
                             content: url(/images/icons/coin-short-even.svg);
-                            bottom: -143px;
+                            bottom: -144px;
                         }
                     }
                     &:nth-child(2n+1){
                         &:after{
                             content: url(/images/icons/coin-short-odd.svg);
-                            bottom: -143px;
+                            bottom: -144px;
                         }
                     }
                 }
@@ -133,7 +146,7 @@
                     &:after{
                         content: url(/images/icons/coin-long.svg);
                         @media(min-width: 580px){
-                            bottom: -143px;
+                            bottom: -144px;
                         }
                         @media(max-width: 579px){
                             bottom: -125px;

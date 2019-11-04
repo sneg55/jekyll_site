@@ -147,14 +147,11 @@
 .pb-80{
     padding-bottom: 80px;
 }
-.pb-420{
-    padding-bottom: 420px;
-}
 .pb-445{
     padding-bottom: 445px;
 }
-.pb-485{
-    padding-bottom: 485px;
+.pb-500{
+    padding-bottom: 500px;
 }
 .px-25{
     padding-left: 25px;
@@ -178,6 +175,9 @@
     padding-bottom: 70px;
 }
 @media(max-width: 579px){
+    .mt-sm-r-5{
+        margin-top: -5px;
+    }
     .mt-sm-20{
         margin-top: 20px;
     }
@@ -216,6 +216,9 @@
     }
     .pt-sm-30{
         padding-top: 30px;
+    }
+    .pt-sm-35{
+        padding-top: 35px;
     }
     .pt-sm-45{
         padding-top: 45px;

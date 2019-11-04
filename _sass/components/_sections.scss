@@ -1,39 +1,70 @@
-.wrap-integrations{
+.wrap-integrations {
     border: 2px solid $primary-color;
     padding-top: 10px;
-    max-width: 350px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     cursor: pointer;
     margin-bottom: 20px;
     position: relative;
-    .item-integrations{
+    @media (min-width: 768px) {
+        width: calc(100% / 2 - 40px);
+    } 
+    @media (min-width: 992px) {
+        width: calc(100% / 3 - 40px);
+    } 
+    @media (max-width: 767px) {
+        width: 100%;
+    }       
+    .item-integrations {
         background-color: $light-primary-color;
-        padding: 49px 20px 37px 20px;
         text-align: center;
-        position: relative;        
+        position: relative;
         border-top: 2px solid $primary-color;
         overflow: hidden;
-
-        &:after{
-            content: '';
+        @media (min-width: 580px) {
+            padding: 50px 20px 37px 20px;
+        }  
+        @media (max-width: 579px) {
+            padding: 30px 30px 20px 30px;
+        } 
+        &:after {
+            content: "";
             position: absolute;
             right: 0;
             bottom: -90px;
-            border: 90px solid transparent; 
-            border-right: 38.15px solid #FFFFFF; 
+            border: 90px solid transparent;
+            border-right: 38.15px solid #ffffff;
             opacity: 0.5;
         }
     }
-    img{
-        margin-bottom: 26px;
+    svg{
+        @media (min-width: 580px) {
+            margin-bottom: 25px;
     }
-    p{
-        font-size: 16px;
+        @media (max-width: 579px) {
+            margin-bottom: 20px;
+        }
+    }
+    p {
         line-height: 1.6;
         color: $primary-color;
+        @media(min-width: 580px){
+            font-size: 16px;
     }
-    &.after{
-        &:after{
+        @media(max-width: 579px){
+            font-size: 11px;
+        }  
+    }
+    @mixin counter() {
+        @media (min-width: 992px) {
+            $counter-integration: 6;
+        }
+        @media (max-width: 991px) {
+            $counter-integration: 8;
+        }
+    }
+    @for $i from 1 through 6 {
+        &:nth-child(#{$i}){
+        &:after {
             content: url(/images/icons/item-integration.svg);
             position: absolute;
             left: 0;
@@ -43,68 +74,85 @@
             text-align: center;
         }
     }
-
-
-
+    }
+    @media (max-width: 767px){
+        @for $i from 7 through 8 {
+            &:nth-child(#{$i}){
+                &:after{
+                    content: url(/images/icons/item-integration.svg);
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    bottom: -26px;
+                    margin: auto;
+                    text-align: center;
+                }
+            }
+        }
+    }
     &:hover{
         background-color: $light-primary-color;
-        .item-integrations{
-            background-color: #FFFFFF;
+        .item-integrations {
+            background-color: #ffffff;
         }
     }
 }
 
-.wrapper-dots{
+.wrapper-dots {
     border-top: 2px solid $primary-color;
     border-bottom: 2px solid $primary-color;
-    
-    @media(min-width: 580px){
+
+    @media (min-width: 580px) {
         padding: 14px;
     }
-    @media(max-width: 579px){
+    @media (max-width: 579px) {
         padding: 7px;
     }
-    .container-dots{        
+    .container-dots {
         margin: auto;
         justify-content: space-between;
         display: flex;
-        @media(min-width: 960px){
+        @media (min-width: 960px) {
             width: 960px;
         }
-        @media(max-width: 579px){
+        @media (max-width: 579px) {
             width: 180px;
         }
-        .item-dots{
+        .item-dots {
             border: 1px solid $primary-color;
             width: 8px;
             height: 8px;
-            border-radius: 50%;;
+            border-radius: 50%;
         }
     }
 }
 
-
-.container-coin{    
+.container-coin {
     border-right: 2px solid $primary-color;
-    background-color: #5B88FF;
+    background-color: #5b88ff;
     position: relative;
-    @media(min-width: 992px){
+    @media (min-width: 992px) {
         padding: 33px 8px 8px;
     }
-    @media(max-width: 991px){
+    @media (max-width: 991px) {
         padding: 26px 6px 6px;
-        &.container-coin-dark{
+        &.container-coin-dark {
             padding: 15px 6px 6px;
-            &:before{
+            &:before {
                 background-color: $secondary-color;
                 height: 7px;
                 border-top: 2px solid $primary-color;
             }
         }
     }
-
-    &:before{
-        content: '';
+    @media(max-width: 374px){
+        padding: 26px 4px 4px;
+        &.container-coin-dark{
+            padding: 15px 4px 4px;
+        }
+    }
+    &:before {
+        content: "";
         width: 100%;
         height: 21px;
         background-color: $light-primary-color;
@@ -112,67 +160,71 @@
         top: 0;
         left: 0;
         position: absolute;
-        @media(max-width: 991px){
+        @media (max-width: 991px) {
             height: 18px;
         }
     }
-    .item-coin{
+    .item-coin {
         border: 2px solid $primary-color;
         background-color: $light-primary-color;
         border-radius: 50%;
         padding: 5px;
     }
-    .coin{
+    .coin {
         border: 2px solid $primary-color;
         display: flex;
         align-items: center;
         justify-content: center;
 
-        background-color:  #33DFCC;
-        border-radius: 50%;  
-        @media(min-width: 992px){
+        background-color: #33dfcc;
+        border-radius: 50%;
+        @media (min-width: 992px) {
             width: 100px;
             height: 100px;
         }
-        @media(max-width: 991px){
+        @media (max-width: 991px) {
             width: 90px;
             height: 90px;
         }
+        @media(max-width: 374px){
+            width: 80px;
+            height: 80px;
     }
 }
+}
 
-.wrapper-team{
-    background-color: #5B88FF;
-    border-top: 20px solid #4978F3;
-    @media(max-width: 1219px){
+.wrapper-team {
+    background-color: #5b88ff;
+    border-top: 20px solid #4978f3;
+    @media (max-width: 1219px) {
         padding-left: 15px;
         padding-right: 30px;
     }
-    @media(max-width: 374px){
+    @media (max-width: 374px) {
         padding-right: 0;
     }
-    .container-team{
-        background-color: #DCEBFF;
+    .container-team {
+        background-color: #dcebff;
         border: 2px solid #000085;
         padding: 0 30px;
         flex-wrap: wrap;
-        @media(min-width: 1220px){
+        @media (min-width: 1220px) {
             width: 1170px;
         }
-        @media(max-width: 579px){
+        @media (max-width: 579px) {
             padding: 0 0 0 20px;
         }
-        .item-team{
-            color: #8080C2;            
+        .item-team {
+            color: #8080c2;
             margin-top: 30px;
             position: relative;
             margin-bottom: 40px;
-            @media(min-width: 992px){
+            @media (min-width: 992px) {
                 width: calc(100% / 4 - 30px);
-                
-                &:nth-child(4n+1){
-                    &::before{
-                        content: '';
+
+                &:nth-child(4n + 1) {
+                    &::before {
+                        content: "";
                         position: absolute;
                         top: 99px;
                         left: -592px;
@@ -182,12 +234,12 @@
                         z-index: 2;
                     }
                 }
-            }            
-            @media (max-width: 991px) and (min-width: 768px){
+            }
+            @media (max-width: 991px) and (min-width: 768px) {
                 width: calc(100% / 3 - 30px);
-                &:nth-child(3n+1){
-                    &::before{
-                        content: '';
+                &:nth-child(3n + 1) {
+                    &::before {
+                        content: "";
                         position: absolute;
                         top: 99px;
                         left: -592px;
@@ -198,11 +250,12 @@
                     }
                 }
             }
-            @media (max-width: 767px) and (min-width: 580px){
+            @media (max-width: 767px) and (min-width: 580px) {
                 width: calc(100% / 2 - 30px);
-                &:nth-child(3), &:nth-child(9){
-                    &::before{
-                        content: '';
+                &:nth-child(3),
+                &:nth-child(9) {
+                    &::before {
+                        content: "";
                         position: absolute;
                         top: 99px;
                         left: -592px;
@@ -213,94 +266,106 @@
                     }
                 }
             }
-            @media(max-width: 579px){
+            @media (max-width: 579px) {
                 width: 100%;
                 margin-bottom: 0;
-                
-                &:nth-child(2), &:nth-child(5),&:nth-child(8), &:nth-child(11){
-                    &::before{
-                        content: '';
-                        position: absolute;                       
+
+                &:nth-child(2),
+                &:nth-child(5),
+                &:nth-child(8),
+                &:nth-child(11) {
+                    &::before {
+                        content: "";
+                        position: absolute;
                         z-index: 2;
-                        @media(min-width: 580px){
+                        @media (min-width: 580px) {
                             background-image: url(/images/icons/tunnel-team.svg);
                             width: 560px;
                             height: 47px;
                             left: -592px;
-                            top: 99px;   
+                            top: 99px;
                         }
-                        @media(max-width: 579px){
+                        @media (max-width: 579px) {
                             background-image: url(/images/icons/tunnel-team-mobile.svg);
                             width: 15px;
                             height: 30px;
                             left: -37px;
-                            top: 55px;   
+                            top: 55px;
                         }
                     }
                 }
             }
 
-            .wrapper-img-team{                
-                background:#FFFFFF;                
+            .wrapper-img-team {
+                background: #ffffff;
                 position: relative;
                 margin-bottom: 22px;
 
-                @media(min-width: 580px){
+                @media (min-width: 580px) {
                     border-left: 2px solid $primary-color;
                     padding-left: 10px;
                 }
-                @media(max-width: 579px){
+                @media (max-width: 579px) {
                     border-left: 1px solid $primary-color;
                     padding-left: 3px;
                     margin-right: 20px;
                 }
-                @media(max-width: 374px){
+                @media (max-width: 374px) {
                     margin-right: 15px;
                 }
-                .img-team{
+                .img-team {
                     display: block;
                     max-width: 100%;
-                    @media(max-width: 579px){
+                    @media (max-width: 579px) {
                         max-width: 135px;
                     }
                 }
-                &::before, &::after{
-                    content: '';
-                    position: absolute;              
+                &::before,
+                &::after {
+                    content: "";
+                    position: absolute;
                     left: 0px;
                     background-color: $primary-color;
-                    @media(min-width: 580px){
+                    @media (min-width: 580px) {
                         width: 10px;
                         height: 2px;
                     }
-                    @media(max-width: 579px){
+                    @media (max-width: 579px) {
                         width: 3px;
-                        height: 1px;                        
+                        height: 1px;
                     }
                 }
-                &::before{
+                &::before {
                     top: 0;
                 }
-                &::after{
+                &::after {
                     bottom: 0;
                 }
             }
-            .icon-media{
-                a{
-                    text-decoration: none;                    
-                    @media(min-width: 375px){
+            .icon-media {
+                a {
+                    text-decoration: none;
+                    @media (min-width: 375px) {
                         margin-right: 10px;
                     }
-                    @media(max-width: 374px){
+                    @media (max-width: 374px) {
                         margin-right: 5px;
                     }
+                    svg {
+                        max-width: 23px;
+                        max-height: 23px;
+                    }
+
+                    &:hover{
+                        svg circle{
+                            fill: #5b88ff;
+                        }
+                    }
                 }
-                img{
-                    max-width: 23px;
-                }
+
             }
         }
-        .after-team{
+        .after-team {
             border: 2px solid $primary-color;
             background-color: $light-primary-color;
             width: 120px;
@@ -308,42 +373,40 @@
             top: -2px;
             right: -120px;
             height: calc(100% + 4px);
-            &::before{
-                content:'';
+            &::before {
+                content: "";
                 position: absolute;
                 width: 100%;
                 height: 100%;
-                
+
                 background-color: $light-primary-color;
                 background-position: 50% 0;
                 left: 0;
-                @media(min-width: 580px){
-                    background-image:  url(/images/icons/after-line.svg);
+                @media (min-width: 580px) {
+                    background-image: url(/images/icons/after-line.svg);
                 }
-                @media(max-width: 579px){
-                    background-image:  url(/images/icons/after-line-mobile.svg);
+                @media (max-width: 579px) {
+                    background-image: url(/images/icons/after-line-mobile.svg);
                 }
             }
         }
     }
 }
 
-
-.item-partners{
+.item-partners {
     text-align: center;
-    margin: 20px auto;
-    @media(min-width: 580px){
+    margin: 25px auto;
+    @media (min-width: 580px) {
         width: 265px;
-        &:nth-child(3n+2){
+        &:nth-child(3n + 2) {
             margin-left: 95px;
             margin-right: 95px;
         }
     }
-    @media(max-width: 579px){
-        width: 50%;
-        svg{
+    @media (max-width: 579px) {
+        width: calc(50% - 20px);
+        svg {
             max-width: 100%;
-        };
+        }
     }
-
 }
