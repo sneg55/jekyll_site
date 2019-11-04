@@ -1,7 +1,7 @@
 .tooltipster-sidetip.tooltipster-customized {
     .tooltipster-box {
-        background: #292984;
-        border: 1px solid #292984;
+        background: $primary-color;
+        border: 1px solid $primary-color;
         border-radius: 0;
         box-shadow: none;
     }
@@ -14,11 +14,11 @@
 
     .tooltipster-arrow {
         &-border {
-            border-top-color: #292984;
+            border-top-color: $primary-color;
         }
 
         &-background {
-            border-top-color: #292984;
+            border-top-color: $primary-color;
         }
     }
 }
