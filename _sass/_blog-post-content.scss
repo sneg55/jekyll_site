@@ -1,11 +1,10 @@
 .post-content {
     a {
         text-decoration: none;
-        padding: 0 3px;
-        color: #fff;
-        background-color: #003cda;
+        color: #276bfb;
         &:hover {
-            background-color: #5b88ff;
+            color: #5b88ff;
+            border-bottom: 1px solid rgba(91, 136, 255, 0.5);
         }
     }
 
