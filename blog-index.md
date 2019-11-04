@@ -29,8 +29,7 @@ pagination:
                     <div class="article-content">
                         <h2 class="fs-32 lh-140 fw-700 mb-20 mt- fs-sm-24">{{ newest_post.title }}</h2>
                         <p class="description fs-16 fs-sm-12 lh-160 mb-20">
-                    Bamboo Relay is the first 0x-standard relay, and in fact the first DEX, to ever offer non-custodial
-                    peer-to-peer margin lending. The debut…
+                            {{ include.post.intro }}
                         </p>
                         <p class="date fs-14 fs-sm-11 lh-180">{{ newest_post.date | date_to_string }}</p>
                     </div>
