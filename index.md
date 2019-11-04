@@ -33,19 +33,21 @@ title: bZx - Protocol for tokenized margin trading and lending
         <div class="d-flex j-content-sb f-wrap">
             <div class="owl-carousel owl-carousel-1">
                 <div class="item">
-                  <a href="https://fulcrum.trade">  <img src="/images/carousel/item1.jpg" class="item-img"></a>
+                    <a href="https://fulcrum.trade">  
+                        <img src="/images/carousel/fulcrum.jpg" class="item-img">
+                    </a>
                     <hr />
                     <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Fulcrum</h3>
                     <p class="lh-160">DeFi margin trading and lending platform</p>
                 </div>
                 <div class="item">
-                    <img src="/images/carousel/item1.jpg" class="item-img">
+                    <img src="/images/carousel/fulcrum.jpg" class="item-img">
                     <hr />
                     <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Fulcrum 2</h3>
                     <p class="lh-160">DeFi margin trading and lending platform</p>
                 </div>
                 <div class="item">
-                    <img src="/images/carousel/item1.jpg" class="item-img">
+                    <img src="/images/carousel/fulcrum.jpg" class="item-img">
                     <hr />
                     <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Fulcrum 3</h3>
                     <p class="lh-160">DeFi margin trading and lending platform</p>
@@ -53,19 +55,21 @@ title: bZx - Protocol for tokenized margin trading and lending
             </div>
             <div class="owl-carousel owl-carousel-2">
                 <div class="item">
-                    <a href="https://torque.loans"><img src="/images/carousel/item2.jpg" class="item-img"></a>
+                    <a href="https://torque.loans">
+                        <img src="/images/carousel/torque.jpg" class="item-img">
+                    </a>
                     <hr />
                     <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Torque</h3>
                     <p class="lh-160">Indefinite-term loans and fixed interest rates</p>
                 </div>
                 <div class="item">
-                    <img src="/images/carousel/item2.jpg" class="item-img">
+                    <img src="/images/carousel/torque.jpg" class="item-img">
                     <hr />
                     <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Torque 2</h3>
                     <p class="lh-160">DeFi margin trading and lending platform</p>
                 </div>
                 <div class="item">
-                    <img src="/images/carousel/item2.jpg" class="item-img">
+                    <img src="/images/carousel/torque.jpg" class="item-img">
                     <hr />
                     <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Torque 3</h3>
                     <p class="lh-160">DeFi margin trading and lending platform</p>
@@ -79,7 +83,7 @@ title: bZx - Protocol for tokenized margin trading and lending
     <div class="container container-xl before-integraion after-integraion pb-445 pb-sm-0 z-index-2">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-45">Community built integrations</h2>
         <div class="d-flex f-wrap j-content-sb">
-            <div class="wrap-integrations after">
+            <div class="wrap-integrations">
                 <div class="item-integrations">
                     <div class="circle top left"></div>
                     <div class="circle bottom left"></div>
@@ -89,8 +93,8 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
-            <div class="wrap-integrations after">
-                <div class="item-integrations after">
+            <div class="wrap-integrations">
+                <div class="item-integrations">
                     <div class="circle top left"></div>
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
@@ -99,8 +103,8 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
-            <div class="wrap-integrations after">
-                <div class="item-integrations after">
+            <div class="wrap-integrations">
+                <div class="item-integrations">
                     <div class="circle top left"></div>
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
@@ -109,8 +113,8 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
-            <div class="wrap-integrations after">
-                <div class="item-integrations after">
+            <div class="wrap-integrations">
+                <div class="item-integrations">
                     <div class="circle top left"></div>
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
@@ -119,8 +123,8 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
-            <div class="wrap-integrations after">
-                <div class="item-integrations after">
+            <div class="wrap-integrations">
+                <div class="item-integrations">
                     <div class="circle top left"></div>
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
@@ -129,7 +133,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
-            <div class="wrap-integrations after">
+            <div class="wrap-integrations">
                 <div class="item-integrations">
                     <div class="circle top left"></div>
                     <div class="circle bottom left"></div>
@@ -172,14 +176,15 @@ title: bZx - Protocol for tokenized margin trading and lending
         </div>
     </div>
     {% include svg/integrations.svg %}
+    {% include svg/integrations-mobile.svg %}
 </section>
 
-<section class="text-center bg-primary color-white pt-55 pt-sm-30 pb-40 p-relative">
+<section class="text-center bg-primary color-white pt-55 pt-sm-35 mt-sm-r-5 pb-40 p-relative">
     <div class="container container-sm">
         <h2 id="how-it-works" class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-45">Why Is Decentralized Margin Trading Better?</h2>
     </div>
     <div class="container container-xl">
-        <div class="d-flex j-content-sb f-wrap px-50 px-sm-40">
+        <div class="d-flex j-content-sb j-sm-content-center f-wrap px-50 px-sm-40">
             <div class="mw-px-280 mb-sm-40">
                 {% include svg/minimal-risk.svg %}
                 <h3 class="fs-24 fs-sm-20 lh-160 mb-15">Minimal Risk</h3>
@@ -353,7 +358,6 @@ title: bZx - Protocol for tokenized margin trading and lending
               <div class="item-tabs mb-60 mb-sm-50">
                   <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">August, 2019</h4>
                   <p class="fs-14 lh-160 color-primary mb-sm-15">Fulcrum jumps up to the #3 biggest dApp on Kyber</p>
-
               </div>
               <div class="item-tabs mb-60 mb-sm-50">
                   <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">September, 2019</h4>
@@ -369,10 +373,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                   <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">October, 2019</h4>
                   <p class="fs-14 lh-160 color-primary">Torque Is Live: The Most Powerful Decentralized Borrowing Platform on Ethereum</p>
               </div>
-
           </div>
-
-
         </div>
         <div id="2018" class="tabcontent">
             <div class="container-tabs d-flex d-row flex-sm-d-c">
@@ -383,7 +384,6 @@ title: bZx - Protocol for tokenized margin trading and lending
                 <div class="item-tabs mb-60 mb-sm-50">
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">FEB 11, 2018</h4>
                     <p class="fs-14 lh-160 color-primary mb-sm-15">bZx officially releases the whitepaper after five months of concurrent coding development. bZx officially announces. “Welcome to bZx” published on Medium.</p>
-
                 </div>
                 <div class="item-tabs mb-60 mb-sm-50">
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">APRIL 20, 2018</h4>
@@ -399,9 +399,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">MAY 11, 2018</h4>
                     <p class="fs-14 lh-160 color-primary">Security audits begin on the bZx protocol contracts.</p>
                 </div>
-
             </div>
-
         </div>
         <div id="2017" class="tabcontent">
             <div class="container-tabs d-flex d-row flex-sm-d-c">
@@ -413,7 +411,6 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">SEPTEMBER 29, 2017</h4>
                     <p class="fs-14 lh-160 color-primary mb-sm-15">First Github commit in the protocol contracts code repository.</p>
                 </div>
-
             </div>
         </div>
     </div>
@@ -502,11 +499,6 @@ title: bZx - Protocol for tokenized margin trading and lending
         </div>
     </div>
 </section>
-<section class="subscription mt-r-75 bg-before-team">
-    <div class="container container-xl">
-        <div class="subscription-wrapper">
-            <h2 class="fs-32 fs-sm-24 fw-700 lh-140 color-primary">Need help with building on bZx protocol?</h2>
-            <button class="button button-secondary button-md d-flex j-content-center a-items-center">Contact Us</button>
-        </div>
-    </div>
+<section class="wrapper-subscription">
+    {% include subscription.html content="Need help with building on bZx protocol?" buttonText="Contact Us" %}
 </section>

@@ -178,6 +178,9 @@
     padding-bottom: 70px;
 }
 @media(max-width: 579px){
+    .mt-sm-r-5{
+        margin-top: -5px;
+    }
     .mt-sm-20{
         margin-top: 20px;
     }
@@ -216,6 +219,9 @@
     }
     .pt-sm-30{
         padding-top: 30px;
+    }
+    .pt-sm-35{
+        padding-top: 35px;
     }
     .pt-sm-45{
         padding-top: 45px;
