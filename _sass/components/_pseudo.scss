@@ -38,13 +38,13 @@
             content: url(/images/icons/before-long-positions.svg);
             position: absolute;
             left: calc((100% - 1440px) / 2 - 560px);
-            top: 335px;
+            bottom: 344px;
         }
         &:after{
             content: url(/images/icons/before-long-positions.svg);
             position: absolute;
             right: calc((100% - 1440px) / 2 - 560px);
-            top: 335px;    
+            bottom: 344px;
             transform: rotateY(180deg);
         }
     }
@@ -135,11 +135,8 @@
         position: relative;
         transform-style: preserve-3d;
         &:before{
-            content: '';
+            content: url(/images/icons/integration-before.svg);
             position: absolute;
-            width: 213px;
-            height: 507px;
-            background-image: url(/images/icons/integration-before.svg);
             top: 545px;
             left: -90px;
             transform: translateZ(-1px);
@@ -149,11 +146,8 @@
     .after-integraion{
         position: relative;
         &:after{
-            content: '';
+            content: url(/images/icons/integration-after.svg);
             position: absolute;
-            width: 168px;
-            height: 476px;
-            background-image: url(/images/icons/integration-after.svg);
             top: 26px;
             right: -90px;
             transform: translateZ(-1px);

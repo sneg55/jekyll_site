@@ -1,11 +1,10 @@
 .post-content {
     a {
         text-decoration: none;
-        padding: 0 3px;
-        color: #fff;
-        background-color: #003cda;
+        color: #276bfb;
         &:hover {
-            background-color: #5b88ff;
+            color: #5b88ff;
+            border-bottom: 1px solid rgba(91, 136, 255, 0.5);
         }
     }
 
@@ -122,6 +121,7 @@
         font-size: 18px;
         line-height: 180%;
         color: #000085;
+        padding-left: 30px;
         @media screen and (max-width: 580px) {
             font-size: 13px;
         }
@@ -131,6 +131,7 @@
             font-weight: bold; /* If you want it to be bold */
             display: inline-block; /* Needed to add space between the bullet and the text */
             width: 1em; /* Also needed for space (tweak if needed) */
+            margin-left: -30px;
             margin-right: 10px;
         }
     }
@@ -143,6 +144,7 @@
         font-size: 18px;
         line-height: 180%;
         color: #000085;
+        padding-left: 30px;
         @media screen and (max-width: 580px) {
             font-size: 13px;
         }
@@ -152,6 +154,7 @@
             font-weight: bold; /* If you want it to be bold */
             display: inline-block; /* Needed to add space between the bullet and the text */
             width: 1em; /* Also needed for space (tweak if needed) */
+            margin-left: -30px;
             margin-right: 10px;
         }
     }

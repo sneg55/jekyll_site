@@ -77,4 +77,4 @@ pagination:
     </div>
 </section>
 
-{% include subscription.html content="Subscribe to our newsletter" %}
+{% include subscription.html content="Subscribe to our newsletter" buttonText="Submit" %}

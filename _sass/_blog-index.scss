@@ -109,14 +109,7 @@ section.first-post article {
 .subscription {
     position: relative;
     overflow: hidden;
-    margin-bottom: -75px;
-    &.bg-before-team {
-        &:before,
-        &:after {
-            background-color: #5b88ff;
-        }
-    }
-    &:before {
+    &::before {
         content: "";
         position: absolute;
         width: 50%;
@@ -140,21 +133,30 @@ section.first-post article {
     }
     .subscription-wrapper {
         display: flex;
-        justify-content: space-between;
-        padding: 75px 95px;
+        justify-content: space-between;        
         background: #dcebff;
         border: 2px solid #000085;
         box-sizing: border-box;
+
+        @media(min-width: 768px){
+            padding: 75px 35px;
+        }
+        @media(max-width: 767px){
+            padding: 30px;
+        }
     }
 
-    @media screen and (max-width: 580px) {
-        margin-bottom: -54px;
-        .subscription-wrapper {
-            padding: 20px 25px;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
+ @media screen and (max-width: 579px) {
+     .subscription-wrapper {
+       flex-direction: column;
+         align-items: center;
+          text-align: center;
+        }
+    }
+    .wrapper-subscription &{        
+        &:before,
+        &:after {
+            background-color: #5b88ff;
         }
     }
 }
-
