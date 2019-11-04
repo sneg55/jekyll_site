@@ -5,6 +5,9 @@ date:   2019-06-27 20:12:46 -0700
 cover: /images/blog/0_hlr9NXtk-Wvb9jnA.png
 canonical: https://medium.com/bzxnetwork/4-powerful-financial-products-possible-with-set-and-bzx-824bc74d5b70
 author: Kistner
+metadescription: "One of the defining characteristics of DeFi is the interoperability, composability, and open collaboration that it enables."
+intro: "One of the defining characteristics of DeFi is the interoperability, composability, and open collaboration that it enables."
+
 ---
 One of the defining characteristics of DeFi is the interoperability, composability, and open collaboration that it enables. Some of the most exciting combinations lie in the intersection of [Set](http://tokensets.com/), a protocol for tokenized asset management strategies, and bZx, a margin and lending protocol with tokenized positions. When combined, powerful financial products are possible. Here are some of our favorites:
 

@@ -5,6 +5,8 @@ date:   2018-12-03 20:12:46 -0700
 cover: /images/blog/1_4Mec30Uzx-pk72s9YnFisg.png
 canonical: https://medium.com/bzxnetwork/ethsingapore-wishlist-and-bounty-6d0b1b1d3ad2
 author: Kistner
+metadescription: "ETHSingapore is the first Ethereum and ETHGlobal Hackathon in the Southeast Asian region, which reflects an important step forward for both Ethereum and the region."
+intro: "ETHSingapore is the first Ethereum and ETHGlobal Hackathon in the Southeast Asian region, which reflects an important step forward for both Ethereum and the region."
 ---
 bZx is sponsoring the [ETHSingapore Hackathon](http://ethsingapore.co/). The Hackathon is taking place from December 7–9th. ETHSingapore is the first Ethereum and ETHGlobal Hackathon in the Southeast Asian region, which reflects an important step forward for both Ethereum and the region. Right before ETHSingapore, we will also be co-hosting a [DeFi meetup](https://t.co/JR5sW5Cgz2) on December 5th along with CoinAlpha, Set Protocol, Neutral, Sparrow, and Spartan. As one of the sponsors, we’re offering a 4 ETH bounty for the team with the best project built on top of the bZx protocol.
 

@@ -506,7 +506,7 @@ title: bZx - Protocol for tokenized margin trading and lending
     <div class="container container-xl">
         <div class="subscription-wrapper">
             <h2 class="fs-32 fs-sm-24 fw-700 lh-140 color-primary">Need help with building on bZx protocol?</h2>
-            <button class="button button-secondary button-md d-flex j-content-center a-items-center">Submit</button>
+            <button class="button button-secondary button-md d-flex j-content-center a-items-center">Contact Us</button>
         </div>
     </div>
 </section>

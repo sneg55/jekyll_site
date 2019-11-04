@@ -5,6 +5,8 @@ date:   2018-07-07 20:12:46 -0700
 cover: /images/blog/1__ql2WneSsoA8Ber1SLeTPg.png
 canonical: https://medium.com/bzxnetwork/b0x-rebrands-to-bzx-and-announces-mainnet-launch-date-ed4e0c4dd2df
 author: Kistner
+metadescription: "Founded and developed by a world-class team of industry experts, b0x, the leading decentralized margin trading protocol, has rebranded ahead of the imminent launch to the mainnet."
+intro: "Founded and developed by a world-class team of industry experts, b0x, the leading decentralized margin trading protocol, has rebranded ahead of the imminent launch to the mainnet."
 ---
 Founded and developed by a world-class team of industry experts, b0x, the leading decentralized margin trading protocol, has rebranded ahead of the imminent launch to the mainnet. Tom Bean, co-founder and CEO, revealed that b0x will henceforth be known as bZx to further distinguish its brand identity.
 
