@@ -449,16 +449,16 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <p class="fs-14 fs-sm-12 lh-180 mb-15">{{ item.bio }}</p>
                     <div class="icon-media">
                         <a href="{{ item.info }}" >
-                            <img src="/images/icons/info.svg" alt="info">
+                            {% include svg/info.svg %}
                         </a>
                         <a href="{{ item.github }}" target="_blank">
-                            <img src="/images/icons/github.svg" alt="github">
+                            {% include svg/github.svg %}
                         </a>
                         <a href="{{ item.linkedin }}"  target="_blank">
-                            <img src="/images/icons/linkedin.svg" alt="linkedin">
+                            {% include svg/linkedin.svg %}
                         </a>
                         <a href="mailto:{{ item.mail }}" target="_blank">
-                            <img src="/images/icons/mail.svg" alt="mail">
+                            {% include svg/mail.svg %}
                         </a>
                     </div>
                 </div>
