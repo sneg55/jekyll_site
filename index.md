@@ -451,15 +451,24 @@ title: bZx - Protocol for tokenized margin trading and lending
                         <a class="tooltip" title="{{ item.info }}">
                             {% include svg/info.svg %}
                         </a>
+                        {% if  item.github %}
                         <a href="{{ item.github }}" target="_blank">
                             {% include svg/github.svg %}
                         </a>
+                        {% endif %}
+
+                        {% if  item.linkedin %}
                         <a href="{{ item.linkedin }}"  target="_blank">
                             {% include svg/linkedin.svg %}
                         </a>
+                        {% endif %}
+
+                        {% if  item.mail %}
                         <a href="mailto:{{ item.mail }}" target="_blank">
                             {% include svg/mail.svg %}
                         </a>
+                        {% endif %}
+
                     </div>
                 </div>
             </div>
