@@ -1,21 +1,21 @@
 github:
   url: https://github.com/bZxNetwork
   name: GitHub
-  svg: "social-icons/github.svg"
+  svg: "svg/github.svg"
 medium:
   url: https://medium.com/bzxnetwork
   name: Medium
-  svg: "social-icons/medium.svg"
+  svg: "svg/medium.svg"
 twitter:
   url: https://twitter.com/b0xNet
   name: Twitter
-  svg: "social-icons/twitter.svg"
+  svg: "svg/twitter.svg"
 discord:
   url: http://bzx.network/discord
   name: Discord
-  svg: "social-icons/discord.svg"
+  svg: "svg/discord.svg"
 telegram:
   url: https://t.me/b0xNet
   name: Telegram
-  svg: "social-icons/telegram.svg"
+  svg: "svg/telegram.svg"
 
