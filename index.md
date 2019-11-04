@@ -89,7 +89,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
-                    <img src="/images/integrations/defiSaver.png" />
+                    {% include svg/defi-saver.svg %}
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
@@ -99,7 +99,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
-                    <img src="/images/integrations/alphaWallet.png" />
+                    {% include svg/alpha-wallet.svg %}
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
@@ -109,7 +109,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
-                    <img src="/images/integrations/dexWallet.png" />
+                    {% include svg/dex-wallet.svg %}
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
@@ -119,7 +119,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
-                    <img src="/images/integrations/defiSaver.png" />
+                    {% include svg/defi-saver.svg %}
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
@@ -129,7 +129,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
-                    <img src="/images/integrations/alphaWallet.png" />
+                    {% include svg/alpha-wallet.svg %}
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
@@ -139,7 +139,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
-                    <img src="/images/integrations/dexWallet.png" />
+                    {% include svg/dex-wallet.svg %}
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
@@ -149,7 +149,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
-                    <img src="/images/integrations/defiSaver.png" />
+                    {% include svg/defi-saver.svg %}
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
@@ -159,7 +159,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
-                    <img src="/images/integrations/alphaWallet.png" />
+                    {% include svg/alpha-wallet.svg %}
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
@@ -169,13 +169,13 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
-                    <img src="/images/integrations/dexWallet.png" />
+                    {% include svg/dex-wallet.svg %}
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
         </div>
     </div>
-    {% include svg/integrations.svg %}
+    {% include svg/integrations-1.svg %}
     {% include svg/integrations-mobile.svg %}
 </section>
 
@@ -233,7 +233,7 @@ title: bZx - Protocol for tokenized margin trading and lending
 {% include dots.html %}
 
 <section class="text-center color-white p-relative bg-secondary bt-20 bt-sm-14 bt-secondary svg-position pt-40 overflow-x-xl">
-    <div class="container container-sm pb-420 pb-sm-35">
+    <div class="container container-sm pb-445 pb-sm-35">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-25">How bZx Margin Trading Works</h2>
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-15 color-tertiary">Long Positions</h3>
         <p class="lh-160 mb-25">Taking a long position involves a simple swapping of one asset for another. For example, you could swap DAI for ETH because you think ETH will go up in value faster than DAI.</p>
@@ -246,7 +246,7 @@ title: bZx - Protocol for tokenized margin trading and lending
 {% include dots.html %}
 
 <section class="text-center bg-primary color-white pb-80 pb-sm-20 p-relative overflow-x-xl">
-    <div class="container container-sm pt-140 pt-sm-90 pb-485 pb-sm-30 p-relative">
+    <div class="container container-sm pt-140 pt-sm-90 pb-500 pb-sm-30 p-relative">
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-15 color-tertiary">Short Positions</h3>
         <p class="lh-160 mb-25">Taking a short position is more complicated. A short position is betting that something will go down over time. Short positions require escrow, leverage, and margin calls.</p>
         <a href="https://fulcrum.trade" class="button button-primary button-xl d-flex j-content-center m-auto">Try 4x short on fulcrum</a>
@@ -346,11 +346,11 @@ title: bZx - Protocol for tokenized margin trading and lending
 
 {% include dots.html %}
 
-<section class="text-center pt-60 pt-sm-30">
+<section class="text-center pt-55 pt-sm-30">
     <div class="container container-xl pb-40 pb-sm-55">
     <h2 id="history" class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-50 mb-sm-40 color-primary">History</h2>
         <div id="2019" class="tabcontent active">
-          <div class="container-tabs d-flex d-row flex-sm-d-c">
+          <div class="container-tabs d-flex d-row flex-sm-d-c j-content-sb">
               <div class="item-tabs mb-60 mb-sm-50">
                   <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">June, 2019</h4>
                   <p class="fs-14 lh-160 color-primary mb-sm-15">Fulcrum Launches With Over $750,000 in Liquidity</p>
@@ -376,7 +376,7 @@ title: bZx - Protocol for tokenized margin trading and lending
           </div>
         </div>
         <div id="2018" class="tabcontent">
-            <div class="container-tabs d-flex d-row flex-sm-d-c">
+            <div class="container-tabs d-flex d-row flex-sm-d-c j-content-sb">
                 <div class="item-tabs mb-60 mb-sm-50">
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">LATE JAN-EARLY FEB, 2018</h4>
                     <p class="fs-14 lh-160 color-primary mb-sm-15">bZx sponsors ETHDenver, attracting initial attention.</p>
@@ -402,12 +402,13 @@ title: bZx - Protocol for tokenized margin trading and lending
             </div>
         </div>
         <div id="2017" class="tabcontent">
-            <div class="container-tabs d-flex d-row flex-sm-d-c">
-                <div class="item-tabs mb-60 mb-sm-50">
+            <div class="container-tabs d-flex d-row flex-sm-d-c j-content-sb"></div>
+            <div class="container-tabs d-flex j-content-center d-row flex-sm-d-c">
+                <div class="item-tabs mb-90 mb-sm-50 px-25">
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">AUGUST 5, 2017</h4>
                     <p class="fs-14 lh-160 color-primary mb-sm-15">Tom Bean and Kyle J Kistner conceive bZx after several months of brainstorming and exploratory efforts.</p>
                 </div>
-                <div class="item-tabs mb-60 mb-sm-50">
+                <div class="item-tabs mb-90 mb-sm-50 px-25">
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">SEPTEMBER 29, 2017</h4>
                     <p class="fs-14 lh-160 color-primary mb-sm-15">First Github commit in the protocol contracts code repository.</p>
                 </div>
@@ -415,12 +416,12 @@ title: bZx - Protocol for tokenized margin trading and lending
         </div>
     </div>
     <div>
-        <hr class="bt-2 bt-primary m-0" />
-        <hr class="bt-7 bt-white m-0" />
-        <hr class="bt-2 bt-primary m-0" />
-        <hr class="bt-3 bt-tertiary m-0" />
-        <hr class="bt-2 bt-primary m-0" />
-        <hr class="bt-7 bt-white m-0" />
+        <hr class="bt-1 bt-primary m-0" />
+        <hr class="bt-6 bt-white m-0" />
+        <hr class="bt-1 bt-primary m-0" />
+        <hr class="bt-2 bt-tertiary m-0" />
+        <hr class="bt-1 bt-primary m-0" />
+        <hr class="bt-6 bt-white m-0" />
     </div>
     <div class="tab">
         <div class="buttons-tabs">

@@ -36,7 +36,7 @@
             opacity: 0.5;
         }
     }
-    img{
+    svg{
         @media (min-width: 580px) {
             margin-bottom: 25px;
         }  
@@ -50,7 +50,7 @@
         @media(min-width: 580px){
             font-size: 16px;
         }    
-        @media(min-width: 579px){
+        @media(max-width: 579px){
             font-size: 11px;
         }  
     }
@@ -90,19 +90,6 @@
             }
         }
     }
-      
-    /*&.after{
-        &:after{
-            content: url(/images/icons/item-integration.svg);
-            position: absolute;
-            left: 0;
-            right: 0;
-            bottom: -26px;
-            margin: auto;
-            text-align: center;
-        }
-    }*/
-
     &:hover{
         background-color: $light-primary-color;
         .item-integrations{
@@ -397,7 +384,7 @@
 
 .item-partners{
     text-align: center;
-    margin: 20px auto;
+    margin: 25px auto;
     @media(min-width: 580px){
         width: 265px;
         &:nth-child(3n+2){
