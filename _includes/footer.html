@@ -33,21 +33,23 @@
         </div>
         <div class="social-wrapper d-flex flex-d-c j-content-sb">
             <div class="social-icons mb-sm-20">
-                <a href="https://github.com/bZxNetwork" class="github">
-                        {% include social-icons/github.svg %}
+
+                <a href="{{ site.data.social-icons.github.url}}" class="{{site.data.social-icons.github.name}}">
+                    {% include {{ site.data.social-icons.github.svg }} %}
                 </a>
-                <a href="https://medium.com/bzxnetwork" class="medium">
-                        {% include social-icons/medium.svg %}
+                <a href="{{ site.data.social-icons.medium.url}}" class="{{site.data.social-icons.medium.name}}">
+                    {% include {{ site.data.social-icons.medium.svg }} %}
                 </a>
-                <a href="http://bzx.network/discord" class="discord">
-                        {% include social-icons/discord.svg %}
+                <a href="{{ site.data.social-icons.discord.url}}" class="{{site.data.social-icons.discord.name}}">
+                    {% include {{ site.data.social-icons.discord.svg }} %}
                 </a>
-                <a href="https://t.me/b0xNet" class="telegram">
-                        {% include social-icons/telegram.svg %}
+                <a href="{{ site.data.social-icons.telegram.url}}" class="{{site.data.social-icons.telegram.name}}">
+                    {% include {{ site.data.social-icons.telegram.svg }} %}
                 </a>
-                <a href="https://twitter.com/b0xNet" class="twitter">
-                        {% include social-icons/twitter.svg %}
+                <a href="{{ site.data.social-icons.twitter.url}}" class="{{site.data.social-icons.twitter.name}}">
+                    {% include {{ site.data.social-icons.twitter.svg }} %}
                 </a>
+
             </div>
             <div class="disclaimer fs-12 lh-150 fs-sm-10 mb-20">
                 © 2019 bZeroX, LLC
@@ -57,12 +59,12 @@
 </footer>
 <script>
 
-  window.intercomSettings = {
-    app_id: "dfk4n5ut"
-  };
+    window.intercomSettings = {
+        app_id: "dfk4n5ut"
+    };
 </script>
 
-<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/dfk4n5ut';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
+<script>(function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', w.intercomSettings); } else { var d = document; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/dfk4n5ut'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();</script>
 
 <script type="text/javascript" src="/assets/js/jquery.js "></script>
 <script type="text/javascript" src="/assets/js/owl/owl.carousel.min.js "></script>

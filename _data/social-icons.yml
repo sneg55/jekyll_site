@@ -1,17 +1,21 @@
-social-icons:
- - title: GitHub
-   url: https://github.com/bZxNetwork
-   class: github
-   path: "social-icons/github"
-#  - title: Medium
-#    url: https://medium.com/
-#    class: medium
-#  - title: Twitter
-#    url: https://twitter.com/
-#    class: twitter
-#  - title: Discord
-#    url: https://discordapp.com/
-#    class: discord
-#  - title: Telegram
-#    url: https://telegram.org/
-#    class: telegram
+github:
+  url: https://github.com/bZxNetwork
+  name: GitHub
+  svg: "social-icons/github.svg"
+medium:
+  url: https://medium.com/bzxnetwork
+  name: Medium
+  svg: "social-icons/medium.svg"
+twitter:
+  url: https://twitter.com/b0xNet
+  name: Twitter
+  svg: "social-icons/twitter.svg"
+discord:
+  url: http://bzx.network/discord
+  name: Discord
+  svg: "social-icons/discord.svg"
+telegram:
+  url: https://t.me/b0xNet
+  name: Telegram
+  svg: "social-icons/telegram.svg"
+

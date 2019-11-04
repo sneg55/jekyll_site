@@ -16,12 +16,12 @@ title: bZx - Protocol for tokenized margin trading and lending
 
 <section class="mt-40 bg-wave text-center">
     <div class="container container-md d-flex f-wrap j-content-sb px-65 px-sm-15">
-        <a href="https://twitter.com/b0xNet" class="button button-primary button-lg d-flex j-content-center mb-10">Twitter</a>
+        <a href="{{ site.data.social-icons.twitter.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">Twitter</a>
         <a href="#" class="button button-primary button-lg d-flex j-content-center mb-10">Join mailing list</a>
-        <a href="https://t.me/b0xNet" class="button button-primary button-lg d-flex j-content-center mb-10">Telegram</a>
+        <a href="{{ site.data.social-icons.telegram.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">Telegram</a>
         <a href="https://docs.bzx.network/" class="button button-primary button-lg d-flex j-content-center mb-10">Read the docs</a>
-        <a href="https://github.com/bZxNetwork" class="button button-primary button-lg d-flex j-content-center mb-10">Github</a>
-        <a href="https://bzx.network/discord" class="button button-primary button-lg d-flex j-content-center mb-10">Technical community</a>
+        <a href="{{ site.data.social-icons.github.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">GitHub</a>
+        <a href="{{ site.data.social-icons.discord.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">Technical community</a>
     </div>
     {% include svg/system.svg %}
     {% include svg/system-mobile.svg %}
@@ -252,7 +252,7 @@ title: bZx - Protocol for tokenized margin trading and lending
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-15 color-tertiary">Leveraged Positions</h3>
         <p class="lh-160 mb-15">Leveraged positions use the same mechanics as short positions, but with leveraged positions you’re able to borrow more than you have. For example, you could go 100x long on Ethereum. </p>
         <p class="lh-160 mb-20">You can easily integrate bZx protocol into your exchange, wallet or web3 app. </p>
-        <a href="https://github.com/bZxNetwork" class="button button-primary button-sm mx-15 d-inline-block">Github</a>
+        <a href="{{ site.data.social-icons.github.url}}" class="button button-primary button-sm mx-15 d-inline-block">Github</a>
         <a href="https://docs.bzx.network/" class="button button-primary button-sm mx-15 d-inline-block">Developers docs</a>
     </div>
     <div>
