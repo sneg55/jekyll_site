@@ -176,7 +176,7 @@ title: bZx - Protocol for tokenized margin trading and lending
 
 <section class="text-center bg-primary color-white pt-55 pt-sm-30 pb-40 p-relative">
     <div class="container container-sm">
-        <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-45">Why Is Decentralized Margin Trading Better?</h2>
+        <h2 id="how-it-works" class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-45">Why Is Decentralized Margin Trading Better?</h2>
     </div>
     <div class="container container-xl">
         <div class="d-flex j-content-sb f-wrap px-50 px-sm-40">
@@ -343,7 +343,7 @@ title: bZx - Protocol for tokenized margin trading and lending
 
 <section class="text-center pt-60 pt-sm-30">
     <div class="container container-xl pb-40 pb-sm-55">
-    <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-50 mb-sm-40 color-primary">History</h2>
+    <h2 id="history" class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-50 mb-sm-40 color-primary">History</h2>
         <div id="2019" class="tabcontent active">
           <div class="container-tabs d-flex d-row flex-sm-d-c">
               <div class="item-tabs mb-60 mb-sm-50">
@@ -437,7 +437,7 @@ title: bZx - Protocol for tokenized margin trading and lending
 {% include dots.html %}
 
 <section class="bg-primary wrapper-team pt-35 pb-80 overflow">
-    <h2 class="fs-32 fs-sm-24 lh-140 fw-700 mb-35 mb-sm-20 color-white text-center">Team & Advisors</h2>
+    <h2 id="team" class="fs-32 fs-sm-24 lh-140 fw-700 mb-35 mb-sm-20 color-white text-center">Team & Advisors</h2>
     <div class="container d-flex j-content-sb container-team p-relative">
         {% for item in site.data.team %}
             <div class="item-team d-flex flex-d-c flex-sm-d-r">
