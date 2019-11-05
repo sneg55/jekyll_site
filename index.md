@@ -446,7 +446,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <h4 class="fs-22 fs-sm-18 lh-150 color-primary mb-5">{{ item.name }}</h4>
                     <p class="fs-14 fs-sm-12 lh-180 mb-15">{{ item.bio }}</p>
                     <div class="icon-media d-flex">
-                        <a class="tooltip" title="{{ item.info }}">
+                        <a href="#" class="info" data-name="{{ item.name }}" data-bio="{{ item.bio }}" data-info="{{ item.info }}">
                             {% include svg/info.svg %}
                         </a>
                         {% if  item.github %}
