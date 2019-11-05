@@ -36,26 +36,37 @@ Structured is one of the coolest products built with Ethereum money legos we’v
 
 {% youtube "https://www.youtube.com/watch?v=9jr-JoaoT0w" %}
 
-dDAI Builds on Fulcrum
-dDAI enables users to earn interests from lending out DAI on Fulcrum and reinvest those interest automatically into any other asset class using DeFi recipes, i.e., ETH, BTX, KNC, synthetic assets, etc. or a combination of different assets.
+## dDAI Builds on Fulcrum
+[dDAI](https://ddai.netlify.com/) enables users to earn interests from lending out DAI on Fulcrum and reinvest those interest automatically into any other asset class using DeFi recipes, i.e., ETH, BTX, KNC, synthetic assets, etc. or a combination of different assets.
+![](/images/blog/0_jez799m5iAciTKzC.png)
 
+![](/images/blog/0_0KCgKpAQ9bp-hYRq.png)
 
-DeFiZap Builds on Fulcrum
+## DeFiZap Builds on Fulcrum
 DeFi Zap enables instant exposure across multiple DeFi protocols based on your investment goals.
 
+![](/images/blog/1_v6IDZaAxUGfSQKS00QuHJg.png)
+
 What does ETH Maximalist Zap do?
+
 Your deposit is automatically split between bZx Perpetual Short WBTC (dsWBTC) and bZx Perpetual Long ETH-DAI 2x(dLETH2x).
+
 For example, if you send 1 ETH to ETH Maximalist Zap’s Smart Contract address:
-0.5 of your ETH will go towards opening a Perpetual (without expiration) BTC Short position on Fulcrum exchange.
-and 0.5 ETH will be used to open a Perpetual ETH Long with 2x leverage. This means you will have exposure to 1 ETH (0.5x2).
-Portle Builds on Fulcrum
-Portle provides an interface to interact with several dapp protocols under a single user interface. It presents those protocols under categories that are inherited from the banking application to make an experience more familiar.
+- 0.5 of your ETH will go towards opening a Perpetual (without expiration) BTC Short position on Fulcrum exchange.
+- and 0.5 ETH will be used to open a Perpetual ETH Long with 2x leverage. This means you will have exposure to 1 ETH (0.5x2).
 
-iDAI Now On Uniswap
-We are proud to announce BZX iDAI Token available now at UniswapExchange. Swap any token to iDAI and start earning interest without any extra steps. This integration also paves the way for the next wave of iDAI integrations with new apps.
+## Portle Builds on Fulcrum
+[Portle](https://devpost.com/software/portle) provides an interface to interact with several dapp protocols under a single user interface. It presents those protocols under categories that are inherited from the banking application to make an experience more familiar.
+![](/images/blog/0_OPfTMou1w50Vwlig.jpg)
 
+## iDAI Now On Uniswap
+We are proud to announce BZX iDAI Token available now at [UniswapExchange](https://uniswap.exchange/). Swap any token to iDAI and start earning interest without any extra steps. This integration also paves the way for the next wave of iDAI integrations with new apps.
 
-Eidoo: A Mobile Experience for Fulcrum
+![](/images/blog/0_ZposDDwKjzWx3518.png)
+
+![](/images/blog/0_1Mopq4vShgZZlbAN.png)
+
+## Eidoo: A Mobile Experience for Fulcrum
 Click here to get started with Eidoo and start earning interest on your DAI with Fulcrum. You can read more about Fulcrum and Eidoo on our Medium article about it.
 
 Hydro Adds Fulcrum to their dApp Store
