@@ -1,0 +1,87 @@
+body.modal-open {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.modal {
+    display: none;
+    background: rgba(0, 0, 0, .30);
+    z-index: 999;
+    padding: 30px 0;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+.modal-dialog {
+    background: #fff;
+    padding: 30px;
+    margin: 10px;
+    max-width: 600px;
+
+    min-width: 300px;
+
+    margin: 30px auto;
+    .modal-content {
+        position: relative;
+
+        .close {
+            position: absolute;
+            top: 0;
+            right: 0%;
+            &:hover {
+                cursor: pointer;
+                svg path {
+                    fill: #33dfcc;
+                }
+            }
+        }
+    }
+
+    .modal-body {
+        form {
+            input {
+                padding: 12px 10px;
+                color: #5b88ff;
+                background: #dcebff;
+                border: 1px solid #cbe2ff;
+                box-sizing: border-box;
+                border-radius: 4px;
+                max-height: 49px;
+                &:focus{
+                    background: #fff;
+                    border: 2px solid #276BFB;
+                    border-radius: 4px;
+                    outline: none;
+                    color: $primary-color;
+                }
+            }
+            ::placeholder {
+                /* Chrome, Firefox, Opera, Safari 10.1+ */
+                color: #5b88ff;
+                opacity: 1; /* Firefox */
+            }
+
+            :-ms-input-placeholder {
+                /* Internet Explorer 10-11 */
+                color: #5b88ff;
+            }
+
+            ::-ms-input-placeholder {
+                /* Microsoft Edge */
+                color: #5b88ff;
+            }
+
+            button{
+                max-width: 130px;
+                min-height: 40px;
+            }
+        }
+    }
+}

@@ -17,7 +17,7 @@ title: bZx - Protocol for tokenized margin trading and lending
 <section class="mt-40 bg-wave text-center">
     <div class="container container-md d-flex f-wrap j-content-sb px-65 px-sm-15">
         <a href="{{ site.data.social-icons.twitter.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">Twitter</a>
-        <a href="#" class="button button-primary button-lg d-flex j-content-center mb-10">Join mailing list</a>
+        <a href="#" class="button button-primary button-lg d-flex j-content-center mb-10 join-mailing-list">Join mailing list</a>
         <a href="{{ site.data.social-icons.telegram.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">Telegram</a>
         <a href="https://docs.bzx.network/" class="button button-primary button-lg d-flex j-content-center mb-10">Read the docs</a>
         <a href="{{ site.data.social-icons.github.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">GitHub</a>
@@ -28,10 +28,10 @@ title: bZx - Protocol for tokenized margin trading and lending
 </section>
 
 <section class="text-center pt-55 pt-sm-45 pb-80 pb-sm-30 bg-tertiary">
-    <div class="container container-lg p-relative before-carousel">
+    <div class="container container-lg p-relative before-product-protocol">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 color-white mb-45">Products built on bZx protocol</h2>
         <div class="d-flex j-content-sb f-wrap">
-            <div class="owl-carousel owl-carousel-1">
+            <div class="product-protocol">
                 <div class="item">
                     <a href="https://fulcrum.trade">  
                         <img src="/images/carousel/fulcrum.jpg" class="item-img">
@@ -40,20 +40,8 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Fulcrum</h3>
                     <p class="lh-160">DeFi margin trading and lending platform</p>
                 </div>
-                <div class="item">
-                    <img src="/images/carousel/fulcrum.jpg" class="item-img">
-                    <hr />
-                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Fulcrum 2</h3>
-                    <p class="lh-160">DeFi margin trading and lending platform</p>
-                </div>
-                <div class="item">
-                    <img src="/images/carousel/fulcrum.jpg" class="item-img">
-                    <hr />
-                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Fulcrum 3</h3>
-                    <p class="lh-160">DeFi margin trading and lending platform</p>
-                </div>
             </div>
-            <div class="owl-carousel owl-carousel-2">
+            <div class="product-protocol">
                 <div class="item">
                     <a href="https://torque.loans">
                         <img src="/images/carousel/torque.jpg" class="item-img">
@@ -61,18 +49,6 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <hr />
                     <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Torque</h3>
                     <p class="lh-160">Indefinite-term loans and fixed interest rates</p>
-                </div>
-                <div class="item">
-                    <img src="/images/carousel/torque.jpg" class="item-img">
-                    <hr />
-                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Torque 2</h3>
-                    <p class="lh-160">DeFi margin trading and lending platform</p>
-                </div>
-                <div class="item">
-                    <img src="/images/carousel/torque.jpg" class="item-img">
-                    <hr />
-                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Torque 3</h3>
-                    <p class="lh-160">DeFi margin trading and lending platform</p>
                 </div>
             </div>
         </div>
@@ -188,7 +164,7 @@ title: bZx - Protocol for tokenized margin trading and lending
             <div class="mw-px-280 mb-sm-40">
                 {% include svg/minimal-risk.svg %}
                 <h3 class="fs-24 fs-sm-20 lh-160 mb-15">Minimal Risk</h3>
-                <p class="fs-14 fs-sm-10 lh-160">Whether you’re a lender or borrower, you stay in control of your keys. Never worry about exchanges getting hacked or stealing your funds. bZx smart contracts  passed a <a href="https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf">successful audit</a> by ZK Labs.</p>
+                <p class="fs-14 fs-sm-10 lh-160">Whether you’re a lender or borrower, you stay in control of your keys. Never worry about exchanges getting hacked or stealing your funds. bZx smart contracts  passed a <a class="color-tertiary" href="https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf">successful audit</a> by ZK Labs.</p>
             </div>
             <div class="mw-px-280 mb-sm-40">
                 {% include svg/passive-income.svg %}
@@ -446,7 +422,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <h4 class="fs-22 fs-sm-18 lh-150 color-primary mb-5">{{ item.name }}</h4>
                     <p class="fs-14 fs-sm-12 lh-180 mb-15">{{ item.bio }}</p>
                     <div class="icon-media d-flex">
-                        <a class="tooltip" title="{{ item.info }}">
+                        <a href="#" class="info" data-name="{{ item.name }}" data-bio="{{ item.bio }}" data-info="{{ item.info }}">
                             {% include svg/info.svg %}
                         </a>
                         {% if  item.github %}
@@ -454,19 +430,16 @@ title: bZx - Protocol for tokenized margin trading and lending
                             {% include svg/github.svg %}
                         </a>
                         {% endif %}
-
                         {% if  item.linkedin %}
                         <a href="{{ item.linkedin }}"  target="_blank">
                             {% include svg/linkedin.svg %}
                         </a>
                         {% endif %}
-
                         {% if  item.mail %}
                         <a href="mailto:{{ item.mail }}" target="_blank">
                             {% include svg/mail.svg %}
                         </a>
                         {% endif %}
-
                     </div>
                 </div>
             </div>
@@ -512,3 +485,5 @@ title: bZx - Protocol for tokenized margin trading and lending
 <section class="wrapper-subscription">
     {% include subscription.html content="Need help with building on bZx protocol?" buttonText="Contact Us" buttonClass="contact-us-button" %}
 </section>
+
+{% include modal.html %}

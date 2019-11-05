@@ -62,44 +62,12 @@
             messenger("show");
         });
 
-        $('.tooltip').tooltipster({
-            theme: ['tooltipster-customized'],
-            functionPosition: function (instance, helper, data) {
-                var parent = $(helper.origin).closest(".item-team ");
-
-                //if content wider than container - put in inside
-                if (data.size.width > parent.width()) {
-                    data.coord.left = parent.offset().left - 13
-                    $(helper.tooltipClone).width(parent.width())
-                    var diffTop = $(helper.tooltipClone).height() - data.size.height;
-                    data.size.height = $(helper.tooltipClone).height();
-                    data.size.width = parent.width()
-                    data.coord.top -= diffTop;
-
-                    return data;
-                }
-
-                //if content go out of the left boundary - shift it inside
-                if (data.coord.left < parent.offset().left) {
-                    data.coord.left = parent.offset().left - 13;
-
-                    return data;
-                }
-
-                //if content go out of the right boundary - shift it inside
-                if (data.coord.left + $(helper.tooltipClone).width() - (parent.offset().left + parent.width()) > 0) {
-                    data.coord.left -= data.coord.left + $(helper.tooltipClone).width() - (parent.offset().left + parent.width()) - 13;
-
-                    return data;
-                }
-
-                return data;
-            }
-
-        });
     };
 </script>
 <script type="text/javascript" src="/assets/js/jquery.js "></script>
-<script type="text/javascript" src="/assets/js/tooltipster.bundle.min.js "></script>
-<script type="text/javascript" src="/assets/js/owl/owl.carousel.min.js "></script>
+
+<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+<script src="https://unpkg.com/tooltip.js/dist/umd/tooltip.min.js"></script>
+<script src="/assets/js/rmodal.min.js"></script>
+
 <script type="text/javascript" src="/assets/js/main.js "></script>
