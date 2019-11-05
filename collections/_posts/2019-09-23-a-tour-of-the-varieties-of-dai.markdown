@@ -2,7 +2,7 @@
 layout: post
 title:  "A Tour Of the Varieties of DAI"
 date:   2019-09-23 20:12:46 -0700
-cover: /images/blog/1_u_fPkE2LdoXJ8R2aXzDjCA.png
+cover: /images/blog/varietiesDAI.jpg
 canonical: https://medium.com/bzxnetwork/a-tour-of-the-varieties-of-dai-9ff155f7666c
 author: Kistner
 metadescription: "DeFi has reached escape velocity. Now that the primitives are here, we are experiencing a combinatorial explosion of new products, driven by the endless creativity of the Ethereum community. It can feel impossible to keep up with all the new projects and instruments being released on what feels like a daily basis. This article is here to help with that."
