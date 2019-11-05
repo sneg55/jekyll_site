@@ -1,4 +1,20 @@
 $(document).ready(function () {
+
+  window.modal = new RModal(
+    document.getElementById('modal'), {closeTimeout : 0}
+  );
+
+
+  $(".join-mailing-list").on("click", function (e) {
+    e.preventDefault();
+    modal.open();
+  });
+
+  $("#modal .close").on("click", function (e) {
+      e.preventDefault();
+      modal.close();
+  });
+
   $(".item-team").each(function (index, item) {
     var trigger = $(item).find(".info");
     var template = `

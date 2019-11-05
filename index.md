@@ -17,7 +17,7 @@ title: bZx - Protocol for tokenized margin trading and lending
 <section class="mt-40 bg-wave text-center">
     <div class="container container-md d-flex f-wrap j-content-sb px-65 px-sm-15">
         <a href="{{ site.data.social-icons.twitter.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">Twitter</a>
-        <a href="#" class="button button-primary button-lg d-flex j-content-center mb-10">Join mailing list</a>
+        <a href="#" class="button button-primary button-lg d-flex j-content-center mb-10 join-mailing-list">Join mailing list</a>
         <a href="{{ site.data.social-icons.telegram.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">Telegram</a>
         <a href="https://docs.bzx.network/" class="button button-primary button-lg d-flex j-content-center mb-10">Read the docs</a>
         <a href="{{ site.data.social-icons.github.url }}" class="button button-primary button-lg d-flex j-content-center mb-10">GitHub</a>
@@ -485,3 +485,5 @@ title: bZx - Protocol for tokenized margin trading and lending
 <section class="wrapper-subscription">
     {% include subscription.html content="Need help with building on bZx protocol?" buttonText="Contact Us" buttonClass="contact-us-button" %}
 </section>
+
+{% include modal.html %}
