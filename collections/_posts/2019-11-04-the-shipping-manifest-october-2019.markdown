@@ -125,31 +125,48 @@ Nick attended San Francisco Blockchain Week.
 ---
 Fulcrum listed on [whois0x](https://twitter.com/whois0x/status/1179786021577338881) Decentralized Finance Markets [dashboard](https://whois0x.io/defimarket)
 
+![](/images/blog/0_khUJvMVsVCjTsPZb.png)
 
-MyDeFi adds Fulcrum to their DeFi Dashboard. You can track Fulcrum rates with MyDeFi Android and iOS apps.
+![](/images/blog/1_XW3SH3mB0rbPuGHsJp1Brw.png)
+
+[MyDeFi](http://mydefi.org/) adds Fulcrum to their DeFi Dashboard. You can track Fulcrum rates with MyDeFi Android and iOS apps.
+
+![](/images/blog/0_HH97Hqj5Q9q5SHie.png)
 
 LINK trading has resumed. Linkmarines welcomed!
 
+![](/images/blog/1_mlOFfjymJPoMA2PCeN_dRw.png)
+
 Fulcrum now shows how your interest is increasing in real-time.
+![](/images/blog/0_k48CXoMO8j8fKf7d.gif)
 
-Bug Bounty Program
-Starting October 28th, a bug bounty program has been started on the bZx core contracts. Finding vulnerabilities in the bZx protocol will result in a bug bounty being paid out.
-No Slippage Swaps Between iDAI and cDAI
-This new feature from 1inch.exchange enables direct swap of any Compound and Fulcrum interest-bearing tokens. Now it’s possible to migrate a lending position from Compound to Fulcrum or from Fulcrum to Compound in one single transaction.
+## Bug Bounty Program
 
-Earncryptointerest.com listing
-Fulcrum now available at Earncryptointerest.com lending stats dashboard
+Starting October 28th, a [bug bounty](https://medium.com/@KyleJKistner/introducing-the-bzx-bug-bounty-program-ad74d3171444) program has been started on the bZx core contracts. Finding vulnerabilities in the bZx protocol will result in a bug bounty being paid out.
 
-Torque
-Released Torque with web3 wallets and ENS-based loan origination. Sweet fixed rates for indefinite term loans on fist come first served base.
+## No Slippage Swaps Between iDAI and cDAI
+This new feature from [1inch.exchange](https://1inch.exchange/#/cDAI/iDAI) enables direct swap of any Compound and Fulcrum interest-bearing tokens. Now it’s possible to migrate a lending position from Compound to Fulcrum or from Fulcrum to Compound in one single transaction.
+![](/images/blog/0_JkVGy9lBkrVBUHMH.png)
 
-Released Step-by-step guide for Torque — explained in depth how fixed rates loans work.
+## Earncryptointerest.com listing
+Fulcrum now available at [Earncryptointerest.com](https://earncryptointerest.com) lending stats dashboard
+![](/images/blog/1_X6v4P_qg8VPHxVFXAX4UbQ.png)
+
+## Torque
+Released [Torque](https://torque.loans/) with web3 wallets and ENS-based loan origination. Sweet fixed rates for indefinite term loans on fist come first served base.
+![](/images/blog/1_OrMRnj_xqO8vdxKI_E-Jfg.png)
+
+Released [Step-by-step guide for Torque](https://medium.com/bzxnetwork/torque-is-live-a-step-by-step-guide-to-the-most-powerful-decentralized-borrowing-platform-on-21139dc6abce) — explained in depth how fixed rates loans work.
+
 Here is short video showing Torque in action
+{% youtube "https://www.youtube.com/watch?v=8_Nz0f15ib0" %}
 
-Press and media mentions
-Featured in Bankless by Ryan Sean Adams
-Kyle’s article “A tour of the varieties of dai” translated to Chinese by the ETHFANS team.
-Top 3 Most Popular Cryptocurrency Margin Trading Platforms in DeFi
-The DeFi Series — Statistics Around DAI Stablecoin
-The Biggest Challenge of the Consumer Web — and How Crypto is Poised to Solve It
+## Press and media mentions
+- Featured in [Bankless](https://bankless.substack.com/p/straddling-two-worlds-crypto-and) by Ryan Sean Adams
+- Kyle’s article “A tour of the varieties of dai” [translated to Chinese](https://ethfans.org/posts/a-tour-of-the-varieties-of-dai) by the ETHFANS team.
+- [Top 3 Most Popular Cryptocurrency Margin Trading Platforms in DeFi](https://defipulse.com/blog/top-3-most-popular-cryptocurrency-margin-trading-platforms-in-defi/)
+- [The DeFi Series — Statistics Around DAI Stablecoin](https://medium.com/alethio/statistics-around-dai-stablecoin-fb359d6881aa)
+- [The Biggest Challenge of the Consumer Web — and How Crypto is Poised to Solve It](https://blog.coinbase.com/the-biggest-challenge-of-the-consumer-web-and-how-crypto-is-poised-to-solve-it-5de2ab5b1c4a)
+
+
 Stay tuned for more updates next month!
