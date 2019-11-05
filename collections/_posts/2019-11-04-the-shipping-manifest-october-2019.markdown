@@ -67,19 +67,25 @@ We are proud to announce BZX iDAI Token available now at [UniswapExchange](https
 ![](/images/blog/0_1Mopq4vShgZZlbAN.png)
 
 ## Eidoo: A Mobile Experience for Fulcrum
-Click here to get started with Eidoo and start earning interest on your DAI with Fulcrum. You can read more about Fulcrum and Eidoo on our Medium article about it.
+Click [here](https://eidoo.io/desktop-download) to get started with Eidoo and start earning interest on your DAI with Fulcrum. You can [read more](https://medium.com/bzxnetwork/fulcrum-itokens-now-available-on-eidoo-2407d76ca9fa) about Fulcrum and Eidoo on our Medium article about it.
+![](/images/blog/1_Jmjfx1VAXrnvXaoUxmOPsA.gif)
 
-Hydro Adds Fulcrum to their dApp Store
-Hydro is an open-source project, with a global community dedicated to simplifying blockchain adoption.
+## Hydro Adds Fulcrum to their dApp Store
+[Hydro](https://projecthydro.org/) is an open-source project, with a global community dedicated to simplifying blockchain adoption.
+![](/images/blog/0_XzwkrdpcUg_vS3TZ.png)
 
-Fulcrum on CoinMarketCap
-Coinmarketcap has released a new interest dashboard that prominently features Fulcrum. Remarkable that CMC marked real DeFi projects with a green checkmark.
+## Fulcrum on CoinMarketCap
+Coinmarketcap has released a new [interest dashboard](https://interest.coinmarketcap.com/currencies/dai) that prominently features Fulcrum. Remarkable that CMC marked real DeFi projects with a green checkmark.
+![](/images/blog/0_CZQXts0FsHYJ3tVs.png)
 
-iDAI Now on Zerion
-Manage and track your DeFi portfolio across multiple accounts in a single place with Zerion
+## iDAI Now on Zerion
+Manage and track your DeFi portfolio across multiple accounts in a single place with [Zerion](https://zerion.io/)
+![](/images/blog/0_XlcmzhPSEf1tSI-F.png)
 
-Offline Events
-bZx @ DeFi.WTF
+## Offline Events
+--- 
+## bZx @ DeFi.WTF
+
 Kyle was on several panels, including Deep Dive Into DeFi Liquidity Models, Should We And Can We Go From Overcollateralized to Undercollateralized? & DeFi Bull & Bear: A Debate.
 
 
