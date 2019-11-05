@@ -29,7 +29,7 @@ pagination:
                     <div class="article-content">
                         <h2 class="fs-32 lh-140 fw-700 mb-20 mt- fs-sm-24">{{ newest_post.title }}</h2>
                         <p class="description fs-16 fs-sm-12 lh-160 mb-20">
-                            {{ newest_post.intro }}
+                            {{ newest_post.intro | truncate: 200 }}
                         </p>
                         <p class="date fs-14 fs-sm-11 lh-180">{{ newest_post.date | date_to_string }}</p>
                     </div>
