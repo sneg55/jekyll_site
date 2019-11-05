@@ -1,4 +1,21 @@
-.owl-carousel{
+.before-product-protocol{
+    @media(min-width: 1200px){
+        &:before{
+            content: url(/images/icons/before-carousel.svg);
+            position: absolute;
+            left: -130px;
+            top: 45px;
+        }
+        &:after{
+            content: url(/images/icons/after-carousel.svg);
+            position: absolute;
+            right: -120px;
+            bottom: -65px;
+            z-index: 2;
+        }
+    }
+}
+.product-protocol{
     position: relative;
     @media(min-width: 992px){
         width: 50%;
@@ -34,7 +51,7 @@
         }
         
     }
-    .owl-dots{
+    /*.owl-dots{
         position: absolute;
         top: -25px;
         left: 0;
@@ -50,22 +67,5 @@
                 background-color: $secondary-color !important;
             }
         }
-    }
-}
-.before-carousel{
-    @media(min-width: 1200px){
-        &:before{
-            content: url(/images/icons/before-carousel.svg);
-            position: absolute;
-            left: -130px;
-            top: 45px;
-        }
-        &:after{
-            content: url(/images/icons/after-carousel.svg);
-            position: absolute;
-            right: -120px;
-            bottom: -65px;
-            z-index: 2;
-        }
-    }
+    }*/
 }

@@ -28,10 +28,10 @@ title: bZx - Protocol for tokenized margin trading and lending
 </section>
 
 <section class="text-center pt-55 pt-sm-45 pb-80 pb-sm-30 bg-tertiary">
-    <div class="container container-lg p-relative before-carousel">
+    <div class="container container-lg p-relative before-product-protocol">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 color-white mb-45">Products built on bZx protocol</h2>
         <div class="d-flex j-content-sb f-wrap">
-            <div class="owl-carousel owl-carousel-1">
+            <div class="product-protocol">
                 <div class="item">
                     <a href="https://fulcrum.trade">  
                         <img src="/images/carousel/fulcrum.jpg" class="item-img">
@@ -40,20 +40,8 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Fulcrum</h3>
                     <p class="lh-160">DeFi margin trading and lending platform</p>
                 </div>
-                <div class="item">
-                    <img src="/images/carousel/fulcrum.jpg" class="item-img">
-                    <hr />
-                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Fulcrum 2</h3>
-                    <p class="lh-160">DeFi margin trading and lending platform</p>
-                </div>
-                <div class="item">
-                    <img src="/images/carousel/fulcrum.jpg" class="item-img">
-                    <hr />
-                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Fulcrum 3</h3>
-                    <p class="lh-160">DeFi margin trading and lending platform</p>
-                </div>
             </div>
-            <div class="owl-carousel owl-carousel-2">
+            <div class="product-protocol">
                 <div class="item">
                     <a href="https://torque.loans">
                         <img src="/images/carousel/torque.jpg" class="item-img">
@@ -61,18 +49,6 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <hr />
                     <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Torque</h3>
                     <p class="lh-160">Indefinite-term loans and fixed interest rates</p>
-                </div>
-                <div class="item">
-                    <img src="/images/carousel/torque.jpg" class="item-img">
-                    <hr />
-                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Torque 2</h3>
-                    <p class="lh-160">DeFi margin trading and lending platform</p>
-                </div>
-                <div class="item">
-                    <img src="/images/carousel/torque.jpg" class="item-img">
-                    <hr />
-                    <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Torque 3</h3>
-                    <p class="lh-160">DeFi margin trading and lending platform</p>
                 </div>
             </div>
         </div>

@@ -1,11 +1,3 @@
-$(document).ready(function () {
-  $(".owl-carousel-1").owlCarousel({
-    items: 1
-  });
-  $(".owl-carousel-2").owlCarousel({
-    items: 1
-  });
-});
 function openTab(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
