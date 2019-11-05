@@ -100,19 +100,30 @@ Kyle and Tom spent the whole week at Devcon V, in Osaka.
 
 Kyle J Kistner with Deniz Omar of Kyber
 
+![](/images/blog/0_G44_H_fJuF_hcBNm.jpeg)
+
 Japan is famous for its Gyudon or Beef Bowl, and we ate plenty.
 
+![](/images/blog/0_iqm7uR3D2TRV1ZkU.png)
+
 Kyle and Tom had some Wagyu Teppanyaki. Not bad!
-DeFi Drinks Osaka
+
+## DeFi Drinks Osaka
+
 It was a great success with way over 100 people in attendance.
+![](/images/blog/0_iABMSTOmA15bruFF.png)
 
+![](/images/blog/0_jvVhd-b_hTO66aBQ.png)
 
-bZx @ SFBW
+## bZx @ SFBW
 Nick attended San Francisco Blockchain Week.
+![](/images/blog/0_qTpi7440bZyY0ECz.jpeg)
 
+![](/images/blog/0_Iz47y6dK1Hl4xWLu.jpeg)
 
-Fulcrum Updates
-Fulcrum listed on whois0x Decentralized Finance Markets dashboard
+## Fulcrum Updates
+---
+Fulcrum listed on [whois0x](https://twitter.com/whois0x/status/1179786021577338881) Decentralized Finance Markets [dashboard](https://whois0x.io/defimarket)
 
 
 MyDeFi adds Fulcrum to their DeFi Dashboard. You can track Fulcrum rates with MyDeFi Android and iOS apps.
