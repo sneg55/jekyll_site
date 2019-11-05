@@ -80,17 +80,23 @@ Coinmarketcap has released a new [interest dashboard](https://interest.coinmarke
 
 ## iDAI Now on Zerion
 Manage and track your DeFi portfolio across multiple accounts in a single place with [Zerion](https://zerion.io/)
+
 ![](/images/blog/0_XlcmzhPSEf1tSI-F.png)
 
 ## Offline Events
---- 
+---
 ## bZx @ DeFi.WTF
 
 Kyle was on several panels, including Deep Dive Into DeFi Liquidity Models, Should We And Can We Go From Overcollateralized to Undercollateralized? & DeFi Bull & Bear: A Debate.
 
+![](/images/blog/0_gx6zVvqrZio3fezg.png)
 
-bZx @ Devcon V
+![](/images/blog/0_cNfYWOpzVcB8O_yr.jpeg)
+
+## bZx @ Devcon V
 Kyle and Tom spent the whole week at Devcon V, in Osaka.
+
+![](/images/blog/0_C1UUz8rLLOIsgBER.png)
 
 Kyle J Kistner with Deniz Omar of Kyber
 
