@@ -9,19 +9,32 @@ metadescription: "It was another busy month here at bZx, so here is our monthly 
 intro: "It was another busy month here at bZx, so here is our monthly newsletter “The Shipping Manifest” with key takeaways."
 ---
 It was another busy month here at bZx, so here is our monthly newsletter “The Shipping Manifest” with key takeaways.
-GROWTH GROWTH GROWTH
-Fulcrum shoots to #1 spot on Kyber according to the latest ecosystem numbers, making up 48% of their entire DeFi volumes, nearly more than everything else combined, posting an incredible 91% growth in trading volumes.
+
+## GROWTH GROWTH GROWTH
+
+Fulcrum shoots to #1 spot on Kyber according to the [latest ecosystem numbers](https://blog.kyber.network/kyber-ecosystem-report-7-3e013d957d8a), making up 48% of their entire DeFi volumes, nearly more than everything else combined, posting an incredible 91% growth in trading volumes.
+![](/images/blog/0_hNC-xvVfNYAft_pd.png)
 
 Fulcrum reached an All-Time High in Total Locked Value on DeFiPulse.com
+![](/images/blog/0_JclcZHRX6X9woovr.png)
 
-CoinGecko Report Feature
-The latest Coingecko Report featured Fulcrum and Torque. If you haven’t checked this report yet — we highly recommend doing so. There is an excellent explanation of the current DeFi ecosystem.
+## CoinGecko Report Feature
 
+The [latest Coingecko Report](https://assets.coingecko.com/reports/2019-Q3-Report/CoinGecko-2019-Q3-Report.pdf) featured Fulcrum and Torque. If you haven’t checked this report yet — we highly recommend doing so. There is an excellent explanation of the current DeFi ecosystem.
 
-Structured Builds on Fulcrum
-Structured convert your Ether into fixed income structured products. Without creating an account or providing any personal information, you can leverage the Ethereum blockchain to purchase a structured financial product, without middlemen or custodians.
+![](/images/blog/0_1JBVAc9TwwqpCHnb.png)
+
+![](/images/blog/0_RfsHOXJWGJyVz5ZK.png)
+
+## Structured Builds on Fulcrum
+
+[Structured](https://www.structuredeth.com/) convert your Ether into fixed income structured products. Without creating an account or providing any personal information, you can leverage the Ethereum blockchain to purchase a structured financial product, without middlemen or custodians.
+
+![](/images/blog/1_71d0FGoyAGB3Y2jIc3DXgw.png)
 
 Structured is one of the coolest products built with Ethereum money legos we’ve seen yet. It builds on Fulcrum, Synthetix, Kyber, Uniswap, and Compound to create some really unique new financial products.
+
+{% youtube "https://www.youtube.com/watch?v=9jr-JoaoT0w" %}
 
 dDAI Builds on Fulcrum
 dDAI enables users to earn interests from lending out DAI on Fulcrum and reinvest those interest automatically into any other asset class using DeFi recipes, i.e., ETH, BTX, KNC, synthetic assets, etc. or a combination of different assets.
