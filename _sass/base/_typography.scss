@@ -57,6 +57,11 @@
 .color-white{
     color: #FFFFFF;
 }
+@media(max-width: 1199px){
+    .fs-xl-28{
+        font-size: 28px;
+    }
+}
 @media(max-width: 991px){
     .fs-lg-24{
         font-size: 24px;

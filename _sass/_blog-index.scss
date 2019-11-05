@@ -109,54 +109,80 @@ section.first-post article {
 .subscription {
     position: relative;
     overflow: hidden;
-    &::before {
-        content: "";
-        position: absolute;
-        width: 50%;
-        background: url(/images/tunnel-left.svg);
-        height: 47px;
-        left: -4px;
-        z-index: -10;
-        top: 50%;
-        transform: translate(0, -50%);
+    .container{
+        &::before {
+            content: url(/images/icons/before-subscribe.svg);
+            position: absolute;           
+            height: 47px;            
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            transform: rotateY(180deg);
+            @media(min-width: 1110px){
+                left: calc((100% - 1110px) / 2 - 580px);
+            }
+            @media(max-width: 1109px){
+                left: calc(100% - 15px);
+            }
+        }
+        &::after {
+            content: url(/images/icons/before-subscribe.svg);
+            position: absolute;
+            height: 47px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            @media(min-width: 1110px){
+                right: calc((100% - 1110px) / 2 - 580px);
+            }
+            @media(max-width: 1109px){
+                right: calc(100% - 15px);
+            }
+        }
     }
-    &::after {
-        content: "";
-        position: absolute;
-        width: 50%;
-        background: url(/images/tunnel-right.svg);
-        height: 47px;
-        right: -4px;
-        z-index: -10;
-        top: 50%;
-        transform: translate(0, -50%);
-    }
-    .subscription-wrapper {
-        display: flex;
-        justify-content: space-between;        
+
+    .item-subscription {      
         background: #dcebff;
-        border: 2px solid #000085;
+        border: 2px solid $primary-color;
         box-sizing: border-box;
 
-        @media(min-width: 768px){
-            padding: 75px 35px;
+        @media(min-width: 992px){
+            padding: 70.5px 0;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-areas: "empty title title title title title title title button button button button";
+            .title-grid {
+                grid-area: title;
+            }
+            .button-grid {
+                grid-area: button;
+                justify-self: center;
+                margin-right: 30px;
+            }
         }
-        @media(max-width: 767px){
-            padding: 30px;
+        @media(max-width: 991px){
+            padding: 30px 15px;
+            text-align: center;
+            h2{
+                margin-bottom: 20px;
+            }
+            button{
+                margin: auto
+            }
+        }
+        @media(max-width: 579px){
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
         }
     }
 
- @media screen and (max-width: 579px) {
-     .subscription-wrapper {
-       flex-direction: column;
-         align-items: center;
-          text-align: center;
-        }
-    }
-    .wrapper-subscription &{        
-        &:before,
-        &:after {
-            background-color: #5b88ff;
-        }
+    .wrapper-subscription &{ 
+        .container{
+            &:before,
+            &:after {
+                background-color: #5b88ff;
+            }
+        }       
     }
 }
