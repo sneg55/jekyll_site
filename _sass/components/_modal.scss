@@ -53,6 +53,14 @@ body.modal-open {
                 border: 1px solid #cbe2ff;
                 box-sizing: border-box;
                 border-radius: 4px;
+                max-height: 49px;
+                &:focus{
+                    background: #fff;
+                    border: 2px solid #276BFB;
+                    border-radius: 4px;
+                    outline: none;
+                    color: $primary-color;
+                }
             }
             ::placeholder {
                 /* Chrome, Firefox, Opera, Safari 10.1+ */
