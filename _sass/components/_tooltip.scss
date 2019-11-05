@@ -3,7 +3,7 @@
     padding: 30px;
     margin: 10px;
     max-width: 425px;
-    
+
     min-width: 250px;
     .header {
         position: relative;
@@ -12,10 +12,10 @@
             position: absolute;
             top: 0;
             right: 0%;
-            &:hover{
+            &:hover {
                 cursor: pointer;
                 svg path {
-                    fill: #33DFCC;
+                    fill: #33dfcc;
                 }
             }
         }

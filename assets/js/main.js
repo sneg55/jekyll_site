@@ -1,9 +1,18 @@
 $(document).ready(function () {
-  $(".owl-carousel-1").owlCarousel({
-    items: 1
+
+  window.modal = new RModal(
+    document.getElementById('modal'), { closeTimeout: 0 }
+  );
+
+
+  $(".join-mailing-list").on("click", function (e) {
+    e.preventDefault();
+    modal.open();
   });
-  $(".owl-carousel-2").owlCarousel({
-    items: 1
+
+  $("#modal .close").on("click", function (e) {
+    e.preventDefault();
+    modal.close();
   });
 
   $(".item-team").each(function (index, item) {
@@ -26,22 +35,24 @@ $(document).ready(function () {
     </div>`;
     var tooltip = new Tooltip(trigger, {
       title: trigger.data("name"),
-      trigger: "manual",
+      trigger: "click",
       html: true,
       template: template,
       placement: "right",
       container: $(".container-team")[0],
+      boundariesElement: $(".container-team")[0],
       closeOnClickOutside: true
     });
 
+    $(".container-team").on("click", ".tooltip .header .close", function (e) {
+      if (tooltip._isOpen) {
+        tooltip.hide();
+      }
+    })
+
     $(trigger).on("click", function (e) {
       e.preventDefault();
-      tooltip.toggle();
-      if (tooltip._isOpen) {
-        $(tooltip._tooltipNode).find(".close").one("click", function (e) {
-          tooltip.hide();
-        })
-      }
+
     })
   })
 
@@ -58,3 +69,4 @@ function openTab(evt, cityName) {
   }
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
+}
