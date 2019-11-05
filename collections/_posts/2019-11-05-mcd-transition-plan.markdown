@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "The Shipping Manifest: October 2019"
+title:  "MCD Transition Plan"
 date:   2019-11-05 10:12:46 -0700
 cover: /images/blog/1_YVtnkCa2X5ZORl0B1MaaiQ.png
-canonical: https://medium.com/bzxnetwork/the-shipping-manifest-october-2019-f36477f8cbf4
+canonical: https://medium.com/bzxnetwork/mcd-transition-plan-f2abd3176b09
 author: Sawinyh
 metadescription: "On November 18th, MakerDAO is transitioning away from Single Collateral DAI toward Multi Collateral DAI. MCD introducing new features and collateral types to MakerDAO. Here’s what you need to know:"
 intro: "On November 18th, MakerDAO is transitioning away from Single Collateral DAI toward Multi Collateral DAI. MCD introducing new features and collateral types to MakerDAO. Here’s what you need to know:"
