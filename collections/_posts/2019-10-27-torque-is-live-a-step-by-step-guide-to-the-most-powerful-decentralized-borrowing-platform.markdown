@@ -18,7 +18,7 @@ _A Video Demonstration of Using an External Wallet To Borrow DAI_
 
 ![](/images/blog/0_uTU3y9yP2ekeAgcV.png)
 
-# Step-by-Step Guide
+## Step-by-Step Guide
 ## Browser Wallets
 Using browser wallets such as Metamask, Dapper, Nifty, & others, you can easily take out loans using your ETH or existing ERC20 holdings as collateral. You can also use wallets such as Formatic, Portis, and Squarelink.
 
@@ -65,14 +65,14 @@ It can be a good idea to select the advanced options and set the gas limit to a 
 ### Step 5
 Submit the transaction!
 
-# Parameter Changes
+## Parameter Changes
 
 We’ve thought long and hard about how to best serve borrowers while also protecting lenders from defaults. We’ve slightly modified some of the initial margin and margin maintenance parameters of borrowing.
 The following are the new initial margin and margin maintenance numbers:
 
 ![](/images/blog/1_p73UIGcny6GcmsmMWhur8A.png)
 
-# The Future of Torque
+## The Future of Torque
 
 Currently Torque allows for loans to be indefinite¹ term and at a fixed rate. It can be difficult for a system to sustain both these features at the same time, and we believe that it is possible that we may need to seek trade-offs around this if market rates were to change dramatically. We have implemented a system where if there becomes a lack of lending liquidity, and lenders seek to exit the pool, a queue forms, allowing the first lenders to enter the queue to exit as new lending liquidity enters.
 
