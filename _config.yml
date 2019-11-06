@@ -115,7 +115,7 @@ pagination:
 ############################################################
 
 
-include: ['.htaccess']
+include: ['.htaccess', '_redirects']
 collections_dir: collections
 # collections:
 #   posts:
