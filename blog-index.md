@@ -1,7 +1,7 @@
 ---
 layout: blog-index
-title: bzx blog title
-metadescription: bzx blog description
+title: bZx Protocol blog - product news and articles
+metadescription: bZx Protocol blog - product news and articles 
 permalink: /blog/
 pagination:
   enabled: true
