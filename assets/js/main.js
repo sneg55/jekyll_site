@@ -1,19 +1,21 @@
 $(document).ready(function () {
+  if (document.getElementById('modal')) {
+    window.modal = new RModal(
+      document.getElementById('modal'), { closeTimeout: 0 }
+    );
 
-  window.modal = new RModal(
-    document.getElementById('modal'), { closeTimeout: 0 }
-  );
 
 
-  $(".join-mailing-list").on("click", function (e) {
-    e.preventDefault();
-    modal.open();
-  });
+    $(".join-mailing-list").on("click", function (e) {
+      e.preventDefault();
+      modal.open();
+    });
 
-  $("#modal .close").on("click", function (e) {
-    e.preventDefault();
-    modal.close();
-  });
+    $("#modal .close").on("click", function (e) {
+      e.preventDefault();
+      modal.close();
+    });
+  }
 
   $(".item-team").each(function (index, item) {
     var trigger = $(item).find(".info");
