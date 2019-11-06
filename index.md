@@ -30,7 +30,7 @@ title: bZx - Protocol for tokenized margin trading and lending
 <section class="text-center pt-55 pt-sm-45 pb-80 pb-sm-30 bg-tertiary">
     <div class="container container-lg p-relative before-product-protocol">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 color-white mb-45">Products built on bZx protocol</h2>
-        <div class="d-flex j-content-sb f-wrap">
+        <div class="d-flex j-content-sb j-md-content-sa f-wrap">
             <div class="product-protocol">
                 <div class="item">
                     <a href="https://fulcrum.trade">  
@@ -58,7 +58,7 @@ title: bZx - Protocol for tokenized margin trading and lending
 <section class="bg-tertiary color-white p-relative svg-integration overflow">
     <div class="container container-xl before-integraion after-integraion pb-445 pb-sm-0 z-index-2">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-45">Community built integrations</h2>
-        <div class="d-flex f-wrap j-content-sb">
+        <div class="d-flex f-wrap j-content-sb j-md-content-sa">
             <div class="wrap-integrations">
                 <div class="item-integrations">
                     <div class="circle top left"></div>
@@ -160,7 +160,7 @@ title: bZx - Protocol for tokenized margin trading and lending
         <h2 id="how-it-works" class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-45">Why Is Decentralized Margin Trading Better?</h2>
     </div>
     <div class="container container-xl">
-        <div class="d-flex j-content-sb j-sm-content-center f-wrap px-50 px-sm-40">
+        <div class="d-flex j-content-sb j-md-content-sa j-sm-content-center f-wrap px-50 px-sm-40">
             <div class="mw-px-280 mb-sm-40">
                 {% include svg/minimal-risk.svg %}
                 <h3 class="fs-24 fs-sm-20 lh-160 mb-15">Minimal Risk</h3>
@@ -171,7 +171,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                 <h3 class="fs-24 fs-sm-20 lh-160 mb-15">Passive Income</h3>
                 <p class="fs-14 fs-sm-10 lh-160">Make money with the assets you already hold in your wallet without giving up control of them. Interest rates on margin loans are often much higher than traditional loans while being far safer.</p>
             </div>
-            <div class="mw-px-280 mb-sm-40">
+            <div class="mw-px-280 mb-sm-40 mt-md-40">
                 {% include svg/lower-fees.svg %}
                 <h3 class="fs-24 fs-sm-20 lh-160 mb-15">Lower Fees</h3>
                 <p class="fs-14 fs-sm-10 lh-160">Traders on centralized exchanges pay higher interest rates to compensate lenders for the risk of the exchange getting hacked. Decentralized margin lending makes trading more affordable.</p>
@@ -224,17 +224,17 @@ title: bZx - Protocol for tokenized margin trading and lending
 <section class="text-center bg-primary color-white pb-80 pb-sm-20 p-relative overflow-x-xl">
     <div class="container container-sm pt-140 pt-sm-90 pb-500 pb-sm-30 p-relative z-index-2">
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-15 color-tertiary">Short Positions</h3>
-        <p class="lh-160 mb-25">Taking a short position is more complicated. A short position is betting that something will go down over time. Short positions require escrow, leverage, and margin calls.</p>
+        <p class="lh-160 mb-25  fs-sm-12">Taking a short position is more complicated. A short position is betting that something will go down over time. Short positions require escrow, leverage, and margin calls.</p>
         <a href="https://fulcrum.trade" class="button button-primary button-xl d-flex j-content-center m-auto">Try 4x short on fulcrum</a>
     </div>
     {% include svg/short-positions.svg %}
     {% include svg/short-positions-mobile.svg %}
     <div class="container container-md px-65 px-sm-15 mb-45">
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-15 color-tertiary">Leveraged Positions</h3>
-        <p class="lh-160 mb-15">Leveraged positions use the same mechanics as short positions, but with leveraged positions you’re able to borrow more than you have. For example, you could go 100x long on Ethereum. </p>
-        <p class="lh-160 mb-20">You can easily integrate bZx protocol into your exchange, wallet or web3 app. </p>
-        <a href="{{ site.data.social-icons.github.url}}" class="button button-primary button-sm mx-15 d-inline-block">Github</a>
-        <a href="https://docs.bzx.network/" class="button button-primary button-sm mx-15 d-inline-block">Developers docs</a>
+        <p class="lh-160 mb-15 fs-sm-12">Leveraged positions use the same mechanics as short positions, but with leveraged positions you’re able to borrow more than you have. For example, you could go 100x long on Ethereum. </p>
+        <p class="lh-160 mb-20 fs-sm-12">You can easily integrate bZx protocol into your exchange, wallet or web3 app. </p>
+        <a href="{{ site.data.social-icons.github.url}}" class="button button-primary button-md mx-15 d-inline-block">Github</a>
+        <a href="https://docs.bzx.network/" class="button button-primary button-md mx-15 d-inline-block">Developers docs</a>
     </div>
     <div>
         <div class="p-relative before-line">
@@ -329,25 +329,25 @@ title: bZx - Protocol for tokenized margin trading and lending
           <div class="container-tabs d-flex d-row flex-sm-d-c j-content-sb">
               <div class="item-tabs mb-60 mb-sm-50">
                   <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">June, 2019</h4>
-                  <p class="fs-14 lh-160 color-primary mb-sm-15">Fulcrum Launches With Over $750,000 in Liquidity</p>
+                  <p class="fs-14 fs-sm-11 lh-160 color-primary mb-sm-15">Fulcrum Launches With Over $750,000 in Liquidity</p>
               </div>
               <div class="item-tabs mb-60 mb-sm-50">
                   <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">August, 2019</h4>
-                  <p class="fs-14 lh-160 color-primary mb-sm-15">Fulcrum jumps up to the #3 biggest dApp on Kyber</p>
+                  <p class="fs-14 fs-sm-11 lh-160 color-primary mb-sm-15">Fulcrum jumps up to the #3 biggest dApp on Kyber</p>
               </div>
               <div class="item-tabs mb-60 mb-sm-50">
                   <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">September, 2019</h4>
-                  <p class="fs-14 lh-160 color-primary mb-sm-15">Over 8000 ETH locked in bZx protocol</p>
+                  <p class="fs-14 fs-sm-11 lh-160 color-primary mb-sm-15">Over 8000 ETH locked in bZx protocol</p>
               </div>
           </div>
           <div class="container-tabs d-flex j-content-center d-row flex-sm-d-c">
               <div class="item-tabs mb-90 mb-sm-50 px-25">
                   <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">October, 2019</h4>
-                  <p class="fs-14 lh-160 color-primary">bZx Team hosted DeFi Drinks event during Devcon 5 at Osaka, JP</p>
+                  <p class="fs-14 fs-sm-11 lh-160 color-primary">bZx Team hosted DeFi Drinks event during Devcon 5 at Osaka, JP</p>
               </div>
               <div class="item-tabs mb-90 mb-sm-50 px-25">
                   <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">October, 2019</h4>
-                  <p class="fs-14 lh-160 color-primary">Torque Is Live: The Most Powerful Decentralized Borrowing Platform on Ethereum</p>
+                  <p class="fs-14 fs-sm-11 lh-160 color-primary">Torque Is Live: The Most Powerful Decentralized Borrowing Platform on Ethereum</p>
               </div>
           </div>
         </div>
@@ -355,25 +355,25 @@ title: bZx - Protocol for tokenized margin trading and lending
             <div class="container-tabs d-flex d-row flex-sm-d-c j-content-sb">
                 <div class="item-tabs mb-60 mb-sm-50">
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">LATE JAN-EARLY FEB, 2018</h4>
-                    <p class="fs-14 lh-160 color-primary mb-sm-15">bZx sponsors ETHDenver, attracting initial attention.</p>
+                    <p class="fs-14 fs-sm-11 lh-160 color-primary mb-sm-15">bZx sponsors ETHDenver, attracting initial attention.</p>
                 </div>
                 <div class="item-tabs mb-60 mb-sm-50">
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">FEB 11, 2018</h4>
-                    <p class="fs-14 lh-160 color-primary mb-sm-15">bZx officially releases the whitepaper after five months of concurrent coding development. bZx officially announces. “Welcome to bZx” published on Medium.</p>
+                    <p class="fs-14 fs-sm-11 lh-160 color-primary mb-sm-15">bZx officially releases the whitepaper after five months of concurrent coding development. bZx officially announces. “Welcome to bZx” published on Medium.</p>
                 </div>
                 <div class="item-tabs mb-60 mb-sm-50">
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">APRIL 20, 2018</h4>
-                    <p class="fs-14 lh-160 color-primary mb-sm-15">bZx protocol debuts its fully functional smart contracts onto the Ropsten Testnet.</p>
+                    <p class="fs-14 fs-sm-11 lh-160 color-primary mb-sm-15">bZx protocol debuts its fully functional smart contracts onto the Ropsten Testnet.</p>
                 </div>
             </div>
             <div class="container-tabs d-flex j-content-center d-row flex-sm-d-c">
                 <div class="item-tabs mb-90 mb-sm-50 px-25">
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">APRIL 24, 2018</h4>
-                    <p class="fs-14 lh-160 color-primary">bZx portal and bZx.js library initial release.</p>
+                    <p class="fs-14 fs-sm-11 lh-160 color-primary">bZx portal and bZx.js library initial release.</p>
                 </div>
                 <div class="item-tabs mb-90 mb-sm-50 px-25">
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">MAY 11, 2018</h4>
-                    <p class="fs-14 lh-160 color-primary">Security audits begin on the bZx protocol contracts.</p>
+                    <p class="fs-14 fs-sm-11 lh-160 color-primary">Security audits begin on the bZx protocol contracts.</p>
                 </div>
             </div>
         </div>
@@ -382,11 +382,11 @@ title: bZx - Protocol for tokenized margin trading and lending
             <div class="container-tabs d-flex j-content-center d-row flex-sm-d-c">
                 <div class="item-tabs mb-90 mb-sm-50 px-25">
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">AUGUST 5, 2017</h4>
-                    <p class="fs-14 lh-160 color-primary mb-sm-15">Tom Bean and Kyle J Kistner conceive bZx after several months of brainstorming and exploratory efforts.</p>
+                    <p class="fs- fs-sm-11 lh-160 color-primary mb-sm-15">Tom Bean and Kyle J Kistner conceive bZx after several months of brainstorming and exploratory efforts.</p>
                 </div>
                 <div class="item-tabs mb-90 mb-sm-50 px-25">
                     <h4 class="fs-22 fs-sm-18 fw-700 lh-150 color-secondary mb-10">SEPTEMBER 29, 2017</h4>
-                    <p class="fs-14 lh-160 color-primary mb-sm-15">First Github commit in the protocol contracts code repository.</p>
+                    <p class="fs-14 fs-sm-11 lh-160 color-primary mb-sm-15">First Github commit in the protocol contracts code repository.</p>
                 </div>
             </div>
         </div>

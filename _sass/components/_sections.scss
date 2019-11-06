@@ -7,13 +7,13 @@
     position: relative;
     @media (min-width: 768px) {
         width: calc(100% / 2 - 40px);
-    } 
+    }
     @media (min-width: 992px) {
         width: calc(100% / 3 - 40px);
-    } 
+    }
     @media (max-width: 767px) {
         width: 100%;
-    }       
+    }
     .item-integrations {
         background-color: $light-primary-color;
         text-align: center;
@@ -22,10 +22,10 @@
         overflow: hidden;
         @media (min-width: 580px) {
             padding: 50px 20px 37px 20px;
-        }  
+        }
         @media (max-width: 579px) {
             padding: 30px 30px 20px 30px;
-        } 
+        }
         &:after {
             content: "";
             position: absolute;
@@ -36,10 +36,10 @@
             opacity: 0.5;
         }
     }
-    svg{
+    svg {
         @media (min-width: 580px) {
             margin-bottom: 25px;
-    }
+        }
         @media (max-width: 579px) {
             margin-bottom: 20px;
         }
@@ -47,12 +47,12 @@
     p {
         line-height: 1.6;
         color: $primary-color;
-        @media(min-width: 580px){
+        @media (min-width: 580px) {
             font-size: 16px;
-    }
-        @media(max-width: 579px){
+        }
+        @media (max-width: 579px) {
             font-size: 11px;
-        }  
+        }
     }
     @mixin counter() {
         @media (min-width: 992px) {
@@ -63,22 +63,22 @@
         }
     }
     @for $i from 1 through 6 {
-        &:nth-child(#{$i}){
-        &:after {
-            content: url(/images/icons/item-integration.svg);
-            position: absolute;
-            left: 0;
-            right: 0;
-            bottom: -26px;
-            margin: auto;
-            text-align: center;
+        &:nth-child(#{$i}) {
+            &:after {
+                content: url(/images/icons/item-integration.svg);
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: -26px;
+                margin: auto;
+                text-align: center;
+            }
         }
     }
-    }
-    @media (max-width: 767px){
+    @media (max-width: 767px) {
         @for $i from 7 through 8 {
-            &:nth-child(#{$i}){
-                &:after{
+            &:nth-child(#{$i}) {
+                &:after {
                     content: url(/images/icons/item-integration.svg);
                     position: absolute;
                     left: 0;
@@ -90,7 +90,7 @@
             }
         }
     }
-    &:hover{
+    &:hover {
         background-color: $light-primary-color;
         .item-integrations {
             background-color: #ffffff;
@@ -145,9 +145,9 @@
             }
         }
     }
-    @media(max-width: 374px){
+    @media (max-width: 374px) {
         padding: 26px 4px 4px;
-        &.container-coin-dark{
+        &.container-coin-dark {
             padding: 15px 4px 4px;
         }
     }
@@ -186,11 +186,11 @@
             width: 90px;
             height: 90px;
         }
-        @media(max-width: 374px){
+        @media (max-width: 374px) {
             width: 80px;
             height: 80px;
+        }
     }
-}
 }
 
 .wrapper-team {
@@ -356,13 +356,12 @@
                         max-height: 23px;
                     }
 
-                    &:hover{
-                        svg circle{
+                    &:hover {
+                        svg circle {
                             fill: #5b88ff;
                         }
                     }
                 }
-
             }
         }
         .after-team {
@@ -407,6 +406,14 @@
         width: calc(50% - 20px);
         svg {
             max-width: 100%;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        width: calc(100% / 2);
+        &:nth-child(3n + 2) {
+            margin-left: 0;
+            margin-right: 0;
         }
     }
 }
