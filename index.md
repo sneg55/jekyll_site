@@ -233,8 +233,8 @@ title: bZx - Protocol for tokenized margin trading and lending
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-15 color-tertiary">Leveraged Positions</h3>
         <p class="lh-160 mb-15">Leveraged positions use the same mechanics as short positions, but with leveraged positions you’re able to borrow more than you have. For example, you could go 100x long on Ethereum. </p>
         <p class="lh-160 mb-20">You can easily integrate bZx protocol into your exchange, wallet or web3 app. </p>
-        <a href="{{ site.data.social-icons.github.url}}" class="button button-primary button-sm mx-15 d-inline-block">Github</a>
-        <a href="https://docs.bzx.network/" class="button button-primary button-sm mx-15 d-inline-block">Developers docs</a>
+        <a href="{{ site.data.social-icons.github.url}}" class="button button-primary button-md mx-15 d-inline-block">Github</a>
+        <a href="https://docs.bzx.network/" class="button button-primary button-md mx-15 d-inline-block">Developers docs</a>
     </div>
     <div>
         <div class="p-relative before-line">
