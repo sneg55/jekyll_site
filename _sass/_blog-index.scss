@@ -23,7 +23,7 @@ section.first-post article {
     .post-image {
         grid-area: cover;
         overflow: hidden;
-        max-height: 375px;
+        max-height: 100%;
         img {
             max-width: 100%;
 
