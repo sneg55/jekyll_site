@@ -51,6 +51,16 @@ section.first-post article {
         @media screen and (max-width: 580px) {
             grid-template-columns: 1fr;
         }
+        @media (min-width: 768px) and (max-width: 1023px) {
+            grid-template-columns: repeat(2, 1fr);
+            article:last-child:nth-child(even),
+            .read-more & article:last-child:nth-child(odd) {
+                grid-column-start: 1;
+                grid-column-end: span 2;
+                width: calc(100% / 2);
+                margin: 0 auto;
+            }
+        }
         grid-column-gap: 30px;
         grid-row-gap: 50px;
 
@@ -109,19 +119,19 @@ section.first-post article {
 .subscription {
     position: relative;
     overflow: hidden;
-    .container{
+    .container {
         &::before {
             content: url(/images/icons/before-subscribe.svg);
-            position: absolute;           
-            height: 47px;            
+            position: absolute;
+            height: 47px;
             top: 0;
             bottom: 0;
             margin: auto;
             transform: rotateY(180deg);
-            @media(min-width: 1110px){
+            @media (min-width: 1110px) {
                 left: calc((100% - 1110px) / 2 - 580px);
             }
-            @media(max-width: 1109px){
+            @media (max-width: 1109px) {
                 left: calc(100% - 15px);
             }
         }
@@ -132,21 +142,21 @@ section.first-post article {
             top: 0;
             bottom: 0;
             margin: auto;
-            @media(min-width: 1110px){
+            @media (min-width: 1110px) {
                 right: calc((100% - 1110px) / 2 - 580px);
             }
-            @media(max-width: 1109px){
+            @media (max-width: 1109px) {
                 right: calc(100% - 15px);
             }
         }
     }
 
-    .item-subscription {      
+    .item-subscription {
         background: #dcebff;
         border: 2px solid $primary-color;
         box-sizing: border-box;
 
-        @media(min-width: 992px){
+        @media (min-width: 992px) {
             padding: 70.5px 0;
             display: grid;
             grid-template-columns: repeat(12, 1fr);
@@ -160,29 +170,29 @@ section.first-post article {
                 margin-right: 34px;
             }
         }
-        @media(max-width: 991px){
+        @media (max-width: 991px) {
             padding: 30px 15px;
             text-align: center;
-            h2{
+            h2 {
                 margin-bottom: 20px;
             }
-            button{
-                margin: auto
+            button {
+                margin: auto;
             }
         }
-        @media(max-width: 579px){
+        @media (max-width: 579px) {
             flex-direction: column;
             align-items: center;
             text-align: center;
         }
     }
 
-    .wrapper-subscription &{ 
-        .container{
+    .wrapper-subscription & {
+        .container {
             &:before,
             &:after {
                 background-color: #5b88ff;
             }
-        }       
+        }
     }
 }
