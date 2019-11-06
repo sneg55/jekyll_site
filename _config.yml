@@ -121,4 +121,4 @@ collections_dir: collections
 #   posts:
 #     permalink: /blog/:title
 
-keep_files: [images]
+keep_files: [images, pdfs]
