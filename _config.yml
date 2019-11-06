@@ -117,8 +117,8 @@ pagination:
 
 include: ['.htaccess', '_redirects']
 collections_dir: collections
-# collections:
-#   posts:
-#     permalink: /blog/:title
+collections:
+   posts:
+     permalink: /blog/:title
 
 keep_files: [images, pdfs]
