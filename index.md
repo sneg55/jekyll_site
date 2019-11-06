@@ -30,7 +30,7 @@ title: bZx - Protocol for tokenized margin trading and lending
 <section class="text-center pt-55 pt-sm-45 pb-80 pb-sm-30 bg-tertiary">
     <div class="container container-lg p-relative before-product-protocol">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 color-white mb-45">Products built on bZx protocol</h2>
-        <div class="d-flex j-content-sb f-wrap">
+        <div class="d-flex j-content-sb j-md-content-sa f-wrap">
             <div class="product-protocol">
                 <div class="item">
                     <a href="https://fulcrum.trade">  
@@ -58,7 +58,7 @@ title: bZx - Protocol for tokenized margin trading and lending
 <section class="bg-tertiary color-white p-relative svg-integration overflow">
     <div class="container container-xl before-integraion after-integraion pb-445 pb-sm-0 z-index-2">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-45">Community built integrations</h2>
-        <div class="d-flex f-wrap j-content-sb">
+        <div class="d-flex f-wrap j-content-sb j-md-content-sa">
             <div class="wrap-integrations">
                 <div class="item-integrations">
                     <div class="circle top left"></div>
@@ -160,7 +160,7 @@ title: bZx - Protocol for tokenized margin trading and lending
         <h2 id="how-it-works" class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-45">Why Is Decentralized Margin Trading Better?</h2>
     </div>
     <div class="container container-xl">
-        <div class="d-flex j-content-sb j-sm-content-center f-wrap px-50 px-sm-40">
+        <div class="d-flex j-content-sb j-md-content-sa j-sm-content-center f-wrap px-50 px-sm-40">
             <div class="mw-px-280 mb-sm-40">
                 {% include svg/minimal-risk.svg %}
                 <h3 class="fs-24 fs-sm-20 lh-160 mb-15">Minimal Risk</h3>
@@ -171,7 +171,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                 <h3 class="fs-24 fs-sm-20 lh-160 mb-15">Passive Income</h3>
                 <p class="fs-14 fs-sm-10 lh-160">Make money with the assets you already hold in your wallet without giving up control of them. Interest rates on margin loans are often much higher than traditional loans while being far safer.</p>
             </div>
-            <div class="mw-px-280 mb-sm-40">
+            <div class="mw-px-280 mb-sm-40 mt-md-40">
                 {% include svg/lower-fees.svg %}
                 <h3 class="fs-24 fs-sm-20 lh-160 mb-15">Lower Fees</h3>
                 <p class="fs-14 fs-sm-10 lh-160">Traders on centralized exchanges pay higher interest rates to compensate lenders for the risk of the exchange getting hacked. Decentralized margin lending makes trading more affordable.</p>
