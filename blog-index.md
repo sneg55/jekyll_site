@@ -76,4 +76,6 @@ pagination:
     </div>
 </section>
 
-{% include subscription.html content="Subscribe to our newsletter" buttonText="Submit" %}
+{% include subscription.html content="Subscribe to our newsletter" buttonText="Submit" buttonClass="join-mailing-list" %}
+
+{% include modal.html %}
