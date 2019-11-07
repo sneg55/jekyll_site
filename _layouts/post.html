@@ -37,14 +37,14 @@
             <div class="author-block d-flex j-content-center mb-30">
                 {% assign author = site.data.authors[page.author] %}
                 <div class="author-image mr-20">
-                    <img src="{{author.image}}" alt="{{ author.name }}">
+                    <img class="lazyload" data-src="{{author.image}}" alt="{{ author.name }}">
                 </div>
                 <span class="name fw-700 fs-16 lh-150 color-secondary">{{ author.name }}</span>
                 &nbsp;
                 <span class="date fs-16 lh-180">on {{ page.date | date_to_string }}</span>
             </div>
             <div class="cover-image mb-60">
-                <img src="{{page.cover}}" alt="">
+                <img class="lazyload" data-src="{{page.cover}}" alt="">
             </div>
         </div>
 

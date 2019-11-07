@@ -34,7 +34,7 @@ title: bZx - Protocol for tokenized margin trading and lending
             <div class="product-protocol">
                 <div class="item">
                     <a href="https://fulcrum.trade">  
-                        <img src="/images/carousel/fulcrum.jpg" class="item-img">
+                        <img data-src="/images/carousel/fulcrum.jpg" class="lazyload item-img">
                     </a>
                     <hr />
                     <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Fulcrum</h3>
@@ -44,7 +44,7 @@ title: bZx - Protocol for tokenized margin trading and lending
             <div class="product-protocol">
                 <div class="item">
                     <a href="https://torque.loans">
-                        <img src="/images/carousel/torque.jpg" class="item-img">
+                        <img data-src="/images/carousel/torque.jpg" class="lazyload item-img">
                     </a>
                     <hr />
                     <h3 class="fs-24 fs-sm-20 fw-700 lh-160 mb-15 mb-sm-0">Torque</h3>
@@ -416,7 +416,7 @@ title: bZx - Protocol for tokenized margin trading and lending
         {% for item in site.data.team %}
             <div class="item-team d-flex flex-d-c flex-sm-d-r">
                 <div class="wrapper-img-team">
-                    <img src="{{ item.image }}" class="img-team">
+                    <img data-src="{{ item.image }}" class="lazyload img-team">
                 </div>
                 <div>
                     <h4 class="fs-22 fs-sm-18 lh-150 color-primary mb-5">{{ item.name }}</h4>

@@ -23,7 +23,7 @@ pagination:
                 <div class="grid">
 
                     <div class="post-image">
-                            <img src="{{ newest_post.cover }}" alt="{{ newest_post.title }}" />
+                            <img class="lazyload" data-src="{{ newest_post.cover }}" alt="{{ newest_post.title }}" />
 
                     </div>
                     <div class="article-content">
