@@ -24,7 +24,9 @@ group :jekyll_plugins do
 
   #   jekyll-lazy-load-image was resolved to 0.3.0, which depends on
   #     jekyll (~> 3.8)
-  #gem 'jekyll-lazy-load-image', require: 'jekyll-lazy-load-image/auto-execution'
+
+  # install jekyll-lazy-load-image from local folder solve the problem
+  gem 'jekyll-lazy-load-image', require: 'jekyll-lazy-load-image/auto-execution', :path => "./gems/jekyll-lazy-load-image-master" #, :git => "https://github.com/Kharabet/jekyll-lazy-load-image.git"
 end
 gem 'jekyll-youtube', group: :jekyll_plugins
 
