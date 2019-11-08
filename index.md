@@ -423,9 +423,9 @@ title: bZx - Protocol for tokenized margin trading and lending
     </div>
     <div class="tab">
         <div class="buttons-tabs">
-            <button class="tablinks active" onclick="openTab(event, '2019')" id="button2019">2019</button>
-            <button class="tablinks" onclick="openTab(event, '2018')" id="button2018">2018</button>
-            <button class="tablinks" onclick="openTab(event, '2017')" id="button2017">2017</button>
+            <button class="tablinks active" data-year="2019" id="button2019">2019</button>
+            <button class="tablinks" data-year="2018"  id="button2018">2018</button>
+            <button class="tablinks" data-year="2017" id="button2017">2017</button>
         </div>
     </div>
 </section>
