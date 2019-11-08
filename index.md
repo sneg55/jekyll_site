@@ -59,14 +59,16 @@ title: bZx - Protocol for tokenized margin trading and lending
     <div class="container container-xl before-integraion after-integraion pb-445 pb-sm-0 z-index-2">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-45">Community built integrations</h2>
         <div class="d-flex f-wrap j-content-sb j-md-content-sa">
-            <div class="wrap-integrations">
+          <div class="wrap-integrations">
                 <div class="item-integrations">
                     <div class="circle top left"></div>
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
+                    <div class="circle bottom right z-index-2"></div>  
+                    <a href="https://defisaver.com/">
                     {% include svg/defi-saver.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
+                    <p>DeFi Saver is a one-stop management solution for decentralized finance protocols.</p>
+                    </a>
                 </div>
             </div>
             <div class="wrap-integrations">
@@ -75,8 +77,10 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
+                    <a href="https://idle.finance/">
                     {% include svg/idle.finance.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
+                    <p>Idle gathers data from different lending protocols, seeking the highest available interest rate.</p>
+                    </a>
                 </div>
             </div>
             <div class="wrap-integrations">
@@ -85,8 +89,10 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
+                    <a href="https://idle.finance/">
                     {% include svg/stacked.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
+                    <p>Staked helps institutional investors reliably and securely compound their crypto through staking and lending.</p>
+                    </a>
                 </div>
             </div>
             <div class="wrap-integrations">
@@ -95,8 +101,10 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
+                    <a href="https://1inch.exchange/">
                     {% include svg/1inch.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
+                    <p>Token Swap Aggregator with the best prices on the DEX market.</p>
+                    </a>
                 </div>
             </div>
             <div class="wrap-integrations">
@@ -105,8 +113,10 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
+                    <a href="https://betoken.fund/">
                     {% include svg/betoken.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
+                    <p>Crowd-powered asset management protocol</p>
+                    </a>
                 </div>
             </div>
             <div class="wrap-integrations">
@@ -115,8 +125,10 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
+                    <a href="https://betoken.fund/">
                     {% include svg/dex-wallet.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
+                    <p>The mobile wallet for decentralized finance</p>
+                    </a>
                 </div>
             </div>
             <div class="wrap-integrations">
@@ -125,8 +137,10 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
+                    <a href="https://eidoo.io/">
                     {% include svg/eidoo.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
+                    <p>Fast and easy Multicurrency Wallet and hybrid exchange.</p>
+                    </a>
                 </div>
             </div>
             <div class="wrap-integrations">
@@ -135,8 +149,10 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
+                    <a href="https://alphawallet.com/">
                     {% include svg/alpha-wallet.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
+                    <p>The secure, advanced and intuitive Ethereum wallet</p>
+                    </a>
                 </div>
             </div>
             <div class="wrap-integrations">
@@ -145,8 +161,10 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
+                    <a href="https://alphawallet.com/">
                     {% include svg/zerion.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
+                    <p>A single solution to access DeFi to invest, earn interest and borrow crypto assets.</p>
+                    </a>
                 </div>
             </div>
         </div>
