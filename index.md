@@ -202,20 +202,20 @@ title: bZx - Protocol for tokenized margin trading and lending
     <div class="container container-md pt-55 pt-sm-0 p-relative z-index-2">
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-15 color-tertiary">Insured with the bZx guarantee fund</h3>
         <p class="lh-160 mb-30">bZx pools loans together in a decentralized clearinghouse. Lenders can lend to a whole pool of people, averaging risk across many borrowers, allowing for a more predictable income stream. All bZx loans are insured with the bZx guarantee fund.</p>
-        <a href="#" class="button button-primary button-sm d-flex j-content-center m-auto">Read more</a>
+        <a href="/blog/governance-is-powerful-capturing-value-with-bzrx" class="button button-primary button-sm d-flex j-content-center m-auto">Read more</a>
     </div>
     <div class="p-relative svg-insured mt-r-90 mt-sm-60 mb-40 mb-sm-20">
         {% include svg/insured.svg %}
         {% include svg/insured-mobile.svg %}        
-    </div> 
+    </div>
     <div class="p-relative before-smoke" id="visible-wheel">
-    
+
     <div class="p-relative rotate-line z-index-2">
             {% include svg/rotate-line.svg %}
-    
+
     </div>
         <div class="p-relative smoking-tube overflow-x visible-lg">
-       
+
                 {% include svg/smoking-tube.svg %}
                 <canvas id="safer-smoke" ></canvas>
 
