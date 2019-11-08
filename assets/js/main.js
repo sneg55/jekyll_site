@@ -1,4 +1,16 @@
 $(document).ready(function () {
+
+  //logger.log('appReady');
+
+  app.setup();
+
+  // roundNails();
+  // initHeader();
+
+  window.onresize = resize;
+  // window.onscroll = scroll;
+
+
   if (document.getElementById('modal')) {
     window.modal = new RModal(
       document.getElementById('modal'), { closeTimeout: 0 }
@@ -72,3 +84,24 @@ function openTab(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+
+import App from './animations/core/app.js';
+
+const app = new App();
+
+const resize = () => {
+  app.resize();
+  // roundNails();
+};
+
+const scroll = () => {
+  app.scroll();
+  toggleHeader();
+};
+
+// UPDATE ----------------------------------------------------------------------
+const update = () => {
+  app.update();
+  window.requestAnimationFrame(update);
+};
