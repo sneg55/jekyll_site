@@ -16,6 +16,17 @@ gem "jekyll", "~> 4.0.0"
 group :jekyll_plugins do
 #  gem "jekyll-feed", "~> 0.12"
   gem 'jekyll-paginate-v2'
+  
+  #problem with this plugin for lazyloading markdown images: 
+  # Bundler could not find compatible versions for gem "jekyll":
+  # In Gemfile:
+  #   jekyll (~> 4.0.0)
+
+  #   jekyll-lazy-load-image was resolved to 0.3.0, which depends on
+  #     jekyll (~> 3.8)
+
+  # install jekyll-lazy-load-image from local folder solve the problem
+  gem 'jekyll-lazy-load-image', require: 'jekyll-lazy-load-image/auto-execution', :path => "./gems/jekyll-lazy-load-image-master" #, :git => "https://github.com/Kharabet/jekyll-lazy-load-image.git"
 end
 gem 'jekyll-youtube', group: :jekyll_plugins
 
