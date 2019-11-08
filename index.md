@@ -75,7 +75,37 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
-                    {% include svg/alpha-wallet.svg %}
+                    {% include svg/idle.finance.svg %}
+                    <p>An advanced interface with support for hardware devices</p>
+                </div>
+            </div>
+            <div class="wrap-integrations">
+                <div class="item-integrations">
+                    <div class="circle top left"></div>
+                    <div class="circle bottom left"></div>
+                    <div class="circle top right"></div>
+                    <div class="circle bottom right z-index-2"></div>
+                    {% include svg/stacked.svg %}
+                    <p>An advanced interface with support for hardware devices</p>
+                </div>
+            </div>
+            <div class="wrap-integrations">
+                <div class="item-integrations">
+                    <div class="circle top left"></div>
+                    <div class="circle bottom left"></div>
+                    <div class="circle top right"></div>
+                    <div class="circle bottom right z-index-2"></div>
+                    {% include svg/1inch.svg %}
+                    <p>An advanced interface with support for hardware devices</p>
+                </div>
+            </div>
+            <div class="wrap-integrations">
+                <div class="item-integrations">
+                    <div class="circle top left"></div>
+                    <div class="circle bottom left"></div>
+                    <div class="circle top right"></div>
+                    <div class="circle bottom right z-index-2"></div>
+                    {% include svg/betoken.svg %}
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
@@ -95,7 +125,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
-                    {% include svg/defi-saver.svg %}
+                    {% include svg/eidoo.svg %}
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
@@ -115,37 +145,7 @@ title: bZx - Protocol for tokenized margin trading and lending
                     <div class="circle bottom left"></div>
                     <div class="circle top right"></div>
                     <div class="circle bottom right z-index-2"></div>
-                    {% include svg/dex-wallet.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
-                </div>
-            </div>
-            <div class="wrap-integrations">
-                <div class="item-integrations">
-                    <div class="circle top left"></div>
-                    <div class="circle bottom left"></div>
-                    <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
-                    {% include svg/defi-saver.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
-                </div>
-            </div>
-            <div class="wrap-integrations">
-                <div class="item-integrations">
-                    <div class="circle top left"></div>
-                    <div class="circle bottom left"></div>
-                    <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
-                    {% include svg/alpha-wallet.svg %}
-                    <p>An advanced interface with support for hardware devices</p>
-                </div>
-            </div>
-            <div class="wrap-integrations">
-                <div class="item-integrations">
-                    <div class="circle top left"></div>
-                    <div class="circle bottom left"></div>
-                    <div class="circle top right"></div>
-                    <div class="circle bottom right z-index-2"></div>
-                    {% include svg/dex-wallet.svg %}
+                    {% include svg/zerion.svg %}
                     <p>An advanced interface with support for hardware devices</p>
                 </div>
             </div>
