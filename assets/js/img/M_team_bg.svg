@@ -1,0 +1,1291 @@
+<svg id="M_team_bg" class="team__background show-tablet" viewBox="0 0 887 2821" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <polygon id="M_team_pipes-path-1" points="0 0 714.218793 0 714.218793 2817.06715 0 2817.06715"></polygon>
+        <path d="M713.303162,0.0193326334 L883.082172,0.0193326334 C883.082172,388.735513 883.082172,679.40218 883.082172,872.019333 C883.082172,1064.63649 883.082172,1712.9922 883.082172,2817.08648 L713.303162,2817.08648 L713.303162,0.0193326334 Z" id="M_team_pipes-path-2"></path>
+        <polygon id="M_team_pipes-path-3" points="0 0 128.554678 0 128.554678 2768.06715 0 2768.06715"></polygon>
+        <polygon id="M_team_pipes-path-4" points="121.778858 0 129.103902 0 129.103902 2767.89838 121.778858 2767.89838"></polygon>
+        <polygon id="M_team_pipes-path-5" points="0.0772968218 24.0610179 90.752447 24.0610179 90.752447 35.2598225 0.0772968218 35.2598225"></polygon>
+        <rect id="M_team_pipes-path-6" x="91.1657792" y="24.0610179" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-7" points="0.0772968218 96.0610179 90.752447 96.0610179 90.752447 107.259822 0.0772968218 107.259822"></polygon>
+        <rect id="M_team_pipes-path-8" x="91.1657792" y="96.0610179" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-9" points="0.0772968218 0.0635794865 90.752447 0.0635794865 90.752447 11.2623841 0.0772968218 11.2623841"></polygon>
+        <rect id="M_team_pipes-path-10" x="91.1657792" y="0.0635794865" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-11" points="0.0772968218 72.0635795 90.752447 72.0635795 90.752447 83.2623841 0.0772968218 83.2623841"></polygon>
+        <rect id="M_team_pipes-path-12" x="91.1657792" y="72.0635795" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-13" points="0.0772968218 47.8299093 90.752447 47.8299093 90.752447 59.0287139 0.0772968218 59.0287139"></polygon>
+        <rect id="M_team_pipes-path-14" x="91.1657792" y="47.8299093" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-15" points="0.0772968218 119.829909 90.752447 119.829909 90.752447 131.028714 0.0772968218 131.028714"></polygon>
+        <rect id="M_team_pipes-path-16" x="91.1657792" y="119.829909" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-17" points="0.0772968218 168.061018 90.752447 168.061018 90.752447 179.259822 0.0772968218 179.259822"></polygon>
+        <rect id="M_team_pipes-path-18" x="91.1657792" y="168.061018" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-19" points="0.0772968218 144.063579 90.752447 144.063579 90.752447 155.262384 0.0772968218 155.262384"></polygon>
+        <rect id="M_team_pipes-path-20" x="91.1657792" y="144.063579" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-21" points="0.0772968218 191.829909 90.752447 191.829909 90.752447 203.028714 0.0772968218 203.028714"></polygon>
+        <rect id="M_team_pipes-path-22" x="91.1657792" y="191.829909" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-23" points="0.0772968218 240.061018 90.752447 240.061018 90.752447 251.259822 0.0772968218 251.259822"></polygon>
+        <rect id="M_team_pipes-path-24" x="91.1657792" y="240.061018" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-25" points="0.0772968218 216.063579 90.752447 216.063579 90.752447 227.262384 0.0772968218 227.262384"></polygon>
+        <rect id="M_team_pipes-path-26" x="91.1657792" y="216.063579" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-27" points="0.0772968218 263.829909 90.752447 263.829909 90.752447 275.028714 0.0772968218 275.028714"></polygon>
+        <rect id="M_team_pipes-path-28" x="91.1657792" y="263.829909" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-29" points="0.0772968218 312.061018 90.752447 312.061018 90.752447 323.259822 0.0772968218 323.259822"></polygon>
+        <rect id="M_team_pipes-path-30" x="91.1657792" y="312.061018" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-31" points="0.0772968218 288.063579 90.752447 288.063579 90.752447 299.262384 0.0772968218 299.262384"></polygon>
+        <rect id="M_team_pipes-path-32" x="91.1657792" y="288.063579" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-33" points="0.0772968218 335.829909 90.752447 335.829909 90.752447 347.028714 0.0772968218 347.028714"></polygon>
+        <rect id="M_team_pipes-path-34" x="91.1657792" y="335.829909" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-35" points="0.0772968218 384.061018 90.752447 384.061018 90.752447 395.259822 0.0772968218 395.259822"></polygon>
+        <rect id="M_team_pipes-path-36" x="91.1657792" y="384.061018" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-37" points="0.0772968218 360.063579 90.752447 360.063579 90.752447 371.262384 0.0772968218 371.262384"></polygon>
+        <rect id="M_team_pipes-path-38" x="91.1657792" y="360.063579" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-39" points="0.0772968218 407.829909 90.752447 407.829909 90.752447 419.028714 0.0772968218 419.028714"></polygon>
+        <rect id="M_team_pipes-path-40" x="91.1657792" y="407.829909" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-41" points="0.0772968218 456.061018 90.752447 456.061018 90.752447 467.259822 0.0772968218 467.259822"></polygon>
+        <rect id="M_team_pipes-path-42" x="91.1657792" y="456.061018" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-43" points="0.0772968218 432.063579 90.752447 432.063579 90.752447 443.262384 0.0772968218 443.262384"></polygon>
+        <rect id="M_team_pipes-path-44" x="91.1657792" y="432.063579" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-45" points="0.0772968218 479.829909 90.752447 479.829909 90.752447 491.028714 0.0772968218 491.028714"></polygon>
+        <rect id="M_team_pipes-path-46" x="91.1657792" y="479.829909" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-47" points="0.0772968218 528.061018 90.752447 528.061018 90.752447 539.259822 0.0772968218 539.259822"></polygon>
+        <rect id="M_team_pipes-path-48" x="91.1657792" y="528.061018" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-49" points="0.0772968218 504.063579 90.752447 504.063579 90.752447 515.262384 0.0772968218 515.262384"></polygon>
+        <rect id="M_team_pipes-path-50" x="91.1657792" y="504.063579" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-51" points="0.0772968218 551.829909 90.752447 551.829909 90.752447 563.028714 0.0772968218 563.028714"></polygon>
+        <rect id="M_team_pipes-path-52" x="91.1657792" y="551.829909" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-53" points="0.0772968218 600.061018 90.752447 600.061018 90.752447 611.259822 0.0772968218 611.259822"></polygon>
+        <rect id="M_team_pipes-path-54" x="91.1657792" y="600.061018" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-55" points="0.0772968218 576.063579 90.752447 576.063579 90.752447 587.262384 0.0772968218 587.262384"></polygon>
+        <rect id="M_team_pipes-path-56" x="91.1657792" y="576.063579" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-57" points="0.0772968218 623.829909 90.752447 623.829909 90.752447 635.028714 0.0772968218 635.028714"></polygon>
+        <rect id="M_team_pipes-path-58" x="91.1657792" y="623.829909" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-59" points="0.0772968218 672.061018 90.752447 672.061018 90.752447 683.259822 0.0772968218 683.259822"></polygon>
+        <rect id="M_team_pipes-path-60" x="91.1657792" y="672.061018" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-61" points="0.0772968218 648.063579 90.752447 648.063579 90.752447 659.262384 0.0772968218 659.262384"></polygon>
+        <rect id="M_team_pipes-path-62" x="91.1657792" y="648.063579" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-63" points="0.0772968218 695.829909 90.752447 695.829909 90.752447 707.028714 0.0772968218 707.028714"></polygon>
+        <rect id="M_team_pipes-path-64" x="91.1657792" y="695.829909" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-65" points="0.0772968218 744.061018 90.752447 744.061018 90.752447 755.259822 0.0772968218 755.259822"></polygon>
+        <rect id="M_team_pipes-path-66" x="91.1657792" y="744.061018" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-67" points="0.0772968218 720.063579 90.752447 720.063579 90.752447 731.262384 0.0772968218 731.262384"></polygon>
+        <rect id="M_team_pipes-path-68" x="91.1657792" y="720.063579" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-69" points="0.0772968218 767.829909 90.752447 767.829909 90.752447 779.028714 0.0772968218 779.028714"></polygon>
+        <rect id="M_team_pipes-path-70" x="91.1657792" y="767.829909" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-71" points="0.0772968218 816.061018 90.752447 816.061018 90.752447 827.259822 0.0772968218 827.259822"></polygon>
+        <rect id="M_team_pipes-path-72" x="91.1657792" y="816.061018" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-73" points="0.0772968218 792.063579 90.752447 792.063579 90.752447 803.262384 0.0772968218 803.262384"></polygon>
+        <rect id="M_team_pipes-path-74" x="91.1657792" y="792.063579" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-75" points="0.0772968218 839.829909 90.752447 839.829909 90.752447 851.028714 0.0772968218 851.028714"></polygon>
+        <rect id="M_team_pipes-path-76" x="91.1657792" y="839.829909" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-77" points="0.0772968218 888.061018 90.752447 888.061018 90.752447 899.259822 0.0772968218 899.259822"></polygon>
+        <rect id="M_team_pipes-path-78" x="91.1657792" y="888.061018" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-79" points="0.0772968218 864.063579 90.752447 864.063579 90.752447 875.262384 0.0772968218 875.262384"></polygon>
+        <rect id="M_team_pipes-path-80" x="91.1657792" y="864.063579" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-81" points="0.0772968218 911.829909 90.752447 911.829909 90.752447 923.028714 0.0772968218 923.028714"></polygon>
+        <rect id="M_team_pipes-path-82" x="91.1657792" y="911.829909" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-83" points="0.0772968218 960.061018 90.752447 960.061018 90.752447 971.259822 0.0772968218 971.259822"></polygon>
+        <rect id="M_team_pipes-path-84" x="91.1657792" y="960.061018" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-85" points="0.0772968218 936.063579 90.752447 936.063579 90.752447 947.262384 0.0772968218 947.262384"></polygon>
+        <rect id="M_team_pipes-path-86" x="91.1657792" y="936.063579" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-87" points="0.0772968218 983.829909 90.752447 983.829909 90.752447 995.028714 0.0772968218 995.028714"></polygon>
+        <rect id="M_team_pipes-path-88" x="91.1657792" y="983.829909" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-89" points="0.0772968218 1032.06102 90.752447 1032.06102 90.752447 1043.25982 0.0772968218 1043.25982"></polygon>
+        <rect id="M_team_pipes-path-90" x="91.1657792" y="1032.06102" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-91" points="0.0772968218 1008.06358 90.752447 1008.06358 90.752447 1019.26238 0.0772968218 1019.26238"></polygon>
+        <rect id="M_team_pipes-path-92" x="91.1657792" y="1008.06358" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-93" points="0.0772968218 1055.82991 90.752447 1055.82991 90.752447 1067.02871 0.0772968218 1067.02871"></polygon>
+        <rect id="M_team_pipes-path-94" x="91.1657792" y="1055.82991" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-95" points="0.0772968218 1104.06102 90.752447 1104.06102 90.752447 1115.25982 0.0772968218 1115.25982"></polygon>
+        <rect id="M_team_pipes-path-96" x="91.1657792" y="1104.06102" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-97" points="0.0772968218 1080.06358 90.752447 1080.06358 90.752447 1091.26238 0.0772968218 1091.26238"></polygon>
+        <rect id="M_team_pipes-path-98" x="91.1657792" y="1080.06358" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-99" points="0.0772968218 1127.82991 90.752447 1127.82991 90.752447 1139.02871 0.0772968218 1139.02871"></polygon>
+        <rect id="M_team_pipes-path-100" x="91.1657792" y="1127.82991" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-101" points="0.0772968218 1176.06102 90.752447 1176.06102 90.752447 1187.25982 0.0772968218 1187.25982"></polygon>
+        <rect id="M_team_pipes-path-102" x="91.1657792" y="1176.06102" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-103" points="0.0772968218 1152.06358 90.752447 1152.06358 90.752447 1163.26238 0.0772968218 1163.26238"></polygon>
+        <rect id="M_team_pipes-path-104" x="91.1657792" y="1152.06358" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-105" points="0.0772968218 1199.82991 90.752447 1199.82991 90.752447 1211.02871 0.0772968218 1211.02871"></polygon>
+        <rect id="M_team_pipes-path-106" x="91.1657792" y="1199.82991" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-107" points="0.0772968218 1248.06102 90.752447 1248.06102 90.752447 1259.25982 0.0772968218 1259.25982"></polygon>
+        <rect id="M_team_pipes-path-108" x="91.1657792" y="1248.06102" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-109" points="0.0772968218 1224.06358 90.752447 1224.06358 90.752447 1235.26238 0.0772968218 1235.26238"></polygon>
+        <rect id="M_team_pipes-path-110" x="91.1657792" y="1224.06358" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-111" points="0.0772968218 1271.82991 90.752447 1271.82991 90.752447 1283.02871 0.0772968218 1283.02871"></polygon>
+        <rect id="M_team_pipes-path-112" x="91.1657792" y="1271.82991" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-113" points="0.0772968218 1320.06102 90.752447 1320.06102 90.752447 1331.25982 0.0772968218 1331.25982"></polygon>
+        <rect id="M_team_pipes-path-114" x="91.1657792" y="1320.06102" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-115" points="0.0772968218 1296.06358 90.752447 1296.06358 90.752447 1307.26238 0.0772968218 1307.26238"></polygon>
+        <rect id="M_team_pipes-path-116" x="91.1657792" y="1296.06358" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-117" points="0.0772968218 1343.82991 90.752447 1343.82991 90.752447 1355.02871 0.0772968218 1355.02871"></polygon>
+        <rect id="M_team_pipes-path-118" x="91.1657792" y="1343.82991" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-119" points="0.0772968218 1392.06102 90.752447 1392.06102 90.752447 1403.25982 0.0772968218 1403.25982"></polygon>
+        <rect id="M_team_pipes-path-120" x="91.1657792" y="1392.06102" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-121" points="0.0772968218 1368.06358 90.752447 1368.06358 90.752447 1379.26238 0.0772968218 1379.26238"></polygon>
+        <rect id="M_team_pipes-path-122" x="91.1657792" y="1368.06358" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-123" points="0.0772968218 1415.82991 90.752447 1415.82991 90.752447 1427.02871 0.0772968218 1427.02871"></polygon>
+        <rect id="M_team_pipes-path-124" x="91.1657792" y="1415.82991" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-125" points="0.0772968218 1464.06102 90.752447 1464.06102 90.752447 1475.25982 0.0772968218 1475.25982"></polygon>
+        <rect id="M_team_pipes-path-126" x="91.1657792" y="1464.06102" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-127" points="0.0772968218 1440.06358 90.752447 1440.06358 90.752447 1451.26238 0.0772968218 1451.26238"></polygon>
+        <rect id="M_team_pipes-path-128" x="91.1657792" y="1440.06358" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-129" points="0.0772968218 1487.82991 90.752447 1487.82991 90.752447 1499.02871 0.0772968218 1499.02871"></polygon>
+        <rect id="M_team_pipes-path-130" x="91.1657792" y="1487.82991" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-131" points="0.0772968218 1536.06102 90.752447 1536.06102 90.752447 1547.25982 0.0772968218 1547.25982"></polygon>
+        <rect id="M_team_pipes-path-132" x="91.1657792" y="1536.06102" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-133" points="0.0772968218 1512.06358 90.752447 1512.06358 90.752447 1523.26238 0.0772968218 1523.26238"></polygon>
+        <rect id="M_team_pipes-path-134" x="91.1657792" y="1512.06358" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-135" points="0.0772968218 1559.82991 90.752447 1559.82991 90.752447 1571.02871 0.0772968218 1571.02871"></polygon>
+        <rect id="M_team_pipes-path-136" x="91.1657792" y="1559.82991" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-137" points="0.454801122 1583.75513 91.4548011 1583.75513 91.4548011 1594.75513 0.454801122 1594.75513"></polygon>
+        <rect id="M_team_pipes-path-138" x="91.4548011" y="1583.75513" width="7" height="11"></rect>
+        <polygon id="M_team_pipes-path-139" points="0.454801122 2326.75513 91.4548011 2326.75513 91.4548011 2337.75513 0.454801122 2337.75513"></polygon>
+        <rect id="M_team_pipes-path-140" x="91.4548011" y="2326.75513" width="7" height="11"></rect>
+        <polygon id="M_team_pipes-path-141" points="0.454801122 2373.75513 91.4548011 2373.75513 91.4548011 2384.75513 0.454801122 2384.75513"></polygon>
+        <rect id="M_team_pipes-path-142" x="91.4548011" y="2373.75513" width="7" height="11"></rect>
+        <polygon id="M_team_pipes-path-143" points="0.454801122 0.755126913 91.4548011 0.755126913 91.4548011 11.7551269 0.454801122 11.7551269"></polygon>
+        <rect id="M_team_pipes-path-144" x="91.4548011" y="0.755126913" width="7" height="11"></rect>
+        <polygon id="M_team_pipes-path-145" points="0.454801122 0.755126913 91.4548011 0.755126913 91.4548011 11.7551269 0.454801122 11.7551269"></polygon>
+        <rect id="M_team_pipes-path-146" x="91.4548011" y="0.755126913" width="7" height="11"></rect>
+        <polygon id="M_team_pipes-path-147" points="0.454801122 0.755126913 91.4548011 0.755126913 91.4548011 11.7551269 0.454801122 11.7551269"></polygon>
+        <rect id="M_team_pipes-path-148" x="91.4548011" y="0.755126913" width="7" height="11"></rect>
+        <polygon id="M_team_pipes-path-149" points="0.454801122 0.755126913 91.4548011 0.755126913 91.4548011 11.7551269 0.454801122 11.7551269"></polygon>
+        <rect id="M_team_pipes-path-150" x="91.4548011" y="0.755126913" width="7" height="11"></rect>
+        <polygon id="M_team_pipes-path-151" points="0.454801122 0.755126913 91.4548011 0.755126913 91.4548011 11.7551269 0.454801122 11.7551269"></polygon>
+        <rect id="M_team_pipes-path-152" x="91.4548011" y="0.755126913" width="7" height="11"></rect>
+        <polygon id="M_team_pipes-path-153" points="0.454801122 0.755126913 91.4548011 0.755126913 91.4548011 11.7551269 0.454801122 11.7551269"></polygon>
+        <rect id="M_team_pipes-path-154" x="91.4548011" y="0.755126913" width="7" height="11"></rect>
+        <polygon id="M_team_pipes-path-155" points="0.454801122 0.755126913 91.4548011 0.755126913 91.4548011 11.7551269 0.454801122 11.7551269"></polygon>
+        <rect id="M_team_pipes-path-156" x="91.4548011" y="0.755126913" width="7" height="11"></rect>
+        <polygon id="M_team_pipes-path-157" points="0.454801122 0.755126913 91.4548011 0.755126913 91.4548011 11.7551269 0.454801122 11.7551269"></polygon>
+        <rect id="M_team_pipes-path-158" x="91.4548011" y="0.755126913" width="7" height="11"></rect>
+        <polygon id="M_team_pipes-path-159" points="0.454801122 0.755126913 91.4548011 0.755126913 91.4548011 11.7551269 0.454801122 11.7551269"></polygon>
+        <rect id="M_team_pipes-path-160" x="91.4548011" y="0.755126913" width="7" height="11"></rect>
+        <polygon id="M_team_pipes-path-161" points="0.454801122 0.755126913 91.4548011 0.755126913 91.4548011 11.7551269 0.454801122 11.7551269"></polygon>
+        <rect id="M_team_pipes-path-162" x="91.4548011" y="0.755126913" width="7" height="11"></rect>
+        <polygon id="M_team_pipes-path-163" points="0.454801122 0.755126913 91.4548011 0.755126913 91.4548011 11.7551269 0.454801122 11.7551269"></polygon>
+        <rect id="M_team_pipes-path-164" x="91.4548011" y="0.755126913" width="7" height="11"></rect>
+        <polygon id="M_team_pipes-path-165" points="0.454801122 0.755126913 91.4548011 0.755126913 91.4548011 11.7551269 0.454801122 11.7551269"></polygon>
+        <rect id="M_team_pipes-path-166" x="91.4548011" y="0.755126913" width="7" height="11"></rect>
+        <polygon id="M_team_pipes-path-167" points="0.454801122 0.755126913 91.4548011 0.755126913 91.4548011 11.7551269 0.454801122 11.7551269"></polygon>
+        <rect id="M_team_pipes-path-168" x="91.4548011" y="0.755126913" width="7" height="11"></rect>
+        <polygon id="M_team_pipes-path-169" points="0.0772968218 2302.82991 90.752447 2302.82991 90.752447 2314.02871 0.0772968218 2314.02871"></polygon>
+        <rect id="M_team_pipes-path-170" x="91.1657792" y="2302.82991" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-171" points="0.0772968218 2349.82991 90.752447 2349.82991 90.752447 2361.02871 0.0772968218 2361.02871"></polygon>
+        <rect id="M_team_pipes-path-172" x="91.1657792" y="2349.82991" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-173" points="0.0772968218 2255.06358 90.752447 2255.06358 90.752447 2266.26238 0.0772968218 2266.26238"></polygon>
+        <rect id="M_team_pipes-path-174" x="91.1657792" y="2255.06358" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-175" points="0.0772968218 2279.06102 90.752447 2279.06102 90.752447 2290.25982 0.0772968218 2290.25982"></polygon>
+        <rect id="M_team_pipes-path-176" x="91.1657792" y="2279.06102" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-177" points="0.0772968218 2230.82991 90.752447 2230.82991 90.752447 2242.02871 0.0772968218 2242.02871"></polygon>
+        <rect id="M_team_pipes-path-178" x="91.1657792" y="2230.82991" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-179" points="0.0772968218 2183.06358 90.752447 2183.06358 90.752447 2194.26238 0.0772968218 2194.26238"></polygon>
+        <rect id="M_team_pipes-path-180" x="91.1657792" y="2183.06358" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-181" points="0.0772968218 2207.06102 90.752447 2207.06102 90.752447 2218.25982 0.0772968218 2218.25982"></polygon>
+        <rect id="M_team_pipes-path-182" x="91.1657792" y="2207.06102" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-183" points="0.0772968218 2158.82991 90.752447 2158.82991 90.752447 2170.02871 0.0772968218 2170.02871"></polygon>
+        <rect id="M_team_pipes-path-184" x="91.1657792" y="2158.82991" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-185" points="0.0772968218 2111.06358 90.752447 2111.06358 90.752447 2122.26238 0.0772968218 2122.26238"></polygon>
+        <rect id="M_team_pipes-path-186" x="91.1657792" y="2111.06358" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-187" points="0.0772968218 2135.06102 90.752447 2135.06102 90.752447 2146.25982 0.0772968218 2146.25982"></polygon>
+        <rect id="M_team_pipes-path-188" x="91.1657792" y="2135.06102" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-189" points="0.0772968218 2086.82991 90.752447 2086.82991 90.752447 2098.02871 0.0772968218 2098.02871"></polygon>
+        <rect id="M_team_pipes-path-190" x="91.1657792" y="2086.82991" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-191" points="0.0772968218 2039.06358 90.752447 2039.06358 90.752447 2050.26238 0.0772968218 2050.26238"></polygon>
+        <rect id="M_team_pipes-path-192" x="91.1657792" y="2039.06358" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-193" points="0.0772968218 2063.06102 90.752447 2063.06102 90.752447 2074.25982 0.0772968218 2074.25982"></polygon>
+        <rect id="M_team_pipes-path-194" x="91.1657792" y="2063.06102" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-195" points="0.0772968218 2014.82991 90.752447 2014.82991 90.752447 2026.02871 0.0772968218 2026.02871"></polygon>
+        <rect id="M_team_pipes-path-196" x="91.1657792" y="2014.82991" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-197" points="0.0772968218 1967.06358 90.752447 1967.06358 90.752447 1978.26238 0.0772968218 1978.26238"></polygon>
+        <rect id="M_team_pipes-path-198" x="91.1657792" y="1967.06358" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-199" points="0.0772968218 1991.06102 90.752447 1991.06102 90.752447 2002.25982 0.0772968218 2002.25982"></polygon>
+        <rect id="M_team_pipes-path-200" x="91.1657792" y="1991.06102" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-201" points="0.0772968218 1942.82991 90.752447 1942.82991 90.752447 1954.02871 0.0772968218 1954.02871"></polygon>
+        <rect id="M_team_pipes-path-202" x="91.1657792" y="1942.82991" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-203" points="0.0772968218 1895.06358 90.752447 1895.06358 90.752447 1906.26238 0.0772968218 1906.26238"></polygon>
+        <rect id="M_team_pipes-path-204" x="91.1657792" y="1895.06358" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-205" points="0.0772968218 1919.06102 90.752447 1919.06102 90.752447 1930.25982 0.0772968218 1930.25982"></polygon>
+        <rect id="M_team_pipes-path-206" x="91.1657792" y="1919.06102" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-207" points="0.0772968218 1870.82991 90.752447 1870.82991 90.752447 1882.02871 0.0772968218 1882.02871"></polygon>
+        <rect id="M_team_pipes-path-208" x="91.1657792" y="1870.82991" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-209" points="0.0772968218 1823.06358 90.752447 1823.06358 90.752447 1834.26238 0.0772968218 1834.26238"></polygon>
+        <rect id="M_team_pipes-path-210" x="91.1657792" y="1823.06358" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-211" points="0.0772968218 1847.06102 90.752447 1847.06102 90.752447 1858.25982 0.0772968218 1858.25982"></polygon>
+        <rect id="M_team_pipes-path-212" x="91.1657792" y="1847.06102" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-213" points="0.0772968218 1798.82991 90.752447 1798.82991 90.752447 1810.02871 0.0772968218 1810.02871"></polygon>
+        <rect id="M_team_pipes-path-214" x="91.1657792" y="1798.82991" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-215" points="0.0772968218 1751.06358 90.752447 1751.06358 90.752447 1762.26238 0.0772968218 1762.26238"></polygon>
+        <rect id="M_team_pipes-path-216" x="91.1657792" y="1751.06358" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-217" points="0.0772968218 1775.06102 90.752447 1775.06102 90.752447 1786.25982 0.0772968218 1786.25982"></polygon>
+        <rect id="M_team_pipes-path-218" x="91.1657792" y="1775.06102" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-219" points="0.0772968218 1726.82991 90.752447 1726.82991 90.752447 1738.02871 0.0772968218 1738.02871"></polygon>
+        <rect id="M_team_pipes-path-220" x="91.1657792" y="1726.82991" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-221" points="0.0772968218 1679.06358 90.752447 1679.06358 90.752447 1690.26238 0.0772968218 1690.26238"></polygon>
+        <rect id="M_team_pipes-path-222" x="91.1657792" y="1679.06358" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-223" points="0.0772968218 1703.06102 90.752447 1703.06102 90.752447 1714.25982 0.0772968218 1714.25982"></polygon>
+        <rect id="M_team_pipes-path-224" x="91.1657792" y="1703.06102" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-225" points="0.0772968218 1654.82991 90.752447 1654.82991 90.752447 1666.02871 0.0772968218 1666.02871"></polygon>
+        <rect id="M_team_pipes-path-226" x="91.1657792" y="1654.82991" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-227" points="0.0772968218 1607.06358 90.752447 1607.06358 90.752447 1618.26238 0.0772968218 1618.26238"></polygon>
+        <rect id="M_team_pipes-path-228" x="91.1657792" y="1607.06358" width="7.10049873" height="11.1988046"></rect>
+        <polygon id="M_team_pipes-path-229" points="0.0772968218 1631.06102 90.752447 1631.06102 90.752447 1642.25982 0.0772968218 1642.25982"></polygon>
+        <rect id="M_team_pipes-path-230" x="91.1657792" y="1631.06102" width="7.10049873" height="11.1988046"></rect>
+        <ellipse id="M_team_pipes-path-231" cx="153.662522" cy="3.94297589" rx="3.66252204" ry="3.65627312"></ellipse>
+        <ellipse id="M_team_pipes-path-232" cx="3.66252204" cy="3.94297589" rx="3.66252204" ry="3.65627312"></ellipse>
+        <ellipse id="M_team_pipes-path-233" cx="153.662522" cy="3.94297589" rx="3.66252204" ry="3.65627312"></ellipse>
+        <ellipse id="M_team_pipes-path-234" cx="3.66252204" cy="3.94297589" rx="3.66252204" ry="3.65627312"></ellipse>
+        <ellipse id="M_team_pipes-path-235" cx="3.66252204" cy="3.65627312" rx="3.66252204" ry="3.65627312"></ellipse>
+        <ellipse id="M_team_pipes-path-236" cx="151.662522" cy="3.65627312" rx="3.66252204" ry="3.65627312"></ellipse>
+        <ellipse id="M_team_pipes-path-237" cx="4.27225312" cy="3.94297589" rx="3.68196923" ry="3.65627312"></ellipse>
+        <ellipse id="M_team_pipes-path-238" cx="155.052791" cy="3.94297589" rx="3.68196923" ry="3.65627312"></ellipse>
+        <ellipse id="M_team_pipes-path-239" cx="4.27225312" cy="3.94297589" rx="3.68196923" ry="3.65627312"></ellipse>
+        <ellipse id="M_team_pipes-path-240" cx="155.052791" cy="4.94297589" rx="3.68196923" ry="3.65627312"></ellipse>
+        <ellipse id="M_team_pipes-path-241" cx="4.27225312" cy="3.94297589" rx="3.68196923" ry="3.65627312"></ellipse>
+        <ellipse id="M_team_pipes-path-242" cx="154.052791" cy="3.94297589" rx="3.68196923" ry="3.65627312"></ellipse>
+        <ellipse id="M_team_pipes-path-243" cx="4.27225312" cy="3.94297589" rx="3.68196923" ry="3.65627312"></ellipse>
+        <ellipse id="M_team_pipes-path-244" cx="154.052791" cy="3.94297589" rx="3.68196923" ry="3.65627312"></ellipse>
+        <ellipse id="M_team_pipes-path-245" cx="4.27225312" cy="3.94297589" rx="3.68196923" ry="3.65627312"></ellipse>
+        <ellipse id="M_team_pipes-path-246" cx="155.052791" cy="4.94297589" rx="3.68196923" ry="3.65627312"></ellipse>
+    </defs>
+    <g transform="translate(0.700000, 0.000000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <g>
+                <g transform="translate(714.218604, 0.000000)"></g>
+                <g transform="translate(-0.000189, 5.713297)">
+                    <g id="Rectangle-path" fill-rule="nonzero">
+                        <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-1"></use>
+                        <path stroke="#000000" stroke-width="1.59952041" d="M-0.799760204,-0.799760204 L715.018553,-0.799760204 L715.018553,2817.86691 L-0.799760204,2817.86691 L-0.799760204,-0.799760204 Z"></path>
+                    </g>
+                    <g id="Rectangle-path" fill-rule="nonzero">
+                        <use fill="#BED1F4" fill-rule="evenodd" xlink:href="#M_team_pipes-path-2"></use>
+                        <path stroke="#231F20" stroke-width="1.6" d="M712.503162,-0.780667367 L883.882172,-0.780667367 L883.882172,0.0193326334 C883.882172,534.068846 883.882172,534.068846 883.882172,872.019333 C883.882172,1388.81434 883.882172,1388.81434 883.882172,2817.08648 L883.882172,2817.88648 L712.503162,2817.88648 L712.503162,-0.780667367 Z"></path>
+                    </g>
+                    <g transform="translate(734.454990, 22.041830)" fill-rule="nonzero">
+                        <g id="Rectangle-path">
+                            <g>
+                                <use fill="#BED1F4" fill-rule="evenodd" xlink:href="#M_team_pipes-path-3"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.799760204,-0.799760204 L129.354438,-0.799760204 L129.354438,2768.86691 L-0.799760204,2768.86691 L-0.799760204,-0.799760204 Z"></path>
+                            </g>
+                            <g>
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-4"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M120.979098,-0.799760204 L129.903662,-0.799760204 L129.903662,2768.69814 L120.979098,2768.69814 L120.979098,-0.799760204 Z"></path>
+                            </g>
+                        </g>
+                        <g id="Group-5" transform="translate(11.545199, 43.244873)">
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-5"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,23.2612577 L91.5522072,23.2612577 L91.5522072,36.0595827 L-0.722463383,36.0595827 L-0.722463383,23.2612577 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-6"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="23.2612577" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-7"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,95.2612577 L91.5522072,95.2612577 L91.5522072,108.059583 L-0.722463383,108.059583 L-0.722463383,95.2612577 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-8"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="95.2612577" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-9"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,-0.736180718 L91.5522072,-0.736180718 L91.5522072,12.0621443 L-0.722463383,12.0621443 L-0.722463383,-0.736180718 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-10"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="-0.736180718" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-11"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,71.2638193 L91.5522072,71.2638193 L91.5522072,84.0621443 L-0.722463383,84.0621443 L-0.722463383,71.2638193 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-12"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="71.2638193" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-13"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,47.0301491 L91.5522072,47.0301491 L91.5522072,59.8284741 L-0.722463383,59.8284741 L-0.722463383,47.0301491 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-14"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="47.0301491" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-15"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,119.030149 L91.5522072,119.030149 L91.5522072,131.828474 L-0.722463383,131.828474 L-0.722463383,119.030149 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-16"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="119.030149" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-17"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,167.261258 L91.5522072,167.261258 L91.5522072,180.059583 L-0.722463383,180.059583 L-0.722463383,167.261258 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-18"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="167.261258" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-19"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,143.263819 L91.5522072,143.263819 L91.5522072,156.062144 L-0.722463383,156.062144 L-0.722463383,143.263819 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-20"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="143.263819" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-21"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,191.030149 L91.5522072,191.030149 L91.5522072,203.828474 L-0.722463383,203.828474 L-0.722463383,191.030149 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-22"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="191.030149" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-23"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,239.261258 L91.5522072,239.261258 L91.5522072,252.059583 L-0.722463383,252.059583 L-0.722463383,239.261258 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-24"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="239.261258" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-25"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,215.263819 L91.5522072,215.263819 L91.5522072,228.062144 L-0.722463383,228.062144 L-0.722463383,215.263819 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-26"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="215.263819" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-27"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,263.030149 L91.5522072,263.030149 L91.5522072,275.828474 L-0.722463383,275.828474 L-0.722463383,263.030149 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-28"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="263.030149" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-29"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,311.261258 L91.5522072,311.261258 L91.5522072,324.059583 L-0.722463383,324.059583 L-0.722463383,311.261258 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-30"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="311.261258" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-31"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,287.263819 L91.5522072,287.263819 L91.5522072,300.062144 L-0.722463383,300.062144 L-0.722463383,287.263819 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-32"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="287.263819" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-33"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,335.030149 L91.5522072,335.030149 L91.5522072,347.828474 L-0.722463383,347.828474 L-0.722463383,335.030149 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-34"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="335.030149" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-35"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,383.261258 L91.5522072,383.261258 L91.5522072,396.059583 L-0.722463383,396.059583 L-0.722463383,383.261258 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-36"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="383.261258" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-37"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,359.263819 L91.5522072,359.263819 L91.5522072,372.062144 L-0.722463383,372.062144 L-0.722463383,359.263819 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-38"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="359.263819" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-39"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,407.030149 L91.5522072,407.030149 L91.5522072,419.828474 L-0.722463383,419.828474 L-0.722463383,407.030149 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-40"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="407.030149" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-41"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,455.261258 L91.5522072,455.261258 L91.5522072,468.059583 L-0.722463383,468.059583 L-0.722463383,455.261258 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-42"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="455.261258" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-43"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,431.263819 L91.5522072,431.263819 L91.5522072,444.062144 L-0.722463383,444.062144 L-0.722463383,431.263819 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-44"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="431.263819" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-45"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,479.030149 L91.5522072,479.030149 L91.5522072,491.828474 L-0.722463383,491.828474 L-0.722463383,479.030149 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-46"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="479.030149" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-47"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,527.261258 L91.5522072,527.261258 L91.5522072,540.059583 L-0.722463383,540.059583 L-0.722463383,527.261258 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-48"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="527.261258" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-49"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,503.263819 L91.5522072,503.263819 L91.5522072,516.062144 L-0.722463383,516.062144 L-0.722463383,503.263819 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-50"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="503.263819" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-51"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,551.030149 L91.5522072,551.030149 L91.5522072,563.828474 L-0.722463383,563.828474 L-0.722463383,551.030149 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-52"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="551.030149" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-53"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,599.261258 L91.5522072,599.261258 L91.5522072,612.059583 L-0.722463383,612.059583 L-0.722463383,599.261258 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-54"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="599.261258" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-55"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,575.263819 L91.5522072,575.263819 L91.5522072,588.062144 L-0.722463383,588.062144 L-0.722463383,575.263819 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-56"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="575.263819" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-57"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,623.030149 L91.5522072,623.030149 L91.5522072,635.828474 L-0.722463383,635.828474 L-0.722463383,623.030149 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-58"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="623.030149" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-59"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,671.261258 L91.5522072,671.261258 L91.5522072,684.059583 L-0.722463383,684.059583 L-0.722463383,671.261258 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-60"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="671.261258" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-61"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,647.263819 L91.5522072,647.263819 L91.5522072,660.062144 L-0.722463383,660.062144 L-0.722463383,647.263819 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-62"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="647.263819" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-63"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,695.030149 L91.5522072,695.030149 L91.5522072,707.828474 L-0.722463383,707.828474 L-0.722463383,695.030149 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-64"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="695.030149" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-65"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,743.261258 L91.5522072,743.261258 L91.5522072,756.059583 L-0.722463383,756.059583 L-0.722463383,743.261258 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-66"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="743.261258" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-67"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,719.263819 L91.5522072,719.263819 L91.5522072,732.062144 L-0.722463383,732.062144 L-0.722463383,719.263819 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-68"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="719.263819" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-69"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,767.030149 L91.5522072,767.030149 L91.5522072,779.828474 L-0.722463383,779.828474 L-0.722463383,767.030149 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-70"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="767.030149" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-71"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,815.261258 L91.5522072,815.261258 L91.5522072,828.059583 L-0.722463383,828.059583 L-0.722463383,815.261258 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-72"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="815.261258" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-73"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,791.263819 L91.5522072,791.263819 L91.5522072,804.062144 L-0.722463383,804.062144 L-0.722463383,791.263819 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-74"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="791.263819" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-75"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,839.030149 L91.5522072,839.030149 L91.5522072,851.828474 L-0.722463383,851.828474 L-0.722463383,839.030149 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-76"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="839.030149" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-77"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,887.261258 L91.5522072,887.261258 L91.5522072,900.059583 L-0.722463383,900.059583 L-0.722463383,887.261258 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-78"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="887.261258" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-79"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,863.263819 L91.5522072,863.263819 L91.5522072,876.062144 L-0.722463383,876.062144 L-0.722463383,863.263819 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-80"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="863.263819" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-81"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,911.030149 L91.5522072,911.030149 L91.5522072,923.828474 L-0.722463383,923.828474 L-0.722463383,911.030149 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-82"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="911.030149" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-83"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,959.261258 L91.5522072,959.261258 L91.5522072,972.059583 L-0.722463383,972.059583 L-0.722463383,959.261258 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-84"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="959.261258" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-85"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,935.263819 L91.5522072,935.263819 L91.5522072,948.062144 L-0.722463383,948.062144 L-0.722463383,935.263819 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-86"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="935.263819" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-87"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,983.030149 L91.5522072,983.030149 L91.5522072,995.828474 L-0.722463383,995.828474 L-0.722463383,983.030149 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-88"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="983.030149" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-89"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1031.26126 L91.5522072,1031.26126 L91.5522072,1044.05958 L-0.722463383,1044.05958 L-0.722463383,1031.26126 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-90"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1031.26126" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-91"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1007.26382 L91.5522072,1007.26382 L91.5522072,1020.06214 L-0.722463383,1020.06214 L-0.722463383,1007.26382 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-92"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1007.26382" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-93"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1055.03015 L91.5522072,1055.03015 L91.5522072,1067.82847 L-0.722463383,1067.82847 L-0.722463383,1055.03015 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-94"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1055.03015" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-95"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1103.26126 L91.5522072,1103.26126 L91.5522072,1116.05958 L-0.722463383,1116.05958 L-0.722463383,1103.26126 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-96"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1103.26126" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-97"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1079.26382 L91.5522072,1079.26382 L91.5522072,1092.06214 L-0.722463383,1092.06214 L-0.722463383,1079.26382 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-98"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1079.26382" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-99"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1127.03015 L91.5522072,1127.03015 L91.5522072,1139.82847 L-0.722463383,1139.82847 L-0.722463383,1127.03015 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-100"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1127.03015" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-101"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1175.26126 L91.5522072,1175.26126 L91.5522072,1188.05958 L-0.722463383,1188.05958 L-0.722463383,1175.26126 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-102"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1175.26126" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-103"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1151.26382 L91.5522072,1151.26382 L91.5522072,1164.06214 L-0.722463383,1164.06214 L-0.722463383,1151.26382 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-104"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1151.26382" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-105"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1199.03015 L91.5522072,1199.03015 L91.5522072,1211.82847 L-0.722463383,1211.82847 L-0.722463383,1199.03015 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-106"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1199.03015" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-107"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1247.26126 L91.5522072,1247.26126 L91.5522072,1260.05958 L-0.722463383,1260.05958 L-0.722463383,1247.26126 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-108"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1247.26126" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-109"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1223.26382 L91.5522072,1223.26382 L91.5522072,1236.06214 L-0.722463383,1236.06214 L-0.722463383,1223.26382 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-110"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1223.26382" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-111"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1271.03015 L91.5522072,1271.03015 L91.5522072,1283.82847 L-0.722463383,1283.82847 L-0.722463383,1271.03015 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-112"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1271.03015" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-113"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1319.26126 L91.5522072,1319.26126 L91.5522072,1332.05958 L-0.722463383,1332.05958 L-0.722463383,1319.26126 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-114"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1319.26126" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-115"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1295.26382 L91.5522072,1295.26382 L91.5522072,1308.06214 L-0.722463383,1308.06214 L-0.722463383,1295.26382 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-116"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1295.26382" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-117"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1343.03015 L91.5522072,1343.03015 L91.5522072,1355.82847 L-0.722463383,1355.82847 L-0.722463383,1343.03015 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-118"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1343.03015" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-119"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1391.26126 L91.5522072,1391.26126 L91.5522072,1404.05958 L-0.722463383,1404.05958 L-0.722463383,1391.26126 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-120"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1391.26126" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-121"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1367.26382 L91.5522072,1367.26382 L91.5522072,1380.06214 L-0.722463383,1380.06214 L-0.722463383,1367.26382 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-122"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1367.26382" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-123"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1415.03015 L91.5522072,1415.03015 L91.5522072,1427.82847 L-0.722463383,1427.82847 L-0.722463383,1415.03015 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-124"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1415.03015" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-125"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1463.26126 L91.5522072,1463.26126 L91.5522072,1476.05958 L-0.722463383,1476.05958 L-0.722463383,1463.26126 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-126"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1463.26126" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-127"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1439.26382 L91.5522072,1439.26382 L91.5522072,1452.06214 L-0.722463383,1452.06214 L-0.722463383,1439.26382 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-128"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1439.26382" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-129"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1487.03015 L91.5522072,1487.03015 L91.5522072,1499.82847 L-0.722463383,1499.82847 L-0.722463383,1487.03015 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-130"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1487.03015" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-131"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1535.26126 L91.5522072,1535.26126 L91.5522072,1548.05958 L-0.722463383,1548.05958 L-0.722463383,1535.26126 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-132"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1535.26126" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-133"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1511.26382 L91.5522072,1511.26382 L91.5522072,1524.06214 L-0.722463383,1524.06214 L-0.722463383,1511.26382 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-134"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1511.26382" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-135"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1559.03015 L91.5522072,1559.03015 L91.5522072,1571.82847 L-0.722463383,1571.82847 L-0.722463383,1559.03015 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-136"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1559.03015" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-137"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.344959082,1582.95537 L92.2545613,1582.95537 L92.2545613,1595.55489 L-0.344959082,1595.55489 L-0.344959082,1582.95537 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-138"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.6550409" y="1582.95537" width="8.59952041" height="12.5995204"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-139"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.344959082,2325.95537 L92.2545613,2325.95537 L92.2545613,2338.55489 L-0.344959082,2338.55489 L-0.344959082,2325.95537 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-140"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.6550409" y="2325.95537" width="8.59952041" height="12.5995204"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-141"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.344959082,2372.95537 L92.2545613,2372.95537 L92.2545613,2385.55489 L-0.344959082,2385.55489 L-0.344959082,2372.95537 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-142"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.6550409" y="2372.95537" width="8.59952041" height="12.5995204"></rect>
+                            </g>
+                            <g id="Group-4" transform="translate(0.000000, 2396.000000)">
+                                <g id="Rectangle-path">
+                                    <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-143"></use>
+                                    <path stroke="#231F20" stroke-width="1.59952041" d="M-0.344959082,-0.0446332918 L92.2545613,-0.0446332918 L92.2545613,12.5548871 L-0.344959082,12.5548871 L-0.344959082,-0.0446332918 Z"></path>
+                                </g>
+                                <g id="Rectangle-path">
+                                    <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-144"></use>
+                                    <rect stroke="#231F20" stroke-width="1.59952041" x="90.6550409" y="-0.0446332918" width="8.59952041" height="12.5995204"></rect>
+                                </g>
+                            </g>
+                            <g id="Group-4-Copy" transform="translate(0.000000, 2419.000000)">
+                                <g id="Rectangle-path">
+                                    <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-145"></use>
+                                    <path stroke="#231F20" stroke-width="1.59952041" d="M-0.344959082,-0.0446332918 L92.2545613,-0.0446332918 L92.2545613,12.5548871 L-0.344959082,12.5548871 L-0.344959082,-0.0446332918 Z"></path>
+                                </g>
+                                <g id="Rectangle-path">
+                                    <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-146"></use>
+                                    <rect stroke="#231F20" stroke-width="1.59952041" x="90.6550409" y="-0.0446332918" width="8.59952041" height="12.5995204"></rect>
+                                </g>
+                            </g>
+                            <g id="Group-4-Copy-2" transform="translate(0.000000, 2442.000000)">
+                                <g id="Rectangle-path">
+                                    <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-147"></use>
+                                    <path stroke="#231F20" stroke-width="1.59952041" d="M-0.344959082,-0.0446332918 L92.2545613,-0.0446332918 L92.2545613,12.5548871 L-0.344959082,12.5548871 L-0.344959082,-0.0446332918 Z"></path>
+                                </g>
+                                <g id="Rectangle-path">
+                                    <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-148"></use>
+                                    <rect stroke="#231F20" stroke-width="1.59952041" x="90.6550409" y="-0.0446332918" width="8.59952041" height="12.5995204"></rect>
+                                </g>
+                            </g>
+                            <g id="Group-4-Copy-3" transform="translate(0.000000, 2465.000000)">
+                                <g id="Rectangle-path">
+                                    <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-149"></use>
+                                    <path stroke="#231F20" stroke-width="1.59952041" d="M-0.344959082,-0.0446332918 L92.2545613,-0.0446332918 L92.2545613,12.5548871 L-0.344959082,12.5548871 L-0.344959082,-0.0446332918 Z"></path>
+                                </g>
+                                <g id="Rectangle-path">
+                                    <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-150"></use>
+                                    <rect stroke="#231F20" stroke-width="1.59952041" x="90.6550409" y="-0.0446332918" width="8.59952041" height="12.5995204"></rect>
+                                </g>
+                            </g>
+                            <g id="Group-4-Copy-4" transform="translate(0.000000, 2488.000000)">
+                                <g id="Rectangle-path">
+                                    <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-151"></use>
+                                    <path stroke="#231F20" stroke-width="1.59952041" d="M-0.344959082,-0.0446332918 L92.2545613,-0.0446332918 L92.2545613,12.5548871 L-0.344959082,12.5548871 L-0.344959082,-0.0446332918 Z"></path>
+                                </g>
+                                <g id="Rectangle-path">
+                                    <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-152"></use>
+                                    <rect stroke="#231F20" stroke-width="1.59952041" x="90.6550409" y="-0.0446332918" width="8.59952041" height="12.5995204"></rect>
+                                </g>
+                            </g>
+                            <g id="Group-4-Copy-5" transform="translate(0.000000, 2511.000000)">
+                                <g id="Rectangle-path">
+                                    <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-153"></use>
+                                    <path stroke="#231F20" stroke-width="1.59952041" d="M-0.344959082,-0.0446332918 L92.2545613,-0.0446332918 L92.2545613,12.5548871 L-0.344959082,12.5548871 L-0.344959082,-0.0446332918 Z"></path>
+                                </g>
+                                <g id="Rectangle-path">
+                                    <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-154"></use>
+                                    <rect stroke="#231F20" stroke-width="1.59952041" x="90.6550409" y="-0.0446332918" width="8.59952041" height="12.5995204"></rect>
+                                </g>
+                            </g>
+                            <g id="Group-4-Copy-6" transform="translate(0.000000, 2534.000000)">
+                                <g id="Rectangle-path">
+                                    <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-155"></use>
+                                    <path stroke="#231F20" stroke-width="1.59952041" d="M-0.344959082,-0.0446332918 L92.2545613,-0.0446332918 L92.2545613,12.5548871 L-0.344959082,12.5548871 L-0.344959082,-0.0446332918 Z"></path>
+                                </g>
+                                <g id="Rectangle-path">
+                                    <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-156"></use>
+                                    <rect stroke="#231F20" stroke-width="1.59952041" x="90.6550409" y="-0.0446332918" width="8.59952041" height="12.5995204"></rect>
+                                </g>
+                            </g>
+                            <g id="Group-4-Copy-7" transform="translate(0.000000, 2557.000000)">
+                                <g id="Rectangle-path">
+                                    <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-157"></use>
+                                    <path stroke="#231F20" stroke-width="1.59952041" d="M-0.344959082,-0.0446332918 L92.2545613,-0.0446332918 L92.2545613,12.5548871 L-0.344959082,12.5548871 L-0.344959082,-0.0446332918 Z"></path>
+                                </g>
+                                <g id="Rectangle-path">
+                                    <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-158"></use>
+                                    <rect stroke="#231F20" stroke-width="1.59952041" x="90.6550409" y="-0.0446332918" width="8.59952041" height="12.5995204"></rect>
+                                </g>
+                            </g>
+                            <g id="Group-4-Copy-8" transform="translate(0.000000, 2580.000000)">
+                                <g id="Rectangle-path">
+                                    <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-159"></use>
+                                    <path stroke="#231F20" stroke-width="1.59952041" d="M-0.344959082,-0.0446332918 L92.2545613,-0.0446332918 L92.2545613,12.5548871 L-0.344959082,12.5548871 L-0.344959082,-0.0446332918 Z"></path>
+                                </g>
+                                <g id="Rectangle-path">
+                                    <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-160"></use>
+                                    <rect stroke="#231F20" stroke-width="1.59952041" x="90.6550409" y="-0.0446332918" width="8.59952041" height="12.5995204"></rect>
+                                </g>
+                            </g>
+                            <g id="Group-4-Copy-9" transform="translate(0.000000, 2603.000000)">
+                                <g id="Rectangle-path">
+                                    <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-161"></use>
+                                    <path stroke="#231F20" stroke-width="1.59952041" d="M-0.344959082,-0.0446332918 L92.2545613,-0.0446332918 L92.2545613,12.5548871 L-0.344959082,12.5548871 L-0.344959082,-0.0446332918 Z"></path>
+                                </g>
+                                <g id="Rectangle-path">
+                                    <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-162"></use>
+                                    <rect stroke="#231F20" stroke-width="1.59952041" x="90.6550409" y="-0.0446332918" width="8.59952041" height="12.5995204"></rect>
+                                </g>
+                            </g>
+                            <g id="Group-4-Copy-10" transform="translate(0.000000, 2626.000000)">
+                                <g id="Rectangle-path">
+                                    <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-163"></use>
+                                    <path stroke="#231F20" stroke-width="1.59952041" d="M-0.344959082,-0.0446332918 L92.2545613,-0.0446332918 L92.2545613,12.5548871 L-0.344959082,12.5548871 L-0.344959082,-0.0446332918 Z"></path>
+                                </g>
+                                <g id="Rectangle-path">
+                                    <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-164"></use>
+                                    <rect stroke="#231F20" stroke-width="1.59952041" x="90.6550409" y="-0.0446332918" width="8.59952041" height="12.5995204"></rect>
+                                </g>
+                            </g>
+                            <g id="Group-4-Copy-11" transform="translate(0.000000, 2649.000000)">
+                                <g id="Rectangle-path">
+                                    <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-165"></use>
+                                    <path stroke="#231F20" stroke-width="1.59952041" d="M-0.344959082,-0.0446332918 L92.2545613,-0.0446332918 L92.2545613,12.5548871 L-0.344959082,12.5548871 L-0.344959082,-0.0446332918 Z"></path>
+                                </g>
+                                <g id="Rectangle-path">
+                                    <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-166"></use>
+                                    <rect stroke="#231F20" stroke-width="1.59952041" x="90.6550409" y="-0.0446332918" width="8.59952041" height="12.5995204"></rect>
+                                </g>
+                            </g>
+                            <g id="Group-4-Copy-12" transform="translate(0.000000, 2672.000000)">
+                                <g id="Rectangle-path">
+                                    <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-167"></use>
+                                    <path stroke="#231F20" stroke-width="1.59952041" d="M-0.344959082,-0.0446332918 L92.2545613,-0.0446332918 L92.2545613,12.5548871 L-0.344959082,12.5548871 L-0.344959082,-0.0446332918 Z"></path>
+                                </g>
+                                <g id="Rectangle-path">
+                                    <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-168"></use>
+                                    <rect stroke="#231F20" stroke-width="1.59952041" x="90.6550409" y="-0.0446332918" width="8.59952041" height="12.5995204"></rect>
+                                </g>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-169"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,2302.03015 L91.5522072,2302.03015 L91.5522072,2314.82847 L-0.722463383,2314.82847 L-0.722463383,2302.03015 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-170"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="2302.03015" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-171"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,2349.03015 L91.5522072,2349.03015 L91.5522072,2361.82847 L-0.722463383,2361.82847 L-0.722463383,2349.03015 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-172"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="2349.03015" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-173"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,2254.26382 L91.5522072,2254.26382 L91.5522072,2267.06214 L-0.722463383,2267.06214 L-0.722463383,2254.26382 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-174"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="2254.26382" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-175"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,2278.26126 L91.5522072,2278.26126 L91.5522072,2291.05958 L-0.722463383,2291.05958 L-0.722463383,2278.26126 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-176"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="2278.26126" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-177"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,2230.03015 L91.5522072,2230.03015 L91.5522072,2242.82847 L-0.722463383,2242.82847 L-0.722463383,2230.03015 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-178"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="2230.03015" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-179"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,2182.26382 L91.5522072,2182.26382 L91.5522072,2195.06214 L-0.722463383,2195.06214 L-0.722463383,2182.26382 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-180"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="2182.26382" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-181"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,2206.26126 L91.5522072,2206.26126 L91.5522072,2219.05958 L-0.722463383,2219.05958 L-0.722463383,2206.26126 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-182"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="2206.26126" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-183"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,2158.03015 L91.5522072,2158.03015 L91.5522072,2170.82847 L-0.722463383,2170.82847 L-0.722463383,2158.03015 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-184"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="2158.03015" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-185"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,2110.26382 L91.5522072,2110.26382 L91.5522072,2123.06214 L-0.722463383,2123.06214 L-0.722463383,2110.26382 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-186"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="2110.26382" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-187"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,2134.26126 L91.5522072,2134.26126 L91.5522072,2147.05958 L-0.722463383,2147.05958 L-0.722463383,2134.26126 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-188"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="2134.26126" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-189"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,2086.03015 L91.5522072,2086.03015 L91.5522072,2098.82847 L-0.722463383,2098.82847 L-0.722463383,2086.03015 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-190"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="2086.03015" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-191"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,2038.26382 L91.5522072,2038.26382 L91.5522072,2051.06214 L-0.722463383,2051.06214 L-0.722463383,2038.26382 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-192"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="2038.26382" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-193"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,2062.26126 L91.5522072,2062.26126 L91.5522072,2075.05958 L-0.722463383,2075.05958 L-0.722463383,2062.26126 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-194"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="2062.26126" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-195"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,2014.03015 L91.5522072,2014.03015 L91.5522072,2026.82847 L-0.722463383,2026.82847 L-0.722463383,2014.03015 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-196"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="2014.03015" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-197"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1966.26382 L91.5522072,1966.26382 L91.5522072,1979.06214 L-0.722463383,1979.06214 L-0.722463383,1966.26382 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-198"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1966.26382" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-199"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1990.26126 L91.5522072,1990.26126 L91.5522072,2003.05958 L-0.722463383,2003.05958 L-0.722463383,1990.26126 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-200"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1990.26126" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-201"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1942.03015 L91.5522072,1942.03015 L91.5522072,1954.82847 L-0.722463383,1954.82847 L-0.722463383,1942.03015 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-202"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1942.03015" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-203"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1894.26382 L91.5522072,1894.26382 L91.5522072,1907.06214 L-0.722463383,1907.06214 L-0.722463383,1894.26382 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-204"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1894.26382" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-205"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1918.26126 L91.5522072,1918.26126 L91.5522072,1931.05958 L-0.722463383,1931.05958 L-0.722463383,1918.26126 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-206"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1918.26126" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-207"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1870.03015 L91.5522072,1870.03015 L91.5522072,1882.82847 L-0.722463383,1882.82847 L-0.722463383,1870.03015 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-208"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1870.03015" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-209"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1822.26382 L91.5522072,1822.26382 L91.5522072,1835.06214 L-0.722463383,1835.06214 L-0.722463383,1822.26382 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-210"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1822.26382" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-211"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1846.26126 L91.5522072,1846.26126 L91.5522072,1859.05958 L-0.722463383,1859.05958 L-0.722463383,1846.26126 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-212"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1846.26126" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-213"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1798.03015 L91.5522072,1798.03015 L91.5522072,1810.82847 L-0.722463383,1810.82847 L-0.722463383,1798.03015 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-214"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1798.03015" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-215"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1750.26382 L91.5522072,1750.26382 L91.5522072,1763.06214 L-0.722463383,1763.06214 L-0.722463383,1750.26382 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-216"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1750.26382" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-217"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1774.26126 L91.5522072,1774.26126 L91.5522072,1787.05958 L-0.722463383,1787.05958 L-0.722463383,1774.26126 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-218"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1774.26126" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-219"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1726.03015 L91.5522072,1726.03015 L91.5522072,1738.82847 L-0.722463383,1738.82847 L-0.722463383,1726.03015 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-220"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1726.03015" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-221"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1678.26382 L91.5522072,1678.26382 L91.5522072,1691.06214 L-0.722463383,1691.06214 L-0.722463383,1678.26382 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-222"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1678.26382" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-223"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1702.26126 L91.5522072,1702.26126 L91.5522072,1715.05958 L-0.722463383,1715.05958 L-0.722463383,1702.26126 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-224"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1702.26126" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-225"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1654.03015 L91.5522072,1654.03015 L91.5522072,1666.82847 L-0.722463383,1666.82847 L-0.722463383,1654.03015 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-226"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1654.03015" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-227"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1606.26382 L91.5522072,1606.26382 L91.5522072,1619.06214 L-0.722463383,1619.06214 L-0.722463383,1606.26382 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-228"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1606.26382" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#000D6D" fill-rule="evenodd" xlink:href="#M_team_pipes-path-229"></use>
+                                <path stroke="#231F20" stroke-width="1.59952041" d="M-0.722463383,1630.26126 L91.5522072,1630.26126 L91.5522072,1643.05958 L-0.722463383,1643.05958 L-0.722463383,1630.26126 Z"></path>
+                            </g>
+                            <g id="Rectangle-path">
+                                <use fill="#E1E9F3" fill-rule="evenodd" xlink:href="#M_team_pipes-path-230"></use>
+                                <rect stroke="#231F20" stroke-width="1.59952041" x="90.366019" y="1630.26126" width="8.70001914" height="12.798325"></rect>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-2" transform="translate(720.000000, 2404.286703)">
+                        <g id="Oval" fill-rule="nonzero">
+                            <use fill="#BED1F4" fill-rule="evenodd" xlink:href="#M_team_pipes-path-231"></use>
+                            <ellipse stroke="#000000" stroke-width="1.59952041" cx="153.662522" cy="3.94297589" rx="4.46228225" ry="4.45603333"></ellipse>
+                        </g>
+                        <g id="Oval-path">
+                            <use fill="#BED1F4" fill-rule="evenodd" xlink:href="#M_team_pipes-path-232"></use>
+                            <ellipse stroke="#000000" stroke-width="1.59952041" cx="3.66252204" cy="3.94297589" rx="4.46228225" ry="4.45603333"></ellipse>
+                        </g>
+                    </g>
+                    <g id="Group-2-Copy" transform="translate(720.000000, 2798.286703)">
+                        <g id="Oval" fill-rule="nonzero">
+                            <use fill="#BED1F4" fill-rule="evenodd" xlink:href="#M_team_pipes-path-233"></use>
+                            <ellipse stroke="#000000" stroke-width="1.59952041" cx="153.662522" cy="3.94297589" rx="4.46228225" ry="4.45603333"></ellipse>
+                        </g>
+                        <g id="Oval-path">
+                            <use fill="#BED1F4" fill-rule="evenodd" xlink:href="#M_team_pipes-path-234"></use>
+                            <ellipse stroke="#000000" stroke-width="1.59952041" cx="3.66252204" cy="3.94297589" rx="4.46228225" ry="4.45603333"></ellipse>
+                        </g>
+                    </g>
+                    <g id="Group-3" transform="translate(723.000000, 10.000000)">
+                        <g id="Oval-path">
+                            <use fill="#BED1F4" fill-rule="evenodd" xlink:href="#M_team_pipes-path-235"></use>
+                            <ellipse stroke="#000000" stroke-width="1.59952041" cx="3.66252204" cy="3.65627312" rx="4.46228225" ry="4.45603333"></ellipse>
+                        </g>
+                        <g id="Oval-path">
+                            <use fill="#BED1F4" fill-rule="evenodd" xlink:href="#M_team_pipes-path-236"></use>
+                            <ellipse stroke="#000000" stroke-width="1.59952041" cx="151.662522" cy="3.65627312" rx="4.46228225" ry="4.45603333"></ellipse>
+                        </g>
+                    </g>
+                    <g id="Group-70" transform="translate(719.000000, 433.286703)">
+                        <g id="Oval-path">
+                            <use fill="#BED1F4" fill-rule="evenodd" xlink:href="#M_team_pipes-path-237"></use>
+                            <ellipse stroke="#000000" stroke-width="1.59952041" cx="4.27225312" cy="3.94297589" rx="4.48172944" ry="4.45603333"></ellipse>
+                        </g>
+                        <g id="Oval-path">
+                            <use fill="#BED1F4" fill-rule="evenodd" xlink:href="#M_team_pipes-path-238"></use>
+                            <ellipse stroke="#000000" stroke-width="1.59952041" cx="155.052791" cy="3.94297589" rx="4.48172944" ry="4.45603333"></ellipse>
+                        </g>
+                    </g>
+                    <g id="Group-70" transform="translate(719.000000, 826.286703)">
+                        <g id="Oval-path">
+                            <use fill="#BED1F4" fill-rule="evenodd" xlink:href="#M_team_pipes-path-239"></use>
+                            <ellipse stroke="#000000" stroke-width="1.59952041" cx="4.27225312" cy="3.94297589" rx="4.48172944" ry="4.45603333"></ellipse>
+                        </g>
+                        <g id="Oval-path">
+                            <use fill="#BED1F4" fill-rule="evenodd" xlink:href="#M_team_pipes-path-240"></use>
+                            <ellipse stroke="#000000" stroke-width="1.59952041" cx="155.052791" cy="4.94297589" rx="4.48172944" ry="4.45603333"></ellipse>
+                        </g>
+                    </g>
+                    <g id="Group-70" transform="translate(720.000000, 1221.286703)">
+                        <g id="Oval-path">
+                            <use fill="#BED1F4" fill-rule="evenodd" xlink:href="#M_team_pipes-path-241"></use>
+                            <ellipse stroke="#000000" stroke-width="1.59952041" cx="4.27225312" cy="3.94297589" rx="4.48172944" ry="4.45603333"></ellipse>
+                        </g>
+                        <g id="Oval-path">
+                            <use fill="#BED1F4" fill-rule="evenodd" xlink:href="#M_team_pipes-path-242"></use>
+                            <ellipse stroke="#000000" stroke-width="1.59952041" cx="154.052791" cy="3.94297589" rx="4.48172944" ry="4.45603333"></ellipse>
+                        </g>
+                    </g>
+                    <g id="Group-70" transform="translate(719.000000, 2010.286703)">
+                        <g id="Oval-path">
+                            <use fill="#BED1F4" fill-rule="evenodd" xlink:href="#M_team_pipes-path-243"></use>
+                            <ellipse stroke="#000000" stroke-width="1.59952041" cx="4.27225312" cy="3.94297589" rx="4.48172944" ry="4.45603333"></ellipse>
+                        </g>
+                        <g id="Oval-path">
+                            <use fill="#BED1F4" fill-rule="evenodd" xlink:href="#M_team_pipes-path-244"></use>
+                            <ellipse stroke="#000000" stroke-width="1.59952041" cx="154.052791" cy="3.94297589" rx="4.48172944" ry="4.45603333"></ellipse>
+                        </g>
+                    </g>
+                    <g id="Group-70" transform="translate(719.000000, 1615.286703)">
+                        <g id="Oval-path">
+                            <use fill="#BED1F4" fill-rule="evenodd" xlink:href="#M_team_pipes-path-245"></use>
+                            <ellipse stroke="#000000" stroke-width="1.59952041" cx="4.27225312" cy="3.94297589" rx="4.48172944" ry="4.45603333"></ellipse>
+                        </g>
+                        <g id="Oval-path">
+                            <use fill="#BED1F4" fill-rule="evenodd" xlink:href="#M_team_pipes-path-246"></use>
+                            <ellipse stroke="#000000" stroke-width="1.59952041" cx="155.052791" cy="4.94297589" rx="4.48172944" ry="4.45603333"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

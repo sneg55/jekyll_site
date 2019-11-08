@@ -91,6 +91,15 @@ a {
     }
 }
 
+.visible-lg{
+    display: none;
+}
+@media(min-width: 1024px){
+    .visible-lg{
+        display: block;
+    }
+}
+
 @media(max-width: 579px){
     p{
         font-size: 12px;
