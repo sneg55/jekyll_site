@@ -6,6 +6,9 @@
     &.t-0{
         top: 0;
     }
+    &.t-240{
+        top: 240px;
+    }
     &.bottom-0{
         bottom: 0;
     }
@@ -14,6 +17,9 @@
     }
     &.bottom-40{
         bottom: 40px;
+    }
+    &.right{
+        left: auto;
     }
 }
 
@@ -115,22 +121,14 @@
     }
 }
 @media(min-width: 1200px){
-    .before-smoke{
+    /*.before-smoke{
         &:before{
             content: url(/images/icons/smoke.svg);
             position: absolute;
             left: 0;
             top: 120px;
         }
-    }
-    .after-wheel{
-        &:after{
-            content: url(/images/icons/wheel.svg);
-            position: absolute;
-            right: 0;
-            top: 240px;
-        }
-    }
+    }*/
     .before-integraion{
         position: relative;
         transform-style: preserve-3d;
