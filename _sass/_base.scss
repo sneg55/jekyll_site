@@ -67,6 +67,9 @@ a {
 .overflow{
     overflow: hidden;
 }
+.overflow-x{
+    overflow-x: hidden;
+}
 .overflow-xl{
     @media(min-width: 1440px){
         overflow: hidden;
@@ -85,6 +88,15 @@ a {
 @media(min-width: 580px){
     .visible-sm{
         display: none;
+    }
+}
+
+.visible-lg{
+    display: none;
+}
+@media(min-width: 1024px){
+    .visible-lg{
+        display: block;
     }
 }
 
@@ -107,4 +119,8 @@ a {
     .h-sm-auto{
         height: auto;
     }
+}
+
+.basket-right{
+    transform: matrix(1, 0, 0, 1, 1400, -10);
 }

@@ -1,0 +1,42 @@
+<svg width="249px" height="291px" viewBox="0 0 249 291" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="lf-path-1" x="0" y="74.6326722" width="171.309298" height="164.068403"></rect>
+        <ellipse id="lf-path-2" cx="23.4955704" cy="23.4954709" rx="23.4955704" ry="23.4954709"></ellipse>
+        <ellipse id="lf-path-3" cx="23.4955704" cy="23.4954709" rx="22.113478" ry="22.1133844"></ellipse>
+    </defs>
+    <style type="text/css">
+        @keyframes l-ball-fees {
+            0% {
+                transform: translate3d(0, 0, 0);
+            }
+            50% {
+                transform: translate3d(0, 2rem, 0);
+            }
+            100% {
+                transform: translate3d(0, 0, 0);
+            }
+        }
+    </style>
+    <g id="lower-fees" transform="translate(0, 2.000000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-path" fill="#231F20" x="0" y="255.686007" width="248.075058" height="33.3665152"></rect>
+        <g id="Group-44" transform="translate(38.698587, 0.000000)">
+            <g id="Rectangle-path">
+                <use fill="#407BF7" fill-rule="evenodd" xlink:href="#lf-path-1"></use>
+                <rect stroke="#231F20" stroke-width="2.41499984" x="-1.20749992" y="73.4251723" width="173.724298" height="166.483403"></rect>
+            </g>
+            <rect id="Rectangle-path" stroke="#231F20" stroke-width="2.41499984" x="-1.20749992" y="73.4251723" width="173.724298" height="93.5204597"></rect>
+            <g id="Group-46" transform="translate(62.194157, 96.746057)">
+                <g id="Oval">
+                    <use fill="#407BF7" fill-rule="evenodd" xlink:href="#lf-path-2"></use>
+                    <ellipse stroke="#231F20" stroke-width="2.41499984" cx="23.4955704" cy="23.4954709" rx="24.7030703" ry="24.7029708"></ellipse>
+                </g>
+                <g id="Oval">
+                    <use fill="#407BF7" fill-rule="evenodd" xlink:href="#lf-path-3"></use>
+                    <ellipse stroke="#231F20" stroke-width="2.41499984" cx="23.4955704" cy="23.4954709" rx="20.9059781" ry="20.9058844"></ellipse>
+                </g>
+            </g>
+            <ellipse id="s-ball-fees" stroke="#231F20" stroke-width="2.41499984" fill="#4FE2DF" cx="85.5774762" cy="73.138335" rx="10.9444879" ry="10.9444415"></ellipse>
+            <ellipse id="l-ball-fees" stroke="#231F20" stroke-width="2.41499984" fill="#38EDFA" cx="85.6897273" cy="20.7312978" rx="20.7313856" ry="20.7312978"></ellipse>
+        </g>
+    </g>
+</svg>

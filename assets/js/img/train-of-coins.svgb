@@ -1,0 +1,114 @@
+<svg id="train-of-coins" viewBox="0 0 3017 457" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g transform="translate(1.000000, 52.000000)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="path" transform="translate(1507.540124, 212.291411) rotate(6.000000) translate(-1507.540124, -212.291411) translate(-2.459876, 157.791411)">
+            <rect id="Rectangle-5" stroke="#231F20" stroke-width="2.04067487" fill="#BED1F4" x="0" y="54.2336711" width="3019.38539"
+                height="53.936933"></rect>
+            <rect id="Rectangle-5" stroke="#000000" stroke-width="2.41499984" fill="#E1E9F3" x="2.27373675e-13" y="0" width="3019.38539"
+                height="53.936933"></rect>
+            <rect id="safer-carts-path-wrap" stroke="#231F20" stroke-width="2.04067487" fill="#BED1F4" x="0" y="22.1133844" width="3019.38539" height="7"></rect>
+            <g id="Group-186" transform="translate(471.408265, 61.925551)" fill="#231F20" fill-rule="nonzero">
+                <polygon id="Path-17" points="106.59413 3.64141275 106.591566 0.87724089 239.990275 0.75352546 239.992838 3.51769732"></polygon>
+                <polygon id="Path-17" points="1838.36694 40.3349348 1838.36438 37.5707629 1971.76309 37.4470475 1971.76565 40.2112193"></polygon>
+                <polygon id="Path-17" points="0.988043222 3.0655398 1.01763852 0.301525188 97.0153404 1.32939841 96.9857451 4.09341302"></polygon>
+            </g>
+        </g>
+        <g id="safer-carts" transform="translate(613.409959, 22.942498)" stroke="#231F20" stroke-width="2.41499984">
+            <g id="safer-cart1" class="safer-cart" transform="translate(-500, -51)">
+                <g id="safer-cart1-vedro">
+                    <path d="M49.4172598,77.1146737 C76.3197673,77.1146737 98.1285587,56.323625 98.1285587,30.6765666 C98.1285587,5.02950818 0.705960854,5.02950818 0.705960854,30.6765666 C0.705960854,56.323625 22.5147522,77.1146737 49.4172598,77.1146737 Z"
+                        id="Oval-3" fill="#407BF7"></path>
+                    <ellipse id="Oval-3-Copy" fill="#73A0FF" cx="48.0053381" cy="27.9301659" rx="48.0053381" ry="27.9301659"></ellipse>
+                    <ellipse id="Oval-3-Copy" fill="#001135" cx="48.7112989" cy="27.2571499" rx="40.9457295" ry="21.8730215"></ellipse>
+                </g>
+                <g id="safer-cart1-coin" opacity="0" transform="translate(84, -16) scale(-1,1)" stroke-width="3.139499792" fill-rule="nonzero">
+                    <g id="Oval">
+                        <ellipse fill="#0DA6A3" cx="31.1689473" cy="32.0841514" rx="31.0970785" ry="31.0969468"></ellipse>
+                        <ellipse fill="#1AC5C3" cx="38.2839588" cy="32.0841514" rx="31.0970785" ry="31.0969468"></ellipse>
+                        <ellipse fill="#1AC5C3" cx="38.825739" cy="31.985431" rx="19.3492933" ry="19.3492113"></ellipse>
+                    </g>
+                    <path d="M16.457956,10.0694875 L9.34294446,10.0694875" id="Shape" fill="#29CC86"></path>
+                    <path d="M7.18688036,31.3931082 L0.0718688036,31.3931082" id="Shape" fill="#29CC86"></path>
+                    <path d="M12.4885867,50.1499967 L5.80478798,50.1499967" id="Shape" fill="#29CC86"></path>
+                </g>
+            </g>
+            <g id="safer-cart2" class="safer-cart" transform="translate(-500, -51)">
+                <path d="M49.7553255,77.3968453 C76.4711245,77.3968453 98.1285587,56.3947145 98.1285587,30.4872732 C98.1285587,4.57983186 1.38209238,4.57983186 1.38209238,30.4872732 C1.38209238,56.3947145 23.0395266,77.3968453 49.7553255,77.3968453 Z"
+                    id="Oval-3" fill="#407BF7"></path>
+                <ellipse id="Oval-3-Copy" fill="#73A0FF" cx="47.682187" cy="27.6417305" rx="47.682187" ry="27.6417305"></ellipse>
+                <ellipse id="Oval-3-Copy" fill="#001135" cx="49.0642794" cy="27.6417305" rx="40.7717251" ry="22.1133844"></ellipse>
+            </g>
+            <g id="safer-cart3" class="safer-cart" transform="translate(-500, -51)">
+                <g id="safer-cart1-vedro">
+                    <path d="M49.4172598,77.1146737 C76.3197673,77.1146737 98.1285587,56.323625 98.1285587,30.6765666 C98.1285587,5.02950818 0.705960854,5.02950818 0.705960854,30.6765666 C0.705960854,56.323625 22.5147522,77.1146737 49.4172598,77.1146737 Z"
+                        id="Oval-3" fill="#407BF7"></path>
+                    <ellipse id="Oval-3-Copy" fill="#73A0FF" cx="48.0053381" cy="27.9301659" rx="48.0053381" ry="27.9301659"></ellipse>
+                    <ellipse id="Oval-3-Copy" fill="#001135" cx="48.7112989" cy="27.2571499" rx="40.9457295" ry="21.8730215"></ellipse>
+                </g>
+                <g id="safer-cart3-coin" opacity="0" transform="translate(84, -16) scale(-1,1)" stroke-width="3.139499792" fill-rule="nonzero">
+                    <g id="Oval">
+                        <ellipse fill="#0DA6A3" cx="31.1689473" cy="32.0841514" rx="31.0970785" ry="31.0969468"></ellipse>
+                        <ellipse fill="#1AC5C3" cx="38.2839588" cy="32.0841514" rx="31.0970785" ry="31.0969468"></ellipse>
+                        <ellipse fill="#1AC5C3" cx="38.825739" cy="31.985431" rx="19.3492933" ry="19.3492113"></ellipse>
+                    </g>
+                    <path d="M16.457956,10.0694875 L9.34294446,10.0694875" id="Shape" fill="#29CC86"></path>
+                    <path d="M7.18688036,31.3931082 L0.0718688036,31.3931082" id="Shape" fill="#29CC86"></path>
+                    <path d="M12.4885867,50.1499967 L5.80478798,50.1499967" id="Shape" fill="#29CC86"></path>
+                </g>
+            </g>
+            <g id="safer-cart4" class="safer-cart" transform="translate(-500, -51)">
+                <path d="M49.7553255,77.3968453 C76.4711245,77.3968453 98.1285587,56.3947145 98.1285587,30.4872732 C98.1285587,4.57983186 1.38209238,4.57983186 1.38209238,30.4872732 C1.38209238,56.3947145 23.0395266,77.3968453 49.7553255,77.3968453 Z"
+                    id="Oval-3" fill="#407BF7"></path>
+                <ellipse id="Oval-3-Copy" fill="#73A0FF" cx="47.682187" cy="27.6417305" rx="47.682187" ry="27.6417305"></ellipse>
+                <ellipse id="Oval-3-Copy" fill="#001135" cx="49.0642794" cy="27.6417305" rx="40.7717251" ry="22.1133844"></ellipse>
+                <g id="safer-cart4-coin" opacity="0" transform="translate(84, -16) scale(-1,1)" stroke-width="3.139499792" fill-rule="nonzero">
+                    <g id="Oval">
+                        <ellipse fill="#407BF7" cx="31.1689473" cy="32.0841514" rx="31.0970785" ry="31.0969468"></ellipse>
+                        <ellipse fill="#407BF7" cx="38.2839588" cy="32.0841514" rx="31.0970785" ry="31.0969468"></ellipse>
+                        <ellipse fill="#407BF7" cx="38.825739" cy="31.985431" rx="19.3492933" ry="19.3492113"></ellipse>
+                    </g>
+                    <path d="M16.457956,10.0694875 L9.34294446,10.0694875" id="Shape" fill="#29CC86"></path>
+                    <path d="M7.18688036,31.3931082 L0.0718688036,31.3931082" id="Shape" fill="#29CC86"></path>
+                    <path d="M12.4885867,50.1499967 L5.80478798,50.1499967" id="Shape" fill="#29CC86"></path>
+                </g>
+            </g>
+            <g id="safer-cart5" class="safer-cart" transform="translate(-500, -51)">
+                <path d="M49.7553255,77.3968453 C76.4711245,77.3968453 98.1285587,56.3947145 98.1285587,30.4872732 C98.1285587,4.57983186 1.38209238,4.57983186 1.38209238,30.4872732 C1.38209238,56.3947145 23.0395266,77.3968453 49.7553255,77.3968453 Z"
+                    id="Oval-3" fill="#407BF7"></path>
+                <ellipse id="Oval-3-Copy" fill="#73A0FF" cx="47.682187" cy="27.6417305" rx="47.682187" ry="27.6417305"></ellipse>
+                <ellipse id="Oval-3-Copy" fill="#001135" cx="49.0642794" cy="27.6417305" rx="40.7717251" ry="22.1133844"></ellipse>
+                <g id="safer-cart5-coin" opacity="0" transform="translate(84, -16) scale(-1,1)" stroke-width="3.139499792" fill-rule="nonzero">
+                    <g id="Oval">
+                        <ellipse fill="#0DA6A3" cx="31.1689473" cy="32.0841514" rx="31.0970785" ry="31.0969468"></ellipse>
+                        <ellipse fill="#1AC5C3" cx="38.2839588" cy="32.0841514" rx="31.0970785" ry="31.0969468"></ellipse>
+                        <ellipse fill="#1AC5C3" cx="38.825739" cy="31.985431" rx="19.3492933" ry="19.3492113"></ellipse>
+                    </g>
+                    <path d="M16.457956,10.0694875 L9.34294446,10.0694875" id="Shape" fill="#29CC86"></path>
+                    <path d="M7.18688036,31.3931082 L0.0718688036,31.3931082" id="Shape" fill="#29CC86"></path>
+                    <path d="M12.4885867,50.1499967 L5.80478798,50.1499967" id="Shape" fill="#29CC86"></path>
+                </g>
+            </g>
+            <g id="safer-cart6" class="safer-cart" transform="translate(-500, -51)">
+                <path d="M49.7553255,77.3968453 C76.4711245,77.3968453 98.1285587,56.3947145 98.1285587,30.4872732 C98.1285587,4.57983186 1.38209238,4.57983186 1.38209238,30.4872732 C1.38209238,56.3947145 23.0395266,77.3968453 49.7553255,77.3968453 Z"
+                    id="Oval-3" fill="#407BF7"></path>
+                <ellipse id="Oval-3-Copy" fill="#73A0FF" cx="47.682187" cy="27.6417305" rx="47.682187" ry="27.6417305"></ellipse>
+                <ellipse id="Oval-3-Copy" fill="#001135" cx="49.0642794" cy="27.6417305" rx="40.7717251" ry="22.1133844"></ellipse>
+                <g id="safer-cart6-coin" opacity="0" transform="translate(84, -24) scale(-1,1)" stroke-width="3.139499792" fill-rule="nonzero">
+                    <g id="Oval">
+                        <ellipse fill="#0DA6A3" cx="31.1689473" cy="32.0841514" rx="31.0970785" ry="31.0969468"></ellipse>
+                        <ellipse fill="#1AC5C3" cx="38.2839588" cy="32.0841514" rx="31.0970785" ry="31.0969468"></ellipse>
+                        <ellipse fill="#1AC5C3" cx="38.825739" cy="31.985431" rx="19.3492933" ry="19.3492113"></ellipse>
+                    </g>
+                    <path d="M16.457956,10.0694875 L9.34294446,10.0694875" id="Shape" fill="#29CC86"></path>
+                    <path d="M7.18688036,31.3931082 L0.0718688036,31.3931082" id="Shape" fill="#29CC86"></path>
+                    <path d="M12.4885867,50.1499967 L5.80478798,50.1499967" id="Shape" fill="#29CC86"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+    <path id="safer-cart1-path" d="M-600,-60 L1347,142"></path>
+    <path id="safer-cart2-path" d="M-600,-60 L1062.409778,112"></path>
+    <path id="safer-cart3-path" d="M-600,-60 L770.376033,82"></path>
+    <path id="safer-cart4-path" d="M-600,-60 L520.841442,56"></path>
+    <path id="safer-cart5-path" d="M-600,-60 L293,32"></path>
+    <path id="safer-cart6-path" d="M-600,-60 L90,10"></path>
+</svg>

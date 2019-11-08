@@ -198,7 +198,7 @@ title: bZx - Protocol for tokenized margin trading and lending
     </div>
 </section>
 
-<section class="text-center bg-primary color-white p-relative overflow-xl">
+<section class="safer-section text-center bg-primary color-white p-relative overflow-xl">
     <div class="container container-md pt-55 pt-sm-0 p-relative z-index-2">
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-15 color-tertiary">Insured with the bZx guarantee fund</h3>
         <p class="lh-160 mb-30">bZx pools loans together in a decentralized clearinghouse. Lenders can lend to a whole pool of people, averaging risk across many borrowers, allowing for a more predictable income stream. All bZx loans are insured with the bZx guarantee fund.</p>
@@ -206,17 +206,26 @@ title: bZx - Protocol for tokenized margin trading and lending
     </div>
     <div class="p-relative svg-insured mt-r-90 mt-sm-60 mb-40 mb-sm-20">
         {% include svg/insured.svg %}
-        {% include svg/insured-mobile.svg %}
-    </div>
-    <div class="p-relative before-smoke after-wheel">
-        <div class="p-relative rotate-line">
+        {% include svg/insured-mobile.svg %}        
+    </div> 
+    <div class="p-relative before-smoke" id="visible-wheel">
+    
+    <div class="p-relative rotate-line z-index-2">
             {% include svg/rotate-line.svg %}
+    
+    </div>
+        <div class="p-relative smoking-tube overflow-x visible-lg">
+       
+                {% include svg/smoking-tube.svg %}
+                <canvas id="safer-smoke" ></canvas>
+
         </div>
-        <div class="container container-sm mb-60 mb-sm-10 mt-115 mt-sm-20 p-relative opacity-trumpet">
+        <div class="container container-sm mb-60 mb-sm-10 mt-lg-r-90 mt-sm-20 p-relative opacity-trumpet">           
             <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-30 color-tertiary">BZRX Governance Token </h3>
             <p class="lh-160 mb-25">The BZRX token is used by relays to collect trading fees. Token holders decide how to upgrade the bZx protocol.</p>
             <a href="/blog/governance-is-powerful-capturing-value-with-bzrx" class="button button-primary button-sm d-flex j-content-center m-auto">Read more</a>
         </div>
+        {% include svg/wheel.svg %}
     </div>
     <div class="p-relative rotate-line-2 mb-20 mb-sm-0">
         {% include svg/token.svg %}
@@ -226,7 +235,7 @@ title: bZx - Protocol for tokenized margin trading and lending
 
 {% include dots.html %}
 
-<section class="text-center color-white p-relative bg-secondary bt-20 bt-sm-14 bt-secondary svg-position pt-40 overflow-x-xl">
+<section class="text-center color-white p-relative bg-secondary bt-20 bt-sm-14 bt-secondary svg-position pt-40 overflow-x-xl" id="long-visible">
     <div class="container container-sm pb-445 pb-sm-35 p-relative z-index-2">
         <h2 class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-25">How bZx Margin Trading Works</h2>
         <h3 class="fs-24 fs-sm-20 fw-700 lh-160 lh-sm-150 mb-15 color-tertiary">Long Positions</h3>
@@ -339,9 +348,8 @@ title: bZx - Protocol for tokenized margin trading and lending
 </section>
 
 {% include dots.html %}
-
-<section class="text-center pt-55 pt-sm-30">
-    <div class="container container-xl pb-40 pb-sm-55">
+<section class="text-center pt-55 pt-sm-30 overflow-x" id="history-section">
+    <div class="container container-xl pb-sm-55">
     <h2 id="history" class="fs-32 fs-sm-24 lh-140 fw-700 text-center mb-50 mb-sm-40 color-primary">History</h2>
         <div id="2019" class="tabcontent active">
           <div class="container-tabs d-flex d-row flex-sm-d-c j-content-sb">
@@ -408,6 +416,20 @@ title: bZx - Protocol for tokenized margin trading and lending
                 </div>
             </div>
         </div>
+        <div class="mb-r-25 hidden-sm">
+            {% include svg/basket1.svg  %}
+            {% include svg/basket2.svg  %}
+            {% include svg/basket3.svg  %}
+            {% include svg/basket4.svg  %}
+            {% include svg/basket5.svg  %}
+            {% include svg/basket6.svg  %}
+            {% include svg/basket7.svg  %}
+            {% include svg/basket8.svg  %}
+            {% include svg/basket9.svg  %}
+            {% include svg/basket10.svg %}
+            {% include svg/basket11.svg %}
+            {% include svg/basket12.svg %}
+        </div>
     </div>
     <div>
         <hr class="bt-1 bt-primary m-0" />
@@ -419,9 +441,9 @@ title: bZx - Protocol for tokenized margin trading and lending
     </div>
     <div class="tab">
         <div class="buttons-tabs">
-            <button class="tablinks active" onclick="openTab(event, '2019')" id="defaultOpen">2019</button>
-            <button class="tablinks" onclick="openTab(event, '2018')">2018</button>
-            <button class="tablinks" onclick="openTab(event, '2017')">2017</button>
+            <button class="tablinks active" onclick="openTab(event, '2019')" id="button2019">2019</button>
+            <button class="tablinks" onclick="openTab(event, '2018')" id="button2018">2018</button>
+            <button class="tablinks" onclick="openTab(event, '2017')" id="button2017">2017</button>
         </div>
     </div>
 </section>

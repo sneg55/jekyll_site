@@ -101,10 +101,10 @@
                         display: flex;
                         align-items: center;                    
                     }
-                    &:after{
+                    /*&:after{
                         content: url(/images/icons/coin-long.svg);
                         bottom: -315px;
-                    }
+                    }*/
                 }
             }
         }
@@ -128,7 +128,7 @@
                         display: flex;
                         align-items: center;                    
                     }
-                    &:nth-child(2n){
+                    /*&:nth-child(2n){
                         &:after{
                             content: url(/images/icons/coin-short-even.svg);
                             bottom: -144px;
@@ -139,16 +139,17 @@
                             content: url(/images/icons/coin-short-odd.svg);
                             bottom: -144px;
                         }
-                    }
+                    }*/
                 }
+
 
                 &:last-child{
                     &:after{
-                        content: url(/images/icons/coin-long.svg);
-                        @media(min-width: 580px){
+                        /*@media(min-width: 580px){
                             bottom: -144px;
-                        }
+                        }*/
                         @media(max-width: 579px){
+                            content: url(/images/icons/coin-long.svg);
                             bottom: -125px;
                         }
                     }
