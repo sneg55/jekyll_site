@@ -18,14 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: bZx network
+# email: your-email@example.com
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bzx.network" # the base hostname & protocol for your site, e.g. http://example.com
+markdown: kramdown
 
 # Build settings
 
@@ -62,7 +63,7 @@ pagination:
   enabled: true
 
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
-  debug: true
+  debug: false
 
   # The default document collection to paginate if nothing is specified ('posts' is default)
   collection: 'posts'
@@ -111,13 +112,24 @@ pagination:
   # Without file extension
   indexpage: 'blog-index'
 
+lazy_load_image:
+  src_attr_name: data-src # [required] You need to specify the attributes to be saved for lazy loading
+  #preload_image: /path/to/image # [optional] you can add a data uri or loading image as fallback src
+  class_attr_values: # [optional] if you want to add custom class value, please add values
+    - lazyload
+  # ignore_selectors: # [optional] if you want to ignore applying lazy load image, please add selector (css or xpath)
+  #   - ".ignore-lazy-image-load"
+  #   - "/*[@class='ignore-lazy-image-load']"
+  # additional_attrs: # [optional] if you want to add attributes, please add key value
+  #   "data-size": auto 
+
 ############################################################
 
 
-include: ['.htaccess']
+include: ['.htaccess', '_redirects']
 collections_dir: collections
-# collections:
-#   posts:
-#     permalink: /blog/:title
+collections:
+   posts:
+     permalink: /blog/:title
 
-keep_files: [images]
+keep_files: [images, pdfs]

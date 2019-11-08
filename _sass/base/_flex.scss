@@ -16,6 +16,11 @@
 .a-items-center{
     align-items: center;
 }
+
+.a-s-c{
+    align-self: center;
+}
+
 .d-column{
     flex-direction: column;
 }
@@ -37,6 +42,18 @@
         flex-direction: column;
     }
     .j-sm-content-center{
+        justify-content: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .j-md-content-sb{
+        justify-content: space-between;
+    }
+    .j-md-content-sa{
+        justify-content: space-around;
+    }
+    .j-md-content-center{
         justify-content: center;
     }
 }

@@ -1,7 +1,7 @@
 ---
 layout: blog-index
-title: bzx blog title
-metadescription: bzx blog description
+title: bZx Protocol blog - product news and articles
+metadescription: bZx Protocol blog - product news and articles 
 permalink: /blog/
 pagination:
   enabled: true
@@ -11,7 +11,7 @@ pagination:
 ---
 <div class="container container-xl">
     <header class="blog-index">
-        <h1 class="mb-50 mt-70 mt-sm-30 mb-sm-30 fs-46 lh-120 fw-800 color-primary text-center fs-sm-32">bZx Protocol Blog</h1>
+        <h1 class="mb-50 mt-70 mt-md-30 mb-md-30 mt-sm-30 mb-sm-30 fs-46 lh-120 fw-800 color-primary text-center fs-sm-32">bZx Protocol Blog</h1>
     </header>
 </div>
 <section class="first-post">
@@ -23,7 +23,7 @@ pagination:
                 <div class="grid">
 
                     <div class="post-image">
-                            <img src="{{ newest_post.cover }}" alt="{{ newest_post.title }}" />
+                            <img class="lazyload" data-src="{{ newest_post.cover }}" alt="{{ newest_post.title }}" />
 
                     </div>
                     <div class="article-content">
@@ -76,4 +76,6 @@ pagination:
     </div>
 </section>
 
-{% include subscription.html content="Subscribe to our newsletter" buttonText="Submit" %}
+{% include subscription.html content="Subscribe to our newsletter" buttonText="Submit" buttonClass="join-mailing-list" %}
+
+{% include modal.html %}
