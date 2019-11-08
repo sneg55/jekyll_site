@@ -20,6 +20,7 @@
         position: relative;
         border-top: 2px solid $primary-color;
         overflow: hidden;
+        height: 100%;
         @media (min-width: 580px) {
             padding: 50px 20px 37px 20px;
         }
