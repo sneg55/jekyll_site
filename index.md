@@ -7,7 +7,7 @@ title: bZx - Protocol for tokenized margin trading and lending
 
 <section class="text-center color-primary">
     <div class="container container-md">
-        <h1 class="fs-46 fs-sm-32 fw-800 lh-120 mt-40 mb-30 fs-sm-32">bZx Protocol</h1>
+        <h1 class="fs-46 fs-sm-32 fw-800 lh-120 mt-40 mb-30 fs-sm-32">The most powerful open finance protocol</h1>
     </div>
     <div class="container container-lg">
         <p class="fs-20 fs-sm-13 lh-160 ">bZx Protocol is a financial primitive for shorting, leverage, borrowing, and lending that empowers decentralized, efficient, and rent-free blockchain applications.</p>
