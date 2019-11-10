@@ -1,7 +1,19 @@
 @import '_variables';
 /* font-size */
+.fs-11{
+    font-size: 11px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.fs-13{
+    font-size: 13px;
+}
 .fs-14{
     font-size: 14px;
+}
+.fs-18{
+    font-size: 18px;
 }
 .fs-20{
     font-size: 20px;
@@ -53,4 +65,49 @@
 }
 .color-white{
     color: #FFFFFF;
+}
+@media(max-width: 1199px){
+    .fs-xl-28{
+        font-size: 28px;
+    }
+}
+@media(max-width: 991px){
+    .fs-lg-24{
+        font-size: 24px;
+    }
+}
+@media(max-width: 579px){
+    .fs-sm-10{
+        font-size: 10px;
+    }
+    .fs-sm-11{
+        font-size: 11px;
+    }
+    .fs-sm-12{
+        font-size: 12px;
+    }
+    .fs-sm-13{
+        font-size: 13px;
+    }
+    .fs-sm-18{
+        font-size: 18px;
+    }
+    .fs-sm-20{
+        font-size: 20px;
+    }
+    .fs-sm-24{
+        font-size: 24px;
+    }
+    .fs-sm-32{
+        font-size: 32px;
+    }
+    .lh-sm-120{
+        line-height: 1.2;
+    }
+    .lh-sm-130{
+        line-height: 1.3;
+    }
+    .lh-sm-150{
+        line-height: 1.5;
+    }
 }

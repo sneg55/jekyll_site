@@ -1,0 +1,19 @@
+<svg class="positions__pipe show-mobile show-tablet" width="566px" height="136px" viewBox="0 0 566 136" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bZx-website_1080" transform="translate(-514.000000, -12578.000000)">
+            <g id="Group" transform="translate(817.500000, 12646.000000) scale(1, -1) rotate(-360.000000) translate(-817.500000, -12646.000000) translate(515.000000, 12579.000000)">
+                <path d="M69.9994187,1.32526115 L604.962987,1 L605,48.4371179 L77.7066264,48.7678948 C61.1448347,48.7777412 47.7241555,62.2066506 47.7244623,78.7684452 L47.7078299,114 L0,113.669964 L0.0420047812,71.3678214 C0.041809202,32.7243704 31.3560005,1.39097547 69.9994444,1.36748002 Z" id="Combined-Shape" stroke="#231F20" stroke-width="2" fill-opacity="0.5" fill="#BBD0EF" fill-rule="nonzero"></path>
+                <path d="M603,41 L76,41 C56.6700338,41 41,56.6700338 41,76 L41,128" id="Path" stroke="#FFFFFF" stroke-width="6" opacity="0.300000012" stroke-linecap="square"></path>
+                <path d="M7,126 L8.19472939,68.704158 C8.87452087,36.103282 35.4666503,10.0133188 68.074561,9.95509804 L603,9" id="Path" stroke="#000D6D" stroke-width="6" opacity="0.300000012" stroke-linecap="square"></path>
+                <circle id="Oval" stroke="#000D6D" stroke-width="2" opacity="0.2" cx="118" cy="25" r="24"></circle>
+                <path d="M130,37 C130,23.745166 119.254834,13 106,13 C92.745166,13 82,23.745166 82,37" id="Oval" stroke="#231F20" stroke-width="2" transform="translate(106.000000, 25.000000) rotate(-90.000000) translate(-106.000000, -25.000000) "></path>
+                <circle id="Oval-Copy-7" stroke="#000D6D" stroke-width="2" opacity="0.2" cx="25" cy="110" r="24"></circle>
+                <path d="M48,134 C48,120.745166 37.254834,110 24,110 C10.745166,110 0,120.745166 0,134" id="Oval" stroke="#231F20" stroke-width="2" transform="translate(24.000000, 122.000000) rotate(-180.000000) translate(-24.000000, -122.000000) "></path>
+                <circle id="Oval" stroke="#000D6D" stroke-width="2" opacity="0.2" cx="282" cy="25" r="24"></circle>
+                <path d="M295,36 C295,22.745166 284.254834,12 271,12 C257.745166,12 247,22.745166 247,36" id="Oval" stroke="#231F20" stroke-width="2" transform="translate(271.000000, 24.000000) rotate(-90.000000) translate(-271.000000, -24.000000) "></path>
+                <circle id="Oval" stroke="#000D6D" stroke-width="2" opacity="0.2" cx="447" cy="25" r="24"></circle>
+                <path d="M460,36 C460,22.745166 449.254834,12 436,12 C422.745166,12 412,22.745166 412,36" id="Oval" stroke="#231F20" stroke-width="2" transform="translate(436.000000, 24.000000) rotate(-90.000000) translate(-436.000000, -24.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

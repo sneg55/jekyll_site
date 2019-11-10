@@ -1,61 +1,83 @@
 <footer>
     <div class="container container-xl d-flex">
-        <div class="navigation d-flex j-content-sa">
+        <div class="navigation d-flex j-content-sa fw-700 fs-12 lh-120 fs-sm-10 lh-sm-130">
             <div class="network">
                 <ul>
-                    <li>bzx network</li>
-                    <li><a href="#">how it works</a></li>
-                    <li><a href="#">roadmap</a></li>
-                    <li><a href="#">documentation</a></li>
-                    <li><a href="#">litepaper</a></li>
-                    <li><a href="#">blog</a></li>
+                    <li>bzx protocol</li>
+                    <li><a href="/#how-it-works">how it works</a></li>
+                    <li><a href="https://docs.bzx.network/">documentation</a></li>
+                    <li><a href="/pdfs/bZx_lite_paper.pdf">litepaper</a></li>
+                    <li><a href="/blog">blog</a></li>
                 </ul>
             </div>
             <div class="products">
                 <ul>
                     <li>products</li>
 
-                    <li><a href="#">fulcrum</a></li>
-                    <li><a href="#">torque</a></li>
-                    <li><a href="#">itokens</a></li>
-                    <li><a href="#">portal</a></li>
+                    <li><a href="https://fulcrum.trade/">fulcrum</a></li>
+                    <li><a href="https://torque.loans/">torque</a></li>
+                    <li><a href="/itokens">itokens</a></li>
+                    <li><a href="https://portal.bzx.network/">portal</a></li>
                 </ul>
             </div>
             <div class="company">
                 <ul>
                     <li>company</li>
-
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">press</a></li>
-                    <li><a href="#">media assets</a></li>
-                    <li><a href="#">contac us</a></li>
+                    <li><a href="/#history">history</a></li>
+                    <li><a href="/#team">team</a></li>
+                    <li><a href="/press">press</a></li>
+                    <li><a href="/media-assets">media assets</a></li>
+                    <li><a href="#" class="contact-us-button">contact us</a></li>
                 </ul>
             </div>
         </div>
         <div class="social-wrapper d-flex flex-d-c j-content-sb">
-            <div class="social-icons">
-                <a href="#" class="github">
-                        {% include social-icons/github.svg %}
-                </a>
-                <a href="#" class="medium">
-                        {% include social-icons/medium.svg %}
-                </a>
-                <a href="#" class="discord">
-                        {% include social-icons/discord.svg %}
-                </a>
-                <a href="#" class="telegram">
-                        {% include social-icons/telegram.svg %}
-                </a>
-                <a href="#" class="twitter">
-                        {% include social-icons/twitter.svg %}
-                </a>
-            </div>
-            <div class="disclaimer">
+            {% include social-icons.html%}
+            <div class="disclaimer fs-12 lh-150 fs-sm-10 mb-20">
                 © 2019 bZeroX, LLC
             </div>
         </div>
     </div>
 </footer>
-<script type="text/javascript" src="/assets/js/jquery.js "></script>
-<script type="text/javascript" src="/assets/js/owl/owl.carousel.min.js "></script>
-<script type="text/javascript" src="/assets/js/main.js "></script>
+<script>
+
+    window.intercomSettings = {
+        app_id: "qijyre31",
+        background_color: "#000085",
+        action_color: "#000085"
+    };
+    function messenger(display) {
+        //Insert sign out code here
+        Intercom(display)
+        return (true) //check to see if code was correctly copied
+    }
+</script>
+
+<script>(function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', w.intercomSettings); } else { var d = document; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/dfk4n5ut'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();</script>
+
+<script>
+    window.onload = function () {
+        $(".contact-us-button").on("click", function (e) {
+            e.preventDefault();
+            messenger("show");
+        });
+
+    };
+</script>
+
+<script type="text/javascript" src="/assets/js/jquery.js"></script>
+
+<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+<script src="https://unpkg.com/tooltip.js/dist/umd/tooltip.min.js"></script>
+<script src="/assets/js/rmodal.min.js"></script>
+<script src="/assets/js/lazysizes.min.js"></script>
+
+<script type="text/javascript" src="/assets/js/animations/tweenMax.js"></script>
+<script type="text/javascript" src="/assets/js/animations/morphSvgPlugin.min.js"></script>
+<script type="text/javascript" src="/assets/js/animations/moveByPath.js"></script>
+
+<script type="text/javascript" src="/assets/js/animations/rotateWheel.js"></script>
+<script type="text/javascript" src="/assets/js/animations/longPositions.js"></script>
+<script type="text/javascript" src="/assets/js/animations/history.js"></script>
+
+<script type="module" src="/assets/js/main.js"></script>

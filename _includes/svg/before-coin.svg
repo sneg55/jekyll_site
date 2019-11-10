@@ -1,4 +1,4 @@
-<svg width="13" height="38" viewBox="0 0 13 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="13" height="38" viewBox="0 0 13 38" fill="none" xmlns="http://www.w3.org/2000/svg" class="hidden-sm">
     <g>
         <path d="M1 -14H12V54.7497C12 58.9893 9.32852 62 6.5 62C3.67148 62 1 58.9893 1 54.7497V-14Z" fill="#CBE2FF" stroke="#000085" stroke-width="2"/>
         <path fill-rule="evenodd" clip-rule="evenodd" d="M2 -13H11V12.3675C11 14.926 8.98528 17 6.5 17C4.01472 17 2 14.926 2 12.3675L2 -13Z" fill="#5B88FF"/>

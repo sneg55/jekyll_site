@@ -1,21 +1,59 @@
-.owl-carousel{
+.before-product-protocol{
+    @media(min-width: 1200px){
+        &:before{
+            content: url(/images/icons/before-carousel.svg);
+            position: absolute;
+            left: -130px;
+            top: 45px;
+        }
+        &:after{
+            content: url(/images/icons/after-carousel.svg);
+            position: absolute;
+            right: -120px;
+            bottom: -65px;
+            z-index: 2;
+        }
+    }
+}
+.product-protocol{
     position: relative;
-    width: 50%;
+    @media(min-width: 992px){
+        width: 50%;
+    } 
+    @media(max-width: 991px){
+        width: calc(50% - 30px);
+    }     
+    @media(max-width: 579px){
+        width: 100%;
+        margin-bottom: 30px;
+        p{
+            font-size: 11px;
+        }
+    }   
     .item{
         color: #FFFFFF;
-        hr{
-            max-width: 255px;
+        hr{            
             border: 1px solid #33DFCC;
             margin: 15px auto 18px auto;
+            @media(min-width: 580px){
+                max-width: 255px;
+            }
+            @media(max-width: 579px){
+                max-width: 225px;
+            }
         }
         .item-img{
             max-width: 445px;
+            @media(max-width: 991px){
+                width: 100%;
+                margin: auto;
+            }    
         }
         
     }
-    .owl-dots{
+    /*.owl-dots{
         position: absolute;
-        top: -18px;
+        top: -25px;
         left: 0;
         button{
             width: 10px;
@@ -29,20 +67,5 @@
                 background-color: $secondary-color !important;
             }
         }
-    }
-}
-.before-carousel{
-    &:before{
-        content: url(/images/icons/before-carousel.svg);
-        position: absolute;
-        left: -130px;
-        top: 45px;
-    }
-    &:after{
-        content: url(/images/icons/after-carousel.svg);
-        position: absolute;
-        right: -120px;
-        bottom: -105px;
-        z-index: 2;
-    }
+    }*/
 }

@@ -5,6 +5,8 @@ date:   2018-09-07 20:12:46 -0700
 cover: /images/blog/1_LNcoYRFe5QfMcWd9II1l0w.png
 canonical: https://medium.com/bzxnetwork/bzx-announces-mainnet-launch-releases-zk-labs-security-audit-and-unveils-upcoming-relay-a690cc6c7bf1
 author: Kistner
+metadescription: "bZx deployed its protocol to the Ethereum mainnet after passing a successful audit by ZK Labs."
+intro: "bZx deployed its protocol to the Ethereum mainnet after passing a successful audit by ZK Labs."
 ---
 bZx deployed its protocol to the Ethereum mainnet after passing a successful audit by ZK Labs. ZK Labs is a leading security auditor in the blockchain space, headed by Matthew DiFerrante, Dean Eigenmann, Nick Johnson, and Harry Roberts. ZK Labs has audited contracts containing billions of dollars and even conducts audits for Ethereum itself. The report can be found [here](https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf).
 

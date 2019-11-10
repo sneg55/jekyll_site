@@ -1,0 +1,17 @@
+<section class="subscription">
+    <div class="container container-xl">
+        <div class="item-subscription">
+            <h2 class="fs-32 fs-xl-28 fs-sm-24 lh-140 fw-700 color-primary title-grid">{{ include.content }}</h2>
+            <button class="button button-secondary button-md d-flex j-content-center a-items-center button-grid {{include.buttonClass}}">
+                {{include.buttonText}}
+            </button>
+        </div>
+    </div>
+    <script>
+        let selectorSubscription = document.querySelector(".subscription");
+        let margin = (selectorSubscription.offsetHeight - 47) / 2;
+        document.querySelector('.subscription').style.marginBottom = -margin + 'px';
+        if (document.querySelector('.wrapper-subscription'))
+            document.querySelector('.wrapper-subscription').style.marginTop = -margin + 'px';
+    </script>
+</section>

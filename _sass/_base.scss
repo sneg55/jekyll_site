@@ -17,10 +17,17 @@ body {
     background-color: $tertiary-bg;
 }
 .bg-wave{
-    background-image: url(/images/icons/background.svg);
     background-repeat: no-repeat;
-    background-position: 50% 100%;
+    background-position: 50% 101%;
     background-size: contain;
+    @media(min-width: 580px){
+        background-image: url(/images/icons/background.svg);
+
+    }
+    @media(max-width: 579px){
+        background-image: url(/images/icons/background-mobile.svg);
+
+    }
 }
 
 .z-index-2{
@@ -29,10 +36,13 @@ body {
 a {
     text-decoration: none;
 }
-.mw-280{
+.w-100{
+    width: 100%;
+}
+.mw-px-280{
     max-width: 280px;
 }
-.mw-400{
+.mw-px-400{
     max-width: 400px;
 }
 .w-33{
@@ -54,7 +64,12 @@ a {
     position: relative;
 }
 
-
+.overflow{
+    overflow: hidden;
+}
+.overflow-x{
+    overflow-x: hidden;
+}
 .overflow-xl{
     @media(min-width: 1440px){
         overflow: hidden;
@@ -65,48 +80,47 @@ a {
         overflow-x: hidden;
     }
 }
-h1{
-    font-family: $primary-font;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 46px;
-    line-height: 120%;
-    color: $primary-color;
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 70px;
+@media(max-width: 991px){
+    .mw-lg-px-400{
+        max-width: 400px;
+    }
+}
+@media(min-width: 580px){
+    .visible-sm{
+        display: none;
+    }
 }
 
-h2 {
-    font-family: $primary-font;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 140%;
-    color: $primary-color;
-    margin-bottom: 30px;
-    margin-top: 30px;
+.visible-lg{
+    display: none;
+}
+@media(min-width: 1024px){
+    .visible-lg{
+        display: block;
+    }
 }
 
-h3 {
-    font-family: $primary-font;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 160%;
-    color: $primary-color;
-    margin-bottom: 20px;
-    margin-top: 20px;
+@media(max-width: 579px){
+    p{
+        font-size: 12px;
+    }
+    .hidden-sm{
+        display: none;
+    }
+    .mw-sm-px-400{
+        max-width: 400px;
+    }
+    .mw-sm-px-260{
+        max-width: 260px;
+    }
+    .mw-sm-px-100{
+        max-width: 100px;
+    }
+    .h-sm-auto{
+        height: auto;
+    }
 }
 
-h4 {
-    font-family: $primary-font;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 150%;
-    color: $primary-color;
-    margin-bottom: 20px;
-    margin-top: 20px;
+.basket-right{
+    transform: matrix(1, 0, 0, 1, 1400, -10);
 }
-

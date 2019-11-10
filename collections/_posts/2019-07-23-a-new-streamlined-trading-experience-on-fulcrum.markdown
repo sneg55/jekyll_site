@@ -5,6 +5,9 @@ date:   2019-07-23 20:12:46 -0700
 cover: /images/blog/1_qOacYDyqR4cSxl24qnDc-g.gif
 canonical: https://medium.com/bzxnetwork/a-new-streamlined-trading-experience-on-fulcrum-5b8a728d6306
 author: Kistner
+metadescription: "As we’ve been in Alpha we’ve been continuously collecting feedback from users, working to iterate the product and bring it to its most polished form."
+intro: "As we’ve been in Alpha we’ve been continuously collecting feedback from users, working to iterate the product and bring it to its most polished form."
+
 ---
 As we’ve been in Alpha we’ve been continuously collecting feedback from users, working to iterate the product and bring it to its most polished form. Using your feedback, we’ve redesigned the trade pop-up to be more visual and intuitive.
 

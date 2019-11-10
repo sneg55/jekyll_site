@@ -5,6 +5,8 @@ date:   2018-08-20 20:12:46 -0700
 cover: /images/blog/1_rjAXBosc_UoUefydsk2urg.jpeg
 canonical: https://medium.com/bzxnetwork/kyber-bzx-b6f5330289a6
 author: Kistner
+metadescription: "We have worked closely with Loi Luu and Yaron Velner of KyberNetwork over the last few months, integrating the bZx protocol into KyberNetwork."
+intro: "We have worked closely with Loi Luu and Yaron Velner of KyberNetwork over the last few months, integrating the bZx protocol into KyberNetwork."
 ---
 We have worked closely with Loi Luu and Yaron Velner of KyberNetwork over the last few months, integrating the bZx protocol into KyberNetwork. Since Kyber provides an on-chain liquidity pool that can power applications including DEXs, it is in a prime position to integrate other dApps. Two of the features of Kyber we have found indispensable are their secure on-chain price feeds and on-chain liquidity. Without these two features, it would not be possible for us to securely execute margin calls. While we are a 0x-style protocol and have great love for the hybrid model 0x pioneered — going so far as to pattern ourselves in this fashion — off-chain orderbooks make it difficult for dApps to plug in. Clearly, there is room for both approaches in the ecosystem, each with their own strengths and weaknesses.
 

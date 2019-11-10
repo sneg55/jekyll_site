@@ -5,6 +5,8 @@ date:   2019-06-02 20:12:46 -0700
 cover: /images/blog/1_SQvBnGWYlM-wwJsZPEz2-w.png
 canonical: https://medium.com/bzxnetwork/fulcrum-launches-with-over-750-000-of-liquidity-aa1d28a66510
 author: Kistner
+metadescription: "Fulcrum supports lending, leveraging, and shorting of ETH, wBTC, ZRX, KNC, BAT, REP, DAI, and USDC. The platform enables users to lend assets for interest or enter into short/leveraged positions with only three clicks."
+intro: "Fulcrum supports lending, leveraging, and shorting of ETH, wBTC, ZRX, KNC, BAT, REP, DAI, and USDC. The platform enables users to lend assets for interest or enter into short/leveraged positions with only three clicks."
 ---
 _A special thanks to Matthew Di Ferrante and Harry Roberts of ZK Labs for auditing the Fulcrum smart contracts._
 

@@ -1,0 +1,57 @@
+<svg class="history__coin--left" width="349px" height="375px" viewBox="0 0 349 375" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <ellipse id="coin_left_path-1" cx="169.345015" cy="132.513769" rx="138.386145" ry="132.508046"></ellipse>
+        <ellipse id="coin_left_path-3" cx="176.664576" cy="132.879178" rx="85.4464791" ry="81.7419765"></ellipse>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2560_history_section" transform="translate(-1091.000000, -2012.000000)">
+            <g id="history_section" transform="translate(-262.000000, 0.000000)">
+                <g id="Group-172" transform="translate(0.000000, 982.000000)">
+                    <g id="Group-3" transform="translate(46.000000, 952.000000)">
+                        <g id="coin-left" transform="translate(1308.950478, 79.722278)">
+                            <g id="Group-188" transform="translate(0.000000, 96.746057)" stroke="#231F20" stroke-width="2.41499984">
+                                <path d="M172.761547,275.035218 C268.175115,275.035218 345.523094,199.777583 345.523094,106.942585 C345.523094,14.1075866 0,14.1075866 0,106.942585 C0,199.777583 77.3479793,275.035218 172.761547,275.035218 Z" id="Oval-3" fill="#407BF7" transform="translate(172.761547, 156.175777) scale(-1, 1) translate(-172.761547, -156.175777) "></path>
+                                <ellipse id="Oval-3-Copy" fill="#73A0FF" transform="translate(174.834686, 98.128143) scale(-1, 1) translate(-174.834686, -98.128143) " cx="174.834686" cy="98.1281431" rx="170.688408" ry="98.1281431"></ellipse>
+                                <ellipse id="Oval-3-Copy" fill="#001135" transform="translate(174.143639, 98.819186) scale(-1, 1) translate(-174.143639, -98.819186) " cx="174.143639" cy="98.8191864" rx="145.1197" ry="79.4699751"></ellipse>
+                            </g>
+                            <g id="coin" transform="translate(15.203016, 0.000000)">
+                                <g id="Group">
+                                    <ellipse id="Oval" stroke="#231F20" stroke-width="2.41499984" fill="#FFB439" fill-rule="nonzero" cx="138.695734" cy="132.513769" rx="138.386145" ry="132.508046"></ellipse>
+                                    <ellipse id="Oval" stroke="#231F20" stroke-width="2.41499984" fill="#FFCB76" fill-rule="nonzero" cx="169.345015" cy="132.513769" rx="138.386145" ry="132.508046"></ellipse>
+                                    <mask id="coin-left-mask2" fill="white">
+                                        <use xlink:href="#coin_left_path-1"></use>
+                                    </mask>
+                                    <use id="Oval" stroke="#231F20" stroke-width="2.41499984" fill="#FFCB76" fill-rule="nonzero" xlink:href="#coin_left_path-1"></use>
+                                    <polygon id="Rectangle" opacity="0.100000001" mask="url(#coin-left-mask2)" points="237.719889 9.67460566 269.508013 9.67460566 203.167579 270.888958 171.379455 270.888958"></polygon>
+                                    <polygon id="Rectangle" fill="#FFFFFF" opacity="0.100000001" mask="url(#coin-left-mask2)" points="221.13478 -4.14625957 233.573612 -4.14625957 167.233178 257.068093 154.794346 257.068093"></polygon>
+                                    <ellipse id="Oval" stroke="#231F20" stroke-width="2.41499984" fill="#FFB439" fill-rule="nonzero" mask="url(#coin-left-mask2)" cx="169.345015" cy="132.513769" rx="85.4464791" ry="81.7419765"></ellipse>
+                                    <mask id="coin-left-mask4" fill="white">
+                                        <use xlink:href="#coin_left_path-3"></use>
+                                    </mask>
+                                    <use id="Oval" stroke="#231F20" stroke-width="2.41499984" fill="#FFCB76" fill-rule="nonzero" xlink:href="#coin_left_path-3"></use>
+                                    <polygon id="Rectangle" fill="#FFFFFF" opacity="0.200000003" mask="url(#coin-left-mask4)" points="234.955704 51.1372013 266.743829 51.1372013 225.281057 215.605498 193.492933 215.605498"></polygon>
+                                    <polygon id="Rectangle" fill="#FFFFFF" opacity="0.100000001" mask="url(#coin-left-mask4)" points="212.842226 51.1372013 225.281057 51.1372013 183.818286 215.605498 171.379455 215.605498"></polygon>
+                                </g>
+                                <g id="Group-189" transform="translate(0.000000, 4.146260)" fill-rule="nonzero" stroke="#231F20" stroke-width="2.41499984">
+                                    <path d="M58.8376469,49.7880216 L27.246964,49.7880216 L58.8376469,49.7880216 Z" id="Shape"></path>
+                                    <path d="M62.983924,44.2596756 L30.0111487,44.2596756 L62.983924,44.2596756 Z" id="Shape"></path>
+                                    <path d="M119.649711,4.17916639 L88.0590285,4.17916639 L119.649711,4.17916639 Z" id="Shape"></path>
+                                    <path d="M134.852728,0.032906822 L103.262045,0.032906822 L134.852728,0.032906822 Z" id="Shape"></path>
+                                    <path d="M31.5906829,128.534047 L0,128.534047 L31.5906829,128.534047 Z" id="Shape"></path>
+                                    <path d="M31.5906829,123.005701 L0,123.005701 L31.5906829,123.005701 Z" id="Shape"></path>
+                                    <path d="M53.1118356,201.850446 L24.680221,201.850446 L53.1118356,201.850446 Z" id="Shape"></path>
+                                    <path d="M58.6402051,207.378792 L30.2085905,207.378792 L58.6402051,207.378792 Z" id="Shape"></path>
+                                    <path d="M118.267619,251.539747 L89.8360045,251.539747 L118.267619,251.539747 Z" id="Shape"></path>
+                                    <path d="M129.324358,255.686007 L100.892743,255.686007 L129.324358,255.686007 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                            <text transform="translate(196.335374, 138.861876) rotate(-357.000000) translate(-196.335374, -138.861876) " font-family="Karla-Regular, Karla" font-size="48" font-weight="normal" line-spacing="21.7349986" letter-spacing="3.692306" fill="#231F20">
+                                <tspan id="coin-text" x="133.579748" y="152.165923">2018</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

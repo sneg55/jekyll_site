@@ -3,14 +3,14 @@
         <div class="header-wrapper d-flex j-content-sb a-items-center">
             <div class="header-content-logo">
                 <a href="{{ site.baseurl }}/" class="logo">
-                    <img src="/images/logo.svg" alt="" />
+                    <img class="lazyload" data-src="/images/logo.svg" alt="" />
                 </a>
-                <aside>
-                    <img id="hamburger_menu_open" src="/images/icons/hamburger-closed.svg" />
-                    <img id="hamburger_menu_close" src="/images/icons/hamburger-opened.svg" />
-                </aside>
+                <div class="burger-buttons">
+                    <img class="lazyload" id="hamburger_menu_open" data-src="/images/icons/hamburger-closed.svg" />
+                    <img class="lazyload" id="hamburger_menu_close" data-src="/images/icons/hamburger-opened.svg" />
+                </div>
             </div>
-            <div class="header-content-menu ">
+            <div class="header-content-menu">
                 <ul class="menu-list d-flex">
                     <li class="menu-list-item">
                         <a href="#" class="link">
@@ -18,29 +18,29 @@
                         </a>
                     </li>
                     <li class="menu-list-item">
-                        <a href="#" class="link">
+                        <a href="https://docs.bzx.network/" class="link">
                             <span class="text">Developers</span>
                         </a>
                     </li>
                     <li class="menu-list-item">
-                        <a href="#" class="link">
-                            <span class="text">Faq</span>
+                        <a href="https://help.bzx.network/en/" class="link">
+                            <span class="text">Help Center</span>
                         </a>
                     </li>
                     <li class="menu-list-item">
-                        <a href="#" class="link">
+                        <a href="/itokens" class="link">
                             <span class="text">iTokens</span>
                         </a>
                     </li>
                     <li class="menu-list-item">
-                        <a href="#" class="link">
-                            <img src="/images/icons/vector.svg" alt="" />
+                        <a href="https://torque.loans/" class="link">
+                            <img class="lazyload" data-src="/images/icons/vector.svg" alt="" />
                             <span class="text">Torque</span>
                         </a>
                     </li>
                     <li class="menu-list-item">
-                        <a href="#" class="link">
-                            <img src="/images/icons/vector.svg" alt="" />
+                        <a href="https://fulcrum.trade/" class="link">
+                            <img class="lazyload" data-src="/images/icons/vector.svg" alt="" />
                             <span class="text">Fulcrum</span>
                         </a>
                     </li>
@@ -51,23 +51,7 @@
                     </li>
                 </ul>
                 <div class="social-wrapper d-flex flex-d-c j-content-sb">
-                    <div class="social-icons">
-                        <a href="#" class="github">
-                            {% include social-icons/github.svg %}
-                        </a>
-                        <a href="#" class="medium">
-                            {% include social-icons/medium.svg %}
-                        </a>
-                        <a href="#" class="discord">
-                            {% include social-icons/discord.svg %}
-                        </a>
-                        <a href="#" class="telegram">
-                            {% include social-icons/telegram.svg %}
-                        </a>
-                        <a href="#" class="twitter">
-                            {% include social-icons/twitter.svg %}
-                        </a>
-                    </div>
+                    {% include social-icons.html%}
                     <div class="disclaimer">
                         © 2019 bZeroX, LLC
                     </div>
@@ -76,25 +60,40 @@
             </div>
         </div>
     </div>
+    <script>
+        //Add event handler with addEventListener (not window.onload)
+        window.addEventListener('load', () => {
+            $("#hamburger_menu_open").on('click', (e) => {
+                $("#hamburger_menu_close").show();
+                $(e.currentTarget).hide();
+                $(document.body).css('overflow', 'hidden');
+                $(".header-content-menu").css('display', 'flex');
+            })
+            $("#hamburger_menu_close").on('click', (e) => {
+                $(e.currentTarget).hide();
+                $("#hamburger_menu_open").show();
+                $(document.body).css('overflow', 'visible');
+                $(".header-content-menu").css('display', 'none');
+
+            })
+        });
+
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function () { myFunction() };
+
+        // Get the header
+        var header = document.querySelector(".nav-header");
+
+        // Get the offset position of the navbar
+        var sticky = header.offsetTop;
+
+        // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
 </header>
-<script>
-    //Add event handler with addEventListener (not window.onload)
-    window.addEventListener('load', () => {
-        $("#hamburger_menu_open").on('click', () => {
-            $("#hamburger_menu_close").css('display', 'block')
-            $("#hamburger_menu_open").css('display', 'none');;
-            $(document.body).css('overflow', 'hidden');
-            $(".header-content-menu").slideToggle("slow", function () {
-                if ($(this).is(':visible'))
-                    $(this).css('display', 'flex');
-            });
-        })
-        $("#hamburger_menu_close").on('click', () => {
-            $("#hamburger_menu_close").css('display', 'none');
-            $("#hamburger_menu_open").css('display', 'block');
-            $(document.body).css('overflow', 'visible');
-            $(".header-content-menu").slideToggle("slow");
-            
-        })
-    });
-</script>

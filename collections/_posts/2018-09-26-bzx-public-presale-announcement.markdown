@@ -5,6 +5,8 @@ date:   2018-09-26 20:12:46 -0700
 cover: /images/blog/1_VWhP_cpbofC-HanRh398PQ.png
 canonical: https://medium.com/bzxnetwork/bzx-public-presale-announcement-ae13aa95ee7a
 author: Kistner
+metadescription: "We are thankful for the support of our backers during the private presale. It is through your support that we were able to develop, audit, and launch the bZx protocol to the Ethereum mainnet. "
+intro: "We are thankful for the support of our backers during the private presale. It is through your support that we were able to develop, audit, and launch the bZx protocol to the Ethereum mainnet. "
 ---
 We are thankful for the support of our backers during the private presale. It is through your support that we were able to develop, audit, and launch the bZx protocol to the Ethereum mainnet. At this stage the protocol is fully functional and has acquired a thriving ecosystem of technology partners integrating the protocol into their own projects. The success of the protocol is no longer in our hands, but in the hands of a wider, decentralized community.
 

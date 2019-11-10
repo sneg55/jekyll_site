@@ -1,0 +1,20 @@
+<article class="d-flex flex-d-c color-primary {{ include.class }}">
+
+    <a href="{{ include.post.url }}">
+        <div class="grid">
+
+            <div class="post-image">
+                <img class="lazyload" data-src="{{ include.post.cover }}" alt="{{ include.post.title }}" />
+            </div>
+            <div class="article-content">
+                <h4 class="fs-22 fs-sm-18 lh-150 fw-700 mb-15">{{ include.post.title }}</h4>
+                <p class="description fs-16 fs-sm-12 lh-160 mb-20">
+                    {{ include.post.intro | truncate: 120 }}
+                </p>
+                <p class="date fs-14 fs-sm-11 lh-180">{{ include.post.date | date_to_string }}</p>
+            </div>
+        </div>
+
+    </a>
+
+</article>

@@ -1,38 +1,37 @@
 ---
 layout: blog-index
-title: bzx blog title
-metadescription: bzx blog description
+title: bZx Protocol blog - product news and articles
+metadescription: bZx Protocol blog - product news and articles 
 permalink: /blog/
 pagination:
   enabled: true
   per_page: 10
   collection: posts
-  permalink: /:num/ 
+  permalink: /:num/
 ---
 <div class="container container-xl">
     <header class="blog-index">
-        <h1>bZx Blog</h1>
+        <h1 class="mb-50 mt-70 mt-md-30 mb-md-30 mt-sm-30 mb-sm-30 fs-46 lh-120 fw-800 color-primary text-center fs-sm-32">bZx Protocol Blog</h1>
     </header>
 </div>
 <section class="first-post">
     <div class="container container-xl">
 
-        <article>
+        <article class="color-primary">
             {% assign newest_post = paginator.posts.first %}
             <a href="{{ newest_post.url }}">
                 <div class="grid">
-   
+
                     <div class="post-image">
-                            <img src="{{ newest_post.cover }}" alt="{{ newest_post.title }}" />
+                            <img class="lazyload" data-src="{{ newest_post.cover }}" alt="{{ newest_post.title }}" />
 
                     </div>
                     <div class="article-content">
-                        <h2>{{ newest_post.title }}</h2>
-                        <p class="description">
-                    Bamboo Relay is the first 0x-standard relay, and in fact the first DEX, to ever offer non-custodial
-                    peer-to-peer margin lending. The debut…
+                        <h2 class="fs-32 lh-140 fw-700 mb-20 mt- fs-sm-24">{{ newest_post.title }}</h2>
+                        <p class="description fs-16 fs-sm-12 lh-160 mb-20">
+                            {{ newest_post.intro | truncate: 200 }}
                         </p>
-                        <p class="date">{{ newest_post.date }}</p>
+                        <p class="date fs-14 fs-sm-11 lh-180">{{ newest_post.date | date_to_string }}</p>
                     </div>
                 </div>
             </a>
@@ -42,56 +41,20 @@ pagination:
 </section>
 <section class="posts">
     <div class="container container-xl posts-container">
-        
+
         {% assign newest_post = paginator.posts.first %}
-         <article class="first-post">
-            <a href="{{ newest_post.url }}">
-                <div class="grid">
-   
-                    <div class="post-image">
-                            <img src="{{ newest_post.cover }}" alt="{{ newest_post.title }}" />
 
-                    </div>
-                    <div class="article-content">
-                        <h4>{{ newest_post.title }}</h4>
-                        <p class="description">
-                    Bamboo Relay is the first 0x-standard relay, and in fact the first DEX, to ever offer non-custodial
-                    peer-to-peer margin lending. The debut…
-                        </p>
-                        <p class="date">{{ newest_post.date }}</p>
-                    </div>
-                </div>
-            </a>
-
-        </article>
+        {% include article-tile.html class="first-post" post=newest_post %}
 
         {% assign shifted_posts = paginator.posts | shift %}
         {% for post in shifted_posts %}
-            <article class="d-flex flex-d-c">
 
-                <a href="{{ post.url }}">
-                    <div class="grid">
+            {% include article-tile.html post=post %}
 
-                        <div class="post-image">
-                            <img src="{{ post.cover }}" alt="{{ post.title }}" />
-                        </div>
-                        <div class="article-content">
-                            <h4>{{ post.title }}</h4>
-                            <p class="description">
-                    We are thankful for the support of our backers during the private presale. It is through your
-                    support that we were able to develop, audit…
-                            </p>
-                            <p class="date">{{ post.date }}</p>
-                        </div>
-                    </div>
-
-                </a>
-
-            </article>
         {% endfor %}
     </div>
 </section>
-<section class="pagination">
+<section class="pagination mt-50 mb-90">
     <div class="container container-xl">
 
         {% if paginator.total_pages > 1 %}
@@ -113,13 +76,6 @@ pagination:
     </div>
 </section>
 
-<section class="subscription">
-    <div class="container container-xl">
+{% include subscription.html content="Subscribe to our newsletter" buttonText="Submit" buttonClass="join-mailing-list" %}
 
-        <div class="subscription-wrapper">
-            <h2>Subscribe to our newsletter</h2>
-            <button class="button button-secondary button-md d-flex j-content-center">Submit</button>
-        </div>
-    </div>
-
-</section>
+{% include modal.html %}

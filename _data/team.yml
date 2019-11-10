@@ -1,96 +1,109 @@
 -   name: Tom Bean
     bio: Founder and CEO
     image: /images/team/tom-bean.jpg
-    info: info
-    github: github
-    linkedin: linkedin
-    mail: mail
+    info: "Tom has spent over 15 years developing and leading teams. He was Lead Developer at HERE, a multi-billion dollar consortium of German car companies (BMW, Audi, Daimler) specializing in GPS technology, before co-founding bZx. Tom graduated from Georgia Tech with a degree in Computer Engineering before later receiving his MBA. He built the bZx protocol from the ground up in Solidity in addition to co-authoring the whitepaper."
+    github: https://github.com/bZxNetwork
+    linkedin: https://www.linkedin.com/in/tomcbean
+    mail: tom@bzx.network
 
 -   name: Kyle Kistner
     bio: CVO and Operations Lead
     image: /images/team/kyle-kistner.jpg
-    info: info
-    github: github
-    linkedin: linkedin
-    mail: mail
+    info: "Kyle is the lead author and architect of the whitepaper. MSc in Computational and Molecular Biology. PhD track dropout. Microeconomics nerd. He has been following blockchain with an academic interest since 2011 and has been critical to the inception and execution of the project. He directs his strengths in analysis and synthesis toward decentralized system design."
+    linkedin: https://www.linkedin.com/in/kyleb0x
+    mail: kyle@bzx.network
 
 -   name: Alex Shafranovich
     bio: DApp Full-Stack Engineer
     image: /images/team/alex-shafranovich.jpg
-    info: info
-    github: github
-    linkedin: linkedin
-    mail: mail
+    info: "Alex is an accomplished software engineer with 10+ years in building web applications and an extensive experience in leading development teams. As a Team Lead, he can boast of strong expertise in all the facets of project implementation—from establishing communication with the customer to testing and post-production support.
 
--   name: Aliaksei Hiatsevich 
+Besides development, Alex is efficient in formalizing and distributing tasks, always aware of the strengths and weaknesses of each team member.
+
+He is passionate about blockchain technologies and applying best practices in both, software development and agile project management."
+    github: https://github.com/focuzz
+    linkedin: https://www.linkedin.com/in/alex-shafranovich-812a8324
+    mail: alex@bzx.network
+
+-   name: Aliaksei Hiatsevich
     bio: Senior Blockchain Engineer
     image: /images/team/aliaksei-hiatsevich.jpg
-    info: info
-    github: github
-    linkedin: linkedin
-    mail: mail
+    info: "Experienced senior Software Engineer with a demonstrated history of working in the computer software industry. Skilled in Blockchain, Ethereum, C/C++ and Linux.
+
+Aliaksei specializes in full-stack DApps development with a higher expertise on smart contracts development, maintenance, performance optimization and auditing.
+
+Lately, he's been working on security audits, sidechain networks (parity based), atomic swaps development, ICO/TGE/Crowdsales/Airdrops and protocol development. He has deep knowledge on several Token standards such as ERC20 and ERC721.
+
+He is passionate about speaking at conferences about Tokens and Solidity development."
+    github: https://github.com/ahiatsevich
+    linkedin: https://www.linkedin.com/in/aliaksei-hiatsevich
+    mail: aliaksei@bzx.network
 
 -   name: Pavel Kosobutskiy
     bio: Senior UI/UX Engineer
     image: /images/team/pavel-kosobutskiy.jpg
-    info: info
-    github: github
-    linkedin: linkedin
-    mail: mail
+    info: "Experienced UI developer with proven expertise in designing dynamic prototypes, mobile and web interfaces, websites, icons, logos, flash banners, and documentation.
+
+Applying the latest guidelines and patterns, Pavel delivers intuitive and eye-catching GUIs for web-based solutions and designs stylish mobile applications for iOS, Android, and Windows Phone devices.
+
+Pavel is profoundly knowledgeable about such design and multimedia tools as Adobe Photoshop, Adobe Illustrator, Adobe Flash, Adobe Dreamweaver, and CorelDraw. He is also adept at using the following modelling tools: Axure RP, Balsamiq, and inVision.
+
+With solid background in user experience design, Pavel easily copes with the task of creating simple and convenient interfaces admired by both customers and end users. His deep understanding of functional design concepts and cutting-edge technologies enables Pavel to implement pixel-perfect, highly optimized representations of any customer ideas."
+    linkedin: https://www.linkedin.com/in/pavel-kosobutskiy-b4ab9157
+    mail: pavel@bzx.network
 
 -   name: Adrian Li
     bio: Senior Developer
     image: /images/team/adrian-li.jpg
-    info: info
-    github: github
-    linkedin: linkedin
-    mail: mail
+    info: "Adrian is a mechanical engineer, author, lawyer, and developer. He has worked as a technical consultant for multiple YCombinator and Techstars companies including Trusu, branch8, Robin, and Syncspot. Adrian helped develop the bZx portal dApp and bZx.js library."
+    github: https://github.com/adrianmcli
+    linkedin: https://www.linkedin.com/in/adrianmcli
+    mail: adrian@bzx.network
 -   name: Alexander Khoriaty
-    bio: CVO and Operations Lead
+    bio: "bZx Advisor, Project Manager at district0x"
     image: /images/team/alexander-khoriaty.jpg
-    info: info
-    github: github
-    linkedin: linkedin
-    mail: mail
+    info: "Project manager at district0x and co-founder of Sourcerers, Alexander is a lifelong technologist with an imagination for decentralized organizations. After studying physics at the University of Michigan, he spent two years at Coinbase working on quality assurance and payment operations, leaving in 2017 to found sourcerers."
+    linkedin: https://www.linkedin.com/in/alexander-khoriaty-3752868a
+    mail: alexander@district0x.io
 
--   name: Casey Fallon 
+-   name: Casey Fallon
     bio: Senior Designer
     image: /images/team/casey-fallon.jpg
-    info: info
-    github: github
-    linkedin: linkedin
-    mail: mail
+    info: "Casey handles branding, design, and production. An illustrator and graphic designer by training, he maintains a consistent brand and strives to promote and communicate what bZx is and does through cutting edge design influenced by both disciplines."
+    linkedin: https://www.linkedin.com/in/cfallondesign
+    mail: casey@bzx.network
 
 -   name: Manish Singh
-    bio: Senior UI/UX Engineer
+    bio: "bZx Advisor, CIO at Crossbridge Capital"
     image: /images/team/manish-singh.jpg
-    info: info
+    info: "Manish Singh is Chief Investment officer (CIO) at Crossbridge Capital in London overseeing over $3.5 bn in multi-asset investments. Previously he has worked at Societe General in London and Paris and at UBS Investment Bank in London and Hong Kong in Quant equity research, investment management, and derivative structuring roles. Manish gets interviewed regularly on CNBC, Bloomberg TV, and the BBC."
     github: github
-    linkedin: linkedin
-    
-    mail: mail
+    linkedin: https://www.linkedin.com/in/manish-singh-cfa-7561092
+    mail: manish.singh@crossbridgecapital.com
+
 -   name: Manuel GarcÌa
     bio: Project Manager
     image: /images/team/manuel-garcia.jpg
-    info: info
-    github: github
-    linkedin: linkedin
-    mail: mail
+    info: "Manuel is Technical Lead at Protofire, a blockchain development firm that provides Project Management services. Manuel works alongside Tom Bean to develop the product and manage the bZx development team.
+
+Manuel has spent the last 15+ years working at the intersection of business and software innovation. He has seen how the latter can change the way existing and completely new organizations behave and create value. Manuel is responsible for helping token-based startups with protocol and smart contract engineering."
+    linkedin: https://www.linkedin.com/in/mgarciap
+    mail: manuel@bzx.network
 
 -   name: Stani Kulechov
-    bio: Senior Developer
+    bio: bZx Advisor, Founder of ETHLend
     image: /images/team/stani-kulechov.jpg
-    info: info
-    github: github
-    linkedin: linkedin
-    mail: mail
+    info: "Stani Kulechov is Founder and CEO of ETHLend, a peer-to-peer Ethereum lending protocol. Stani does not advise any other projects besides bZx. He has appeared on the cover of Forbes magazine."
+    github: https://github.com/ETHLend
+    linkedin: https://www.linkedin.com/in/stani-kulechov-361284132
+    mail: stani@ethlend.io
 
 
 
--   name: Nikita Sawinyh
-    bio: Senior Designer
-    image: /images/team/nikita-sawinyh.jpg
-    info: info
-    github: github
-    linkedin: linkedin
-    mail: mail
+-   name: Nick Sawinyh
+    bio: Head of Marketing
+    image: /images/team/nick-sawinyh.jpg
+    info: "Growth focused Product Manager with more than ten years of experience in the software industry, and a proven passion for developing innovative solutions that combine cutting-edge technology with a deep understanding of customers’ needs. Nick has an extensive background in both digital marketing and agile development of customer-facing web apps."
+    github: https://github.com/sneg55
+    linkedin: https://www.linkedin.com/in/sawinyh/
+    mail: nick@bzx.network

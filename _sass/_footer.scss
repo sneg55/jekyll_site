@@ -1,6 +1,6 @@
 footer {
-    padding-top: 130px;
-    padding-bottom: 40px;
+    padding-top: 135px;
+    padding-bottom: 25px;
     background: #00c0ab;
 
     font-family: $primary-font;
@@ -8,23 +8,34 @@ footer {
     font-style: normal;
 
     .navigation {
-        width: 60%;
+        width: calc(100% / 3 * 2);
 
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-areas: "empty network network product product company company empty-end";
+
+        .network {
+            grid-area: network;
+        }
+        .products {
+            grid-area: product;
+        }
+        .company {
+            grid-area: company;
+        }
         ul {
             li {
-                font-weight: bold;
-                font-size: 12px;
-                line-height: 15px;
                 letter-spacing: 0.05em;
                 text-transform: uppercase;
 
-                margin-bottom: 10px;
+                margin-bottom: 20px;
                 &:first-child {
                     color: white;
                     margin-bottom: 25px;
                 }
 
                 a {
+                    color: #003cda;
                     &:hover {
                         color: #000085;
                     }
@@ -33,16 +44,15 @@ footer {
         }
     }
     .social-wrapper {
-        width: 40%;
+        width: calc(100% / 3 * 1);
 
         .disclaimer {
             color: #fff;
-            font-size: 12px;
-            line-height: 150%;
         }
 
         .social-icons {
             a {
+                margin-right: 15px;
                 &:hover {
                     > svg circle {
                         fill: #5b88ff;
@@ -59,13 +69,64 @@ footer {
             flex-direction: column;
             .navigation {
                 width: 100%;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-areas: "network product company";
+
+                .network {
+                    display: flex;
+
+                    justify-content: center;
+                    flex: 1;
+                }
+                .products {
+                    display: flex;
+
+                    justify-content: center;
+                    flex: 1;
+                }
+                .company {
+                    display: flex;
+
+                    justify-content: center;
+                    flex: 1;
+                }
             }
             .social-wrapper {
                 width: 100%;
                 align-items: center;
-                padding-top: 20px;
-                .social-icons{
-                    margin-bottom: 20px;
+                padding-top: 30px;
+                .social-icons {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    a {
+                        margin-right: 13px;
+                        svg {
+                            width: 40px;
+                            height: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .navigation {
+            width: calc(100% / 5 * 3);
+
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-areas: "network network product product company company";
+        }
+
+        .social-wrapper {
+            width: calc(100% / 5 * 2);
+            .social-icons {
+                display: flex;
+                justify-content: space-between;
+                a {
+                    margin-right: 0;
                 }
             }
         }
